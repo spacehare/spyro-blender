@@ -17,8 +17,16 @@ for path in input_paths:
         if file.name == FILENAME:
             sky_paths.append(file)
 
+debug_delete = True
+debug_extrude = True
+debug_render = True
+
 
 def extrude_lowest_loop(what: bpy.types.Object):
+    ops.object.mode_set(mode='OBJECT')
+    ops.object.select_all(action='DESELECT')
+    what.select_set(True)
+    bpy.context.view_layer.objects.active = what
     ops.object.mode_set(mode='EDIT')
 
     bm = bmesh.from_edit_mesh(what.data)
@@ -32,7 +40,7 @@ def extrude_lowest_loop(what: bpy.types.Object):
                 target_edge = edge
                 break
 
-    bpy.ops.mesh.select_all(action='DESELECT')
+    ops.mesh.select_all(action='DESELECT')
     target_edge.select = True
     bpy.context.tool_settings.mesh_select_mode = (False, True, False)
 
@@ -40,14 +48,14 @@ def extrude_lowest_loop(what: bpy.types.Object):
     # bpy.ops.mesh.loop_select(extend=True)
     # for loop in target_edge.link_loops:
 
-    bpy.ops.mesh.select_non_manifold()
+    ops.mesh.select_non_manifold()
 
     bmesh.update_edit_mesh(what.data)
     ops.mesh.extrude_edges_move(
         MESH_OT_extrude_edges_indiv={'mirror': False},
         TRANSFORM_OT_translate={'value': (0, 0, -10)})
-    bpy.ops.mesh.edge_face_add()
-    bpy.ops.mesh.poke()
+    ops.mesh.edge_face_add()
+    ops.mesh.poke()
 
 
 def set_rotation(what, x, y, z):
@@ -75,6 +83,7 @@ def init_camera():
     # cam.data.type = 'ORTHO'
     # cam.data.ortho_scale = 6.0
     cam.data.lens = 18  # 90 FOV
+    set_rotation(cam, 0, 0, 0)
 
     return cam
 
@@ -106,27 +115,47 @@ def init_skybox(path_to_sky: Path, mat):
     ops.import_scene.fbx(filepath=str(path_to_sky), global_scale=0.5, use_manual_orientation=True,  axis_up='Z', axis_forward='-X')
 
     pieces = bpy.context.selected_objects
-    # ops.object.select_all(action='DESELECT')
 
-    # pieces[0].select_set(True)  # sky_0
-    # ops.object.delete()
-
-    # ops.object.mode_set(mode='OBJECT')
+    # get rid of the huge triangle surrounding the dome
+    ops.object.select_all(action='DESELECT')
+    pieces[0].select_set(True)  # sky_0
+    ops.object.delete()
+    pieces.pop(0)
 
     for obj in pieces:
-        obj.select_set(obj.name != 'sky_0')
+        obj.select_set(True)  # obj.select_set(obj.name != 'sky_0')
 
+    # join all the chunks/pieces
     bpy.context.view_layer.objects.active = pieces[1]
     ops.object.join()
 
+    NAME_GENERAL = 'dome_pieces'
+    NAME_DOME = 'dome'
+
     joined = bpy.context.object
+    joined.name = NAME_GENERAL
     ops.object.transform_apply()
     ops.object.mode_set(mode='EDIT')
     ops.mesh.select_all(action='SELECT')
-    ops.mesh.remove_doubles(threshold=0.001)  # 0.0001 is default
+    ops.mesh.remove_doubles(threshold=0.0005)  # 0.0001 is default
     ops.mesh.normals_make_consistent(inside=True)
     joined.data.materials[0] = mat
-    extrude_lowest_loop(joined)
+
+    # separate loose geo, like stars and planets (ex: Glimmer), from main dome
+    ops.mesh.separate(type='LOOSE')
+
+    # get the main dome
+    relevant_objects = [obj for obj in bpy.data.objects if obj.type == 'MESH' and NAME_GENERAL in obj.name]
+    dims = [obj.dimensions.x for obj in relevant_objects]
+    dome = relevant_objects[dims.index(max(dims))]
+    dome.name = NAME_DOME
+
+    # ok so, it is possible to put loose geo in a seperate view layer, then composite them together
+    # but also... i can just scale the dome by 2 and it won't look any different
+    dome.scale = (2, 2, 2)
+
+    if debug_extrude:
+        extrude_lowest_loop(dome)
 
     ops.object.mode_set(mode='OBJECT')
 
@@ -139,30 +168,41 @@ bpy.context.scene.render.resolution_x = RESOLUTION
 bpy.context.scene.render.resolution_y = RESOLUTION
 bpy.context.scene.view_settings.view_transform = 'Standard'
 
-for sky_path in sky_paths[2:3]:
+for sky_path in sky_paths:
     init_skybox(sky_path, mat)
     name = sky_path.parent.name[4:].replace(' ', '_')
 
-    # ft - front
-    set_rotation(cam, 90, 0, 0)
-    render(name + '_ft')
+    if debug_render:
+        # ft - front
+        set_rotation(cam, 90, 0, 0)
+        render(name + '_ft')
 
-    # rt - right
-    set_rotation(cam, 90, 0, 90)
-    render(name + '_rt')
+        # rt - right
+        set_rotation(cam, 90, 0, 90)
+        render(name + '_rt')
 
-    # bk - back
-    set_rotation(cam, 90, 0, 180)
-    render(name + '_bk')
+        # bk - back
+        set_rotation(cam, 90, 0, 180)
+        render(name + '_bk')
 
-    # lf - left
-    set_rotation(cam, 90, 0, 270)
-    render(name + '_lf')
+        # lf - left
+        set_rotation(cam, 90, 0, 270)
+        render(name + '_lf')
 
-    # up - up
-    set_rotation(cam, 180, 0, 90)
-    render(name + '_up')
+        # up - up
+        set_rotation(cam, 180, 0, 90)
+        render(name + '_up')
 
-    # dn - down
-    set_rotation(cam, 0, 0, 0)
-    render(name + '_dn')
+        # dn - down
+        set_rotation(cam, 0, 0, 0)
+        render(name + '_dn')
+
+        if debug_delete:
+            ops.object.select_all(action='SELECT')
+            # bpy.data.objects['sky_0'].select_set(True)
+            bpy.data.objects['Camera'].select_set(False)
+            ops.object.delete()
+
+if debug_delete:
+    bpy.data.objects['Camera'].select_set(True)
+    ops.object.delete()
