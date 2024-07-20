@@ -1,15 +1,16 @@
 '''tested in blender 4.1'''
 
 from pathlib import Path
+import math
 import bpy
 from bpy import ops
-import math
 import bmesh
 
-RESOLUTION = 256
+from . import render_sky
+
 input_paths = [Path(r"I:\Spyro\ripped\Spyro the Dragon 2 Ripto's Rage"),
                Path(r"I:\Spyro\ripped\Spyro the Dragon 1")]
-output_path = Path(r'I:\Spyro\renders')
+output_path = Path(r"I:\Spyro\renders")
 FILENAME = "Sky Vertex Colors.FBX"
 sky_paths: list[Path] = []
 for path in input_paths:
@@ -17,9 +18,83 @@ for path in input_paths:
         if file.name == FILENAME:
             sky_paths.append(file)
 
-debug_delete = True
-debug_extrude = True
-debug_render = True
+# init view layers, collections
+NAME_SKIES = 'Skies'
+NAME_EXTRAS = 'Extras'
+collection_skies = bpy.data.collections.new(NAME_SKIES)
+collection_extras = bpy.data.collections.new(NAME_EXTRAS)
+view_layer_skies = bpy.context.scene.view_layers.new(NAME_SKIES)
+view_layer_extras = bpy.context.scene.view_layers.new(NAME_EXTRAS)
+# view_layer_extras.layer_collection.exclude(collection_skies)
+# view_layer_skies.layer_collection.exclude(collection_extras)
+
+
+def init_compositor():
+    # bpy.context.window.workspace = bpy.data.workspaces['Compositing']
+    bpy.context.scene.use_nodes = True
+    tree = bpy.context.scene.node_tree
+
+    ao = tree.nodes.new('CompositorNodeAlphaOver')
+    rl_sky = tree.nodes.new('CompositorNodeRLayers')
+    rl_extra = tree.nodes.new('CompositorNodeRLayers')
+    rl_sky.layer = NAME_SKIES
+    rl_extra.layer = NAME_EXTRAS
+
+    tree.links.new(rl_sky.outputs['Image'], ao.inputs[1])
+    tree.links.new(rl_extra.outputs['Image'], ao.inputs[2])
+    comp = tree.nodes['Composite']
+    tree.links.new(ao.outputs['Image'], comp.inputs[0])
+
+
+debug_delete = False
+debug_extrude = False
+debug_render = False
+
+ignore = ["Crush's Dungeon",  # its just full black
+          "Breeze Harbor",  # non-manifold edge toward +X, "merge at last" back into place. also rotate a saturn-like planet's ring to stop z-fighting
+          "Gnasty's Loot",  # some kind of extrusion issue ? also fix the saturn-like planet's ring
+          "Misty Bog",  # non-manifold pair of verts, "merge at center"
+          "Night Flight",  # dissolve vert on a crystal. merge another 2 verts
+          "Town Square",  # "merge at center" on 2 pairs of verts
+          "Twilight Harbor",  # extrusion issue ? not sure how to diagnose it, so im just manually doing the extrusion steps myself
+          "Autumn Plains",  # extrusion not uniform color, made an extra edge loop to tighten the vertex colors
+          "Gulp's Overlook",  # extrusion not uniform color
+          "Hurricos",  # the ripped sky might have borked vert colors? i'm not confident enough to manually repaint it
+          "Haunted Towers",  # ripped sky has some borked vert painting -- easier to fix using a Smear in Vertex Paint mode
+          ]
+# these are spheres
+no_extrude = ["Jacques", "Lofty Castle", "Dark Passage", "Dream Weaver's World", "Gnasty Gnorc", "Haunted Towers"]
+
+'''
+manual fix generic steps:
+CTRL J = join objects
+merge verts at 0.0005
+E Z -1 = extrude base of domes -1, scale z to 0 to flatten it
+F (F2 addon) = create new face from edge loop
+
+dealing with extra geo...
+CTRL+L = select linked
+P S = separate by selection
+move extraneous geo to separate view layer (stars, planets, etc)
+composite extraneous geo over dome/sphere sky
+
+on the "extras" view layer
+Scene -> Render -> Film:  Transparent
+
+render method 1
+Render Engine: Workbench
+Lighting: Flat
+Color: Attribute
+
+then we don't even need the shader
+
+render method 2
+Render Engine: EEVEE
+'''
+
+
+def trim_parent(path: Path):
+    return path.parent.name[4:]
 
 
 def extrude_lowest_loop(what: bpy.types.Object):
@@ -58,32 +133,31 @@ def extrude_lowest_loop(what: bpy.types.Object):
     ops.mesh.poke()
 
 
-def set_rotation(what, x, y, z):
-    what.rotation_euler.x = math.radians(x)
-    what.rotation_euler.z = math.radians(z)
-    what.rotation_euler.y = math.radians(y)
-
-
-def render(filename: Path):
-    bpy.context.scene.render.filepath = str(output_path / filename)
-    ops.render.render(write_still=True)
-
-
-def init_render():
+def init_render(workbench=True):
+    if workbench:
+        bpy.context.scene.render.engine = 'BLENDER_WORKBENCH'
+        bpy.context.scene.display.shading.light = 'FLAT'
+        bpy.context.scene.display.shading.color_type = 'VERTEX'
+    bpy.context.scene.render.film_transparent = True
     bpy.context.scene.render.image_settings.color_mode = 'RGB'
     bpy.context.scene.render.image_settings.file_format = 'TARGA'
+    bpy.context.scene.view_settings.view_transform = 'Standard'
 
 
-def init_camera():
-    ops.object.camera_add()
-    cam = bpy.context.object  # ; bpy.data.objects['Camera'] ; bpy.context.scene.camera
-    bpy.context.scene.camera = cam
-    cam.location = (0, 0, 0)
+def init_camera(camera=None):
+    if camera:
+        cam = camera
+    else:
+        ops.object.camera_add()
+        cam = bpy.context.object  # ; bpy.data.objects['Camera'] ; bpy.context.scene.camera
+    bpy.context.scene.camera = cam  # make camera active
+    # cam.location = (0, 0, 0)
+    bpy.ops.object.location_clear()
+    bpy.ops.object.rotation_clear()
     cam.rotation_mode = 'XYZ'
     # cam.data.type = 'ORTHO'
     # cam.data.ortho_scale = 6.0
     cam.data.lens = 18  # 90 FOV
-    set_rotation(cam, 0, 0, 0)
 
     return cam
 
@@ -112,7 +186,7 @@ def init_material():
 def init_skybox(path_to_sky: Path, mat):
     ops.object.select_all(action='DESELECT')
 
-    ops.import_scene.fbx(filepath=str(path_to_sky), global_scale=0.5, use_manual_orientation=True,  axis_up='Z', axis_forward='-X')
+    ops.import_scene.fbx(filepath=str(path_to_sky), global_scale=1, use_manual_orientation=True,  axis_up='Z', axis_forward='-X')
 
     pieces = bpy.context.selected_objects
 
@@ -126,7 +200,7 @@ def init_skybox(path_to_sky: Path, mat):
         obj.select_set(True)  # obj.select_set(obj.name != 'sky_0')
 
     # join all the chunks/pieces
-    bpy.context.view_layer.objects.active = pieces[1]
+    bpy.context.view_layer.objects.active = pieces[0]
     ops.object.join()
 
     NAME_GENERAL = 'dome_pieces'
@@ -141,68 +215,47 @@ def init_skybox(path_to_sky: Path, mat):
     ops.mesh.normals_make_consistent(inside=True)
     joined.data.materials[0] = mat
 
-    # separate loose geo, like stars and planets (ex: Glimmer), from main dome
+    # separate sky dome/sphere from loose geo, like stars and planets (ex: Glimmer)
     ops.mesh.separate(type='LOOSE')
 
     # get the main dome
     relevant_objects = [obj for obj in bpy.data.objects if obj.type == 'MESH' and NAME_GENERAL in obj.name]
     dims = [obj.dimensions.x for obj in relevant_objects]
-    dome = relevant_objects[dims.index(max(dims))]
-    dome.name = NAME_DOME
+    sky_geo = relevant_objects[dims.index(max(dims))]
+    sky_geo.name = NAME_DOME
 
-    # ok so, it is possible to put loose geo in a seperate view layer, then composite them together
-    # but also... i can just scale the dome by 2 and it won't look any different
-    dome.scale = (2, 2, 2)
+    # sky_geo.scale = (2, 2, 2)
+    collection_skies.objects.link(sky_geo)
 
-    if debug_extrude:
-        extrude_lowest_loop(dome)
+    if debug_extrude and trim_parent(path_to_sky) not in no_extrude:
+        extrude_lowest_loop(sky_geo)
 
     ops.object.mode_set(mode='OBJECT')
 
 
-mat = init_material()
-cam = init_camera()
-init_render()
+def clean_up():
+    # clean up for next sky
+    if debug_delete:
+        ops.object.select_all(action='SELECT')
+        # bpy.data.objects['sky_0'].select_set(True)
+        bpy.data.objects['Camera'].select_set(False)
+        ops.object.delete()
 
-bpy.context.scene.render.resolution_x = RESOLUTION
-bpy.context.scene.render.resolution_y = RESOLUTION
-bpy.context.scene.view_settings.view_transform = 'Standard'
 
-for sky_path in sky_paths:
-    init_skybox(sky_path, mat)
-    name = sky_path.parent.name[4:].replace(' ', '_')
+def main():
+    mat = init_material()
+    cam = init_camera()
+    init_render()
 
-    if debug_render:
-        # ft - front
-        set_rotation(cam, 90, 0, 0)
-        render(name + '_ft')
+    for sky_path in sky_paths:
+        trimmed = trim_parent(sky_path)
+        if trimmed not in ignore:
+            init_skybox(sky_path, mat)
+        print('  ->', sky_path)
+        if debug_render:
+            render_sky.render_skybox(output_path / trimmed.replace(' ', '_'), cam, 256, trimmed in no_extrude)
+        clean_up()
 
-        # rt - right
-        set_rotation(cam, 90, 0, 90)
-        render(name + '_rt')
-
-        # bk - back
-        set_rotation(cam, 90, 0, 180)
-        render(name + '_bk')
-
-        # lf - left
-        set_rotation(cam, 90, 0, 270)
-        render(name + '_lf')
-
-        # up - up
-        set_rotation(cam, 180, 0, 90)
-        render(name + '_up')
-
-        # dn - down
-        set_rotation(cam, 0, 0, 0)
-        render(name + '_dn')
-
-        if debug_delete:
-            ops.object.select_all(action='SELECT')
-            # bpy.data.objects['sky_0'].select_set(True)
-            bpy.data.objects['Camera'].select_set(False)
-            ops.object.delete()
-
-if debug_delete:
-    bpy.data.objects['Camera'].select_set(True)
-    ops.object.delete()
+    if debug_delete:
+        bpy.data.objects['Camera'].select_set(True)
+        ops.object.delete()
