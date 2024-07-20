@@ -20,7 +20,7 @@ def add_dir(path: Path, dir: str):
     return path.with_stem(f"{path.stem}_{dir}")
 
 
-def render_skybox(out_folder: Path, sky_name: str, cam: bpy.types.Camera, res: int, dn_as_1: bool):
+def render_skybox(out_folder: Path, sky_name: str, cam, res: int, dn_as_1: bool):
     out = out_folder / f"{sky_name.replace(' ', '_')}_{res}"
     print(f'{res}x{res}', out)
 

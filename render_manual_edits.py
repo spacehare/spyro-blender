@@ -3,18 +3,16 @@ from pathlib import Path
 from . import render_sky
 
 '''
-this script expects a 2 view layers and 2 collections, sharing the same pair of names
-- Skies
-- Extras
+see fixed_skyboxes.blend
 '''
 
 
-def render_all(path: Path, res: int = 512, ):
+def render_all(path: Path, resolutions: list[int], whitelist: list[str] = []):
     extras = bpy.data.collections['Extras']
     skies = bpy.data.collections['Skies']
     cam = bpy.context.scene.camera
 
-    for sky in skies.objects:
+    for sky in [s for s in skies.objects if not whitelist or s.name in whitelist]:
         stripped: str = sky.name.removesuffix(' Sky')
         possible_extra = extras.objects.find(stripped + ' Extra')
 
@@ -24,7 +22,8 @@ def render_all(path: Path, res: int = 512, ):
 
         sky.hide_render = False
 
-        render_sky.render_skybox(path, stripped, cam, res, stripped != 'Haunted Towers')
+        for res in resolutions:
+            render_sky.render_skybox(path, stripped, cam, res, stripped != 'Haunted Towers')
 
         if possible_extra != -1:
             extra.hide_render = True
