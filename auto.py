@@ -166,8 +166,8 @@ def extrude_lowest_loop(what: bpy.types.Object):
     bpy.context.tool_settings.mesh_select_mode = (False, True, False)
 
     # i cannot for the life of me figure out edge loop selection
-    # bpy.bpy.ops.mesh.loop_select(extend=True)
-    # for loop in target_edge.link_lobpy.ops:
+    # bpy.bpy.ops.mesh.loop_select()
+    # for loop in target_edge.link_loops
 
     bpy.ops.mesh.select_non_manifold()
 
