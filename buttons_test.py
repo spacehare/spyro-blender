@@ -34,7 +34,7 @@ func_button = '''
 }
 }
 '''
-resolutions = [1024]
+resolutions = [256, 512, 1024, 2048]
 re_xyz = re.compile(r"\( (-?\d+) (-?\d+) (-?\d+) \)")  # or r"(?<=\( )-?\d+""
 SHIFT_BY = 64
 
@@ -42,23 +42,23 @@ output = ''
 
 x_shift: int = 0
 xyz_count: int = 0
-set_of_4 = 0
+shift_row = 0
 
 
 def x_a(m):
     global x_shift
     global xyz_count
-    global set_of_4
+    global shift_row
     g = m.groups()
     if xyz_count % 18 == 0:
-        set_of_4 += 1
+        shift_row += 1
     if xyz_count == 72:
         xyz_count = 0
         x_shift += 64
     xyz_count += 1
-    if set_of_4 == 4:
-        set_of_4 = 0
-    return f'( {int(g[0]) + x_shift} {int(g[1]) + 128 * set_of_4} {g[2]} )'
+    if shift_row == len(resolutions):
+        shift_row = 0
+    return f'( {int(g[0]) + x_shift} {int(g[1]) + 128 * shift_row} {g[2]} )'
 
 
 for idx_sky, sky in enumerate(special_skies.skies):

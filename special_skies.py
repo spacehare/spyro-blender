@@ -19,14 +19,14 @@ skies = [
     Sky("Breeze Harbor", manual=True),  # non-manifold edge toward +X, "merge at last" back into place. also rotate a saturn-like planet's ring to stop z-fighting
     Sky("Canyon Speedway", manual=True),  # non uniform color on extrusion; repainted it
     Sky("Cliff Town"),
-    Sky("Cloud Temples"),
+    Sky("Cloud Temples", manual=True),  # non uniform color; limit to selected faces, then paint
     Sky("Colossus"),
-    # Sky("Crush's Dungeon") # ignore because its just one color
+    Sky("Crush's Dungeon", manual=True),  # ignore because its just one color
     Sky("Crystal Flight"),
     Sky("Crystal Glacier"),
     Sky("Dark Hollow"),
     Sky("Dark Passage", is_sphere=True),
-    Sky("Doctor Shemp"),
+    Sky("Doctor Shemp", manual=True),  # non manifold verts. some similar to sunny beach
     Sky("Dragon Shores"),
     Sky("Dream Weaver's World", is_sphere=True),
     Sky("Dry Canyon"),
@@ -39,9 +39,9 @@ skies = [
     Sky("Gulp's Overlook", manual=True),  # extrusion not uniform color
     Sky("Haunted Towers", manual=True, is_sphere=True),  # ripped sky has some borked vert painting -- easier to fix using a Smear in Vertex Paint mode
     Sky("High Caves", manual=True),  # extrusion error ?
-    Sky("Hurricos", manual=True),  # the ripped sky might have borked vert colors? i'm not confident enough to manually repaint it
+    Sky("Hurricos", manual=True),  # the ripped sky has some really borked vert colors... i basically have to repaint half of it wtf
     Sky("Ice Cavern"),
-    Sky("Icy Flight"),
+    Sky("Icy Flight", manual=True),  # sharp edges
     Sky("Icy Speedway"),
     Sky("Idol Springs"),
     Sky("Jacques", is_sphere=True),
@@ -50,7 +50,7 @@ skies = [
     Sky("Magma Cone"),
     Sky("Main Menu"),
     Sky("Metalhead", manual=True),  # sharp verts, repainted
-    Sky("Metro Speedway"),
+    Sky("Metro Speedway", manual=True),  # same shit as Ocean Speedway
     Sky("Metropolis"),
     Sky("Misty Bog", manual=True),  # non-manifold pair of verts, "merge at center"
     Sky("Mystic Marsh"),
@@ -60,11 +60,11 @@ skies = [
     Sky("Ripto's Arena"),
     Sky("Robotica Farms"),
     Sky("Scorch"),
-    Sky("Shady Oasis"),
+    Sky("Shady Oasis", manual=True),  # non uniform extrusion color
     Sky("Skelos Badlands"),
     Sky("Stone Hills"),
     Sky("Summer Forest World"),
-    Sky("Sunny Beach"),
+    Sky("Sunny Beach", manual=True),  # non-manifold vert. needed to subdivide and connect some verts, then smooth the painting
     Sky("Sunny Flight"),
     Sky("Terrace Village"),
     Sky("Toasty"),

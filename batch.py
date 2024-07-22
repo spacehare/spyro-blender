@@ -9,7 +9,7 @@ from . import special_skies
 
 input_paths = [Path(r"I:\Spyro\ripped\Spyro the Dragon 2 Ripto's Rage"),
                Path(r"I:\Spyro\ripped\Spyro the Dragon 1")]
-output_path = Path(r"I:\Spyro\renders_auto")
+output_path = Path(r"I:\Spyro\renders")
 FILENAME = "Sky Vertex Colors.FBX"
 sky_paths: list[Path] = []
 for path in input_paths:
