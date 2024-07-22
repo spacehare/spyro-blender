@@ -1,6 +1,7 @@
 import bpy
 from pathlib import Path
 import math
+from special_skies import quake_ok_name
 
 
 def rotate(what, x, y, z):
@@ -21,7 +22,7 @@ def add_dir(path: Path, dir: str):
 
 
 def render_skybox(out_folder: Path, sky_name: str, cam, res: int, dn_as_1: bool):
-    out = out_folder / f"{sky_name.replace(' ', '_')}_{res}"
+    out = out_folder / f"{quake_ok_name(sky_name)}_{res}"
     print(f'{res}x{res}', out)
 
     # +Y ft front
@@ -45,5 +46,5 @@ def render_skybox(out_folder: Path, sky_name: str, cam, res: int, dn_as_1: bool)
     render(add_dir(out, 'up'), res)
 
     # -Z dn down
-    rotate(cam, 0, 0, 0)
+    rotate(cam, 0, 0, 90)
     render(add_dir(out, 'dn'), 1 if dn_as_1 else res)
