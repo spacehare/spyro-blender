@@ -21,7 +21,10 @@ dealing with extra geo...
 - CTRL+L = select linked
 - P S = separate by selection
 - move extraneous geo to separate Extras view layer (stars, planets, etc)
-- composite extraneous geo over dome/sphere sky
+- composite extraneous geo's view layer over dome/sphere sky's view layer
+
+rendering the vertex colors
+
 - Scene -> Render -> Film: Transparent
 - Render Engine: Workbench
 - Lighting: Flat
