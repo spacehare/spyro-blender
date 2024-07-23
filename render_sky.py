@@ -1,7 +1,7 @@
 import bpy
 from pathlib import Path
 import math
-from .special_skies import quake_ok_name
+from .levels import quake_ok_name
 
 
 def rotate(what, x, y, z):

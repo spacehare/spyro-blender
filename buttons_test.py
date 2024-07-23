@@ -4,7 +4,7 @@ its just a helper script for genering entities for TrenchBroom so i can test how
 this code is also very ugly, but it gets the job done............ sorta
 '''
 
-import special_skies
+import levels
 import pyperclip
 import re
 
@@ -61,14 +61,14 @@ def x_a(m):
     return f'( {int(g[0]) + x_shift} {int(g[1]) + 128 * shift_row} {g[2]} )'
 
 
-for idx_sky, sky in enumerate(special_skies.skies):
+for idx_sky, sky in enumerate(levels.special_skies):
     for idx_res, res in enumerate(resolutions):
         # target_skybox
-        target_and_targetname = f"{special_skies.quake_ok_name(sky.name)}_{res}"
+        target_and_targetname = f"{levels.quake_ok_name(sky.name)}_{res}"
         sb_copy = target_skybox.replace('$X', str(idx_sky * SHIFT_BY))
         sb_copy = sb_copy.replace('$Z', str(idx_res * SHIFT_BY))
         sb_copy = sb_copy.replace('$targetname', target_and_targetname)
-        sb_copy = sb_copy.replace('$sky', f"spyro/{special_skies.quake_ok_name(sky.name)}_{res}_")
+        sb_copy = sb_copy.replace('$sky', f"spyro/{levels.quake_ok_name(sky.name)}_{res}_")
         output += sb_copy
 
         # func_button

@@ -5,7 +5,7 @@ import bpy
 
 from . import auto
 from . import render_sky
-from . import special_skies
+from . import levels
 
 input_paths = [Path(r"I:\Spyro\ripped\Spyro the Dragon 2 Ripto's Rage"),
                Path(r"I:\Spyro\ripped\Spyro the Dragon 1")]
@@ -46,11 +46,11 @@ def main(resolutions: list[int]):
 
     for sky_path in sky_paths:  # [sp for sp in sky_paths if 'Dark Passage' in str(sp)]
         trimmed = trim_parent(sky_path)
-        if trimmed not in [n.name for n in special_skies.skies if n.manual]:
+        if trimmed not in [n.name for n in levels.special_skies if n.manual]:
             auto.init_skybox(sky_path, c_skies, c_extras, trimmed not in no_extrude)
             if debug_render:
                 for res in resolutions:
-                    render_sky.render_skybox(output_path, trimmed, cam, res, trimmed not in [n.name for n in special_skies.skies if n.is_sphere])
+                    render_sky.render_skybox(output_path, trimmed, cam, res, trimmed not in [n.name for n in levels.special_skies if n.is_sphere])
         clean_up()
 
     if debug_delete:
