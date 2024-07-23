@@ -83,21 +83,15 @@ def get_uvw_from_vert_idx(groups: list[OBJ], all_uvws: list[UVW], idx: int):
                     return all_uvws[point.vt_idx]
 
 
-def natural_sort_key(s, _nsre=re.compile('([0-9]+)')):
-    # https://stackoverflow.com/a/16090640
-    return [int(text) if text.isdigit() else text.lower()
-            for text in _nsre.split(s)]
-
-
 def import_spyro_obj(path: Path):
     '''
-    the order of the lines in the OBJ files exported by SpyroWorldViewer is:
+    SpyroWorldViewer OBJ line order:
     v, vt, g, f
     '''
-    print('~' * 50)
 
     groups: list[OBJ] = [OBJ()]
     tags: list[str] = []
+    face_pts = []
 
     # read file
     with open(path) as file:
@@ -120,21 +114,15 @@ def import_spyro_obj(path: Path):
                 case Tags.FACE:
                     # ex: f 10/6 14/4 9/4
                     groups[-1].faces.append(Face.from_str(line))
+                    face_pts.append(groups[-1].faces[-1])
 
     # generate mesh
-    bpy.ops.wm.obj_import(filepath=str(path), up_axis='Z', forward_axis='NEGATIVE_X', global_scale=SCALE, use_split_groups=True)
-    pieces = bpy.context.selected_objects
-    all_verts = [vert for group in groups for vert in group.verts]
+    bpy.ops.wm.obj_import(filepath=str(path), up_axis='Z', forward_axis='NEGATIVE_X', global_scale=SCALE)
+    obj = bpy.context.selected_objects[0]
     all_uvws = [uvw for group in groups for uvw in group.uvws]
-    pieces.sort(key=lambda x: natural_sort_key(x.name))
-    # groups.sort(key=lambda x: x.name)
+    color = obj.data.color_attributes.new(name='Color', type='BYTE_COLOR', domain='POINT')
 
-    i = 0
-    for piece, group in zip(pieces, groups, strict=True):
-        color = piece.data.color_attributes.new(name='Color', type='BYTE_COLOR', domain='POINT')
-
-        print(piece.name, len(piece.data.vertices), group.name, len(group.verts))
-        for p_v, g_v in zip(piece.data.vertices, group.verts, strict=True):
-            uvw = get_uvw_from_vert_idx(groups, all_uvws, i)
-            color.data[p_v.index].color = (uvw.u, uvw.v, uvw.w, 1.0)  # UVW -> RGB
-            i += 1
+    # apply vertex colors
+    for vert in obj.data.vertices:
+        uvw = get_uvw_from_vert_idx(groups, all_uvws, vert.index)
+        color.data[vert.index].color = (uvw.u, uvw.v, uvw.w, 1.0)  # UVW -> RGB
