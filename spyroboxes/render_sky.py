@@ -13,10 +13,11 @@ def rotate(what, x, y, z):
 
 
 def render(output_path: Path, xy: int):
-    bpy.context.scene.render.resolution_x = xy
-    bpy.context.scene.render.resolution_y = xy
-    bpy.context.scene.render.filepath = str(output_path)
-    bpy.ops.render.render(write_still=True)
+    if bpy.context.scene:
+        bpy.context.scene.render.resolution_x = xy
+        bpy.context.scene.render.resolution_y = xy
+        bpy.context.scene.render.filepath = str(output_path)
+        bpy.ops.render.render(write_still=True)
 
 
 def add_direction(path: Path, direction: str):

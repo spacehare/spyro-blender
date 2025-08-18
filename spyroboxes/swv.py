@@ -5,7 +5,7 @@ https://en.wikipedia.org/wiki/Wavefront_.obj_file
 '''
 
 import bpy
-from bpy.types import Object, Mesh, Attribute
+from bpy.types import Object, Mesh, Attribute, AttributeGroupMesh
 from pathlib import Path
 from typing import NamedTuple
 from enum import StrEnum
@@ -130,7 +130,7 @@ def import_spyro_obj(path: Path):
         return
 
     all_uvws = [uvw for group in groups for uvw in group.uvws]
-    color: Attribute = obj.data.color_attributes.new(name='Color', type='BYTE_COLOR', domain='POINT')
+    color = obj.data.color_attributes.new(name='Color', type='BYTE_COLOR', domain='POINT')
 
     # apply vertex colors
     for vert in obj.data.vertices:

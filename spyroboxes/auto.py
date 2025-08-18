@@ -1,4 +1,5 @@
 import bpy
+from bpy.types import RenderSettings, Camera
 import bmesh
 from pathlib import Path
 
@@ -21,6 +22,9 @@ def init_compositor(sky_layer_name: str, extra_layer_name: str):
 
 
 def init_render(workbench=True):
+    if not bpy.context.scene:
+        return
+
     if workbench:
         bpy.context.scene.render.engine = 'BLENDER_WORKBENCH'
         bpy.context.scene.display.shading.light = 'FLAT'
@@ -37,14 +41,17 @@ def init_camera(camera=None):
     else:
         bpy.ops.object.camera_add()
         cam = bpy.context.object  # ; bpy.data.objects['Camera'] ; bpy.context.scene.camera
+    if not bpy.context.scene:
+        return
     bpy.context.scene.camera = cam  # make camera active
-    # cam.location = (0, 0, 0)
-    bpy.ops.object.location_clear()
-    bpy.ops.object.rotation_clear()
-    cam.rotation_mode = 'XYZ'
-    # cam.data.type = 'ORTHO'
-    # cam.data.ortho_scale = 6.0
-    cam.data.lens = 18  # 90 FOV
+    if cam:
+        # cam.location = (0, 0, 0)
+        bpy.ops.object.location_clear()
+        bpy.ops.object.rotation_clear()
+        cam.rotation_mode = 'XYZ'
+        # cam.data.type = 'ORTHO'
+        # cam.data.ortho_scale = 6.0
+        cam.data.lens = 18  # 90 FOV
 
     return cam
 

@@ -2,12 +2,16 @@ import bpy
 from pathlib import Path
 from . import render_sky
 
+
 '''
 see fixed_skyboxes.blend
 '''
 
 
 def render_all(path: Path, resolutions: list[int], whitelist: list[str] = []):
+    if not bpy.context.scene:
+        return
+
     extras = bpy.data.collections['Extras']
     skies = bpy.data.collections['Skies']
     cam = bpy.context.scene.camera

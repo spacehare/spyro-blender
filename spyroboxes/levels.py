@@ -2,7 +2,7 @@ from pathlib import Path
 from dataclasses import dataclass
 import csv
 
-FILE_PATH = Path(Path(__file__).parent / 'assets/levels.csv')
+CSV_FILE_PATH = Path(Path(__file__).parent / 'assets/levels.csv')
 
 
 @dataclass(kw_only=True)
@@ -22,12 +22,12 @@ class Level:
     id: str
     subarea: str = ''
     sphere: bool = False
-    '''is the level's sky a sphere?'''
+    '''is the level's sky a sphere? (as opposed to a dome)'''
     sky: bool = True
 
 
 levels: list[Level] = []
-with open(FILE_PATH) as file:
+with open(CSV_FILE_PATH) as file:
     for row in csv.DictReader(file):
         levels.append(Level(
             name=row['NAME'], game=row['GAME'], id=row['ID'])
