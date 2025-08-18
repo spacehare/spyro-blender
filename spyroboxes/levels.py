@@ -1,58 +1,79 @@
 from pathlib import Path
 from dataclasses import dataclass
 import csv
-import re
 
-RE_VALID = re.compile(r"s\d-(1)_(\d{3})-n.(S)(?!\.obj)?")
+FILE_PATH = Path(Path(__file__).parent / 'assets/levels.csv')
 
 
-@dataclass
+@dataclass(kw_only=True)
+class LevelInfo:
+    game: str
+    id: str
+    subarea: str
+    tag: str
+    lod: str
+
+
+@dataclass(kw_only=True)
 class Level:
     name: str
-    game: int
-    id: int
-    subarea: int = 0
+    # info: LevelInfo
+    game: str
+    id: str
+    subarea: str = ''
     sphere: bool = False
     '''is the level's sky a sphere?'''
     sky: bool = True
 
 
 levels: list[Level] = []
-with open('assets/levels.csv') as file:
+with open(FILE_PATH) as file:
     for row in csv.DictReader(file):
-        levels.append(Level(row['NAME'], int(row['GAME']), int(row['ID'])))
+        levels.append(Level(
+            name=row['NAME'], game=row['GAME'], id=row['ID'])
+        )
 
 
 def quake_ok_name(name: str):
     return name.replace(' ', '_').replace("'", '').lower()
 
 
-def validate(string: str):
-    return RE_VALID.match(string)
+# def validate(lvl: LevelInfo):
+#     return all([
+#         lvl.lod == "1",
+#     ])
 
 
-def info_from_stem(stem: str):
-    m = RE_VALID.match(stem)
-    if m:
-        g = m.groups()
-        game = int(g[0])
-        id = int(g[1])
-        subarea = int(g[3]) if g[3] else 0
-        tag = g[4]
+def info_from_stem(stem: str) -> LevelInfo:
+    if len(stem) < 16:
+        print("STEM TOO SHORT")
 
-        return game, id, subarea, tag
+    lod = stem[3]  # i think this is the LOD? it should be 1
+    game = stem[:2]
+    id = stem[5:8]
+    tag = stem[-5]
+    subarea = ''
+
+    if stem[9] != 'n':
+        subarea = stem[9]
+
+    return LevelInfo(
+        game=game,
+        id=id,
+        lod=lod,
+        tag=tag,
+        subarea=subarea,
+    )
 
 
-def level_from_path_str(name: str | Path):
+def level_from_stem(stem: str) -> Level | None:
     '''take a path stem like `s2-1_040-n.S` and get name information from it by referring to the CSV'''
-    if isinstance(name, Path):
-        name = name.stem
 
-    if 'sky' in name:
-        pass
+    if 'sky' in stem:
+        return None
     else:
-        game, id, _ = info_from_stem(name)
+        info = info_from_stem(stem)
 
         for level in levels:
-            if level.game == game and level.id == id:
+            if level.game == info.game and level.id == info.id:
                 return level

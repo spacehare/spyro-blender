@@ -5,6 +5,7 @@ https://en.wikipedia.org/wiki/Wavefront_.obj_file
 '''
 
 import bpy
+from bpy.types import Object, Mesh, Attribute
 from pathlib import Path
 from typing import NamedTuple
 from enum import StrEnum
@@ -88,9 +89,10 @@ def import_spyro_obj(path: Path):
     v, vt, g, f
     '''
 
-    if not levels.validate(path.stem):
-        # print(path.stem, 'does not have a valid filename')
-        return
+    lvl = levels.level_from_stem(path.stem)
+    # if lvl and not levels.validate(lvl):
+    #     # print(path.stem, 'does not have a valid filename')
+    #     return
 
     print('  ->', path)
 
@@ -123,17 +125,24 @@ def import_spyro_obj(path: Path):
 
     # generate mesh
     bpy.ops.wm.obj_import(filepath=str(path), up_axis='Z', forward_axis='NEGATIVE_X', global_scale=SCALE)
-    obj = bpy.context.selected_objects[0]
+    obj: Object = bpy.context.selected_objects[0]
+    if not isinstance(obj.data, Mesh):
+        return
+
     all_uvws = [uvw for group in groups for uvw in group.uvws]
-    color = obj.data.color_attributes.new(name='Color', type='BYTE_COLOR', domain='POINT')
+    color: Attribute = obj.data.color_attributes.new(name='Color', type='BYTE_COLOR', domain='POINT')
 
     # apply vertex colors
     for vert in obj.data.vertices:
         uvw = get_uvw_from_vert_idx(groups, all_uvws, vert.index)
-        color.data[vert.index].color = (uvw.u, uvw.v, uvw.w, 1.0)  # UVW -> RGB
+        if uvw:
+            color.data[vert.index].color = (uvw.u, uvw.v, uvw.w, 1.0)  # UVW -> RGB
 
     # change name
-    level = levels.level_from_path_str(path.stem)
+    level = levels.level_from_stem(path.stem)
+    if not level:
+        print('NO LEVEL NAME FOUND')
+        return
     obj.name = level.name
 
     # separate sky dome/sphere from extras (like planets and stars)
