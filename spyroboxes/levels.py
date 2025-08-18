@@ -18,7 +18,7 @@ class Level:
 
 
 levels: list[Level] = []
-with open('levels.csv') as file:
+with open('assets/levels.csv') as file:
     for row in csv.DictReader(file):
         levels.append(Level(row['NAME'], int(row['GAME']), int(row['ID'])))
 
@@ -43,7 +43,7 @@ def info_from_stem(stem: str):
         return game, id, subarea, tag
 
 
-def level_from_list(name: str | Path):
+def level_from_path_str(name: str | Path):
     '''take a path stem like `s2-1_040-n.S` and get name information from it by referring to the CSV'''
     if isinstance(name, Path):
         name = name.stem

@@ -129,12 +129,16 @@ def init_fbx(path_to_sky: Path, collection_skies: bpy.types.Collection, collecti
 def init_viewlayers_and_collections():
     NAME_SKIES = 'Skies'
     NAME_EXTRAS = 'Extras'
+
     collection_skies = bpy.data.collections.new(NAME_SKIES)
     collection_extras = bpy.data.collections.new(NAME_EXTRAS)
+
     bpy.context.scene.collection.children.link(collection_skies)
     bpy.context.scene.collection.children.link(collection_extras)
+
     vl_sky = bpy.context.scene.view_layers.new(NAME_SKIES)
     vl_ext = bpy.context.scene.view_layers.new(NAME_EXTRAS)
+
     vl_sky.layer_collection.children[NAME_EXTRAS].exclude = True
     vl_ext.layer_collection.children[NAME_SKIES].exclude = True
 
@@ -144,6 +148,7 @@ def init_viewlayers_and_collections():
 
 
 def extrude_lowest_loop(what: bpy.types.Object):
+    # TODO i don't think i need to do this (????)
     bpy.ops.object.mode_set(mode='OBJECT')
     bpy.ops.object.select_all(action='DESELECT')
     what.select_set(True)

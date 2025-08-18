@@ -17,8 +17,8 @@ def render(output_path: Path, xy: int):
     bpy.ops.render.render(write_still=True)
 
 
-def add_dir(path: Path, dir: str):
-    return path.with_stem(f"{path.stem}_{dir}")
+def add_direction(path: Path, direction: str):
+    return path.with_stem(f"{path.stem}_{direction}")
 
 
 def render_skybox(out_folder: Path, sky_name: str, cam, res: int, dn_as_1: bool):
@@ -27,24 +27,24 @@ def render_skybox(out_folder: Path, sky_name: str, cam, res: int, dn_as_1: bool)
 
     # +Y ft front
     rotate(cam, 90, 0, 0)
-    render(add_dir(out, 'ft'), res)
+    render(add_direction(out, 'ft'), res)
 
     # +X rt right
     rotate(cam, 90, 0, 90)
-    render(add_dir(out, 'rt'), res)
+    render(add_direction(out, 'rt'), res)
 
     # -Y bk back
     rotate(cam, 90, 0, 180)
-    render(add_dir(out, 'bk'), res)
+    render(add_direction(out, 'bk'), res)
 
     # -X lf left
     rotate(cam, 90, 0, 270)
-    render(add_dir(out, 'lf'), res)
+    render(add_direction(out, 'lf'), res)
 
     # +Z up up
     rotate(cam, 180, 0, 90)
-    render(add_dir(out, 'up'), res)
+    render(add_direction(out, 'up'), res)
 
     # -Z dn down
     rotate(cam, 0, 0, 90)
-    render(add_dir(out, 'dn'), 1 if dn_as_1 else res)
+    render(add_direction(out, 'dn'), 1 if dn_as_1 else res)

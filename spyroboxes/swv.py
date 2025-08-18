@@ -1,4 +1,6 @@
 '''
+import the OBJ from SpyroWorldViewr into blender as a mesh.
+
 https://en.wikipedia.org/wiki/Wavefront_.obj_file
 '''
 
@@ -65,7 +67,7 @@ class Face:
 
 
 class OBJ:
-    def __init__(self, name: str = '', uvws: list[UVW] = None, verts: list[Vert] = None, faces: list[Face] = None):
+    def __init__(self, name: str = '', uvws: list[UVW] = [], verts: list[Vert] = [], faces: list[Face] = []):
         self.name = name
         self.uvws = uvws or []
         self.verts = verts or []
@@ -131,7 +133,7 @@ def import_spyro_obj(path: Path):
         color.data[vert.index].color = (uvw.u, uvw.v, uvw.w, 1.0)  # UVW -> RGB
 
     # change name
-    level = levels.level_from_list(path.stem)
+    level = levels.level_from_path_str(path.stem)
     obj.name = level.name
 
     # separate sky dome/sphere from extras (like planets and stars)
