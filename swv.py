@@ -3,12 +3,11 @@ https://en.wikipedia.org/wiki/Wavefront_.obj_file
 '''
 
 import bpy
-import bmesh
-import re
 from pathlib import Path
 from typing import NamedTuple
 from enum import StrEnum
-from dataclasses import dataclass, field, fields
+from dataclasses import dataclass
+from . import levels
 
 SCALE = 1/32
 
@@ -30,15 +29,13 @@ class Tags(StrEnum):
     FACE = 'f'  # int / int -> (int, int)
 
 
-@dataclass
-class Vert:
+class Vert(NamedTuple):
     x: int
     y: int
     z: int
 
 
-@dataclass
-class UVW:
+class UVW(NamedTuple):
     u: float
     v: float
     w: float
@@ -89,6 +86,12 @@ def import_spyro_obj(path: Path):
     v, vt, g, f
     '''
 
+    if not levels.validate(path.stem):
+        # print(path.stem, 'does not have a valid filename')
+        return
+
+    print('  ->', path)
+
     groups: list[OBJ] = [OBJ()]
     tags: list[str] = []
     face_pts = []
@@ -126,3 +129,48 @@ def import_spyro_obj(path: Path):
     for vert in obj.data.vertices:
         uvw = get_uvw_from_vert_idx(groups, all_uvws, vert.index)
         color.data[vert.index].color = (uvw.u, uvw.v, uvw.w, 1.0)  # UVW -> RGB
+
+    # change name
+    level = levels.level_from_list(path.stem)
+    obj.name = level.name
+
+    # separate sky dome/sphere from extras (like planets and stars)
+    bpy.ops.object.mode_set(mode='EDIT')
+    bpy.ops.mesh.select_all(action='SELECT')
+    bpy.ops.mesh.remove_doubles(threshold=0.0005)
+    bpy.ops.mesh.separate(type='LOOSE')
+    bpy.ops.mesh.select_all(action='DESELECT')
+    bpy.ops.object.mode_set(mode='OBJECT')
+
+    parts = [o for o in bpy.data.objects if level.name == o.name.split('.')[0]]
+
+    dims = [part.dimensions.x for part in parts]
+    dims_sorted = sorted(dims)
+
+    big_triangle = parts[dims.index(dims_sorted[-1])]
+    main_sky = parts[dims.index(dims_sorted[-2])]
+    big_triangle.name = level.name + ' Triangle'
+    main_sky.name = level.name + ' Sky'
+
+    little_pieces = []
+    for part in parts:
+        large = part == big_triangle or part == main_sky
+        bpy.context.scene.collection.objects.unlink(part)
+        bpy.data.collections['Skies' if large else 'Extras'].objects.link(part)
+        if large:
+            part.select_set(False)
+        else:
+            little_pieces.append(part)
+
+    if little_pieces:
+        current_vl = bpy.context.window.view_layer
+        bpy.context.window.view_layer = bpy.context.scene.view_layers['Extras']
+        bpy.context.view_layer.objects.active = little_pieces[0]
+        # join extras
+        bpy.ops.object.join()
+        bpy.context.object.name = level.name + ' Extras'
+        bpy.context.window.view_layer = current_vl
+
+    bpy.context.view_layer.objects.active = None
+    bpy.ops.object.select_all(action='DESELECT')
+    # bpy.context.window.view_layer = bpy.context.scene.view_layers['Base']

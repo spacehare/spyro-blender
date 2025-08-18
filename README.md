@@ -30,3 +30,5 @@ rendering the vertex colors
 - Lighting: Flat
 - Color: Attribute
 - (then we don't even need a shader!)
+
+---

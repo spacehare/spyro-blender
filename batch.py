@@ -47,7 +47,7 @@ def main(resolutions: list[int]):
     for sky_path in sky_paths:  # [sp for sp in sky_paths if 'Dark Passage' in str(sp)]
         trimmed = trim_parent(sky_path)
         if trimmed not in [n.name for n in levels.special_skies if n.manual]:
-            auto.init_skybox(sky_path, c_skies, c_extras, trimmed not in no_extrude)
+            auto.init_fbx(sky_path, c_skies, c_extras, trimmed not in no_extrude)
             if debug_render:
                 for res in resolutions:
                     render_sky.render_skybox(output_path, trimmed, cam, res, trimmed not in [n.name for n in levels.special_skies if n.is_sphere])

@@ -28,7 +28,7 @@ def init_render(workbench=True):
     bpy.context.scene.render.film_transparent = True
     bpy.context.scene.render.image_settings.color_mode = 'RGB'
     bpy.context.scene.render.image_settings.file_format = 'TARGA'
-    bpy.context.scene.view_settings.view_transform = 'Standard'
+    bpy.context.scene.view_settings.view_transform = 'Raw'
 
 
 def init_camera(camera=None):
@@ -71,7 +71,7 @@ def init_material():
     return mat
 
 
-def init_skybox(path_to_sky: Path, collection_skies: bpy.types.Collection, collection_extras: bpy.types.Collection, extrude=True, mat=None):
+def init_fbx(path_to_sky: Path, collection_skies: bpy.types.Collection, collection_extras: bpy.types.Collection, extrude=True, mat=None):
     bpy.ops.object.select_all(action='DESELECT')
 
     bpy.ops.import_scene.fbx(filepath=str(path_to_sky), global_scale=1, use_manual_orientation=True,  axis_up='Z', axis_forward='-X')

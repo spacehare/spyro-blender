@@ -1,4 +1,4 @@
-NAME,GAME,ID,SKY
+NAME,GAME,ID,SKY,MANUAL
 Main Menu,1,4,
 Artisans,1,11,
 Stone Hills,1,13,
@@ -47,7 +47,7 @@ Crush's Dungeon,2,32,
 Autumn Plains,2,34,
 Skelos Badlands,2,36,
 Crystal Glacier,2,38,
-Breeze Harbor,2,40,
+Breeze Harbor,2,40,,True
 Zephyr,2,42,
 Metro Speedway,2,44,
 Scorch,2,46,
