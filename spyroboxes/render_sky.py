@@ -1,3 +1,5 @@
+'''render the vertex skybox as a 6-sided cubemap'''
+
 import bpy
 from pathlib import Path
 import math
