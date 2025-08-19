@@ -1,5 +1,5 @@
 '''
-import the OBJ from SpyroWorldViewr into blender as a mesh.
+import the OBJ from SpyroWorldViewer into blender as a mesh.
 
 https://en.wikipedia.org/wiki/Wavefront_.obj_file
 '''
