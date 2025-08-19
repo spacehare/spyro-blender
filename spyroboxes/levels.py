@@ -9,7 +9,9 @@ CSV_FILE_PATH = Path(Path(__file__).parent / 'assets/levels.csv')
 class LevelStemInfo:
     game: str
     id: str
-    subarea: str
+    portal: str
+    """spyro 1 hub worlds has similar names for the portal-previews. 
+   for example: Gnasty's World is `s1-1_071_3-n.S.obj`"""
     tag: str
     lod: str
 
@@ -53,17 +55,17 @@ def info_from_stem(stem: str) -> LevelStemInfo:
     game = stem[:2]
     id = stem[5:8]
     tag = stem[-1]
-    subarea = ''
+    portal = ''
 
     if stem[9] != 'n':
-        subarea = stem[9]
+        portal = stem[9]
 
     return LevelStemInfo(
         game=game,
         id=id,
         lod=lod,
         tag=tag,
-        subarea=subarea,
+        portal=portal,
     )
 
 
