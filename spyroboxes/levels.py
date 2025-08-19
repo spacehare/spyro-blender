@@ -43,12 +43,6 @@ def quake_ok_name(name: str):
     return name.replace(' ', '_').replace("'", '').lower()
 
 
-# def validate(lvl: LevelInfo):
-#     return all([
-#         lvl.lod == "1",
-#     ])
-
-
 def info_from_stem(stem: str) -> LevelStemInfo:
     if len(stem) < 12:
         raise ValueError("%s TOO SHORT" % stem)
