@@ -141,7 +141,7 @@ def import_spyro_obj(path: Path):
     # change name
     level = levels.level_from_stem(path.stem)
     if not level:
-        print('NO LEVEL NAME FOUND')
+        print('NO LEVEL NAME FOUND AT %s' % path.stem)
         return
     obj.name = level.name
 
