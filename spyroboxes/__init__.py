@@ -1,6 +1,6 @@
 bl_info = {
     "name": "Spyroboxes",
-    "blender": (4, 1, 0),
+    "blender": (4, 4, 3),
     "category": "Generic",
 }
 
