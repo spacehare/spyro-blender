@@ -1,8 +1,4 @@
 import bpy
-import bmesh
-from bpy.types import RenderSettings, Camera, Object
-from bpy.stub_internal.rna_enums import ImageTypeItems
-from pathlib import Path
 from .swv import NAME_EXTRAS, NAME_SKIES
 
 
@@ -23,7 +19,24 @@ def setup_compositor(sky_layer_name: str, extra_layer_name: str):
         tree.links.new(ao.outputs['Image'], comp.inputs[0])
 
 
-def set_render_file_format(fmt: ImageTypeItems):
+def set_render_file_format(fmt: str = 'PNG'):
+    '''
+    # format types
+    - BMP
+    - IRIS
+    - PNG
+    - JPEG
+    - JPEG2000
+    - TARGA
+    - TARGA_RAW
+    - CINEON
+    - DPX
+    - OPEN_EXR_MULTILAYER
+    - OPEN_EXR
+    - HDR
+    - TIFF
+    - WEBP
+    '''
     # https://docs.blender.org/api/current/bpy_types_enum_items/image_type_items.html
     if not bpy.context.scene:
         return
