@@ -1,4 +1,7 @@
+# blender
 *.blend1
+# LibreOffice Calc
+.~*#
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

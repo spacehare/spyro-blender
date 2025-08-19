@@ -1,4 +1,4 @@
-NAME,GAME,ID,SKY,MANUAL
+NAME,GAME,ID,IS_SPHERE,MANUAL
 Main Menu,1,4,,
 Artisans,1,11,,
 Stone Hills,1,13,,
@@ -24,16 +24,16 @@ Misty Bog,1,51,,TRUE
 Tree Tops,1,53,,TRUE
 Metalhead,1,55,,TRUE
 Wild Flight,1,57,,
-Dream Weavers,1,59,,
-Dark Passage,1,61,,
-Lofty Castle,1,63,,
-Haunted Towers,1,65,,TRUE
-Jacques,1,67,,
+Dream Weavers,1,59,TRUE,
+Dark Passage,1,61,TRUE,
+Lofty Castle,1,63,TRUE,
+Haunted Towers,1,65,TRUE,TRUE
+Jacques,1,67,TRUE,
 Icy Flight,1,69,,TRUE
 Gnasty Gnorc's Hub,1,71,,
 Gnorc Cove,1,73,,
 Twilight Harbor,1,75,,TRUE
-Gnasty Gnorc,1,77,,
+Gnasty Gnorc,1,77,TRUE,
 Gnasty's Loot,1,79,,TRUE
 Summer Forest,2,16,,
 Glimmer,2,18,,

@@ -1,6 +1,6 @@
 import bpy
-from bpy.types import RenderSettings, Camera
 import bmesh
+from bpy.types import RenderSettings, Camera
 from pathlib import Path
 
 

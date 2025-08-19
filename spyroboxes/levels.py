@@ -20,18 +20,23 @@ class Level:
     # info: LevelInfo
     game: int
     id: int
-    subarea: str = ''
-    sphere: bool = False
+    # subarea: str = ''
+    is_sphere: bool = False
     '''is the level's sky a sphere? (as opposed to a dome)'''
-    sky: bool = True
+    manual: bool = False
+    '''did i have to manually fix broken vertexes, etc?'''
 
 
 levels: list[Level] = []
 with open(CSV_FILE_PATH) as file:
     for row in csv.DictReader(file):
         levels.append(Level(
-            name=row['NAME'], game=int(row['GAME']), id=int(row['ID']))
-        )
+            name=row['NAME'],
+            game=int(row['GAME']),
+            id=int(row['ID']),
+            is_sphere=row['IS_SPHERE'] == 'TRUE',
+            manual=row['MANUAL'] == 'TRUE',
+        ))
 
 
 def quake_ok_name(name: str):

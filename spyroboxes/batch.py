@@ -3,7 +3,7 @@
 from pathlib import Path
 import bpy
 
-from . import auto
+from . import setup
 from . import render_sky
 from . import levels
 
@@ -39,15 +39,15 @@ def clean_up():
 
 
 def main(resolutions: list[int]):
-    c_skies, c_extras = auto.init_viewlayers_and_collections()
-    cam = auto.init_camera()
-    auto.init_render()
-    auto.init_compositor(c_skies.name, c_extras.name)
+    c_skies, c_extras = setup.init_viewlayers_and_collections()
+    cam = setup.init_camera()
+    setup.init_render()
+    setup.init_compositor(c_skies.name, c_extras.name)
 
     for sky_path in sky_paths:  # [sp for sp in sky_paths if 'Dark Passage' in str(sp)]
         trimmed = trim_parent(sky_path)
         if trimmed not in [n.name for n in levels.special_skies if n.manual]:
-            auto.init_fbx(sky_path, c_skies, c_extras, trimmed not in no_extrude)
+            setup.init_fbx(sky_path, c_skies, c_extras, trimmed not in no_extrude)
             if debug_render:
                 for res in resolutions:
                     render_sky.render_skybox(output_path, trimmed, cam, res, trimmed not in [n.name for n in levels.special_skies if n.is_sphere])
