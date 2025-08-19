@@ -3,63 +3,63 @@ Main Menu,1,4,,
 Artisans,1,11,,
 Stone Hills,1,13,,
 Dark Hollow,1,15,,
-Town Square,1,17,,
+Town Square,1,17,,TRUE
 Toasty,1,19,,
 Sunny Flight,1,21,,
 Peace Keepers,1,23,,
 Dry Canyon,1,25,,
 Cliff Town,1,27,,
 Ice Cavern,1,29,,
-Doctor Shemp,1,31,,
-Night Flight,1,33,,
+Doctor Shemp,1,31,,TRUE
+Night Flight,1,33,,TRUE
 Magic Crafters,1,35,,
 Alpine Ridge,1,37,,
-High Caves,1,39,,
+High Caves,1,39,,TRUE
 Wizard Peak,1,41,,
 Blowhard,1,43,,
 Crystal Flight,1,45,,
 Beast Makers,1,47,,
 Terrace Village,1,49,,
-Misty Bog,1,51,,
-Tree Tops,1,53,,
-Metalhead,1,55,,
+Misty Bog,1,51,,TRUE
+Tree Tops,1,53,,TRUE
+Metalhead,1,55,,TRUE
 Wild Flight,1,57,,
 Dream Weavers,1,59,,
 Dark Passage,1,61,,
 Lofty Castle,1,63,,
-Haunted Towers,1,65,,
+Haunted Towers,1,65,,TRUE
 Jacques,1,67,,
-Icy Flight,1,69,,
+Icy Flight,1,69,,TRUE
 Gnasty Gnorc's Hub,1,71,,
 Gnorc Cove,1,73,,
-Twilight Harbor,1,75,,
+Twilight Harbor,1,75,,TRUE
 Gnasty Gnorc,1,77,,
-Gnasty's Loot,1,79,,
+Gnasty's Loot,1,79,,TRUE
 Summer Forest,2,16,,
 Glimmer,2,18,,
 Idol Springs,2,20,,
 Colossus,2,22,,
-Hurricos,2,24,,
+Hurricos,2,24,,TRUE
 Aquaria Towers,2,26,,
-Sunny Beach,2,28,,
-Ocean Speedway,2,30,,
+Sunny Beach,2,28,,TRUE
+Ocean Speedway,2,30,,TRUE
 Crush's Dungeon,2,32,,
-Autumn Plains,2,34,,
+Autumn Plains,2,34,,TRUE
 Skelos Badlands,2,36,,
 Crystal Glacier,2,38,,
-Breeze Harbor,2,40,,True
+Breeze Harbor,2,40,,TRUE
 Zephyr,2,42,,
-Metro Speedway,2,44,,
+Metro Speedway,2,44,,TRUE
 Scorch,2,46,,
-Shady Oasis,2,48,,
+Shady Oasis,2,48,,TRUE
 Magma Cone,2,50,,
 Fracture Hills,2,52,,
 Icy Speedway,2,54,,
-Gulp's Overlook,2,56,,
+Gulp's Overlook,2,56,,TRUE
 Winter Tundra,2,58,,
 Mystic Marsh,2,60,,
-Cloud Temples,2,62,,
-Canyon Speedway,2,64,,
+Cloud Temples,2,62,,TRUE
+Canyon Speedway,2,64,,TRUE
 Robotica Farms,2,66,,
 Metropolis,2,68,,
 Dragon Shores,2,70,,
