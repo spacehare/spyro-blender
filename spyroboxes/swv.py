@@ -13,6 +13,8 @@ from dataclasses import dataclass
 from . import levels
 
 SCALE = 1/32
+NAME_SKIES = 'Skies'
+NAME_EXTRAS = 'Extras'
 
 
 class Suffixes(StrEnum):
@@ -83,25 +85,20 @@ def get_uvw_from_vert_idx(groups: list[OBJ], all_uvws: list[UVW], idx: int):
                     return all_uvws[point.vt_idx]
 
 
-def import_spyro_obj(path: Path):
+def import_spyro_obj(file_path: Path):
     '''
     SpyroWorldViewer OBJ line order:
     v, vt, g, f
     '''
 
-    lvl = levels.level_from_stem(path.stem)
-    # if lvl and not levels.validate(lvl):
-    #     # print(path.stem, 'does not have a valid filename')
-    #     return
-
-    print('  ->', path)
+    print('  ->', file_path)
 
     groups: list[OBJ] = [OBJ()]
     tags: list[str] = []
     face_pts = []
 
     # read file
-    with open(path) as file:
+    with open(file_path) as file:
         for line in file:
             line = line.rstrip()
             split = line.split(' ')
@@ -124,24 +121,28 @@ def import_spyro_obj(path: Path):
                     face_pts.append(groups[-1].faces[-1])
 
     # generate mesh
-    bpy.ops.wm.obj_import(filepath=str(path), up_axis='Z', forward_axis='NEGATIVE_X', global_scale=SCALE)
+    bpy.ops.wm.obj_import(filepath=str(file_path), up_axis='Z', forward_axis='NEGATIVE_X', global_scale=SCALE)
     obj: Object = bpy.context.selected_objects[0]
     if not isinstance(obj.data, Mesh):
         return
 
+    # apply vertex colors
     all_uvws = [uvw for group in groups for uvw in group.uvws]
     color = obj.data.color_attributes.new(name='Color', type='BYTE_COLOR', domain='POINT')
 
-    # apply vertex colors
     for vert in obj.data.vertices:
         uvw = get_uvw_from_vert_idx(groups, all_uvws, vert.index)
         if uvw:
             color.data[vert.index].color = (uvw.u, uvw.v, uvw.w, 1.0)  # UVW -> RGB
 
+    return obj
+
+
+def organize_meshes(obj: Object, original_name: str):
     # change name
-    level = levels.level_from_stem(path.stem)
+    level = levels.level_from_stem(original_name)
     if not level:
-        print('NO LEVEL NAME FOUND AT %s' % path.stem)
+        print('NO LEVEL NAME FOUND AT %s' % original_name)
         return
     obj.name = level.name
 
@@ -165,9 +166,9 @@ def import_spyro_obj(path: Path):
 
     little_pieces = []
     for part in parts:
-        large = part == big_triangle or part == main_sky
+        large: bool = part == big_triangle or part == main_sky
         bpy.context.scene.collection.objects.unlink(part)
-        bpy.data.collections['Skies' if large else 'Extras'].objects.link(part)
+        bpy.data.collections[NAME_SKIES if large else NAME_EXTRAS].objects.link(part)
         if large:
             part.select_set(False)
         else:
@@ -175,7 +176,7 @@ def import_spyro_obj(path: Path):
 
     if little_pieces:
         current_vl = bpy.context.window.view_layer
-        bpy.context.window.view_layer = bpy.context.scene.view_layers['Extras']
+        bpy.context.window.view_layer = bpy.context.scene.view_layers[NAME_EXTRAS]
         bpy.context.view_layer.objects.active = little_pieces[0]
         # join extras
         bpy.ops.object.join()

@@ -50,7 +50,7 @@ def info_from_stem(stem: str) -> LevelStemInfo:
     elif stem.endswith('.obj'):
         raise ValueError('%s needs to be a stem, not a name' % stem)
 
-    lod = stem[3]  # i think this is the LOD? it should be 1
+    lod = stem[3]  # at least, i think this is the LOD? it should be 1
     game = stem[:2]
     id = stem[5:8]
     tag = stem[-1]
@@ -77,6 +77,5 @@ def level_from_stem(stem: str) -> Level | None:
         info = info_from_stem(stem)
 
         for level in levels:
-            print(level.game, info.game, level.id, info.id)
             if level.game == int(info.game[1]) and level.id == int(info.id):
                 return level
