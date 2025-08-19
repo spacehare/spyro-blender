@@ -179,8 +179,8 @@ def organize_meshes(obj: Object):
     big_triangle = parts[dims.index(dims_sorted[-1])]
     main_sky = parts[dims.index(dims_sorted[-2])]
 
-    big_triangle.name = level.name + ' Tetrahedron'
-    main_sky.name = level.name + ' Sky'
+    big_triangle.name = level.name + ' - Tetrahedron'
+    main_sky.name = level.name + ' - Sky'
 
     little_pieces: list[Object] = []
     for part in parts:
@@ -197,6 +197,6 @@ def organize_meshes(obj: Object):
     if little_pieces:
         bpy.context.view_layer.objects.active = little_pieces[0]
         bpy.ops.object.join()
-        bpy.context.object.name = f"{level.name} {NAME_EXTRAS}"
+        bpy.context.object.name = f"{level.name} - {NAME_EXTRAS}"
 
     bpy.ops.object.select_all(action='DESELECT')
