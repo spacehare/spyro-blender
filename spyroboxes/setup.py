@@ -1,22 +1,6 @@
 import bpy
+from bpy.types import Object
 from .swv import NAME_EXTRAS, NAME_SKIES
-
-
-def setup_compositor(sky_layer_name: str, extra_layer_name: str):
-    # bpy.context.window.workspace = bpy.data.workspaces['Compositing']
-    bpy.context.scene.use_nodes = True
-    tree = bpy.context.scene.node_tree
-    if tree:
-        ao = tree.nodes.new('CompositorNodeAlphaOver')
-        rl_sky = tree.nodes.new('CompositorNodeRLayers')
-        rl_extra = tree.nodes.new('CompositorNodeRLayers')
-        rl_sky.layer = sky_layer_name
-        rl_extra.layer = extra_layer_name
-
-        tree.links.new(rl_sky.outputs['Image'], ao.inputs[1])
-        tree.links.new(rl_extra.outputs['Image'], ao.inputs[2])
-        comp = tree.nodes['Composite']
-        tree.links.new(ao.outputs['Image'], comp.inputs[0])
 
 
 def set_render_file_format(fmt: str = 'PNG'):
@@ -93,7 +77,6 @@ def setup_viewlayers_and_collections():
 
     if possible_skies_collection or possible_extras_collection:
         print('collections already exist')
-        return
     else:
         collection_skies = bpy.data.collections.new(NAME_SKIES)
         collection_extras = bpy.data.collections.new(NAME_EXTRAS)
@@ -102,17 +85,43 @@ def setup_viewlayers_and_collections():
         bpy.context.scene.collection.children.link(collection_extras)
 
     # view layers
-    possible_skies_viewlayer = bpy.context.scene.view_layers[NAME_SKIES]
-    possible_extras_viewlayer = bpy.context.scene.view_layers[NAME_EXTRAS]
+    possible_skies_viewlayer = bpy.context.scene.view_layers.get(NAME_SKIES)
+    possible_extras_viewlayer = bpy.context.scene.view_layers.get(NAME_EXTRAS)
 
     if possible_skies_viewlayer or possible_extras_viewlayer:
         print('viewlayers already exist')
-        return
     else:
-        vl_skies = bpy.context.scene.view_layers.new(NAME_SKIES)
-        vl_extras = bpy.context.scene.view_layers.new(NAME_EXTRAS)
+        viewlayer_skies = bpy.context.scene.view_layers.new(NAME_SKIES)
+        viewlayer_extras = bpy.context.scene.view_layers.new(NAME_EXTRAS)
 
-        vl_skies.layer_collection.children[NAME_EXTRAS].exclude = True
-        vl_extras.layer_collection.children[NAME_SKIES].exclude = True
+        viewlayer_skies.layer_collection.children[NAME_EXTRAS].exclude = True
+        viewlayer_extras.layer_collection.children[NAME_SKIES].exclude = True
 
     print('view layers and collections OK')
+
+
+def setup_compositor():
+    possible_skies_viewlayer = bpy.context.scene.view_layers.get(NAME_SKIES)
+    possible_extras_viewlayer = bpy.context.scene.view_layers.get(NAME_EXTRAS)
+
+    if not (possible_extras_viewlayer and possible_skies_viewlayer):
+        print('viewlayers need to be set up first!')
+        return
+
+    # bpy.context.window.workspace = bpy.data.workspaces['Compositing']
+    bpy.context.scene.use_nodes = True
+    tree = bpy.context.scene.node_tree
+    if tree:
+        ao = tree.nodes.new('CompositorNodeAlphaOver')
+        render_layer_skies = tree.nodes.new('CompositorNodeRLayers')
+        render_layer_extras = tree.nodes.new('CompositorNodeRLayers')
+        render_layer_skies.layer = NAME_SKIES
+        render_layer_extras.layer = NAME_EXTRAS
+
+        tree.links.new(render_layer_skies.outputs['Image'], ao.inputs[1])
+        tree.links.new(render_layer_extras.outputs['Image'], ao.inputs[2])
+
+        comp = tree.nodes.get('Composite')
+        if not comp:
+            comp = tree.nodes.new('CompositorNodeComposite')
+        tree.links.new(ao.outputs['Image'], comp.inputs[0])
