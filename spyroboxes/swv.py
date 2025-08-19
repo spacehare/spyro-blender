@@ -19,12 +19,12 @@ NAME_EXTRAS = 'Extras'
 
 class Suffixes(StrEnum):
     SKY = 'S'
-    F = 'F'
-    L = 'L'
-    M = 'M'
-    T = 'T'
-    MW = 'MW'
-    TW = 'TW'
+    COLORS = 'F'
+    LOWPOLY = 'L'
+    LIGHTSHADE = 'M'
+    TEXTURES = 'T'
+    LIGHTSHADE_WATER = 'MW'
+    TEXTURE_WATER = 'TW'
 
 
 class Tags(StrEnum):
