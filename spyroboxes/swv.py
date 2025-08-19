@@ -87,8 +87,14 @@ def get_uvw_from_vert_idx(groups: list[OBJ], all_uvws: list[UVW], idx: int):
 
 def import_spyro_obj(file_path: Path):
     '''
-    SpyroWorldViewer OBJ line order:
-    v, vt, g, f
+    - import a raw OBJ file from a path.
+      - merge all groups into one mesh.
+
+    SpyroWorldViewer OBJ line order:  
+    1. `v`
+    2. `vt`
+    3. `g`
+    4. `f`
     '''
 
     print('  ->', file_path)
@@ -138,8 +144,14 @@ def import_spyro_obj(file_path: Path):
     return obj
 
 
-def organize_meshes(obj: Object, original_name: str):
-    # change name
+def organize_meshes(obj: Object, original_name: str, big_pieces_name: str = NAME_SKIES, little_pieces_name: str = NAME_EXTRAS):
+    '''
+    - edit the object name
+    - remove doubles
+    - move pieces to distinct collection
+    '''
+
+    # change object's name
     level = levels.level_from_stem(original_name)
     if not level:
         print('NO LEVEL NAME FOUND AT %s' % original_name)
@@ -167,7 +179,9 @@ def organize_meshes(obj: Object, original_name: str):
     little_pieces = []
     for part in parts:
         large: bool = part == big_triangle or part == main_sky
-        bpy.context.scene.collection.objects.unlink(part)
+        for collection in part.users_collection:
+            collection.objects.unlink(part)
+        # bpy.context.scene.collection.objects.unlink(part)
         bpy.data.collections[NAME_SKIES if large else NAME_EXTRAS].objects.link(part)
         if large:
             part.select_set(False)
