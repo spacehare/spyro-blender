@@ -97,7 +97,7 @@ def import_spyro_obj(file_path: Path):
     4. `f`
     '''
 
-    print('  ->', file_path)
+    print('importing SpyroWorldViewer OBJ from:', file_path)
 
     groups: list[OBJ] = [OBJ()]
     tags: list[str] = []
@@ -144,18 +144,23 @@ def import_spyro_obj(file_path: Path):
     return obj
 
 
-def organize_meshes(obj: Object, original_name: str, big_pieces_name: str = NAME_SKIES, little_pieces_name: str = NAME_EXTRAS):
+def organize_meshes(obj: Object):
     '''
     - edit the object name
     - remove doubles
-    - move pieces to distinct collection
+    - move pieces to distinct collections
+    - move pieces to distinct view layers
     '''
 
+    if not isinstance(obj.data, Mesh):
+        raise ValueError(f"{obj.name} data must be Mesh")
+
+    print('organizing object: %s' % obj.name)
+
     # change object's name
-    level = levels.level_from_stem(original_name)
+    level = levels.level_from_stem(obj.name)
     if not level:
-        print('NO LEVEL NAME FOUND AT %s' % original_name)
-        return
+        raise ValueError('NO LEVEL NAME FOUND AT %s' % obj.name)
     obj.name = level.name
 
     # separate sky dome/sphere from extras (like planets and stars)
@@ -173,30 +178,25 @@ def organize_meshes(obj: Object, original_name: str, big_pieces_name: str = NAME
 
     big_triangle = parts[dims.index(dims_sorted[-1])]
     main_sky = parts[dims.index(dims_sorted[-2])]
-    big_triangle.name = level.name + ' Triangle'
+
+    big_triangle.name = level.name + ' Tetrahedron'
     main_sky.name = level.name + ' Sky'
 
-    little_pieces = []
+    little_pieces: list[Object] = []
     for part in parts:
-        large: bool = part == big_triangle or part == main_sky
+        is_part_large: bool = part == big_triangle or part == main_sky
         for collection in part.users_collection:
             collection.objects.unlink(part)
         # bpy.context.scene.collection.objects.unlink(part)
-        bpy.data.collections[NAME_SKIES if large else NAME_EXTRAS].objects.link(part)
-        if large:
+        bpy.data.collections[NAME_SKIES if is_part_large else NAME_EXTRAS].objects.link(part)
+        if is_part_large:
             part.select_set(False)
         else:
             little_pieces.append(part)
 
     if little_pieces:
-        current_vl = bpy.context.window.view_layer
-        bpy.context.window.view_layer = bpy.context.scene.view_layers[NAME_EXTRAS]
         bpy.context.view_layer.objects.active = little_pieces[0]
-        # join extras
         bpy.ops.object.join()
-        bpy.context.object.name = level.name + ' Extras'
-        bpy.context.window.view_layer = current_vl
+        bpy.context.object.name = f"{level.name} {NAME_EXTRAS}"
 
-    bpy.context.view_layer.objects.active = None
     bpy.ops.object.select_all(action='DESELECT')
-    # bpy.context.window.view_layer = bpy.context.scene.view_layers['Base']
