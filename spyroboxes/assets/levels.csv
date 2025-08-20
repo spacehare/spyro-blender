@@ -1,70 +1,70 @@
-NAME,GAME,ID,IS_SPHERE,MANUAL,IS_HUB
+NAME,GAME,ID,IS_SPHERE,IS_HUB,MANUAL
 Main Menu,1,4,,,
-Artisans,1,11,,,TRUE
-Stone Hills,1,13,,,
+Artisans,1,11,,TRUE,
+Stone Hill,1,13,,,
 Dark Hollow,1,15,,,
-Town Square,1,17,,TRUE,
+Town Square,1,17,,,TRUE
 Toasty,1,19,,,
 Sunny Flight,1,21,,,
-Peace Keepers,1,23,,,TRUE
+Peace Keepers,1,23,,TRUE,
 Dry Canyon,1,25,,,
 Cliff Town,1,27,,,
 Ice Cavern,1,29,,,
-Doctor Shemp,1,31,,TRUE,
-Night Flight,1,33,,TRUE,
-Magic Crafters,1,35,,,TRUE
+Doctor Shemp,1,31,,,TRUE
+Night Flight,1,33,,,TRUE
+Magic Crafters,1,35,,TRUE,
 Alpine Ridge,1,37,,,
-High Caves,1,39,,TRUE,
+High Caves,1,39,,,TRUE
 Wizard Peak,1,41,,,
 Blowhard,1,43,,,
 Crystal Flight,1,45,,,
-Beast Makers,1,47,,,TRUE
+Beast Makers,1,47,,TRUE,
 Terrace Village,1,49,,,
-Misty Bog,1,51,,TRUE,
-Tree Tops,1,53,,TRUE,
-Metalhead,1,55,,TRUE,
+Misty Bog,1,51,,,TRUE
+Tree Tops,1,53,,,TRUE
+Metalhead,1,55,,,TRUE
 Wild Flight,1,57,,,
-Dream Weavers,1,59,TRUE,,TRUE
+Dream Weavers,1,59,TRUE,TRUE,
 Dark Passage,1,61,TRUE,,
 Lofty Castle,1,63,TRUE,,
-Haunted Towers,1,65,TRUE,TRUE,
+Haunted Towers,1,65,TRUE,,TRUE
 Jacques,1,67,TRUE,,
-Icy Flight,1,69,,TRUE,
-Gnasty’s World,1,71,,,TRUE
+Icy Flight,1,69,,,TRUE
+Gnasty’s World,1,71,,TRUE,
 Gnorc Cove,1,73,,,
-Twilight Harbor,1,75,,TRUE,
+Twilight Harbor,1,75,,,TRUE
 Gnasty Gnorc,1,77,TRUE,,
-Gnasty's Loot,1,79,,TRUE,
-Summer Forest,2,16,,,TRUE
+Gnasty's Loot,1,79,,,TRUE
+Summer Forest,2,16,,TRUE,
 Glimmer,2,18,,,
 Idol Springs,2,20,,,
 Colossus,2,22,,,
-Hurricos,2,24,,TRUE,
+Hurricos,2,24,,,TRUE
 Aquaria Towers,2,26,,,
-Sunny Beach,2,28,,TRUE,
-Ocean Speedway,2,30,,TRUE,
+Sunny Beach,2,28,,,TRUE
+Ocean Speedway,2,30,,,TRUE
 Crush's Dungeon,2,32,,,
 Autumn Plains,2,34,,TRUE,TRUE
 Skelos Badlands,2,36,,,
 Crystal Glacier,2,38,,,
-Breeze Harbor,2,40,,TRUE,
+Breeze Harbor,2,40,,,TRUE
 Zephyr,2,42,,,
-Metro Speedway,2,44,,TRUE,
+Metro Speedway,2,44,,,TRUE
 Scorch,2,46,,,
-Shady Oasis,2,48,,TRUE,
+Shady Oasis,2,48,,,TRUE
 Magma Cone,2,50,,,
 Fracture Hills,2,52,,,
 Icy Speedway,2,54,,,
-Gulp's Overlook,2,56,,TRUE,
-Winter Tundra,2,58,,,TRUE
+Gulp's Overlook,2,56,,,TRUE
+Winter Tundra,2,58,,TRUE,
 Mystic Marsh,2,60,,,
-Cloud Temples,2,62,,TRUE,
-Canyon Speedway,2,64,,TRUE,
+Cloud Temples,2,62,,,TRUE
+Canyon Speedway,2,64,,,TRUE
 Robotica Farms,2,66,,,
 Metropolis,2,68,,,
 Dragon Shores,2,70,,,
 Ripto's Arena,2,72,,,
-Sunrise Spring,3,98,,,TRUE
+Sunrise Spring,3,98,,TRUE,
 Sunny Villa,3,100,,,
 Cloud Spires,3,102,,,
 Molten Crater,3,104,,,
@@ -73,7 +73,7 @@ Mushroom Speedway,3,108,,,
 Sheila's Alp,3,110,,,
 Buzz's Dungeon,3,112,,,
 Crawdad Farm,3,114,,,
-Midday Gardens,3,116,,,TRUE
+Midday Gardens,3,116,,TRUE,
 Icy Peak,3,118,,,
 Enchanted Towers,3,120,,,
 Spooky Swamp,3,122,,,
@@ -82,7 +82,7 @@ Country Speedway,3,126,,,
 Sgt Byrd's Base,3,128,,,
 Spike's Arena,3,130,,,
 Spider Town,3,132,,,
-Evening Lake,3,134,,,TRUE
+Evening Lake,3,134,,TRUE,
 Frozen Altars,3,136,,,
 Lost Fleet,3,138,,,
 Fireworks Factory,3,140,,,
@@ -91,7 +91,7 @@ Honey Speedway,3,144,,,
 Bentley's Outpost,3,146,,,
 Scorch's Pit,3,148,,,
 Starfish Reef,3,150,,,
-Midnight Mountain,3,152,,,TRUE
+Midnight Mountain,3,152,,TRUE,
 Crystal Islands,3,154,,,
 Desert Ruins,3,156,,,
 Haunted Tomb,3,158,,,

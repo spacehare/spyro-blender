@@ -9,11 +9,17 @@ CSV_FILE_PATH = Path(Path(__file__).parent / 'assets/levels.csv')
 class LevelStemInfo:
     game: str
     id: str
+    '''level id'''
     portal: str
-    """spyro 1 hub worlds has similar names for the portal-previews. 
-   for example: Gnasty's World is `s1-1_071_3-n.S.obj`"""
+    """
+    the char at index 9 will be something other than '1' or 'n' if it is not a portal-preview.  
+    hub worlds have portals and need to preview skyboxes to those other realms.  
+    we can ignore these, they are redundant.
+    """
     tag: str
+    '''see the Suffixes class.'''
     lod: str
+    '''level of detail.'''
 
 
 @dataclass(kw_only=True)
