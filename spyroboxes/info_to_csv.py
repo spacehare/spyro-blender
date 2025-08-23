@@ -60,14 +60,14 @@ with open(PATH_FILENAMES, 'r', encoding='utf-8') as file:
                 [
                     stripped,
                     '',
+                    's3',
                     '',
                     '',
                     '',
                     '',
                     '',
-                    '',
-                    '',
-                    '',
+                    'S',
+                    'SKY',
                     '',
                     o_count,
                     o_first,
@@ -83,7 +83,7 @@ with open(PATH_FILENAMES, 'r', encoding='utf-8') as file:
             o_game = str(info.game)
             o_uid = str(info.uid)
             o_is_sphere = str(level.is_sphere if level else '') if info.tag == 'S' else ''
-            o_manual = str(level.manual if level else '')
+            o_manual = str(level.manual if level else '') if info.tag == 'S' else ''
             o_lod = str(info.lod)
             o_portal = str(info.portal)
             o_tag = str(info.tag)
@@ -108,4 +108,5 @@ with open(PATH_FILENAMES, 'r', encoding='utf-8') as file:
                 ]
             ) + '\n'
 
+    output = output.replace('False', '')
     PATH_OUTPUT.write_text(output, encoding='utf-8')
