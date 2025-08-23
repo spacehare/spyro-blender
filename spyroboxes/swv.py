@@ -161,7 +161,8 @@ def organize_meshes(obj: Object):
     level = levels.level_from_stem(obj.name)
     if not level:
         raise ValueError('NO LEVEL NAME FOUND AT %s' % obj.name)
-    obj.name = level.name
+    name = level.name or level.filename.stem
+    obj.name = name
 
     # separate sky dome/sphere from extras (like planets and stars)
     bpy.ops.object.mode_set(mode='EDIT')
@@ -172,7 +173,7 @@ def organize_meshes(obj: Object):
     bpy.ops.mesh.select_all(action='DESELECT')
     bpy.ops.object.mode_set(mode='OBJECT')
 
-    parts = [o for o in bpy.data.objects if level.name == o.name.split('.')[0]]
+    parts = [o for o in bpy.context.selected_objects]
 
     dims = [part.dimensions.x for part in parts]
     dims_sorted = sorted(dims)
@@ -180,8 +181,8 @@ def organize_meshes(obj: Object):
     big_triangle = parts[dims.index(dims_sorted[-1])]
     main_sky = parts[dims.index(dims_sorted[-2])]
 
-    big_triangle.name = level.name + ' - Tetrahedron'
-    main_sky.name = level.name + ' - Sky'
+    big_triangle.name = name + ' - Tetrahedron'
+    main_sky.name = name + ' - Sky'
 
     little_pieces: list[Object] = []
     for part in parts:
