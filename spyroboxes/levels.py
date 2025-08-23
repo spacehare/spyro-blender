@@ -77,6 +77,8 @@ class Level:
     '''is the level's sky a sphere? (as opposed to a dome)'''
     manual: bool = False
     '''do i have to manually fix non-manifold issues like broken vertexes, etc?'''
+    data_md5: str
+    '''unique [hashlib md5 hexdigest] for the OBJ's text data'''
 
     @staticmethod
     def from_dict(d: dict) -> 'Level':
@@ -93,7 +95,8 @@ class Level:
             is_sphere=d['IS_SPHERE'] == 'TRUE',
             manual=d['MANUAL'] == 'TRUE',
             is_first_occurrence=d['IS_FIRST_OCCURRENCE'] == 'TRUE',
-            count=int(d['COUNT'])
+            count=int(d['COUNT']),
+            data_md5=str(d['DATA_MD5'])
         )
 
 
@@ -106,6 +109,7 @@ with open(CSV_FILE_PATH) as file:
 
 
 def level_from_stem(stem: str) -> Level | None:
+    print('HUNTING FOR STEM %s' % stem)
     return levels[stem + '.obj']
 
 
