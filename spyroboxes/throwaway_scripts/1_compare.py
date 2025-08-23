@@ -14,7 +14,7 @@ for key in DATA_DICT:
     out_value_counts.append(values.count(DATA_DICT[key]))
     values_stack.append(DATA_DICT[key])
 
-output_str = 'FILENAME\tCOUNT\tFIRST_OCCURENCE\n'
+output_str = 'FILENAME\tCOUNT\tFIRST_OCCURRENCE\n'
 
 for i in zip(DATA_DICT.keys(), out_value_counts, out_value_bools):
     output_str += f"{i[0]}\t{i[1]}\t{i[2]}\n"

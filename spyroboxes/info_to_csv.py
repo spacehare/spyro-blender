@@ -1,8 +1,14 @@
 from .levels import info_from_stem, level_from_info
 from pathlib import Path
+import csv
 
 PATH_FILENAMES = Path(Path(__file__).parent / './assets/filenames.txt')
+PATH_RESULTS = Path(Path(__file__).parent / './assets/list_results.tsv')
 PATH_OUTPUT = Path(Path(__file__).parent / './assets/output.csv')
+DATA_RESULTS_DICTREADER = csv.DictReader(PATH_RESULTS.open(), delimiter='\t')
+DATA_RESULTS_DICT = {}
+for row in DATA_RESULTS_DICTREADER:
+    DATA_RESULTS_DICT[row['FILENAME']] = row
 
 tag_dict = {
     'S': 'SKY',
@@ -36,6 +42,8 @@ with open(PATH_FILENAMES, 'r', encoding='utf-8') as file:
             'TAG',
             'TAG_HUMAN',
             'IS_HUB',
+            'COUNT',  # this is how many times the OBJ's text data repeats inside of the files
+            'FIRST_OCCURRENCE',  # first occurence of OBJ text data
         ]
     ) + '\n'
 
@@ -43,8 +51,28 @@ with open(PATH_FILENAMES, 'r', encoding='utf-8') as file:
         stripped = line.strip()
         level = None
         info = None
+
+        o_count = str(DATA_RESULTS_DICT[stripped]['COUNT'])
+        o_first = str(DATA_RESULTS_DICT[stripped]['FIRST_OCCURRENCE'])
+
         if 'sky' in stripped:
-            output += stripped + '\n'
+            output += ','.join(
+                [
+                    stripped,
+                    '',
+                    '',
+                    '',
+                    '',
+                    '',
+                    '',
+                    '',
+                    '',
+                    '',
+                    '',
+                    o_count,
+                    o_first,
+                ]
+            ) + '\n'
         else:
             info = info_from_stem(stripped[:-4])
             if info:
@@ -75,6 +103,8 @@ with open(PATH_FILENAMES, 'r', encoding='utf-8') as file:
                     o_tag,
                     o_tag_replaced,
                     o_is_hub,
+                    o_count,
+                    o_first,
                 ]
             ) + '\n'
 
