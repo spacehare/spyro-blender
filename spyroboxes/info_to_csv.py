@@ -108,5 +108,4 @@ with open(PATH_FILENAMES, 'r', encoding='utf-8') as file:
                 ]
             ) + '\n'
 
-    output = output.replace('False', '')
     PATH_OUTPUT.write_text(output, encoding='utf-8')

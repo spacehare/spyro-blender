@@ -2,212 +2,212 @@ STRIPPED,NAME,GAME,UID,IS_SPHERE,MANUAL,LOD,PORTAL,TAG,TAG_HUMAN,IS_HUB,COUNT,FI
 s1-1_011-n.F.obj,Artisans,s1,011,,,1,,F,COLORS,True,1,True
 s1-1_011-n.L.obj,Artisans,s1,011,,,1,,L,LOWPOLY,True,1,True
 s1-1_011-n.M.obj,Artisans,s1,011,,,1,,M,LIGHTSHADE,True,1,True
-s1-1_011-n.S.obj,Artisans,s1,011,,,1,,S,SKY,True,2,True
+s1-1_011-n.S.obj,Artisans,s1,011,False,False,1,,S,SKY,True,2,True
 s1-1_011-n.T.obj,Artisans,s1,011,,,1,,T,TEXTURES,True,1,True
-s1-1_011_2-n.S.obj,Artisans,s1,011,,,1,2,S,SKY,True,3,True
-s1-1_011_3-n.S.obj,Artisans,s1,011,,,1,3,S,SKY,True,2,True
-s1-1_011_4-n.S.obj,Artisans,s1,011,,,1,4,S,SKY,True,3,True
-s1-1_011_5-n.S.obj,Artisans,s1,011,,,1,5,S,SKY,True,3,True
-s1-1_011_6-n.S.obj,Artisans,s1,011,,,1,6,S,SKY,True,2,True
-s1-1_013-n.F.obj,Stone Hill,s1,013,,,1,,F,COLORS,,1,True
-s1-1_013-n.L.obj,Stone Hill,s1,013,,,1,,L,LOWPOLY,,1,True
-s1-1_013-n.M.obj,Stone Hill,s1,013,,,1,,M,LIGHTSHADE,,1,True
-s1-1_013-n.S.obj,Stone Hill,s1,013,,,1,,S,SKY,,3,
-s1-1_013-n.T.obj,Stone Hill,s1,013,,,1,,T,TEXTURES,,1,True
-s1-1_015-n.F.obj,Dark Hollow,s1,015,,,1,,F,COLORS,,1,True
-s1-1_015-n.L.obj,Dark Hollow,s1,015,,,1,,L,LOWPOLY,,1,True
-s1-1_015-n.M.obj,Dark Hollow,s1,015,,,1,,M,LIGHTSHADE,,1,True
-s1-1_015-n.S.obj,Dark Hollow,s1,015,,,1,,S,SKY,,2,
-s1-1_015-n.T.obj,Dark Hollow,s1,015,,,1,,T,TEXTURES,,1,True
-s1-1_017-n.F.obj,Town Square,s1,017,,,1,,F,COLORS,,1,True
-s1-1_017-n.L.obj,Town Square,s1,017,,,1,,L,LOWPOLY,,2,True
-s1-1_017-n.M.obj,Town Square,s1,017,,,1,,M,LIGHTSHADE,,1,True
-s1-1_017-n.S.obj,Town Square,s1,017,,True,1,,S,SKY,,3,
-s1-1_017-n.T.obj,Town Square,s1,017,,,1,,T,TEXTURES,,1,True
-s1-1_019-n.F.obj,Toasty,s1,019,,,1,,F,COLORS,,2,True
-s1-1_019-n.L.obj,Toasty,s1,019,,,1,,L,LOWPOLY,,2,True
-s1-1_019-n.M.obj,Toasty,s1,019,,,1,,M,LIGHTSHADE,,2,True
-s1-1_019-n.S.obj,Toasty,s1,019,,,1,,S,SKY,,3,
-s1-1_019-n.T.obj,Toasty,s1,019,,,1,,T,TEXTURES,,1,True
-s1-1_021-n.F.obj,Sunny Flight,s1,021,,,1,,F,COLORS,,1,True
-s1-1_021-n.L.obj,Sunny Flight,s1,021,,,1,,L,LOWPOLY,,1,True
-s1-1_021-n.M.obj,Sunny Flight,s1,021,,,1,,M,LIGHTSHADE,,1,True
-s1-1_021-n.S.obj,Sunny Flight,s1,021,,,1,,S,SKY,,2,
-s1-1_021-n.T.obj,Sunny Flight,s1,021,,,1,,T,TEXTURES,,1,True
+s1-1_011_2-n.S.obj,Artisans,s1,011,False,False,1,2,S,SKY,True,3,True
+s1-1_011_3-n.S.obj,Artisans,s1,011,False,False,1,3,S,SKY,True,2,True
+s1-1_011_4-n.S.obj,Artisans,s1,011,False,False,1,4,S,SKY,True,3,True
+s1-1_011_5-n.S.obj,Artisans,s1,011,False,False,1,5,S,SKY,True,3,True
+s1-1_011_6-n.S.obj,Artisans,s1,011,False,False,1,6,S,SKY,True,2,True
+s1-1_013-n.F.obj,Stone Hill,s1,013,,,1,,F,COLORS,False,1,True
+s1-1_013-n.L.obj,Stone Hill,s1,013,,,1,,L,LOWPOLY,False,1,True
+s1-1_013-n.M.obj,Stone Hill,s1,013,,,1,,M,LIGHTSHADE,False,1,True
+s1-1_013-n.S.obj,Stone Hill,s1,013,False,False,1,,S,SKY,False,3,False
+s1-1_013-n.T.obj,Stone Hill,s1,013,,,1,,T,TEXTURES,False,1,True
+s1-1_015-n.F.obj,Dark Hollow,s1,015,,,1,,F,COLORS,False,1,True
+s1-1_015-n.L.obj,Dark Hollow,s1,015,,,1,,L,LOWPOLY,False,1,True
+s1-1_015-n.M.obj,Dark Hollow,s1,015,,,1,,M,LIGHTSHADE,False,1,True
+s1-1_015-n.S.obj,Dark Hollow,s1,015,False,False,1,,S,SKY,False,2,False
+s1-1_015-n.T.obj,Dark Hollow,s1,015,,,1,,T,TEXTURES,False,1,True
+s1-1_017-n.F.obj,Town Square,s1,017,,,1,,F,COLORS,False,1,True
+s1-1_017-n.L.obj,Town Square,s1,017,,,1,,L,LOWPOLY,False,2,True
+s1-1_017-n.M.obj,Town Square,s1,017,,,1,,M,LIGHTSHADE,False,1,True
+s1-1_017-n.S.obj,Town Square,s1,017,False,True,1,,S,SKY,False,3,False
+s1-1_017-n.T.obj,Town Square,s1,017,,,1,,T,TEXTURES,False,1,True
+s1-1_019-n.F.obj,Toasty,s1,019,,,1,,F,COLORS,False,2,True
+s1-1_019-n.L.obj,Toasty,s1,019,,,1,,L,LOWPOLY,False,2,True
+s1-1_019-n.M.obj,Toasty,s1,019,,,1,,M,LIGHTSHADE,False,2,True
+s1-1_019-n.S.obj,Toasty,s1,019,False,False,1,,S,SKY,False,3,False
+s1-1_019-n.T.obj,Toasty,s1,019,,,1,,T,TEXTURES,False,1,True
+s1-1_021-n.F.obj,Sunny Flight,s1,021,,,1,,F,COLORS,False,1,True
+s1-1_021-n.L.obj,Sunny Flight,s1,021,,,1,,L,LOWPOLY,False,1,True
+s1-1_021-n.M.obj,Sunny Flight,s1,021,,,1,,M,LIGHTSHADE,False,1,True
+s1-1_021-n.S.obj,Sunny Flight,s1,021,False,False,1,,S,SKY,False,2,False
+s1-1_021-n.T.obj,Sunny Flight,s1,021,,,1,,T,TEXTURES,False,1,True
 s1-1_023-n.F.obj,Peace Keepers,s1,023,,,1,,F,COLORS,True,1,True
 s1-1_023-n.L.obj,Peace Keepers,s1,023,,,1,,L,LOWPOLY,True,1,True
 s1-1_023-n.M.obj,Peace Keepers,s1,023,,,1,,M,LIGHTSHADE,True,1,True
-s1-1_023-n.S.obj,Peace Keepers,s1,023,,,1,,S,SKY,True,2,True
+s1-1_023-n.S.obj,Peace Keepers,s1,023,False,False,1,,S,SKY,True,2,True
 s1-1_023-n.T.obj,Peace Keepers,s1,023,,,1,,T,TEXTURES,True,1,True
-s1-1_023_2-n.S.obj,Peace Keepers,s1,023,,,1,2,S,SKY,True,2,True
-s1-1_023_3-n.S.obj,Peace Keepers,s1,023,,,1,3,S,SKY,True,3,True
-s1-1_023_4-n.S.obj,Peace Keepers,s1,023,,,1,4,S,SKY,True,2,True
-s1-1_023_5-n.S.obj,Peace Keepers,s1,023,,,1,5,S,SKY,True,3,True
-s1-1_023_6-n.S.obj,Peace Keepers,s1,023,,,1,6,S,SKY,True,2,True
-s1-1_025-n.F.obj,Dry Canyon,s1,025,,,1,,F,COLORS,,1,True
-s1-1_025-n.L.obj,Dry Canyon,s1,025,,,1,,L,LOWPOLY,,1,True
-s1-1_025-n.M.obj,Dry Canyon,s1,025,,,1,,M,LIGHTSHADE,,1,True
-s1-1_025-n.S.obj,Dry Canyon,s1,025,,,1,,S,SKY,,2,
-s1-1_025-n.T.obj,Dry Canyon,s1,025,,,1,,T,TEXTURES,,1,True
-s1-1_027-n.F.obj,Cliff Town,s1,027,,,1,,F,COLORS,,1,True
-s1-1_027-n.L.obj,Cliff Town,s1,027,,,1,,L,LOWPOLY,,1,True
-s1-1_027-n.M.obj,Cliff Town,s1,027,,,1,,M,LIGHTSHADE,,1,True
-s1-1_027-n.S.obj,Cliff Town,s1,027,,,1,,S,SKY,,3,
-s1-1_027-n.T.obj,Cliff Town,s1,027,,,1,,T,TEXTURES,,1,True
-s1-1_029-n.F.obj,Ice Cavern,s1,029,,,1,,F,COLORS,,1,True
-s1-1_029-n.L.obj,Ice Cavern,s1,029,,,1,,L,LOWPOLY,,1,True
-s1-1_029-n.M.obj,Ice Cavern,s1,029,,,1,,M,LIGHTSHADE,,1,True
-s1-1_029-n.S.obj,Ice Cavern,s1,029,,,1,,S,SKY,,2,
-s1-1_029-n.T.obj,Ice Cavern,s1,029,,,1,,T,TEXTURES,,1,True
-s1-1_031-n.F.obj,Doctor Shemp,s1,031,,,1,,F,COLORS,,1,True
-s1-1_031-n.L.obj,Doctor Shemp,s1,031,,,1,,L,LOWPOLY,,1,True
-s1-1_031-n.M.obj,Doctor Shemp,s1,031,,,1,,M,LIGHTSHADE,,1,True
-s1-1_031-n.S.obj,Doctor Shemp,s1,031,,True,1,,S,SKY,,3,
-s1-1_031-n.T.obj,Doctor Shemp,s1,031,,,1,,T,TEXTURES,,1,True
-s1-1_033-n.F.obj,Night Flight,s1,033,,,1,,F,COLORS,,1,True
-s1-1_033-n.L.obj,Night Flight,s1,033,,,1,,L,LOWPOLY,,1,True
-s1-1_033-n.M.obj,Night Flight,s1,033,,,1,,M,LIGHTSHADE,,1,True
-s1-1_033-n.S.obj,Night Flight,s1,033,,True,1,,S,SKY,,2,
-s1-1_033-n.T.obj,Night Flight,s1,033,,,1,,T,TEXTURES,,1,True
+s1-1_023_2-n.S.obj,Peace Keepers,s1,023,False,False,1,2,S,SKY,True,2,True
+s1-1_023_3-n.S.obj,Peace Keepers,s1,023,False,False,1,3,S,SKY,True,3,True
+s1-1_023_4-n.S.obj,Peace Keepers,s1,023,False,False,1,4,S,SKY,True,2,True
+s1-1_023_5-n.S.obj,Peace Keepers,s1,023,False,False,1,5,S,SKY,True,3,True
+s1-1_023_6-n.S.obj,Peace Keepers,s1,023,False,False,1,6,S,SKY,True,2,True
+s1-1_025-n.F.obj,Dry Canyon,s1,025,,,1,,F,COLORS,False,1,True
+s1-1_025-n.L.obj,Dry Canyon,s1,025,,,1,,L,LOWPOLY,False,1,True
+s1-1_025-n.M.obj,Dry Canyon,s1,025,,,1,,M,LIGHTSHADE,False,1,True
+s1-1_025-n.S.obj,Dry Canyon,s1,025,False,False,1,,S,SKY,False,2,False
+s1-1_025-n.T.obj,Dry Canyon,s1,025,,,1,,T,TEXTURES,False,1,True
+s1-1_027-n.F.obj,Cliff Town,s1,027,,,1,,F,COLORS,False,1,True
+s1-1_027-n.L.obj,Cliff Town,s1,027,,,1,,L,LOWPOLY,False,1,True
+s1-1_027-n.M.obj,Cliff Town,s1,027,,,1,,M,LIGHTSHADE,False,1,True
+s1-1_027-n.S.obj,Cliff Town,s1,027,False,False,1,,S,SKY,False,3,False
+s1-1_027-n.T.obj,Cliff Town,s1,027,,,1,,T,TEXTURES,False,1,True
+s1-1_029-n.F.obj,Ice Cavern,s1,029,,,1,,F,COLORS,False,1,True
+s1-1_029-n.L.obj,Ice Cavern,s1,029,,,1,,L,LOWPOLY,False,1,True
+s1-1_029-n.M.obj,Ice Cavern,s1,029,,,1,,M,LIGHTSHADE,False,1,True
+s1-1_029-n.S.obj,Ice Cavern,s1,029,False,False,1,,S,SKY,False,2,False
+s1-1_029-n.T.obj,Ice Cavern,s1,029,,,1,,T,TEXTURES,False,1,True
+s1-1_031-n.F.obj,Doctor Shemp,s1,031,,,1,,F,COLORS,False,1,True
+s1-1_031-n.L.obj,Doctor Shemp,s1,031,,,1,,L,LOWPOLY,False,1,True
+s1-1_031-n.M.obj,Doctor Shemp,s1,031,,,1,,M,LIGHTSHADE,False,1,True
+s1-1_031-n.S.obj,Doctor Shemp,s1,031,False,True,1,,S,SKY,False,3,False
+s1-1_031-n.T.obj,Doctor Shemp,s1,031,,,1,,T,TEXTURES,False,1,True
+s1-1_033-n.F.obj,Night Flight,s1,033,,,1,,F,COLORS,False,1,True
+s1-1_033-n.L.obj,Night Flight,s1,033,,,1,,L,LOWPOLY,False,1,True
+s1-1_033-n.M.obj,Night Flight,s1,033,,,1,,M,LIGHTSHADE,False,1,True
+s1-1_033-n.S.obj,Night Flight,s1,033,False,True,1,,S,SKY,False,2,False
+s1-1_033-n.T.obj,Night Flight,s1,033,,,1,,T,TEXTURES,False,1,True
 s1-1_035-n.F.obj,Magic Crafters,s1,035,,,1,,F,COLORS,True,1,True
 s1-1_035-n.L.obj,Magic Crafters,s1,035,,,1,,L,LOWPOLY,True,1,True
 s1-1_035-n.M.obj,Magic Crafters,s1,035,,,1,,M,LIGHTSHADE,True,1,True
-s1-1_035-n.S.obj,Magic Crafters,s1,035,,,1,,S,SKY,True,2,True
+s1-1_035-n.S.obj,Magic Crafters,s1,035,False,False,1,,S,SKY,True,2,True
 s1-1_035-n.T.obj,Magic Crafters,s1,035,,,1,,T,TEXTURES,True,1,True
-s1-1_035_2-n.S.obj,Magic Crafters,s1,035,,,1,2,S,SKY,True,2,True
-s1-1_035_3-n.S.obj,Magic Crafters,s1,035,,,1,3,S,SKY,True,2,True
-s1-1_035_4-n.S.obj,Magic Crafters,s1,035,,,1,4,S,SKY,True,2,True
-s1-1_035_5-n.S.obj,Magic Crafters,s1,035,,,1,5,S,SKY,True,3,True
-s1-1_035_6-n.S.obj,Magic Crafters,s1,035,,,1,6,S,SKY,True,3,True
-s1-1_037-n.F.obj,Alpine Ridge,s1,037,,,1,,F,COLORS,,1,True
-s1-1_037-n.L.obj,Alpine Ridge,s1,037,,,1,,L,LOWPOLY,,1,True
-s1-1_037-n.M.obj,Alpine Ridge,s1,037,,,1,,M,LIGHTSHADE,,1,True
-s1-1_037-n.S.obj,Alpine Ridge,s1,037,,,1,,S,SKY,,2,
-s1-1_037-n.T.obj,Alpine Ridge,s1,037,,,1,,T,TEXTURES,,1,True
-s1-1_039-n.F.obj,High Caves,s1,039,,,1,,F,COLORS,,1,True
-s1-1_039-n.L.obj,High Caves,s1,039,,,1,,L,LOWPOLY,,1,True
-s1-1_039-n.M.obj,High Caves,s1,039,,,1,,M,LIGHTSHADE,,1,True
-s1-1_039-n.S.obj,High Caves,s1,039,,True,1,,S,SKY,,3,
-s1-1_039-n.T.obj,High Caves,s1,039,,,1,,T,TEXTURES,,1,True
-s1-1_041-n.F.obj,Wizard Peak,s1,041,,,1,,F,COLORS,,1,True
-s1-1_041-n.L.obj,Wizard Peak,s1,041,,,1,,L,LOWPOLY,,1,True
-s1-1_041-n.M.obj,Wizard Peak,s1,041,,,1,,M,LIGHTSHADE,,1,True
-s1-1_041-n.S.obj,Wizard Peak,s1,041,,,1,,S,SKY,,3,
-s1-1_041-n.T.obj,Wizard Peak,s1,041,,,1,,T,TEXTURES,,1,True
-s1-1_043-n.F.obj,Blowhard,s1,043,,,1,,F,COLORS,,1,True
-s1-1_043-n.L.obj,Blowhard,s1,043,,,1,,L,LOWPOLY,,1,True
-s1-1_043-n.M.obj,Blowhard,s1,043,,,1,,M,LIGHTSHADE,,1,True
-s1-1_043-n.S.obj,Blowhard,s1,043,,,1,,S,SKY,,2,
-s1-1_043-n.T.obj,Blowhard,s1,043,,,1,,T,TEXTURES,,1,True
-s1-1_045-n.F.obj,Crystal Flight,s1,045,,,1,,F,COLORS,,1,True
-s1-1_045-n.L.obj,Crystal Flight,s1,045,,,1,,L,LOWPOLY,,1,True
-s1-1_045-n.M.obj,Crystal Flight,s1,045,,,1,,M,LIGHTSHADE,,1,True
-s1-1_045-n.S.obj,Crystal Flight,s1,045,,,1,,S,SKY,,2,
-s1-1_045-n.T.obj,Crystal Flight,s1,045,,,1,,T,TEXTURES,,1,True
+s1-1_035_2-n.S.obj,Magic Crafters,s1,035,False,False,1,2,S,SKY,True,2,True
+s1-1_035_3-n.S.obj,Magic Crafters,s1,035,False,False,1,3,S,SKY,True,2,True
+s1-1_035_4-n.S.obj,Magic Crafters,s1,035,False,False,1,4,S,SKY,True,2,True
+s1-1_035_5-n.S.obj,Magic Crafters,s1,035,False,False,1,5,S,SKY,True,3,True
+s1-1_035_6-n.S.obj,Magic Crafters,s1,035,False,False,1,6,S,SKY,True,3,True
+s1-1_037-n.F.obj,Alpine Ridge,s1,037,,,1,,F,COLORS,False,1,True
+s1-1_037-n.L.obj,Alpine Ridge,s1,037,,,1,,L,LOWPOLY,False,1,True
+s1-1_037-n.M.obj,Alpine Ridge,s1,037,,,1,,M,LIGHTSHADE,False,1,True
+s1-1_037-n.S.obj,Alpine Ridge,s1,037,False,False,1,,S,SKY,False,2,False
+s1-1_037-n.T.obj,Alpine Ridge,s1,037,,,1,,T,TEXTURES,False,1,True
+s1-1_039-n.F.obj,High Caves,s1,039,,,1,,F,COLORS,False,1,True
+s1-1_039-n.L.obj,High Caves,s1,039,,,1,,L,LOWPOLY,False,1,True
+s1-1_039-n.M.obj,High Caves,s1,039,,,1,,M,LIGHTSHADE,False,1,True
+s1-1_039-n.S.obj,High Caves,s1,039,False,True,1,,S,SKY,False,3,False
+s1-1_039-n.T.obj,High Caves,s1,039,,,1,,T,TEXTURES,False,1,True
+s1-1_041-n.F.obj,Wizard Peak,s1,041,,,1,,F,COLORS,False,1,True
+s1-1_041-n.L.obj,Wizard Peak,s1,041,,,1,,L,LOWPOLY,False,1,True
+s1-1_041-n.M.obj,Wizard Peak,s1,041,,,1,,M,LIGHTSHADE,False,1,True
+s1-1_041-n.S.obj,Wizard Peak,s1,041,False,False,1,,S,SKY,False,3,False
+s1-1_041-n.T.obj,Wizard Peak,s1,041,,,1,,T,TEXTURES,False,1,True
+s1-1_043-n.F.obj,Blowhard,s1,043,,,1,,F,COLORS,False,1,True
+s1-1_043-n.L.obj,Blowhard,s1,043,,,1,,L,LOWPOLY,False,1,True
+s1-1_043-n.M.obj,Blowhard,s1,043,,,1,,M,LIGHTSHADE,False,1,True
+s1-1_043-n.S.obj,Blowhard,s1,043,False,False,1,,S,SKY,False,2,False
+s1-1_043-n.T.obj,Blowhard,s1,043,,,1,,T,TEXTURES,False,1,True
+s1-1_045-n.F.obj,Crystal Flight,s1,045,,,1,,F,COLORS,False,1,True
+s1-1_045-n.L.obj,Crystal Flight,s1,045,,,1,,L,LOWPOLY,False,1,True
+s1-1_045-n.M.obj,Crystal Flight,s1,045,,,1,,M,LIGHTSHADE,False,1,True
+s1-1_045-n.S.obj,Crystal Flight,s1,045,False,False,1,,S,SKY,False,2,False
+s1-1_045-n.T.obj,Crystal Flight,s1,045,,,1,,T,TEXTURES,False,1,True
 s1-1_047-n.F.obj,Beast Makers,s1,047,,,1,,F,COLORS,True,1,True
 s1-1_047-n.L.obj,Beast Makers,s1,047,,,1,,L,LOWPOLY,True,1,True
 s1-1_047-n.M.obj,Beast Makers,s1,047,,,1,,M,LIGHTSHADE,True,1,True
-s1-1_047-n.S.obj,Beast Makers,s1,047,,,1,,S,SKY,True,1,True
+s1-1_047-n.S.obj,Beast Makers,s1,047,False,False,1,,S,SKY,True,1,True
 s1-1_047-n.T.obj,Beast Makers,s1,047,,,1,,T,TEXTURES,True,1,True
-s1-1_047_2-n.S.obj,Beast Makers,s1,047,,,1,2,S,SKY,True,3,True
-s1-1_047_3-n.S.obj,Beast Makers,s1,047,,,1,3,S,SKY,True,2,True
-s1-1_047_4-n.S.obj,Beast Makers,s1,047,,,1,4,S,SKY,True,2,True
-s1-1_047_5-n.S.obj,Beast Makers,s1,047,,,1,5,S,SKY,True,3,True
-s1-1_047_6-n.S.obj,Beast Makers,s1,047,,,1,6,S,SKY,True,3,True
-s1-1_049-n.F.obj,Terrace Village,s1,049,,,1,,F,COLORS,,1,True
-s1-1_049-n.L.obj,Terrace Village,s1,049,,,1,,L,LOWPOLY,,1,True
-s1-1_049-n.M.obj,Terrace Village,s1,049,,,1,,M,LIGHTSHADE,,1,True
-s1-1_049-n.S.obj,Terrace Village,s1,049,,,1,,S,SKY,,3,
-s1-1_049-n.T.obj,Terrace Village,s1,049,,,1,,T,TEXTURES,,1,True
-s1-1_051-n.F.obj,Misty Bog,s1,051,,,1,,F,COLORS,,1,True
-s1-1_051-n.L.obj,Misty Bog,s1,051,,,1,,L,LOWPOLY,,1,True
-s1-1_051-n.M.obj,Misty Bog,s1,051,,,1,,M,LIGHTSHADE,,1,True
-s1-1_051-n.S.obj,Misty Bog,s1,051,,True,1,,S,SKY,,2,
-s1-1_051-n.T.obj,Misty Bog,s1,051,,,1,,T,TEXTURES,,1,True
-s1-1_053-n.F.obj,Tree Tops,s1,053,,,1,,F,COLORS,,1,True
-s1-1_053-n.L.obj,Tree Tops,s1,053,,,1,,L,LOWPOLY,,1,True
-s1-1_053-n.M.obj,Tree Tops,s1,053,,,1,,M,LIGHTSHADE,,1,True
-s1-1_053-n.S.obj,Tree Tops,s1,053,,True,1,,S,SKY,,2,
-s1-1_053-n.T.obj,Tree Tops,s1,053,,,1,,T,TEXTURES,,1,True
-s1-1_055-n.F.obj,Metalhead,s1,055,,,1,,F,COLORS,,1,True
-s1-1_055-n.L.obj,Metalhead,s1,055,,,1,,L,LOWPOLY,,1,True
-s1-1_055-n.M.obj,Metalhead,s1,055,,,1,,M,LIGHTSHADE,,1,True
-s1-1_055-n.S.obj,Metalhead,s1,055,,True,1,,S,SKY,,3,
-s1-1_055-n.T.obj,Metalhead,s1,055,,,1,,T,TEXTURES,,1,True
-s1-1_057-n.F.obj,Wild Flight,s1,057,,,1,,F,COLORS,,1,True
-s1-1_057-n.L.obj,Wild Flight,s1,057,,,1,,L,LOWPOLY,,1,True
-s1-1_057-n.M.obj,Wild Flight,s1,057,,,1,,M,LIGHTSHADE,,1,True
-s1-1_057-n.S.obj,Wild Flight,s1,057,,,1,,S,SKY,,3,
-s1-1_057-n.T.obj,Wild Flight,s1,057,,,1,,T,TEXTURES,,1,True
+s1-1_047_2-n.S.obj,Beast Makers,s1,047,False,False,1,2,S,SKY,True,3,True
+s1-1_047_3-n.S.obj,Beast Makers,s1,047,False,False,1,3,S,SKY,True,2,True
+s1-1_047_4-n.S.obj,Beast Makers,s1,047,False,False,1,4,S,SKY,True,2,True
+s1-1_047_5-n.S.obj,Beast Makers,s1,047,False,False,1,5,S,SKY,True,3,True
+s1-1_047_6-n.S.obj,Beast Makers,s1,047,False,False,1,6,S,SKY,True,3,True
+s1-1_049-n.F.obj,Terrace Village,s1,049,,,1,,F,COLORS,False,1,True
+s1-1_049-n.L.obj,Terrace Village,s1,049,,,1,,L,LOWPOLY,False,1,True
+s1-1_049-n.M.obj,Terrace Village,s1,049,,,1,,M,LIGHTSHADE,False,1,True
+s1-1_049-n.S.obj,Terrace Village,s1,049,False,False,1,,S,SKY,False,3,False
+s1-1_049-n.T.obj,Terrace Village,s1,049,,,1,,T,TEXTURES,False,1,True
+s1-1_051-n.F.obj,Misty Bog,s1,051,,,1,,F,COLORS,False,1,True
+s1-1_051-n.L.obj,Misty Bog,s1,051,,,1,,L,LOWPOLY,False,1,True
+s1-1_051-n.M.obj,Misty Bog,s1,051,,,1,,M,LIGHTSHADE,False,1,True
+s1-1_051-n.S.obj,Misty Bog,s1,051,False,True,1,,S,SKY,False,2,False
+s1-1_051-n.T.obj,Misty Bog,s1,051,,,1,,T,TEXTURES,False,1,True
+s1-1_053-n.F.obj,Tree Tops,s1,053,,,1,,F,COLORS,False,1,True
+s1-1_053-n.L.obj,Tree Tops,s1,053,,,1,,L,LOWPOLY,False,1,True
+s1-1_053-n.M.obj,Tree Tops,s1,053,,,1,,M,LIGHTSHADE,False,1,True
+s1-1_053-n.S.obj,Tree Tops,s1,053,False,True,1,,S,SKY,False,2,False
+s1-1_053-n.T.obj,Tree Tops,s1,053,,,1,,T,TEXTURES,False,1,True
+s1-1_055-n.F.obj,Metalhead,s1,055,,,1,,F,COLORS,False,1,True
+s1-1_055-n.L.obj,Metalhead,s1,055,,,1,,L,LOWPOLY,False,1,True
+s1-1_055-n.M.obj,Metalhead,s1,055,,,1,,M,LIGHTSHADE,False,1,True
+s1-1_055-n.S.obj,Metalhead,s1,055,False,True,1,,S,SKY,False,3,False
+s1-1_055-n.T.obj,Metalhead,s1,055,,,1,,T,TEXTURES,False,1,True
+s1-1_057-n.F.obj,Wild Flight,s1,057,,,1,,F,COLORS,False,1,True
+s1-1_057-n.L.obj,Wild Flight,s1,057,,,1,,L,LOWPOLY,False,1,True
+s1-1_057-n.M.obj,Wild Flight,s1,057,,,1,,M,LIGHTSHADE,False,1,True
+s1-1_057-n.S.obj,Wild Flight,s1,057,False,False,1,,S,SKY,False,3,False
+s1-1_057-n.T.obj,Wild Flight,s1,057,,,1,,T,TEXTURES,False,1,True
 s1-1_059-n.F.obj,Dream Weavers,s1,059,,,1,,F,COLORS,True,1,True
 s1-1_059-n.L.obj,Dream Weavers,s1,059,,,1,,L,LOWPOLY,True,1,True
 s1-1_059-n.M.obj,Dream Weavers,s1,059,,,1,,M,LIGHTSHADE,True,1,True
-s1-1_059-n.S.obj,Dream Weavers,s1,059,True,,1,,S,SKY,True,1,True
+s1-1_059-n.S.obj,Dream Weavers,s1,059,True,False,1,,S,SKY,True,1,True
 s1-1_059-n.T.obj,Dream Weavers,s1,059,,,1,,T,TEXTURES,True,1,True
-s1-1_059_2-n.S.obj,Dream Weavers,s1,059,True,,1,2,S,SKY,True,3,True
-s1-1_059_3-n.S.obj,Dream Weavers,s1,059,True,,1,3,S,SKY,True,3,True
-s1-1_059_4-n.S.obj,Dream Weavers,s1,059,True,,1,4,S,SKY,True,2,True
-s1-1_059_5-n.S.obj,Dream Weavers,s1,059,True,,1,5,S,SKY,True,2,True
-s1-1_059_6-n.S.obj,Dream Weavers,s1,059,True,,1,6,S,SKY,True,3,True
-s1-1_061-n.F.obj,Dark Passage,s1,061,,,1,,F,COLORS,,1,True
-s1-1_061-n.L.obj,Dark Passage,s1,061,,,1,,L,LOWPOLY,,1,True
-s1-1_061-n.M.obj,Dark Passage,s1,061,,,1,,M,LIGHTSHADE,,1,True
-s1-1_061-n.S.obj,Dark Passage,s1,061,True,,1,,S,SKY,,3,
-s1-1_061-n.T.obj,Dark Passage,s1,061,,,1,,T,TEXTURES,,1,True
-s1-1_063-n.F.obj,Lofty Castle,s1,063,,,1,,F,COLORS,,1,True
-s1-1_063-n.L.obj,Lofty Castle,s1,063,,,1,,L,LOWPOLY,,1,True
-s1-1_063-n.M.obj,Lofty Castle,s1,063,,,1,,M,LIGHTSHADE,,1,True
-s1-1_063-n.S.obj,Lofty Castle,s1,063,True,,1,,S,SKY,,2,
-s1-1_063-n.T.obj,Lofty Castle,s1,063,,,1,,T,TEXTURES,,1,True
-s1-1_065-n.F.obj,Haunted Towers,s1,065,,,1,,F,COLORS,,1,True
-s1-1_065-n.L.obj,Haunted Towers,s1,065,,,1,,L,LOWPOLY,,1,True
-s1-1_065-n.M.obj,Haunted Towers,s1,065,,,1,,M,LIGHTSHADE,,1,True
-s1-1_065-n.S.obj,Haunted Towers,s1,065,True,True,1,,S,SKY,,3,
-s1-1_065-n.T.obj,Haunted Towers,s1,065,,,1,,T,TEXTURES,,1,True
-s1-1_067-n.F.obj,Jacques,s1,067,,,1,,F,COLORS,,1,True
-s1-1_067-n.L.obj,Jacques,s1,067,,,1,,L,LOWPOLY,,1,True
-s1-1_067-n.M.obj,Jacques,s1,067,,,1,,M,LIGHTSHADE,,1,True
-s1-1_067-n.S.obj,Jacques,s1,067,True,,1,,S,SKY,,3,
-s1-1_067-n.T.obj,Jacques,s1,067,,,1,,T,TEXTURES,,1,True
-s1-1_069-n.F.obj,Icy Flight,s1,069,,,1,,F,COLORS,,1,True
-s1-1_069-n.L.obj,Icy Flight,s1,069,,,1,,L,LOWPOLY,,1,True
-s1-1_069-n.M.obj,Icy Flight,s1,069,,,1,,M,LIGHTSHADE,,1,True
-s1-1_069-n.S.obj,Icy Flight,s1,069,,True,1,,S,SKY,,2,
-s1-1_069-n.T.obj,Icy Flight,s1,069,,,1,,T,TEXTURES,,1,True
+s1-1_059_2-n.S.obj,Dream Weavers,s1,059,True,False,1,2,S,SKY,True,3,True
+s1-1_059_3-n.S.obj,Dream Weavers,s1,059,True,False,1,3,S,SKY,True,3,True
+s1-1_059_4-n.S.obj,Dream Weavers,s1,059,True,False,1,4,S,SKY,True,2,True
+s1-1_059_5-n.S.obj,Dream Weavers,s1,059,True,False,1,5,S,SKY,True,2,True
+s1-1_059_6-n.S.obj,Dream Weavers,s1,059,True,False,1,6,S,SKY,True,3,True
+s1-1_061-n.F.obj,Dark Passage,s1,061,,,1,,F,COLORS,False,1,True
+s1-1_061-n.L.obj,Dark Passage,s1,061,,,1,,L,LOWPOLY,False,1,True
+s1-1_061-n.M.obj,Dark Passage,s1,061,,,1,,M,LIGHTSHADE,False,1,True
+s1-1_061-n.S.obj,Dark Passage,s1,061,True,False,1,,S,SKY,False,3,False
+s1-1_061-n.T.obj,Dark Passage,s1,061,,,1,,T,TEXTURES,False,1,True
+s1-1_063-n.F.obj,Lofty Castle,s1,063,,,1,,F,COLORS,False,1,True
+s1-1_063-n.L.obj,Lofty Castle,s1,063,,,1,,L,LOWPOLY,False,1,True
+s1-1_063-n.M.obj,Lofty Castle,s1,063,,,1,,M,LIGHTSHADE,False,1,True
+s1-1_063-n.S.obj,Lofty Castle,s1,063,True,False,1,,S,SKY,False,2,False
+s1-1_063-n.T.obj,Lofty Castle,s1,063,,,1,,T,TEXTURES,False,1,True
+s1-1_065-n.F.obj,Haunted Towers,s1,065,,,1,,F,COLORS,False,1,True
+s1-1_065-n.L.obj,Haunted Towers,s1,065,,,1,,L,LOWPOLY,False,1,True
+s1-1_065-n.M.obj,Haunted Towers,s1,065,,,1,,M,LIGHTSHADE,False,1,True
+s1-1_065-n.S.obj,Haunted Towers,s1,065,True,True,1,,S,SKY,False,3,False
+s1-1_065-n.T.obj,Haunted Towers,s1,065,,,1,,T,TEXTURES,False,1,True
+s1-1_067-n.F.obj,Jacques,s1,067,,,1,,F,COLORS,False,1,True
+s1-1_067-n.L.obj,Jacques,s1,067,,,1,,L,LOWPOLY,False,1,True
+s1-1_067-n.M.obj,Jacques,s1,067,,,1,,M,LIGHTSHADE,False,1,True
+s1-1_067-n.S.obj,Jacques,s1,067,True,False,1,,S,SKY,False,3,False
+s1-1_067-n.T.obj,Jacques,s1,067,,,1,,T,TEXTURES,False,1,True
+s1-1_069-n.F.obj,Icy Flight,s1,069,,,1,,F,COLORS,False,1,True
+s1-1_069-n.L.obj,Icy Flight,s1,069,,,1,,L,LOWPOLY,False,1,True
+s1-1_069-n.M.obj,Icy Flight,s1,069,,,1,,M,LIGHTSHADE,False,1,True
+s1-1_069-n.S.obj,Icy Flight,s1,069,False,True,1,,S,SKY,False,2,False
+s1-1_069-n.T.obj,Icy Flight,s1,069,,,1,,T,TEXTURES,False,1,True
 s1-1_071-n.F.obj,Gnasty's World,s1,071,,,1,,F,COLORS,True,1,True
 s1-1_071-n.L.obj,Gnasty's World,s1,071,,,1,,L,LOWPOLY,True,1,True
 s1-1_071-n.M.obj,Gnasty's World,s1,071,,,1,,M,LIGHTSHADE,True,1,True
-s1-1_071-n.S.obj,Gnasty's World,s1,071,,,1,,S,SKY,True,1,True
+s1-1_071-n.S.obj,Gnasty's World,s1,071,False,False,1,,S,SKY,True,1,True
 s1-1_071-n.T.obj,Gnasty's World,s1,071,,,1,,T,TEXTURES,True,1,True
-s1-1_071_2-n.S.obj,Gnasty's World,s1,071,,,1,2,S,SKY,True,3,True
-s1-1_071_3-n.S.obj,Gnasty's World,s1,071,,,1,3,S,SKY,True,3,True
-s1-1_071_4-n.S.obj,Gnasty's World,s1,071,,,1,4,S,SKY,True,2,True
-s1-1_071_5-n.S.obj,Gnasty's World,s1,071,,,1,5,S,SKY,True,3,True
-s1-1_073-n.F.obj,Gnorc Cove,s1,073,,,1,,F,COLORS,,1,True
-s1-1_073-n.L.obj,Gnorc Cove,s1,073,,,1,,L,LOWPOLY,,1,True
-s1-1_073-n.M.obj,Gnorc Cove,s1,073,,,1,,M,LIGHTSHADE,,1,True
-s1-1_073-n.S.obj,Gnorc Cove,s1,073,,,1,,S,SKY,,3,
-s1-1_073-n.T.obj,Gnorc Cove,s1,073,,,1,,T,TEXTURES,,1,True
-s1-1_075-n.F.obj,Twilight Harbor,s1,075,,,1,,F,COLORS,,1,True
-s1-1_075-n.L.obj,Twilight Harbor,s1,075,,,1,,L,LOWPOLY,,1,True
-s1-1_075-n.M.obj,Twilight Harbor,s1,075,,,1,,M,LIGHTSHADE,,1,True
-s1-1_075-n.S.obj,Twilight Harbor,s1,075,,True,1,,S,SKY,,3,
-s1-1_075-n.T.obj,Twilight Harbor,s1,075,,,1,,T,TEXTURES,,1,True
-s1-1_077-n.F.obj,Gnasty Gnorc,s1,077,,,1,,F,COLORS,,1,True
-s1-1_077-n.L.obj,Gnasty Gnorc,s1,077,,,1,,L,LOWPOLY,,2,True
-s1-1_077-n.M.obj,Gnasty Gnorc,s1,077,,,1,,M,LIGHTSHADE,,1,True
-s1-1_077-n.S.obj,Gnasty Gnorc,s1,077,True,,1,,S,SKY,,3,
-s1-1_077-n.T.obj,Gnasty Gnorc,s1,077,,,1,,T,TEXTURES,,1,True
-s1-1_079-n.F.obj,Gnasty's Loot,s1,079,,,1,,F,COLORS,,1,True
-s1-1_079-n.L.obj,Gnasty's Loot,s1,079,,,1,,L,LOWPOLY,,1,True
-s1-1_079-n.M.obj,Gnasty's Loot,s1,079,,,1,,M,LIGHTSHADE,,1,True
-s1-1_079-n.S.obj,Gnasty's Loot,s1,079,,True,1,,S,SKY,,2,
-s1-1_079-n.T.obj,Gnasty's Loot,s1,079,,,1,,T,TEXTURES,,1,True
-s1-2_004-n.F.obj,Main Menu,s1,004,,,2,,F,COLORS,,1,True
-s1-2_004-n.L.obj,Main Menu,s1,004,,,2,,L,LOWPOLY,,1,True
-s1-2_004-n.M.obj,Main Menu,s1,004,,,2,,M,LIGHTSHADE,,1,True
-s1-2_004-n.S.obj,Main Menu,s1,004,,,2,,S,SKY,,1,True
-s1-2_004-n.T.obj,Main Menu,s1,004,,,2,,T,TEXTURES,,1,True
+s1-1_071_2-n.S.obj,Gnasty's World,s1,071,False,False,1,2,S,SKY,True,3,True
+s1-1_071_3-n.S.obj,Gnasty's World,s1,071,False,False,1,3,S,SKY,True,3,True
+s1-1_071_4-n.S.obj,Gnasty's World,s1,071,False,False,1,4,S,SKY,True,2,True
+s1-1_071_5-n.S.obj,Gnasty's World,s1,071,False,False,1,5,S,SKY,True,3,True
+s1-1_073-n.F.obj,Gnorc Cove,s1,073,,,1,,F,COLORS,False,1,True
+s1-1_073-n.L.obj,Gnorc Cove,s1,073,,,1,,L,LOWPOLY,False,1,True
+s1-1_073-n.M.obj,Gnorc Cove,s1,073,,,1,,M,LIGHTSHADE,False,1,True
+s1-1_073-n.S.obj,Gnorc Cove,s1,073,False,False,1,,S,SKY,False,3,False
+s1-1_073-n.T.obj,Gnorc Cove,s1,073,,,1,,T,TEXTURES,False,1,True
+s1-1_075-n.F.obj,Twilight Harbor,s1,075,,,1,,F,COLORS,False,1,True
+s1-1_075-n.L.obj,Twilight Harbor,s1,075,,,1,,L,LOWPOLY,False,1,True
+s1-1_075-n.M.obj,Twilight Harbor,s1,075,,,1,,M,LIGHTSHADE,False,1,True
+s1-1_075-n.S.obj,Twilight Harbor,s1,075,False,True,1,,S,SKY,False,3,False
+s1-1_075-n.T.obj,Twilight Harbor,s1,075,,,1,,T,TEXTURES,False,1,True
+s1-1_077-n.F.obj,Gnasty Gnorc,s1,077,,,1,,F,COLORS,False,1,True
+s1-1_077-n.L.obj,Gnasty Gnorc,s1,077,,,1,,L,LOWPOLY,False,2,True
+s1-1_077-n.M.obj,Gnasty Gnorc,s1,077,,,1,,M,LIGHTSHADE,False,1,True
+s1-1_077-n.S.obj,Gnasty Gnorc,s1,077,True,False,1,,S,SKY,False,3,False
+s1-1_077-n.T.obj,Gnasty Gnorc,s1,077,,,1,,T,TEXTURES,False,1,True
+s1-1_079-n.F.obj,Gnasty's Loot,s1,079,,,1,,F,COLORS,False,1,True
+s1-1_079-n.L.obj,Gnasty's Loot,s1,079,,,1,,L,LOWPOLY,False,1,True
+s1-1_079-n.M.obj,Gnasty's Loot,s1,079,,,1,,M,LIGHTSHADE,False,1,True
+s1-1_079-n.S.obj,Gnasty's Loot,s1,079,False,True,1,,S,SKY,False,2,False
+s1-1_079-n.T.obj,Gnasty's Loot,s1,079,,,1,,T,TEXTURES,False,1,True
+s1-2_004-n.F.obj,Main Menu,s1,004,,,2,,F,COLORS,False,1,True
+s1-2_004-n.L.obj,Main Menu,s1,004,,,2,,L,LOWPOLY,False,1,True
+s1-2_004-n.M.obj,Main Menu,s1,004,,,2,,M,LIGHTSHADE,False,1,True
+s1-2_004-n.S.obj,Main Menu,s1,004,False,False,2,,S,SKY,False,1,True
+s1-2_004-n.T.obj,Main Menu,s1,004,,,2,,T,TEXTURES,False,1,True
 s1-2_005-n.F.obj,,s1,005,,,2,,F,COLORS,,1,True
 s1-2_005-n.L.obj,,s1,005,,,2,,L,LOWPOLY,,1,True
 s1-2_005-n.M.obj,,s1,005,,,2,,M,LIGHTSHADE,,1,True
@@ -226,82 +226,82 @@ s1-2_007-n.T.obj,,s1,007,,,2,,T,TEXTURES,,1,True
 s1-3_083-n.F.obj,,s1,083,,,3,,F,COLORS,,1,True
 s1-3_083-n.L.obj,,s1,083,,,3,,L,LOWPOLY,,1,True
 s1-3_083-n.M.obj,,s1,083,,,3,,M,LIGHTSHADE,,1,True
-s1-3_083-n.S.obj,,s1,083,,,3,,S,SKY,,2,
+s1-3_083-n.S.obj,,s1,083,,,3,,S,SKY,,2,False
 s1-3_083-n.T.obj,,s1,083,,,3,,T,TEXTURES,,1,True
 s1-3_084-n.F.obj,,s1,084,,,3,,F,COLORS,,1,True
 s1-3_084-n.L.obj,,s1,084,,,3,,L,LOWPOLY,,1,True
 s1-3_084-n.M.obj,,s1,084,,,3,,M,LIGHTSHADE,,1,True
-s1-3_084-n.S.obj,,s1,084,,,3,,S,SKY,,3,
+s1-3_084-n.S.obj,,s1,084,,,3,,S,SKY,,3,False
 s1-3_084-n.T.obj,,s1,084,,,3,,T,TEXTURES,,1,True
 s1-3_085-n.F.obj,,s1,085,,,3,,F,COLORS,,1,True
-s1-3_085-n.L.obj,,s1,085,,,3,,L,LOWPOLY,,2,
+s1-3_085-n.L.obj,,s1,085,,,3,,L,LOWPOLY,,2,False
 s1-3_085-n.M.obj,,s1,085,,,3,,M,LIGHTSHADE,,1,True
-s1-3_085-n.S.obj,,s1,085,,,3,,S,SKY,,3,
+s1-3_085-n.S.obj,,s1,085,,,3,,S,SKY,,3,False
 s1-3_085-n.T.obj,,s1,085,,,3,,T,TEXTURES,,1,True
 s1-3_086-n.F.obj,,s1,086,,,3,,F,COLORS,,1,True
 s1-3_086-n.L.obj,,s1,086,,,3,,L,LOWPOLY,,1,True
 s1-3_086-n.M.obj,,s1,086,,,3,,M,LIGHTSHADE,,1,True
-s1-3_086-n.S.obj,,s1,086,,,3,,S,SKY,,2,
+s1-3_086-n.S.obj,,s1,086,,,3,,S,SKY,,2,False
 s1-3_086-n.T.obj,,s1,086,,,3,,T,TEXTURES,,1,True
 s1-3_087-n.F.obj,,s1,087,,,3,,F,COLORS,,1,True
 s1-3_087-n.L.obj,,s1,087,,,3,,L,LOWPOLY,,1,True
 s1-3_087-n.M.obj,,s1,087,,,3,,M,LIGHTSHADE,,1,True
-s1-3_087-n.S.obj,,s1,087,,,3,,S,SKY,,3,
+s1-3_087-n.S.obj,,s1,087,,,3,,S,SKY,,3,False
 s1-3_087-n.T.obj,,s1,087,,,3,,T,TEXTURES,,1,True
 s1-3_088-n.F.obj,,s1,088,,,3,,F,COLORS,,1,True
 s1-3_088-n.L.obj,,s1,088,,,3,,L,LOWPOLY,,1,True
 s1-3_088-n.M.obj,,s1,088,,,3,,M,LIGHTSHADE,,1,True
-s1-3_088-n.S.obj,,s1,088,,,3,,S,SKY,,3,
+s1-3_088-n.S.obj,,s1,088,,,3,,S,SKY,,3,False
 s1-3_088-n.T.obj,,s1,088,,,3,,T,TEXTURES,,1,True
 s1-3_089-n.F.obj,,s1,089,,,3,,F,COLORS,,1,True
 s1-3_089-n.L.obj,,s1,089,,,3,,L,LOWPOLY,,1,True
 s1-3_089-n.M.obj,,s1,089,,,3,,M,LIGHTSHADE,,1,True
-s1-3_089-n.S.obj,,s1,089,,,3,,S,SKY,,2,
+s1-3_089-n.S.obj,,s1,089,,,3,,S,SKY,,2,False
 s1-3_089-n.T.obj,,s1,089,,,3,,T,TEXTURES,,1,True
 s1-3_090-n.F.obj,,s1,090,,,3,,F,COLORS,,1,True
 s1-3_090-n.L.obj,,s1,090,,,3,,L,LOWPOLY,,1,True
 s1-3_090-n.M.obj,,s1,090,,,3,,M,LIGHTSHADE,,1,True
-s1-3_090-n.S.obj,,s1,090,,,3,,S,SKY,,3,
+s1-3_090-n.S.obj,,s1,090,,,3,,S,SKY,,3,False
 s1-3_090-n.T.obj,,s1,090,,,3,,T,TEXTURES,,1,True
 s1-3_091-n.F.obj,,s1,091,,,3,,F,COLORS,,1,True
 s1-3_091-n.L.obj,,s1,091,,,3,,L,LOWPOLY,,1,True
 s1-3_091-n.M.obj,,s1,091,,,3,,M,LIGHTSHADE,,1,True
-s1-3_091-n.S.obj,,s1,091,,,3,,S,SKY,,3,
+s1-3_091-n.S.obj,,s1,091,,,3,,S,SKY,,3,False
 s1-3_091-n.T.obj,,s1,091,,,3,,T,TEXTURES,,1,True
-s1-3_092-n.F.obj,,s1,092,,,3,,F,COLORS,,2,
-s1-3_092-n.L.obj,,s1,092,,,3,,L,LOWPOLY,,2,
-s1-3_092-n.M.obj,,s1,092,,,3,,M,LIGHTSHADE,,2,
-s1-3_092-n.S.obj,,s1,092,,,3,,S,SKY,,3,
+s1-3_092-n.F.obj,,s1,092,,,3,,F,COLORS,,2,False
+s1-3_092-n.L.obj,,s1,092,,,3,,L,LOWPOLY,,2,False
+s1-3_092-n.M.obj,,s1,092,,,3,,M,LIGHTSHADE,,2,False
+s1-3_092-n.S.obj,,s1,092,,,3,,S,SKY,,3,False
 s1-3_092-n.T.obj,,s1,092,,,3,,T,TEXTURES,,1,True
 s1-3_093-n.F.obj,,s1,093,,,3,,F,COLORS,,1,True
 s1-3_093-n.L.obj,,s1,093,,,3,,L,LOWPOLY,,1,True
 s1-3_093-n.M.obj,,s1,093,,,3,,M,LIGHTSHADE,,1,True
-s1-3_093-n.S.obj,,s1,093,,,3,,S,SKY,,3,
+s1-3_093-n.S.obj,,s1,093,,,3,,S,SKY,,3,False
 s1-3_093-n.T.obj,,s1,093,,,3,,T,TEXTURES,,1,True
 s1-3_094-n.F.obj,,s1,094,,,3,,F,COLORS,,1,True
 s1-3_094-n.L.obj,,s1,094,,,3,,L,LOWPOLY,,1,True
 s1-3_094-n.M.obj,,s1,094,,,3,,M,LIGHTSHADE,,1,True
-s1-3_094-n.S.obj,,s1,094,,,3,,S,SKY,,3,
+s1-3_094-n.S.obj,,s1,094,,,3,,S,SKY,,3,False
 s1-3_094-n.T.obj,,s1,094,,,3,,T,TEXTURES,,1,True
 s1-3_095-n.F.obj,,s1,095,,,3,,F,COLORS,,1,True
 s1-3_095-n.L.obj,,s1,095,,,3,,L,LOWPOLY,,1,True
 s1-3_095-n.M.obj,,s1,095,,,3,,M,LIGHTSHADE,,1,True
-s1-3_095-n.S.obj,,s1,095,,,3,,S,SKY,,3,
+s1-3_095-n.S.obj,,s1,095,,,3,,S,SKY,,3,False
 s1-3_095-n.T.obj,,s1,095,,,3,,T,TEXTURES,,1,True
 s1-3_096-n.F.obj,,s1,096,,,3,,F,COLORS,,1,True
 s1-3_096-n.L.obj,,s1,096,,,3,,L,LOWPOLY,,1,True
 s1-3_096-n.M.obj,,s1,096,,,3,,M,LIGHTSHADE,,1,True
-s1-3_096-n.S.obj,,s1,096,,,3,,S,SKY,,3,
+s1-3_096-n.S.obj,,s1,096,,,3,,S,SKY,,3,False
 s1-3_096-n.T.obj,,s1,096,,,3,,T,TEXTURES,,1,True
 s1-3_097-n.F.obj,,s1,097,,,3,,F,COLORS,,1,True
 s1-3_097-n.L.obj,,s1,097,,,3,,L,LOWPOLY,,1,True
 s1-3_097-n.M.obj,,s1,097,,,3,,M,LIGHTSHADE,,1,True
-s1-3_097-n.S.obj,,s1,097,,,3,,S,SKY,,3,
+s1-3_097-n.S.obj,,s1,097,,,3,,S,SKY,,3,False
 s1-3_097-n.T.obj,,s1,097,,,3,,T,TEXTURES,,1,True
 s1-3_098-n.F.obj,,s1,098,,,3,,F,COLORS,,1,True
 s1-3_098-n.L.obj,,s1,098,,,3,,L,LOWPOLY,,1,True
 s1-3_098-n.M.obj,,s1,098,,,3,,M,LIGHTSHADE,,1,True
-s1-3_098-n.S.obj,,s1,098,,,3,,S,SKY,,3,
+s1-3_098-n.S.obj,,s1,098,,,3,,S,SKY,,3,False
 s1-3_098-n.T.obj,,s1,098,,,3,,T,TEXTURES,,1,True
 s1-3_099-n.F.obj,,s1,099,,,3,,F,COLORS,,1,True
 s1-3_099-n.L.obj,,s1,099,,,3,,L,LOWPOLY,,1,True
@@ -309,223 +309,223 @@ s1-3_099-n.M.obj,,s1,099,,,3,,M,LIGHTSHADE,,1,True
 s1-3_099-n.S.obj,,s1,099,,,3,,S,SKY,,1,True
 s1-3_099-n.T.obj,,s1,099,,,3,,T,TEXTURES,,1,True
 s1-3_100-n.F.obj,,s1,100,,,3,,F,COLORS,,1,True
-s1-3_100-n.L.obj,,s1,100,,,3,,L,LOWPOLY,,2,
+s1-3_100-n.L.obj,,s1,100,,,3,,L,LOWPOLY,,2,False
 s1-3_100-n.M.obj,,s1,100,,,3,,M,LIGHTSHADE,,1,True
-s1-3_100-n.S.obj,,s1,100,,,3,,S,SKY,,3,
+s1-3_100-n.S.obj,,s1,100,,,3,,S,SKY,,3,False
 s1-3_100-n.T.obj,,s1,100,,,3,,T,TEXTURES,,1,True
 s1-3_101-n.F.obj,,s1,101,,,3,,F,COLORS,,1,True
 s1-3_101-n.L.obj,,s1,101,,,3,,L,LOWPOLY,,1,True
 s1-3_101-n.M.obj,,s1,101,,,3,,M,LIGHTSHADE,,1,True
-s1-3_101-n.S.obj,,s1,101,,,3,,S,SKY,,3,
+s1-3_101-n.S.obj,,s1,101,,,3,,S,SKY,,3,False
 s1-3_101-n.T.obj,,s1,101,,,3,,T,TEXTURES,,1,True
 s1-3_102-n.F.obj,,s1,102,,,3,,F,COLORS,,1,True
 s1-3_102-n.L.obj,,s1,102,,,3,,L,LOWPOLY,,1,True
 s1-3_102-n.M.obj,,s1,102,,,3,,M,LIGHTSHADE,,1,True
-s1-3_102-n.S.obj,,s1,102,,,3,,S,SKY,,3,
+s1-3_102-n.S.obj,,s1,102,,,3,,S,SKY,,3,False
 s1-3_102-n.T.obj,,s1,102,,,3,,T,TEXTURES,,1,True
 s2-1_016-n.F.obj,Summer Forest,s2,016,,,1,,F,COLORS,True,1,True
 s2-1_016-n.L.obj,Summer Forest,s2,016,,,1,,L,LOWPOLY,True,1,True
 s2-1_016-n.M.obj,Summer Forest,s2,016,,,1,,M,LIGHTSHADE,True,1,True
 s2-1_016-n.MW.obj,Summer Forest,s2,016,,,1,,MW,LIGHTSHADE_WATER,True,1,True
-s2-1_016-n.S.obj,Summer Forest,s2,016,,,1,,S,SKY,True,4,True
+s2-1_016-n.S.obj,Summer Forest,s2,016,False,False,1,,S,SKY,True,4,True
 s2-1_016-n.T.obj,Summer Forest,s2,016,,,1,,T,TEXTURES,True,1,True
 s2-1_016-n.TW.obj,Summer Forest,s2,016,,,1,,TW,TEXTURES_WATER,True,1,True
-s2-1_018-n.F.obj,Glimmer,s2,018,,,1,,F,COLORS,,1,True
-s2-1_018-n.L.obj,Glimmer,s2,018,,,1,,L,LOWPOLY,,1,True
-s2-1_018-n.M.obj,Glimmer,s2,018,,,1,,M,LIGHTSHADE,,1,True
-s2-1_018-n.MW.obj,Glimmer,s2,018,,,1,,MW,LIGHTSHADE_WATER,,1,True
-s2-1_018-n.S.obj,Glimmer,s2,018,,,1,,S,SKY,,3,True
-s2-1_018-n.T.obj,Glimmer,s2,018,,,1,,T,TEXTURES,,1,True
-s2-1_018-n.TW.obj,Glimmer,s2,018,,,1,,TW,TEXTURES_WATER,,1,True
-s2-1_020-n.F.obj,Idol Springs,s2,020,,,1,,F,COLORS,,1,True
-s2-1_020-n.L.obj,Idol Springs,s2,020,,,1,,L,LOWPOLY,,1,True
-s2-1_020-n.M.obj,Idol Springs,s2,020,,,1,,M,LIGHTSHADE,,1,True
-s2-1_020-n.MW.obj,Idol Springs,s2,020,,,1,,MW,LIGHTSHADE_WATER,,1,True
-s2-1_020-n.S.obj,Idol Springs,s2,020,,,1,,S,SKY,,1,True
-s2-1_020-n.T.obj,Idol Springs,s2,020,,,1,,T,TEXTURES,,1,True
-s2-1_020-n.TW.obj,Idol Springs,s2,020,,,1,,TW,TEXTURES_WATER,,1,True
-s2-1_022-n.F.obj,Colossus,s2,022,,,1,,F,COLORS,,1,True
-s2-1_022-n.L.obj,Colossus,s2,022,,,1,,L,LOWPOLY,,1,True
-s2-1_022-n.M.obj,Colossus,s2,022,,,1,,M,LIGHTSHADE,,1,True
-s2-1_022-n.MW.obj,Colossus,s2,022,,,1,,MW,LIGHTSHADE_WATER,,1,True
-s2-1_022-n.S.obj,Colossus,s2,022,,,1,,S,SKY,,1,True
-s2-1_022-n.T.obj,Colossus,s2,022,,,1,,T,TEXTURES,,1,True
-s2-1_022-n.TW.obj,Colossus,s2,022,,,1,,TW,TEXTURES_WATER,,1,True
-s2-1_024-n.F.obj,Hurricos,s2,024,,,1,,F,COLORS,,1,True
-s2-1_024-n.L.obj,Hurricos,s2,024,,,1,,L,LOWPOLY,,1,True
-s2-1_024-n.M.obj,Hurricos,s2,024,,,1,,M,LIGHTSHADE,,1,True
-s2-1_024-n.MW.obj,Hurricos,s2,024,,,1,,MW,LIGHTSHADE_WATER,,1,True
-s2-1_024-n.S.obj,Hurricos,s2,024,,True,1,,S,SKY,,2,True
-s2-1_024-n.T.obj,Hurricos,s2,024,,,1,,T,TEXTURES,,1,True
-s2-1_024-n.TW.obj,Hurricos,s2,024,,,1,,TW,TEXTURES_WATER,,1,True
-s2-1_026-n.F.obj,Aquaria Towers,s2,026,,,1,,F,COLORS,,1,True
-s2-1_026-n.L.obj,Aquaria Towers,s2,026,,,1,,L,LOWPOLY,,1,True
-s2-1_026-n.M.obj,Aquaria Towers,s2,026,,,1,,M,LIGHTSHADE,,1,True
-s2-1_026-n.MW.obj,Aquaria Towers,s2,026,,,1,,MW,LIGHTSHADE_WATER,,1,True
-s2-1_026-n.S.obj,Aquaria Towers,s2,026,,,1,,S,SKY,,2,True
-s2-1_026-n.T.obj,Aquaria Towers,s2,026,,,1,,T,TEXTURES,,1,True
-s2-1_026-n.TW.obj,Aquaria Towers,s2,026,,,1,,TW,TEXTURES_WATER,,1,True
-s2-1_028-n.F.obj,Sunny Beach,s2,028,,,1,,F,COLORS,,1,True
-s2-1_028-n.L.obj,Sunny Beach,s2,028,,,1,,L,LOWPOLY,,1,True
-s2-1_028-n.M.obj,Sunny Beach,s2,028,,,1,,M,LIGHTSHADE,,1,True
-s2-1_028-n.MW.obj,Sunny Beach,s2,028,,,1,,MW,LIGHTSHADE_WATER,,1,True
-s2-1_028-n.S.obj,Sunny Beach,s2,028,,True,1,,S,SKY,,1,True
-s2-1_028-n.T.obj,Sunny Beach,s2,028,,,1,,T,TEXTURES,,1,True
-s2-1_028-n.TW.obj,Sunny Beach,s2,028,,,1,,TW,TEXTURES_WATER,,1,True
-s2-1_030-n.F.obj,Ocean Speedway,s2,030,,,1,,F,COLORS,,1,True
-s2-1_030-n.L.obj,Ocean Speedway,s2,030,,,1,,L,LOWPOLY,,1,True
-s2-1_030-n.M.obj,Ocean Speedway,s2,030,,,1,,M,LIGHTSHADE,,1,True
-s2-1_030-n.MW.obj,Ocean Speedway,s2,030,,,1,,MW,LIGHTSHADE_WATER,,1,True
-s2-1_030-n.S.obj,Ocean Speedway,s2,030,,True,1,,S,SKY,,5,True
-s2-1_030-n.T.obj,Ocean Speedway,s2,030,,,1,,T,TEXTURES,,1,True
-s2-1_030-n.TW.obj,Ocean Speedway,s2,030,,,1,,TW,TEXTURES_WATER,,1,True
-s2-1_032-n.F.obj,Crush's Dungeon,s2,032,,,1,,F,COLORS,,1,True
-s2-1_032-n.L.obj,Crush's Dungeon,s2,032,,,1,,L,LOWPOLY,,1,True
-s2-1_032-n.M.obj,Crush's Dungeon,s2,032,,,1,,M,LIGHTSHADE,,1,True
-s2-1_032-n.MW.obj,Crush's Dungeon,s2,032,,,1,,MW,LIGHTSHADE_WATER,,1,True
-s2-1_032-n.S.obj,Crush's Dungeon,s2,032,,,1,,S,SKY,,1,True
-s2-1_032-n.T.obj,Crush's Dungeon,s2,032,,,1,,T,TEXTURES,,1,True
-s2-1_032-n.TW.obj,Crush's Dungeon,s2,032,,,1,,TW,TEXTURES_WATER,,1,True
+s2-1_018-n.F.obj,Glimmer,s2,018,,,1,,F,COLORS,False,1,True
+s2-1_018-n.L.obj,Glimmer,s2,018,,,1,,L,LOWPOLY,False,1,True
+s2-1_018-n.M.obj,Glimmer,s2,018,,,1,,M,LIGHTSHADE,False,1,True
+s2-1_018-n.MW.obj,Glimmer,s2,018,,,1,,MW,LIGHTSHADE_WATER,False,1,True
+s2-1_018-n.S.obj,Glimmer,s2,018,False,False,1,,S,SKY,False,3,True
+s2-1_018-n.T.obj,Glimmer,s2,018,,,1,,T,TEXTURES,False,1,True
+s2-1_018-n.TW.obj,Glimmer,s2,018,,,1,,TW,TEXTURES_WATER,False,1,True
+s2-1_020-n.F.obj,Idol Springs,s2,020,,,1,,F,COLORS,False,1,True
+s2-1_020-n.L.obj,Idol Springs,s2,020,,,1,,L,LOWPOLY,False,1,True
+s2-1_020-n.M.obj,Idol Springs,s2,020,,,1,,M,LIGHTSHADE,False,1,True
+s2-1_020-n.MW.obj,Idol Springs,s2,020,,,1,,MW,LIGHTSHADE_WATER,False,1,True
+s2-1_020-n.S.obj,Idol Springs,s2,020,False,False,1,,S,SKY,False,1,True
+s2-1_020-n.T.obj,Idol Springs,s2,020,,,1,,T,TEXTURES,False,1,True
+s2-1_020-n.TW.obj,Idol Springs,s2,020,,,1,,TW,TEXTURES_WATER,False,1,True
+s2-1_022-n.F.obj,Colossus,s2,022,,,1,,F,COLORS,False,1,True
+s2-1_022-n.L.obj,Colossus,s2,022,,,1,,L,LOWPOLY,False,1,True
+s2-1_022-n.M.obj,Colossus,s2,022,,,1,,M,LIGHTSHADE,False,1,True
+s2-1_022-n.MW.obj,Colossus,s2,022,,,1,,MW,LIGHTSHADE_WATER,False,1,True
+s2-1_022-n.S.obj,Colossus,s2,022,False,False,1,,S,SKY,False,1,True
+s2-1_022-n.T.obj,Colossus,s2,022,,,1,,T,TEXTURES,False,1,True
+s2-1_022-n.TW.obj,Colossus,s2,022,,,1,,TW,TEXTURES_WATER,False,1,True
+s2-1_024-n.F.obj,Hurricos,s2,024,,,1,,F,COLORS,False,1,True
+s2-1_024-n.L.obj,Hurricos,s2,024,,,1,,L,LOWPOLY,False,1,True
+s2-1_024-n.M.obj,Hurricos,s2,024,,,1,,M,LIGHTSHADE,False,1,True
+s2-1_024-n.MW.obj,Hurricos,s2,024,,,1,,MW,LIGHTSHADE_WATER,False,1,True
+s2-1_024-n.S.obj,Hurricos,s2,024,False,True,1,,S,SKY,False,2,True
+s2-1_024-n.T.obj,Hurricos,s2,024,,,1,,T,TEXTURES,False,1,True
+s2-1_024-n.TW.obj,Hurricos,s2,024,,,1,,TW,TEXTURES_WATER,False,1,True
+s2-1_026-n.F.obj,Aquaria Towers,s2,026,,,1,,F,COLORS,False,1,True
+s2-1_026-n.L.obj,Aquaria Towers,s2,026,,,1,,L,LOWPOLY,False,1,True
+s2-1_026-n.M.obj,Aquaria Towers,s2,026,,,1,,M,LIGHTSHADE,False,1,True
+s2-1_026-n.MW.obj,Aquaria Towers,s2,026,,,1,,MW,LIGHTSHADE_WATER,False,1,True
+s2-1_026-n.S.obj,Aquaria Towers,s2,026,False,False,1,,S,SKY,False,2,True
+s2-1_026-n.T.obj,Aquaria Towers,s2,026,,,1,,T,TEXTURES,False,1,True
+s2-1_026-n.TW.obj,Aquaria Towers,s2,026,,,1,,TW,TEXTURES_WATER,False,1,True
+s2-1_028-n.F.obj,Sunny Beach,s2,028,,,1,,F,COLORS,False,1,True
+s2-1_028-n.L.obj,Sunny Beach,s2,028,,,1,,L,LOWPOLY,False,1,True
+s2-1_028-n.M.obj,Sunny Beach,s2,028,,,1,,M,LIGHTSHADE,False,1,True
+s2-1_028-n.MW.obj,Sunny Beach,s2,028,,,1,,MW,LIGHTSHADE_WATER,False,1,True
+s2-1_028-n.S.obj,Sunny Beach,s2,028,False,True,1,,S,SKY,False,1,True
+s2-1_028-n.T.obj,Sunny Beach,s2,028,,,1,,T,TEXTURES,False,1,True
+s2-1_028-n.TW.obj,Sunny Beach,s2,028,,,1,,TW,TEXTURES_WATER,False,1,True
+s2-1_030-n.F.obj,Ocean Speedway,s2,030,,,1,,F,COLORS,False,1,True
+s2-1_030-n.L.obj,Ocean Speedway,s2,030,,,1,,L,LOWPOLY,False,1,True
+s2-1_030-n.M.obj,Ocean Speedway,s2,030,,,1,,M,LIGHTSHADE,False,1,True
+s2-1_030-n.MW.obj,Ocean Speedway,s2,030,,,1,,MW,LIGHTSHADE_WATER,False,1,True
+s2-1_030-n.S.obj,Ocean Speedway,s2,030,False,True,1,,S,SKY,False,5,True
+s2-1_030-n.T.obj,Ocean Speedway,s2,030,,,1,,T,TEXTURES,False,1,True
+s2-1_030-n.TW.obj,Ocean Speedway,s2,030,,,1,,TW,TEXTURES_WATER,False,1,True
+s2-1_032-n.F.obj,Crush's Dungeon,s2,032,,,1,,F,COLORS,False,1,True
+s2-1_032-n.L.obj,Crush's Dungeon,s2,032,,,1,,L,LOWPOLY,False,1,True
+s2-1_032-n.M.obj,Crush's Dungeon,s2,032,,,1,,M,LIGHTSHADE,False,1,True
+s2-1_032-n.MW.obj,Crush's Dungeon,s2,032,,,1,,MW,LIGHTSHADE_WATER,False,1,True
+s2-1_032-n.S.obj,Crush's Dungeon,s2,032,False,False,1,,S,SKY,False,1,True
+s2-1_032-n.T.obj,Crush's Dungeon,s2,032,,,1,,T,TEXTURES,False,1,True
+s2-1_032-n.TW.obj,Crush's Dungeon,s2,032,,,1,,TW,TEXTURES_WATER,False,1,True
 s2-1_034-n.F.obj,Autumn Plains,s2,034,,,1,,F,COLORS,True,1,True
 s2-1_034-n.L.obj,Autumn Plains,s2,034,,,1,,L,LOWPOLY,True,1,True
 s2-1_034-n.M.obj,Autumn Plains,s2,034,,,1,,M,LIGHTSHADE,True,1,True
 s2-1_034-n.MW.obj,Autumn Plains,s2,034,,,1,,MW,LIGHTSHADE_WATER,True,1,True
-s2-1_034-n.S.obj,Autumn Plains,s2,034,,True,1,,S,SKY,True,2,True
+s2-1_034-n.S.obj,Autumn Plains,s2,034,False,True,1,,S,SKY,True,2,True
 s2-1_034-n.T.obj,Autumn Plains,s2,034,,,1,,T,TEXTURES,True,1,True
 s2-1_034-n.TW.obj,Autumn Plains,s2,034,,,1,,TW,TEXTURES_WATER,True,1,True
-s2-1_036-n.F.obj,Skelos Badlands,s2,036,,,1,,F,COLORS,,1,True
-s2-1_036-n.L.obj,Skelos Badlands,s2,036,,,1,,L,LOWPOLY,,1,True
-s2-1_036-n.M.obj,Skelos Badlands,s2,036,,,1,,M,LIGHTSHADE,,1,True
-s2-1_036-n.MW.obj,Skelos Badlands,s2,036,,,1,,MW,LIGHTSHADE_WATER,,1,True
-s2-1_036-n.S.obj,Skelos Badlands,s2,036,,,1,,S,SKY,,1,True
-s2-1_036-n.T.obj,Skelos Badlands,s2,036,,,1,,T,TEXTURES,,1,True
-s2-1_036-n.TW.obj,Skelos Badlands,s2,036,,,1,,TW,TEXTURES_WATER,,1,True
-s2-1_038-n.F.obj,Crystal Glacier,s2,038,,,1,,F,COLORS,,1,True
-s2-1_038-n.L.obj,Crystal Glacier,s2,038,,,1,,L,LOWPOLY,,1,True
-s2-1_038-n.M.obj,Crystal Glacier,s2,038,,,1,,M,LIGHTSHADE,,1,True
-s2-1_038-n.MW.obj,Crystal Glacier,s2,038,,,1,,MW,LIGHTSHADE_WATER,,1,True
-s2-1_038-n.S.obj,Crystal Glacier,s2,038,,,1,,S,SKY,,1,True
-s2-1_038-n.T.obj,Crystal Glacier,s2,038,,,1,,T,TEXTURES,,1,True
-s2-1_038-n.TW.obj,Crystal Glacier,s2,038,,,1,,TW,TEXTURES_WATER,,1,True
-s2-1_040-n.F.obj,Breeze Harbor,s2,040,,,1,,F,COLORS,,1,True
-s2-1_040-n.L.obj,Breeze Harbor,s2,040,,,1,,L,LOWPOLY,,1,True
-s2-1_040-n.M.obj,Breeze Harbor,s2,040,,,1,,M,LIGHTSHADE,,1,True
-s2-1_040-n.MW.obj,Breeze Harbor,s2,040,,,1,,MW,LIGHTSHADE_WATER,,1,True
-s2-1_040-n.S.obj,Breeze Harbor,s2,040,,True,1,,S,SKY,,1,True
-s2-1_040-n.T.obj,Breeze Harbor,s2,040,,,1,,T,TEXTURES,,1,True
-s2-1_040-n.TW.obj,Breeze Harbor,s2,040,,,1,,TW,TEXTURES_WATER,,1,True
-s2-1_042-n.F.obj,Zephyr,s2,042,,,1,,F,COLORS,,1,True
-s2-1_042-n.L.obj,Zephyr,s2,042,,,1,,L,LOWPOLY,,1,True
-s2-1_042-n.M.obj,Zephyr,s2,042,,,1,,M,LIGHTSHADE,,1,True
-s2-1_042-n.MW.obj,Zephyr,s2,042,,,1,,MW,LIGHTSHADE_WATER,,1,True
-s2-1_042-n.S.obj,Zephyr,s2,042,,,1,,S,SKY,,2,True
-s2-1_042-n.T.obj,Zephyr,s2,042,,,1,,T,TEXTURES,,1,True
-s2-1_042-n.TW.obj,Zephyr,s2,042,,,1,,TW,TEXTURES_WATER,,1,True
-s2-1_044-n.F.obj,Metro Speedway,s2,044,,,1,,F,COLORS,,1,True
-s2-1_044-n.L.obj,Metro Speedway,s2,044,,,1,,L,LOWPOLY,,1,True
-s2-1_044-n.M.obj,Metro Speedway,s2,044,,,1,,M,LIGHTSHADE,,1,True
-s2-1_044-n.MW.obj,Metro Speedway,s2,044,,,1,,MW,LIGHTSHADE_WATER,,1,True
-s2-1_044-n.S.obj,Metro Speedway,s2,044,,True,1,,S,SKY,,1,True
-s2-1_044-n.T.obj,Metro Speedway,s2,044,,,1,,T,TEXTURES,,1,True
-s2-1_044-n.TW.obj,Metro Speedway,s2,044,,,1,,TW,TEXTURES_WATER,,1,True
-s2-1_046-n.F.obj,Scorch,s2,046,,,1,,F,COLORS,,1,True
-s2-1_046-n.L.obj,Scorch,s2,046,,,1,,L,LOWPOLY,,1,True
-s2-1_046-n.M.obj,Scorch,s2,046,,,1,,M,LIGHTSHADE,,1,True
-s2-1_046-n.MW.obj,Scorch,s2,046,,,1,,MW,LIGHTSHADE_WATER,,1,True
-s2-1_046-n.S.obj,Scorch,s2,046,,,1,,S,SKY,,1,True
-s2-1_046-n.T.obj,Scorch,s2,046,,,1,,T,TEXTURES,,1,True
-s2-1_046-n.TW.obj,Scorch,s2,046,,,1,,TW,TEXTURES_WATER,,1,True
-s2-1_048-n.F.obj,Shady Oasis,s2,048,,,1,,F,COLORS,,1,True
-s2-1_048-n.L.obj,Shady Oasis,s2,048,,,1,,L,LOWPOLY,,1,True
-s2-1_048-n.M.obj,Shady Oasis,s2,048,,,1,,M,LIGHTSHADE,,1,True
-s2-1_048-n.MW.obj,Shady Oasis,s2,048,,,1,,MW,LIGHTSHADE_WATER,,1,True
-s2-1_048-n.S.obj,Shady Oasis,s2,048,,True,1,,S,SKY,,1,True
-s2-1_048-n.T.obj,Shady Oasis,s2,048,,,1,,T,TEXTURES,,1,True
-s2-1_048-n.TW.obj,Shady Oasis,s2,048,,,1,,TW,TEXTURES_WATER,,1,True
-s2-1_050-n.F.obj,Magma Cone,s2,050,,,1,,F,COLORS,,1,True
-s2-1_050-n.L.obj,Magma Cone,s2,050,,,1,,L,LOWPOLY,,1,True
-s2-1_050-n.M.obj,Magma Cone,s2,050,,,1,,M,LIGHTSHADE,,1,True
-s2-1_050-n.MW.obj,Magma Cone,s2,050,,,1,,MW,LIGHTSHADE_WATER,,1,True
-s2-1_050-n.S.obj,Magma Cone,s2,050,,,1,,S,SKY,,11,True
-s2-1_050-n.T.obj,Magma Cone,s2,050,,,1,,T,TEXTURES,,1,True
-s2-1_050-n.TW.obj,Magma Cone,s2,050,,,1,,TW,TEXTURES_WATER,,1,True
-s2-1_052-n.F.obj,Fracture Hills,s2,052,,,1,,F,COLORS,,1,True
-s2-1_052-n.L.obj,Fracture Hills,s2,052,,,1,,L,LOWPOLY,,1,True
-s2-1_052-n.M.obj,Fracture Hills,s2,052,,,1,,M,LIGHTSHADE,,1,True
-s2-1_052-n.MW.obj,Fracture Hills,s2,052,,,1,,MW,LIGHTSHADE_WATER,,1,True
-s2-1_052-n.S.obj,Fracture Hills,s2,052,,,1,,S,SKY,,1,True
-s2-1_052-n.T.obj,Fracture Hills,s2,052,,,1,,T,TEXTURES,,1,True
-s2-1_052-n.TW.obj,Fracture Hills,s2,052,,,1,,TW,TEXTURES_WATER,,1,True
-s2-1_054-n.F.obj,Icy Speedway,s2,054,,,1,,F,COLORS,,1,True
-s2-1_054-n.L.obj,Icy Speedway,s2,054,,,1,,L,LOWPOLY,,1,True
-s2-1_054-n.M.obj,Icy Speedway,s2,054,,,1,,M,LIGHTSHADE,,1,True
-s2-1_054-n.MW.obj,Icy Speedway,s2,054,,,1,,MW,LIGHTSHADE_WATER,,1,True
-s2-1_054-n.S.obj,Icy Speedway,s2,054,,,1,,S,SKY,,1,True
-s2-1_054-n.T.obj,Icy Speedway,s2,054,,,1,,T,TEXTURES,,1,True
-s2-1_054-n.TW.obj,Icy Speedway,s2,054,,,1,,TW,TEXTURES_WATER,,1,True
-s2-1_056-n.F.obj,Gulp's Overlook,s2,056,,,1,,F,COLORS,,2,True
-s2-1_056-n.L.obj,Gulp's Overlook,s2,056,,,1,,L,LOWPOLY,,2,True
-s2-1_056-n.M.obj,Gulp's Overlook,s2,056,,,1,,M,LIGHTSHADE,,2,True
-s2-1_056-n.MW.obj,Gulp's Overlook,s2,056,,,1,,MW,LIGHTSHADE_WATER,,2,True
-s2-1_056-n.S.obj,Gulp's Overlook,s2,056,,True,1,,S,SKY,,3,True
-s2-1_056-n.T.obj,Gulp's Overlook,s2,056,,,1,,T,TEXTURES,,2,True
-s2-1_056-n.TW.obj,Gulp's Overlook,s2,056,,,1,,TW,TEXTURES_WATER,,2,True
+s2-1_036-n.F.obj,Skelos Badlands,s2,036,,,1,,F,COLORS,False,1,True
+s2-1_036-n.L.obj,Skelos Badlands,s2,036,,,1,,L,LOWPOLY,False,1,True
+s2-1_036-n.M.obj,Skelos Badlands,s2,036,,,1,,M,LIGHTSHADE,False,1,True
+s2-1_036-n.MW.obj,Skelos Badlands,s2,036,,,1,,MW,LIGHTSHADE_WATER,False,1,True
+s2-1_036-n.S.obj,Skelos Badlands,s2,036,False,False,1,,S,SKY,False,1,True
+s2-1_036-n.T.obj,Skelos Badlands,s2,036,,,1,,T,TEXTURES,False,1,True
+s2-1_036-n.TW.obj,Skelos Badlands,s2,036,,,1,,TW,TEXTURES_WATER,False,1,True
+s2-1_038-n.F.obj,Crystal Glacier,s2,038,,,1,,F,COLORS,False,1,True
+s2-1_038-n.L.obj,Crystal Glacier,s2,038,,,1,,L,LOWPOLY,False,1,True
+s2-1_038-n.M.obj,Crystal Glacier,s2,038,,,1,,M,LIGHTSHADE,False,1,True
+s2-1_038-n.MW.obj,Crystal Glacier,s2,038,,,1,,MW,LIGHTSHADE_WATER,False,1,True
+s2-1_038-n.S.obj,Crystal Glacier,s2,038,False,False,1,,S,SKY,False,1,True
+s2-1_038-n.T.obj,Crystal Glacier,s2,038,,,1,,T,TEXTURES,False,1,True
+s2-1_038-n.TW.obj,Crystal Glacier,s2,038,,,1,,TW,TEXTURES_WATER,False,1,True
+s2-1_040-n.F.obj,Breeze Harbor,s2,040,,,1,,F,COLORS,False,1,True
+s2-1_040-n.L.obj,Breeze Harbor,s2,040,,,1,,L,LOWPOLY,False,1,True
+s2-1_040-n.M.obj,Breeze Harbor,s2,040,,,1,,M,LIGHTSHADE,False,1,True
+s2-1_040-n.MW.obj,Breeze Harbor,s2,040,,,1,,MW,LIGHTSHADE_WATER,False,1,True
+s2-1_040-n.S.obj,Breeze Harbor,s2,040,False,True,1,,S,SKY,False,1,True
+s2-1_040-n.T.obj,Breeze Harbor,s2,040,,,1,,T,TEXTURES,False,1,True
+s2-1_040-n.TW.obj,Breeze Harbor,s2,040,,,1,,TW,TEXTURES_WATER,False,1,True
+s2-1_042-n.F.obj,Zephyr,s2,042,,,1,,F,COLORS,False,1,True
+s2-1_042-n.L.obj,Zephyr,s2,042,,,1,,L,LOWPOLY,False,1,True
+s2-1_042-n.M.obj,Zephyr,s2,042,,,1,,M,LIGHTSHADE,False,1,True
+s2-1_042-n.MW.obj,Zephyr,s2,042,,,1,,MW,LIGHTSHADE_WATER,False,1,True
+s2-1_042-n.S.obj,Zephyr,s2,042,False,False,1,,S,SKY,False,2,True
+s2-1_042-n.T.obj,Zephyr,s2,042,,,1,,T,TEXTURES,False,1,True
+s2-1_042-n.TW.obj,Zephyr,s2,042,,,1,,TW,TEXTURES_WATER,False,1,True
+s2-1_044-n.F.obj,Metro Speedway,s2,044,,,1,,F,COLORS,False,1,True
+s2-1_044-n.L.obj,Metro Speedway,s2,044,,,1,,L,LOWPOLY,False,1,True
+s2-1_044-n.M.obj,Metro Speedway,s2,044,,,1,,M,LIGHTSHADE,False,1,True
+s2-1_044-n.MW.obj,Metro Speedway,s2,044,,,1,,MW,LIGHTSHADE_WATER,False,1,True
+s2-1_044-n.S.obj,Metro Speedway,s2,044,False,True,1,,S,SKY,False,1,True
+s2-1_044-n.T.obj,Metro Speedway,s2,044,,,1,,T,TEXTURES,False,1,True
+s2-1_044-n.TW.obj,Metro Speedway,s2,044,,,1,,TW,TEXTURES_WATER,False,1,True
+s2-1_046-n.F.obj,Scorch,s2,046,,,1,,F,COLORS,False,1,True
+s2-1_046-n.L.obj,Scorch,s2,046,,,1,,L,LOWPOLY,False,1,True
+s2-1_046-n.M.obj,Scorch,s2,046,,,1,,M,LIGHTSHADE,False,1,True
+s2-1_046-n.MW.obj,Scorch,s2,046,,,1,,MW,LIGHTSHADE_WATER,False,1,True
+s2-1_046-n.S.obj,Scorch,s2,046,False,False,1,,S,SKY,False,1,True
+s2-1_046-n.T.obj,Scorch,s2,046,,,1,,T,TEXTURES,False,1,True
+s2-1_046-n.TW.obj,Scorch,s2,046,,,1,,TW,TEXTURES_WATER,False,1,True
+s2-1_048-n.F.obj,Shady Oasis,s2,048,,,1,,F,COLORS,False,1,True
+s2-1_048-n.L.obj,Shady Oasis,s2,048,,,1,,L,LOWPOLY,False,1,True
+s2-1_048-n.M.obj,Shady Oasis,s2,048,,,1,,M,LIGHTSHADE,False,1,True
+s2-1_048-n.MW.obj,Shady Oasis,s2,048,,,1,,MW,LIGHTSHADE_WATER,False,1,True
+s2-1_048-n.S.obj,Shady Oasis,s2,048,False,True,1,,S,SKY,False,1,True
+s2-1_048-n.T.obj,Shady Oasis,s2,048,,,1,,T,TEXTURES,False,1,True
+s2-1_048-n.TW.obj,Shady Oasis,s2,048,,,1,,TW,TEXTURES_WATER,False,1,True
+s2-1_050-n.F.obj,Magma Cone,s2,050,,,1,,F,COLORS,False,1,True
+s2-1_050-n.L.obj,Magma Cone,s2,050,,,1,,L,LOWPOLY,False,1,True
+s2-1_050-n.M.obj,Magma Cone,s2,050,,,1,,M,LIGHTSHADE,False,1,True
+s2-1_050-n.MW.obj,Magma Cone,s2,050,,,1,,MW,LIGHTSHADE_WATER,False,1,True
+s2-1_050-n.S.obj,Magma Cone,s2,050,False,False,1,,S,SKY,False,11,True
+s2-1_050-n.T.obj,Magma Cone,s2,050,,,1,,T,TEXTURES,False,1,True
+s2-1_050-n.TW.obj,Magma Cone,s2,050,,,1,,TW,TEXTURES_WATER,False,1,True
+s2-1_052-n.F.obj,Fracture Hills,s2,052,,,1,,F,COLORS,False,1,True
+s2-1_052-n.L.obj,Fracture Hills,s2,052,,,1,,L,LOWPOLY,False,1,True
+s2-1_052-n.M.obj,Fracture Hills,s2,052,,,1,,M,LIGHTSHADE,False,1,True
+s2-1_052-n.MW.obj,Fracture Hills,s2,052,,,1,,MW,LIGHTSHADE_WATER,False,1,True
+s2-1_052-n.S.obj,Fracture Hills,s2,052,False,False,1,,S,SKY,False,1,True
+s2-1_052-n.T.obj,Fracture Hills,s2,052,,,1,,T,TEXTURES,False,1,True
+s2-1_052-n.TW.obj,Fracture Hills,s2,052,,,1,,TW,TEXTURES_WATER,False,1,True
+s2-1_054-n.F.obj,Icy Speedway,s2,054,,,1,,F,COLORS,False,1,True
+s2-1_054-n.L.obj,Icy Speedway,s2,054,,,1,,L,LOWPOLY,False,1,True
+s2-1_054-n.M.obj,Icy Speedway,s2,054,,,1,,M,LIGHTSHADE,False,1,True
+s2-1_054-n.MW.obj,Icy Speedway,s2,054,,,1,,MW,LIGHTSHADE_WATER,False,1,True
+s2-1_054-n.S.obj,Icy Speedway,s2,054,False,False,1,,S,SKY,False,1,True
+s2-1_054-n.T.obj,Icy Speedway,s2,054,,,1,,T,TEXTURES,False,1,True
+s2-1_054-n.TW.obj,Icy Speedway,s2,054,,,1,,TW,TEXTURES_WATER,False,1,True
+s2-1_056-n.F.obj,Gulp's Overlook,s2,056,,,1,,F,COLORS,False,2,True
+s2-1_056-n.L.obj,Gulp's Overlook,s2,056,,,1,,L,LOWPOLY,False,2,True
+s2-1_056-n.M.obj,Gulp's Overlook,s2,056,,,1,,M,LIGHTSHADE,False,2,True
+s2-1_056-n.MW.obj,Gulp's Overlook,s2,056,,,1,,MW,LIGHTSHADE_WATER,False,2,True
+s2-1_056-n.S.obj,Gulp's Overlook,s2,056,False,True,1,,S,SKY,False,3,True
+s2-1_056-n.T.obj,Gulp's Overlook,s2,056,,,1,,T,TEXTURES,False,2,True
+s2-1_056-n.TW.obj,Gulp's Overlook,s2,056,,,1,,TW,TEXTURES_WATER,False,2,True
 s2-1_058-n.F.obj,Winter Tundra,s2,058,,,1,,F,COLORS,True,1,True
 s2-1_058-n.L.obj,Winter Tundra,s2,058,,,1,,L,LOWPOLY,True,1,True
 s2-1_058-n.M.obj,Winter Tundra,s2,058,,,1,,M,LIGHTSHADE,True,1,True
 s2-1_058-n.MW.obj,Winter Tundra,s2,058,,,1,,MW,LIGHTSHADE_WATER,True,1,True
-s2-1_058-n.S.obj,Winter Tundra,s2,058,,,1,,S,SKY,True,7,True
+s2-1_058-n.S.obj,Winter Tundra,s2,058,False,False,1,,S,SKY,True,7,True
 s2-1_058-n.T.obj,Winter Tundra,s2,058,,,1,,T,TEXTURES,True,1,True
 s2-1_058-n.TW.obj,Winter Tundra,s2,058,,,1,,TW,TEXTURES_WATER,True,1,True
-s2-1_060-n.F.obj,Mystic Marsh,s2,060,,,1,,F,COLORS,,1,True
-s2-1_060-n.L.obj,Mystic Marsh,s2,060,,,1,,L,LOWPOLY,,1,True
-s2-1_060-n.M.obj,Mystic Marsh,s2,060,,,1,,M,LIGHTSHADE,,1,True
-s2-1_060-n.MW.obj,Mystic Marsh,s2,060,,,1,,MW,LIGHTSHADE_WATER,,1,True
-s2-1_060-n.S.obj,Mystic Marsh,s2,060,,,1,,S,SKY,,1,True
-s2-1_060-n.T.obj,Mystic Marsh,s2,060,,,1,,T,TEXTURES,,1,True
-s2-1_060-n.TW.obj,Mystic Marsh,s2,060,,,1,,TW,TEXTURES_WATER,,1,True
-s2-1_062-n.F.obj,Cloud Temples,s2,062,,,1,,F,COLORS,,1,True
-s2-1_062-n.L.obj,Cloud Temples,s2,062,,,1,,L,LOWPOLY,,1,True
-s2-1_062-n.M.obj,Cloud Temples,s2,062,,,1,,M,LIGHTSHADE,,1,True
-s2-1_062-n.MW.obj,Cloud Temples,s2,062,,,1,,MW,LIGHTSHADE_WATER,,1,True
-s2-1_062-n.S.obj,Cloud Temples,s2,062,,True,1,,S,SKY,,2,True
-s2-1_062-n.T.obj,Cloud Temples,s2,062,,,1,,T,TEXTURES,,1,True
-s2-1_062-n.TW.obj,Cloud Temples,s2,062,,,1,,TW,TEXTURES_WATER,,1,True
-s2-1_064-n.F.obj,Canyon Speedway,s2,064,,,1,,F,COLORS,,1,True
-s2-1_064-n.L.obj,Canyon Speedway,s2,064,,,1,,L,LOWPOLY,,1,True
-s2-1_064-n.M.obj,Canyon Speedway,s2,064,,,1,,M,LIGHTSHADE,,1,True
-s2-1_064-n.MW.obj,Canyon Speedway,s2,064,,,1,,MW,LIGHTSHADE_WATER,,1,True
-s2-1_064-n.S.obj,Canyon Speedway,s2,064,,True,1,,S,SKY,,1,True
-s2-1_064-n.T.obj,Canyon Speedway,s2,064,,,1,,T,TEXTURES,,1,True
-s2-1_064-n.TW.obj,Canyon Speedway,s2,064,,,1,,TW,TEXTURES_WATER,,1,True
-s2-1_066-n.F.obj,Robotica Farms,s2,066,,,1,,F,COLORS,,1,True
-s2-1_066-n.L.obj,Robotica Farms,s2,066,,,1,,L,LOWPOLY,,1,True
-s2-1_066-n.M.obj,Robotica Farms,s2,066,,,1,,M,LIGHTSHADE,,1,True
-s2-1_066-n.MW.obj,Robotica Farms,s2,066,,,1,,MW,LIGHTSHADE_WATER,,1,True
-s2-1_066-n.S.obj,Robotica Farms,s2,066,,,1,,S,SKY,,2,
-s2-1_066-n.T.obj,Robotica Farms,s2,066,,,1,,T,TEXTURES,,1,True
-s2-1_066-n.TW.obj,Robotica Farms,s2,066,,,1,,TW,TEXTURES_WATER,,1,True
-s2-1_068-n.F.obj,Metropolis,s2,068,,,1,,F,COLORS,,1,True
-s2-1_068-n.L.obj,Metropolis,s2,068,,,1,,L,LOWPOLY,,1,True
-s2-1_068-n.M.obj,Metropolis,s2,068,,,1,,M,LIGHTSHADE,,1,True
-s2-1_068-n.MW.obj,Metropolis,s2,068,,,1,,MW,LIGHTSHADE_WATER,,1,True
-s2-1_068-n.S.obj,Metropolis,s2,068,,,1,,S,SKY,,1,True
-s2-1_068-n.T.obj,Metropolis,s2,068,,,1,,T,TEXTURES,,1,True
-s2-1_068-n.TW.obj,Metropolis,s2,068,,,1,,TW,TEXTURES_WATER,,1,True
-s2-1_070-n.F.obj,Dragon Shores,s2,070,,,1,,F,COLORS,,1,True
-s2-1_070-n.L.obj,Dragon Shores,s2,070,,,1,,L,LOWPOLY,,1,True
-s2-1_070-n.M.obj,Dragon Shores,s2,070,,,1,,M,LIGHTSHADE,,1,True
-s2-1_070-n.MW.obj,Dragon Shores,s2,070,,,1,,MW,LIGHTSHADE_WATER,,1,True
-s2-1_070-n.S.obj,Dragon Shores,s2,070,,,1,,S,SKY,,1,True
-s2-1_070-n.T.obj,Dragon Shores,s2,070,,,1,,T,TEXTURES,,1,True
-s2-1_070-n.TW.obj,Dragon Shores,s2,070,,,1,,TW,TEXTURES_WATER,,1,True
-s2-1_072-n.F.obj,Ripto's Arena,s2,072,,,1,,F,COLORS,,1,True
-s2-1_072-n.L.obj,Ripto's Arena,s2,072,,,1,,L,LOWPOLY,,1,True
-s2-1_072-n.M.obj,Ripto's Arena,s2,072,,,1,,M,LIGHTSHADE,,1,True
-s2-1_072-n.MW.obj,Ripto's Arena,s2,072,,,1,,MW,LIGHTSHADE_WATER,,1,True
-s2-1_072-n.S.obj,Ripto's Arena,s2,072,,,1,,S,SKY,,7,
-s2-1_072-n.T.obj,Ripto's Arena,s2,072,,,1,,T,TEXTURES,,1,True
-s2-1_072-n.TW.obj,Ripto's Arena,s2,072,,,1,,TW,TEXTURES_WATER,,1,True
+s2-1_060-n.F.obj,Mystic Marsh,s2,060,,,1,,F,COLORS,False,1,True
+s2-1_060-n.L.obj,Mystic Marsh,s2,060,,,1,,L,LOWPOLY,False,1,True
+s2-1_060-n.M.obj,Mystic Marsh,s2,060,,,1,,M,LIGHTSHADE,False,1,True
+s2-1_060-n.MW.obj,Mystic Marsh,s2,060,,,1,,MW,LIGHTSHADE_WATER,False,1,True
+s2-1_060-n.S.obj,Mystic Marsh,s2,060,False,False,1,,S,SKY,False,1,True
+s2-1_060-n.T.obj,Mystic Marsh,s2,060,,,1,,T,TEXTURES,False,1,True
+s2-1_060-n.TW.obj,Mystic Marsh,s2,060,,,1,,TW,TEXTURES_WATER,False,1,True
+s2-1_062-n.F.obj,Cloud Temples,s2,062,,,1,,F,COLORS,False,1,True
+s2-1_062-n.L.obj,Cloud Temples,s2,062,,,1,,L,LOWPOLY,False,1,True
+s2-1_062-n.M.obj,Cloud Temples,s2,062,,,1,,M,LIGHTSHADE,False,1,True
+s2-1_062-n.MW.obj,Cloud Temples,s2,062,,,1,,MW,LIGHTSHADE_WATER,False,1,True
+s2-1_062-n.S.obj,Cloud Temples,s2,062,False,True,1,,S,SKY,False,2,True
+s2-1_062-n.T.obj,Cloud Temples,s2,062,,,1,,T,TEXTURES,False,1,True
+s2-1_062-n.TW.obj,Cloud Temples,s2,062,,,1,,TW,TEXTURES_WATER,False,1,True
+s2-1_064-n.F.obj,Canyon Speedway,s2,064,,,1,,F,COLORS,False,1,True
+s2-1_064-n.L.obj,Canyon Speedway,s2,064,,,1,,L,LOWPOLY,False,1,True
+s2-1_064-n.M.obj,Canyon Speedway,s2,064,,,1,,M,LIGHTSHADE,False,1,True
+s2-1_064-n.MW.obj,Canyon Speedway,s2,064,,,1,,MW,LIGHTSHADE_WATER,False,1,True
+s2-1_064-n.S.obj,Canyon Speedway,s2,064,False,True,1,,S,SKY,False,1,True
+s2-1_064-n.T.obj,Canyon Speedway,s2,064,,,1,,T,TEXTURES,False,1,True
+s2-1_064-n.TW.obj,Canyon Speedway,s2,064,,,1,,TW,TEXTURES_WATER,False,1,True
+s2-1_066-n.F.obj,Robotica Farms,s2,066,,,1,,F,COLORS,False,1,True
+s2-1_066-n.L.obj,Robotica Farms,s2,066,,,1,,L,LOWPOLY,False,1,True
+s2-1_066-n.M.obj,Robotica Farms,s2,066,,,1,,M,LIGHTSHADE,False,1,True
+s2-1_066-n.MW.obj,Robotica Farms,s2,066,,,1,,MW,LIGHTSHADE_WATER,False,1,True
+s2-1_066-n.S.obj,Robotica Farms,s2,066,False,False,1,,S,SKY,False,2,False
+s2-1_066-n.T.obj,Robotica Farms,s2,066,,,1,,T,TEXTURES,False,1,True
+s2-1_066-n.TW.obj,Robotica Farms,s2,066,,,1,,TW,TEXTURES_WATER,False,1,True
+s2-1_068-n.F.obj,Metropolis,s2,068,,,1,,F,COLORS,False,1,True
+s2-1_068-n.L.obj,Metropolis,s2,068,,,1,,L,LOWPOLY,False,1,True
+s2-1_068-n.M.obj,Metropolis,s2,068,,,1,,M,LIGHTSHADE,False,1,True
+s2-1_068-n.MW.obj,Metropolis,s2,068,,,1,,MW,LIGHTSHADE_WATER,False,1,True
+s2-1_068-n.S.obj,Metropolis,s2,068,False,False,1,,S,SKY,False,1,True
+s2-1_068-n.T.obj,Metropolis,s2,068,,,1,,T,TEXTURES,False,1,True
+s2-1_068-n.TW.obj,Metropolis,s2,068,,,1,,TW,TEXTURES_WATER,False,1,True
+s2-1_070-n.F.obj,Dragon Shores,s2,070,,,1,,F,COLORS,False,1,True
+s2-1_070-n.L.obj,Dragon Shores,s2,070,,,1,,L,LOWPOLY,False,1,True
+s2-1_070-n.M.obj,Dragon Shores,s2,070,,,1,,M,LIGHTSHADE,False,1,True
+s2-1_070-n.MW.obj,Dragon Shores,s2,070,,,1,,MW,LIGHTSHADE_WATER,False,1,True
+s2-1_070-n.S.obj,Dragon Shores,s2,070,False,False,1,,S,SKY,False,1,True
+s2-1_070-n.T.obj,Dragon Shores,s2,070,,,1,,T,TEXTURES,False,1,True
+s2-1_070-n.TW.obj,Dragon Shores,s2,070,,,1,,TW,TEXTURES_WATER,False,1,True
+s2-1_072-n.F.obj,Ripto's Arena,s2,072,,,1,,F,COLORS,False,1,True
+s2-1_072-n.L.obj,Ripto's Arena,s2,072,,,1,,L,LOWPOLY,False,1,True
+s2-1_072-n.M.obj,Ripto's Arena,s2,072,,,1,,M,LIGHTSHADE,False,1,True
+s2-1_072-n.MW.obj,Ripto's Arena,s2,072,,,1,,MW,LIGHTSHADE_WATER,False,1,True
+s2-1_072-n.S.obj,Ripto's Arena,s2,072,False,False,1,,S,SKY,False,7,False
+s2-1_072-n.T.obj,Ripto's Arena,s2,072,,,1,,T,TEXTURES,False,1,True
+s2-1_072-n.TW.obj,Ripto's Arena,s2,072,,,1,,TW,TEXTURES_WATER,False,1,True
 s2-2_074-n.F.obj,,s2,074,,,2,,F,COLORS,,1,True
 s2-2_074-n.L.obj,,s2,074,,,2,,L,LOWPOLY,,1,True
 s2-2_074-n.M.obj,,s2,074,,,2,,M,LIGHTSHADE,,1,True
@@ -537,14 +537,14 @@ s2-2_076-n.F.obj,,s2,076,,,2,,F,COLORS,,1,True
 s2-2_076-n.L.obj,,s2,076,,,2,,L,LOWPOLY,,1,True
 s2-2_076-n.M.obj,,s2,076,,,2,,M,LIGHTSHADE,,1,True
 s2-2_076-n.MW.obj,,s2,076,,,2,,MW,LIGHTSHADE_WATER,,1,True
-s2-2_076-n.S.obj,,s2,076,,,2,,S,SKY,,3,
+s2-2_076-n.S.obj,,s2,076,,,2,,S,SKY,,3,False
 s2-2_076-n.T.obj,,s2,076,,,2,,T,TEXTURES,,1,True
 s2-2_076-n.TW.obj,,s2,076,,,2,,TW,TEXTURES_WATER,,1,True
 s2-2_078-n.F.obj,,s2,078,,,2,,F,COLORS,,1,True
 s2-2_078-n.L.obj,,s2,078,,,2,,L,LOWPOLY,,1,True
 s2-2_078-n.M.obj,,s2,078,,,2,,M,LIGHTSHADE,,1,True
 s2-2_078-n.MW.obj,,s2,078,,,2,,MW,LIGHTSHADE_WATER,,1,True
-s2-2_078-n.S.obj,,s2,078,,,2,,S,SKY,,4,
+s2-2_078-n.S.obj,,s2,078,,,2,,S,SKY,,4,False
 s2-2_078-n.T.obj,,s2,078,,,2,,T,TEXTURES,,1,True
 s2-2_078-n.TW.obj,,s2,078,,,2,,TW,TEXTURES_WATER,,1,True
 s2-2_080-n.F.obj,,s2,080,,,2,,F,COLORS,,1,True
@@ -558,7 +558,7 @@ s2-2_082-n.F.obj,,s2,082,,,2,,F,COLORS,,1,True
 s2-2_082-n.L.obj,,s2,082,,,2,,L,LOWPOLY,,1,True
 s2-2_082-n.M.obj,,s2,082,,,2,,M,LIGHTSHADE,,1,True
 s2-2_082-n.MW.obj,,s2,082,,,2,,MW,LIGHTSHADE_WATER,,1,True
-s2-2_082-n.S.obj,,s2,082,,,2,,S,SKY,,4,
+s2-2_082-n.S.obj,,s2,082,,,2,,S,SKY,,4,False
 s2-2_082-n.T.obj,,s2,082,,,2,,T,TEXTURES,,1,True
 s2-2_082-n.TW.obj,,s2,082,,,2,,TW,TEXTURES_WATER,,1,True
 s2-2_084-n.F.obj,,s2,084,,,2,,F,COLORS,,1,True
@@ -568,39 +568,39 @@ s2-2_084-n.MW.obj,,s2,084,,,2,,MW,LIGHTSHADE_WATER,,1,True
 s2-2_084-n.S.obj,,s2,084,,,2,,S,SKY,,1,True
 s2-2_084-n.T.obj,,s2,084,,,2,,T,TEXTURES,,1,True
 s2-2_084-n.TW.obj,,s2,084,,,2,,TW,TEXTURES_WATER,,1,True
-s2-2_086-n.F.obj,,s2,086,,,2,,F,COLORS,,2,
-s2-2_086-n.L.obj,,s2,086,,,2,,L,LOWPOLY,,2,
-s2-2_086-n.M.obj,,s2,086,,,2,,M,LIGHTSHADE,,2,
-s2-2_086-n.MW.obj,,s2,086,,,2,,MW,LIGHTSHADE_WATER,,2,
-s2-2_086-n.S.obj,,s2,086,,,2,,S,SKY,,3,
-s2-2_086-n.T.obj,,s2,086,,,2,,T,TEXTURES,,2,
-s2-2_086-n.TW.obj,,s2,086,,,2,,TW,TEXTURES_WATER,,2,
+s2-2_086-n.F.obj,,s2,086,,,2,,F,COLORS,,2,False
+s2-2_086-n.L.obj,,s2,086,,,2,,L,LOWPOLY,,2,False
+s2-2_086-n.M.obj,,s2,086,,,2,,M,LIGHTSHADE,,2,False
+s2-2_086-n.MW.obj,,s2,086,,,2,,MW,LIGHTSHADE_WATER,,2,False
+s2-2_086-n.S.obj,,s2,086,,,2,,S,SKY,,3,False
+s2-2_086-n.T.obj,,s2,086,,,2,,T,TEXTURES,,2,False
+s2-2_086-n.TW.obj,,s2,086,,,2,,TW,TEXTURES_WATER,,2,False
 s2-2_088-n.F.obj,,s2,088,,,2,,F,COLORS,,1,True
 s2-2_088-n.L.obj,,s2,088,,,2,,L,LOWPOLY,,1,True
 s2-2_088-n.M.obj,,s2,088,,,2,,M,LIGHTSHADE,,1,True
 s2-2_088-n.MW.obj,,s2,088,,,2,,MW,LIGHTSHADE_WATER,,1,True
-s2-2_088-n.S.obj,,s2,088,,,2,,S,SKY,,3,
+s2-2_088-n.S.obj,,s2,088,,,2,,S,SKY,,3,False
 s2-2_088-n.T.obj,,s2,088,,,2,,T,TEXTURES,,1,True
 s2-2_088-n.TW.obj,,s2,088,,,2,,TW,TEXTURES_WATER,,1,True
 s2-2_090-n.F.obj,,s2,090,,,2,,F,COLORS,,1,True
 s2-2_090-n.L.obj,,s2,090,,,2,,L,LOWPOLY,,1,True
 s2-2_090-n.M.obj,,s2,090,,,2,,M,LIGHTSHADE,,1,True
 s2-2_090-n.MW.obj,,s2,090,,,2,,MW,LIGHTSHADE_WATER,,1,True
-s2-2_090-n.S.obj,,s2,090,,,2,,S,SKY,,4,
+s2-2_090-n.S.obj,,s2,090,,,2,,S,SKY,,4,False
 s2-2_090-n.T.obj,,s2,090,,,2,,T,TEXTURES,,1,True
 s2-2_090-n.TW.obj,,s2,090,,,2,,TW,TEXTURES_WATER,,1,True
 s2-2_092-n.F.obj,,s2,092,,,2,,F,COLORS,,1,True
 s2-2_092-n.L.obj,,s2,092,,,2,,L,LOWPOLY,,1,True
 s2-2_092-n.M.obj,,s2,092,,,2,,M,LIGHTSHADE,,1,True
 s2-2_092-n.MW.obj,,s2,092,,,2,,MW,LIGHTSHADE_WATER,,1,True
-s2-2_092-n.S.obj,,s2,092,,,2,,S,SKY,,4,
+s2-2_092-n.S.obj,,s2,092,,,2,,S,SKY,,4,False
 s2-2_092-n.T.obj,,s2,092,,,2,,T,TEXTURES,,1,True
 s2-2_092-n.TW.obj,,s2,092,,,2,,TW,TEXTURES_WATER,,1,True
 s2-2_094-n.F.obj,,s2,094,,,2,,F,COLORS,,1,True
 s2-2_094-n.L.obj,,s2,094,,,2,,L,LOWPOLY,,1,True
 s2-2_094-n.M.obj,,s2,094,,,2,,M,LIGHTSHADE,,1,True
 s2-2_094-n.MW.obj,,s2,094,,,2,,MW,LIGHTSHADE_WATER,,1,True
-s2-2_094-n.S.obj,,s2,094,,,2,,S,SKY,,4,
+s2-2_094-n.S.obj,,s2,094,,,2,,S,SKY,,4,False
 s2-2_094-n.T.obj,,s2,094,,,2,,T,TEXTURES,,1,True
 s2-2_094-n.TW.obj,,s2,094,,,2,,TW,TEXTURES_WATER,,1,True
 s2-2_096-n.F.obj,,s2,096,,,2,,F,COLORS,,1,True
@@ -614,14 +614,14 @@ s2-3_188-n.F.obj,,s2,188,,,3,,F,COLORS,,1,True
 s2-3_188-n.L.obj,,s2,188,,,3,,L,LOWPOLY,,1,True
 s2-3_188-n.M.obj,,s2,188,,,3,,M,LIGHTSHADE,,1,True
 s2-3_188-n.MW.obj,,s2,188,,,3,,MW,LIGHTSHADE_WATER,,1,True
-s2-3_188-n.S.obj,,s2,188,,,3,,S,SKY,,4,
+s2-3_188-n.S.obj,,s2,188,,,3,,S,SKY,,4,False
 s2-3_188-n.T.obj,,s2,188,,,3,,T,TEXTURES,,1,True
 s2-3_188-n.TW.obj,,s2,188,,,3,,TW,TEXTURES_WATER,,1,True
 s2-3_189-n.F.obj,,s2,189,,,3,,F,COLORS,,1,True
 s2-3_189-n.L.obj,,s2,189,,,3,,L,LOWPOLY,,1,True
 s2-3_189-n.M.obj,,s2,189,,,3,,M,LIGHTSHADE,,1,True
 s2-3_189-n.MW.obj,,s2,189,,,3,,MW,LIGHTSHADE_WATER,,1,True
-s2-3_189-n.S.obj,,s2,189,,,3,,S,SKY,,3,
+s2-3_189-n.S.obj,,s2,189,,,3,,S,SKY,,3,False
 s2-3_189-n.T.obj,,s2,189,,,3,,T,TEXTURES,,1,True
 s2-3_189-n.TW.obj,,s2,189,,,3,,TW,TEXTURES_WATER,,1,True
 s2-3_190-n.F.obj,,s2,190,,,3,,F,COLORS,,1,True
@@ -642,7 +642,7 @@ s2-3_192-n.F.obj,,s2,192,,,3,,F,COLORS,,1,True
 s2-3_192-n.L.obj,,s2,192,,,3,,L,LOWPOLY,,1,True
 s2-3_192-n.M.obj,,s2,192,,,3,,M,LIGHTSHADE,,1,True
 s2-3_192-n.MW.obj,,s2,192,,,3,,MW,LIGHTSHADE_WATER,,1,True
-s2-3_192-n.S.obj,,s2,192,,,3,,S,SKY,,2,
+s2-3_192-n.S.obj,,s2,192,,,3,,S,SKY,,2,False
 s2-3_192-n.T.obj,,s2,192,,,3,,T,TEXTURES,,1,True
 s2-3_192-n.TW.obj,,s2,192,,,3,,TW,TEXTURES_WATER,,1,True
 s2-3_193-n.F.obj,,s2,193,,,3,,F,COLORS,,1,True
@@ -656,7 +656,7 @@ s2-3_194-n.F.obj,,s2,194,,,3,,F,COLORS,,1,True
 s2-3_194-n.L.obj,,s2,194,,,3,,L,LOWPOLY,,1,True
 s2-3_194-n.M.obj,,s2,194,,,3,,M,LIGHTSHADE,,1,True
 s2-3_194-n.MW.obj,,s2,194,,,3,,MW,LIGHTSHADE_WATER,,1,True
-s2-3_194-n.S.obj,,s2,194,,,3,,S,SKY,,2,
+s2-3_194-n.S.obj,,s2,194,,,3,,S,SKY,,2,False
 s2-3_194-n.T.obj,,s2,194,,,3,,T,TEXTURES,,1,True
 s2-3_194-n.TW.obj,,s2,194,,,3,,TW,TEXTURES_WATER,,1,True
 s2-3_195-n.F.obj,,s2,195,,,3,,F,COLORS,,1,True
@@ -677,553 +677,553 @@ s2-3_197-n.F.obj,,s2,197,,,3,,F,COLORS,,1,True
 s2-3_197-n.L.obj,,s2,197,,,3,,L,LOWPOLY,,1,True
 s2-3_197-n.M.obj,,s2,197,,,3,,M,LIGHTSHADE,,1,True
 s2-3_197-n.MW.obj,,s2,197,,,3,,MW,LIGHTSHADE_WATER,,1,True
-s2-3_197-n.S.obj,,s2,197,,,3,,S,SKY,,2,
+s2-3_197-n.S.obj,,s2,197,,,3,,S,SKY,,2,False
 s2-3_197-n.T.obj,,s2,197,,,3,,T,TEXTURES,,1,True
 s2-3_197-n.TW.obj,,s2,197,,,3,,TW,TEXTURES_WATER,,1,True
 s3-1_098_1-n.F.obj,Sunrise Spring,s3,098,,,1,1,F,COLORS,True,1,True
 s3-1_098_1-n.L.obj,Sunrise Spring,s3,098,,,1,1,L,LOWPOLY,True,1,True
 s3-1_098_1-n.M.obj,Sunrise Spring,s3,098,,,1,1,M,LIGHTSHADE,True,1,True
 s3-1_098_1-n.MW.obj,Sunrise Spring,s3,098,,,1,1,MW,LIGHTSHADE_WATER,True,1,True
-s3-1_098_1-n.S.obj,Sunrise Spring,s3,098,,,1,1,S,SKY,True,4,True
+s3-1_098_1-n.S.obj,Sunrise Spring,s3,098,False,False,1,1,S,SKY,True,4,True
 s3-1_098_1-n.T.obj,Sunrise Spring,s3,098,,,1,1,T,TEXTURES,True,1,True
 s3-1_098_1-n.TW.obj,Sunrise Spring,s3,098,,,1,1,TW,TEXTURES_WATER,True,1,True
-s3-1_100_1-n.F.obj,Sunny Villa,s3,100,,,1,1,F,COLORS,,1,True
-s3-1_100_1-n.L.obj,Sunny Villa,s3,100,,,1,1,L,LOWPOLY,,1,True
-s3-1_100_1-n.M.obj,Sunny Villa,s3,100,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_100_1-n.MW.obj,Sunny Villa,s3,100,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_100_1-n.S.obj,Sunny Villa,s3,100,,,1,1,S,SKY,,4,True
-s3-1_100_1-n.T.obj,Sunny Villa,s3,100,,,1,1,T,TEXTURES,,1,True
-s3-1_100_1-n.TW.obj,Sunny Villa,s3,100,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_100_2-n.F.obj,Sunny Villa,s3,100,,,1,2,F,COLORS,,1,True
-s3-1_100_2-n.L.obj,Sunny Villa,s3,100,,,1,2,L,LOWPOLY,,1,True
-s3-1_100_2-n.M.obj,Sunny Villa,s3,100,,,1,2,M,LIGHTSHADE,,1,True
-s3-1_100_2-n.MW.obj,Sunny Villa,s3,100,,,1,2,MW,LIGHTSHADE_WATER,,1,True
-s3-1_100_2-n.S.obj,Sunny Villa,s3,100,,,1,2,S,SKY,,4,
-s3-1_100_2-n.T.obj,Sunny Villa,s3,100,,,1,2,T,TEXTURES,,1,True
-s3-1_100_2-n.TW.obj,Sunny Villa,s3,100,,,1,2,TW,TEXTURES_WATER,,1,True
-s3-1_100_3-n.F.obj,Sunny Villa,s3,100,,,1,3,F,COLORS,,1,True
-s3-1_100_3-n.L.obj,Sunny Villa,s3,100,,,1,3,L,LOWPOLY,,1,True
-s3-1_100_3-n.M.obj,Sunny Villa,s3,100,,,1,3,M,LIGHTSHADE,,1,True
-s3-1_100_3-n.MW.obj,Sunny Villa,s3,100,,,1,3,MW,LIGHTSHADE_WATER,,1,True
-s3-1_100_3-n.S.obj,Sunny Villa,s3,100,,,1,3,S,SKY,,4,
-s3-1_100_3-n.T.obj,Sunny Villa,s3,100,,,1,3,T,TEXTURES,,1,True
-s3-1_100_3-n.TW.obj,Sunny Villa,s3,100,,,1,3,TW,TEXTURES_WATER,,1,True
-s3-1_102_1-n.F.obj,Cloud Spires,s3,102,,,1,1,F,COLORS,,1,True
-s3-1_102_1-n.L.obj,Cloud Spires,s3,102,,,1,1,L,LOWPOLY,,1,True
-s3-1_102_1-n.M.obj,Cloud Spires,s3,102,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_102_1-n.MW.obj,Cloud Spires,s3,102,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_102_1-n.S.obj,Cloud Spires,s3,102,,,1,1,S,SKY,,5,True
-s3-1_102_1-n.T.obj,Cloud Spires,s3,102,,,1,1,T,TEXTURES,,1,True
-s3-1_102_1-n.TW.obj,Cloud Spires,s3,102,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_102_2-n.F.obj,Cloud Spires,s3,102,,,1,2,F,COLORS,,1,True
-s3-1_102_2-n.L.obj,Cloud Spires,s3,102,,,1,2,L,LOWPOLY,,1,True
-s3-1_102_2-n.M.obj,Cloud Spires,s3,102,,,1,2,M,LIGHTSHADE,,1,True
-s3-1_102_2-n.MW.obj,Cloud Spires,s3,102,,,1,2,MW,LIGHTSHADE_WATER,,1,True
-s3-1_102_2-n.S.obj,Cloud Spires,s3,102,,,1,2,S,SKY,,5,
-s3-1_102_2-n.T.obj,Cloud Spires,s3,102,,,1,2,T,TEXTURES,,1,True
-s3-1_102_2-n.TW.obj,Cloud Spires,s3,102,,,1,2,TW,TEXTURES_WATER,,1,True
-s3-1_102_3-n.F.obj,Cloud Spires,s3,102,,,1,3,F,COLORS,,1,True
-s3-1_102_3-n.L.obj,Cloud Spires,s3,102,,,1,3,L,LOWPOLY,,1,True
-s3-1_102_3-n.M.obj,Cloud Spires,s3,102,,,1,3,M,LIGHTSHADE,,1,True
-s3-1_102_3-n.MW.obj,Cloud Spires,s3,102,,,1,3,MW,LIGHTSHADE_WATER,,1,True
-s3-1_102_3-n.S.obj,Cloud Spires,s3,102,,,1,3,S,SKY,,5,
-s3-1_102_3-n.T.obj,Cloud Spires,s3,102,,,1,3,T,TEXTURES,,1,True
-s3-1_102_3-n.TW.obj,Cloud Spires,s3,102,,,1,3,TW,TEXTURES_WATER,,1,True
-s3-1_104_1-n.F.obj,Molten Crater,s3,104,,,1,1,F,COLORS,,1,True
-s3-1_104_1-n.L.obj,Molten Crater,s3,104,,,1,1,L,LOWPOLY,,1,True
-s3-1_104_1-n.M.obj,Molten Crater,s3,104,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_104_1-n.MW.obj,Molten Crater,s3,104,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_104_1-n.S.obj,Molten Crater,s3,104,,,1,1,S,SKY,,11,
-s3-1_104_1-n.T.obj,Molten Crater,s3,104,,,1,1,T,TEXTURES,,1,True
-s3-1_104_1-n.TW.obj,Molten Crater,s3,104,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_104_2-n.F.obj,Molten Crater,s3,104,,,1,2,F,COLORS,,1,True
-s3-1_104_2-n.L.obj,Molten Crater,s3,104,,,1,2,L,LOWPOLY,,1,True
-s3-1_104_2-n.M.obj,Molten Crater,s3,104,,,1,2,M,LIGHTSHADE,,1,True
-s3-1_104_2-n.MW.obj,Molten Crater,s3,104,,,1,2,MW,LIGHTSHADE_WATER,,1,True
-s3-1_104_2-n.S.obj,Molten Crater,s3,104,,,1,2,S,SKY,,11,
-s3-1_104_2-n.T.obj,Molten Crater,s3,104,,,1,2,T,TEXTURES,,1,True
-s3-1_104_2-n.TW.obj,Molten Crater,s3,104,,,1,2,TW,TEXTURES_WATER,,1,True
-s3-1_104_3-n.F.obj,Molten Crater,s3,104,,,1,3,F,COLORS,,1,True
-s3-1_104_3-n.L.obj,Molten Crater,s3,104,,,1,3,L,LOWPOLY,,1,True
-s3-1_104_3-n.M.obj,Molten Crater,s3,104,,,1,3,M,LIGHTSHADE,,1,True
-s3-1_104_3-n.MW.obj,Molten Crater,s3,104,,,1,3,MW,LIGHTSHADE_WATER,,1,True
-s3-1_104_3-n.S.obj,Molten Crater,s3,104,,,1,3,S,SKY,,11,
-s3-1_104_3-n.T.obj,Molten Crater,s3,104,,,1,3,T,TEXTURES,,1,True
-s3-1_104_3-n.TW.obj,Molten Crater,s3,104,,,1,3,TW,TEXTURES_WATER,,1,True
-s3-1_106_1-n.F.obj,Seashell Shore,s3,106,,,1,1,F,COLORS,,1,True
-s3-1_106_1-n.L.obj,Seashell Shore,s3,106,,,1,1,L,LOWPOLY,,1,True
-s3-1_106_1-n.M.obj,Seashell Shore,s3,106,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_106_1-n.MW.obj,Seashell Shore,s3,106,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_106_1-n.S.obj,Seashell Shore,s3,106,,,1,1,S,SKY,,6,True
-s3-1_106_1-n.T.obj,Seashell Shore,s3,106,,,1,1,T,TEXTURES,,1,True
-s3-1_106_1-n.TW.obj,Seashell Shore,s3,106,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_106_2-n.F.obj,Seashell Shore,s3,106,,,1,2,F,COLORS,,1,True
-s3-1_106_2-n.L.obj,Seashell Shore,s3,106,,,1,2,L,LOWPOLY,,1,True
-s3-1_106_2-n.M.obj,Seashell Shore,s3,106,,,1,2,M,LIGHTSHADE,,1,True
-s3-1_106_2-n.MW.obj,Seashell Shore,s3,106,,,1,2,MW,LIGHTSHADE_WATER,,1,True
-s3-1_106_2-n.S.obj,Seashell Shore,s3,106,,,1,2,S,SKY,,6,
-s3-1_106_2-n.T.obj,Seashell Shore,s3,106,,,1,2,T,TEXTURES,,1,True
-s3-1_106_2-n.TW.obj,Seashell Shore,s3,106,,,1,2,TW,TEXTURES_WATER,,1,True
-s3-1_106_3-n.F.obj,Seashell Shore,s3,106,,,1,3,F,COLORS,,1,True
-s3-1_106_3-n.L.obj,Seashell Shore,s3,106,,,1,3,L,LOWPOLY,,1,True
-s3-1_106_3-n.M.obj,Seashell Shore,s3,106,,,1,3,M,LIGHTSHADE,,1,True
-s3-1_106_3-n.MW.obj,Seashell Shore,s3,106,,,1,3,MW,LIGHTSHADE_WATER,,1,True
-s3-1_106_3-n.S.obj,Seashell Shore,s3,106,,,1,3,S,SKY,,6,
-s3-1_106_3-n.T.obj,Seashell Shore,s3,106,,,1,3,T,TEXTURES,,1,True
-s3-1_106_3-n.TW.obj,Seashell Shore,s3,106,,,1,3,TW,TEXTURES_WATER,,1,True
-s3-1_106_4-n.F.obj,Seashell Shore,s3,106,,,1,4,F,COLORS,,1,True
-s3-1_106_4-n.L.obj,Seashell Shore,s3,106,,,1,4,L,LOWPOLY,,1,True
-s3-1_106_4-n.M.obj,Seashell Shore,s3,106,,,1,4,M,LIGHTSHADE,,1,True
-s3-1_106_4-n.MW.obj,Seashell Shore,s3,106,,,1,4,MW,LIGHTSHADE_WATER,,1,True
-s3-1_106_4-n.S.obj,Seashell Shore,s3,106,,,1,4,S,SKY,,6,
-s3-1_106_4-n.T.obj,Seashell Shore,s3,106,,,1,4,T,TEXTURES,,1,True
-s3-1_106_4-n.TW.obj,Seashell Shore,s3,106,,,1,4,TW,TEXTURES_WATER,,1,True
-s3-1_108_1-n.F.obj,Mushroom Speedway,s3,108,,,1,1,F,COLORS,,1,True
-s3-1_108_1-n.L.obj,Mushroom Speedway,s3,108,,,1,1,L,LOWPOLY,,1,True
-s3-1_108_1-n.M.obj,Mushroom Speedway,s3,108,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_108_1-n.MW.obj,Mushroom Speedway,s3,108,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_108_1-n.S.obj,Mushroom Speedway,s3,108,,,1,1,S,SKY,,2,True
-s3-1_108_1-n.T.obj,Mushroom Speedway,s3,108,,,1,1,T,TEXTURES,,1,True
-s3-1_108_1-n.TW.obj,Mushroom Speedway,s3,108,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_110_1-n.F.obj,Sheila's Alp,s3,110,,,1,1,F,COLORS,,1,True
-s3-1_110_1-n.L.obj,Sheila's Alp,s3,110,,,1,1,L,LOWPOLY,,1,True
-s3-1_110_1-n.M.obj,Sheila's Alp,s3,110,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_110_1-n.MW.obj,Sheila's Alp,s3,110,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_110_1-n.S.obj,Sheila's Alp,s3,110,,,1,1,S,SKY,,9,True
-s3-1_110_1-n.T.obj,Sheila's Alp,s3,110,,,1,1,T,TEXTURES,,1,True
-s3-1_110_1-n.TW.obj,Sheila's Alp,s3,110,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_112_1-n.F.obj,Buzz's Dungeon,s3,112,,,1,1,F,COLORS,,1,True
-s3-1_112_1-n.L.obj,Buzz's Dungeon,s3,112,,,1,1,L,LOWPOLY,,1,True
-s3-1_112_1-n.M.obj,Buzz's Dungeon,s3,112,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_112_1-n.MW.obj,Buzz's Dungeon,s3,112,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_112_1-n.S.obj,Buzz's Dungeon,s3,112,,,1,1,S,SKY,,1,True
-s3-1_112_1-n.T.obj,Buzz's Dungeon,s3,112,,,1,1,T,TEXTURES,,1,True
-s3-1_112_1-n.TW.obj,Buzz's Dungeon,s3,112,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_114_1-n.F.obj,Crawdad Farm,s3,114,,,1,1,F,COLORS,,1,True
-s3-1_114_1-n.L.obj,Crawdad Farm,s3,114,,,1,1,L,LOWPOLY,,1,True
-s3-1_114_1-n.M.obj,Crawdad Farm,s3,114,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_114_1-n.MW.obj,Crawdad Farm,s3,114,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_114_1-n.S.obj,Crawdad Farm,s3,114,,,1,1,S,SKY,,2,
-s3-1_114_1-n.T.obj,Crawdad Farm,s3,114,,,1,1,T,TEXTURES,,1,True
-s3-1_114_1-n.TW.obj,Crawdad Farm,s3,114,,,1,1,TW,TEXTURES_WATER,,1,True
+s3-1_100_1-n.F.obj,Sunny Villa,s3,100,,,1,1,F,COLORS,False,1,True
+s3-1_100_1-n.L.obj,Sunny Villa,s3,100,,,1,1,L,LOWPOLY,False,1,True
+s3-1_100_1-n.M.obj,Sunny Villa,s3,100,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_100_1-n.MW.obj,Sunny Villa,s3,100,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_100_1-n.S.obj,Sunny Villa,s3,100,False,False,1,1,S,SKY,False,4,True
+s3-1_100_1-n.T.obj,Sunny Villa,s3,100,,,1,1,T,TEXTURES,False,1,True
+s3-1_100_1-n.TW.obj,Sunny Villa,s3,100,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_100_2-n.F.obj,Sunny Villa,s3,100,,,1,2,F,COLORS,False,1,True
+s3-1_100_2-n.L.obj,Sunny Villa,s3,100,,,1,2,L,LOWPOLY,False,1,True
+s3-1_100_2-n.M.obj,Sunny Villa,s3,100,,,1,2,M,LIGHTSHADE,False,1,True
+s3-1_100_2-n.MW.obj,Sunny Villa,s3,100,,,1,2,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_100_2-n.S.obj,Sunny Villa,s3,100,False,False,1,2,S,SKY,False,4,False
+s3-1_100_2-n.T.obj,Sunny Villa,s3,100,,,1,2,T,TEXTURES,False,1,True
+s3-1_100_2-n.TW.obj,Sunny Villa,s3,100,,,1,2,TW,TEXTURES_WATER,False,1,True
+s3-1_100_3-n.F.obj,Sunny Villa,s3,100,,,1,3,F,COLORS,False,1,True
+s3-1_100_3-n.L.obj,Sunny Villa,s3,100,,,1,3,L,LOWPOLY,False,1,True
+s3-1_100_3-n.M.obj,Sunny Villa,s3,100,,,1,3,M,LIGHTSHADE,False,1,True
+s3-1_100_3-n.MW.obj,Sunny Villa,s3,100,,,1,3,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_100_3-n.S.obj,Sunny Villa,s3,100,False,False,1,3,S,SKY,False,4,False
+s3-1_100_3-n.T.obj,Sunny Villa,s3,100,,,1,3,T,TEXTURES,False,1,True
+s3-1_100_3-n.TW.obj,Sunny Villa,s3,100,,,1,3,TW,TEXTURES_WATER,False,1,True
+s3-1_102_1-n.F.obj,Cloud Spires,s3,102,,,1,1,F,COLORS,False,1,True
+s3-1_102_1-n.L.obj,Cloud Spires,s3,102,,,1,1,L,LOWPOLY,False,1,True
+s3-1_102_1-n.M.obj,Cloud Spires,s3,102,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_102_1-n.MW.obj,Cloud Spires,s3,102,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_102_1-n.S.obj,Cloud Spires,s3,102,False,False,1,1,S,SKY,False,5,True
+s3-1_102_1-n.T.obj,Cloud Spires,s3,102,,,1,1,T,TEXTURES,False,1,True
+s3-1_102_1-n.TW.obj,Cloud Spires,s3,102,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_102_2-n.F.obj,Cloud Spires,s3,102,,,1,2,F,COLORS,False,1,True
+s3-1_102_2-n.L.obj,Cloud Spires,s3,102,,,1,2,L,LOWPOLY,False,1,True
+s3-1_102_2-n.M.obj,Cloud Spires,s3,102,,,1,2,M,LIGHTSHADE,False,1,True
+s3-1_102_2-n.MW.obj,Cloud Spires,s3,102,,,1,2,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_102_2-n.S.obj,Cloud Spires,s3,102,False,False,1,2,S,SKY,False,5,False
+s3-1_102_2-n.T.obj,Cloud Spires,s3,102,,,1,2,T,TEXTURES,False,1,True
+s3-1_102_2-n.TW.obj,Cloud Spires,s3,102,,,1,2,TW,TEXTURES_WATER,False,1,True
+s3-1_102_3-n.F.obj,Cloud Spires,s3,102,,,1,3,F,COLORS,False,1,True
+s3-1_102_3-n.L.obj,Cloud Spires,s3,102,,,1,3,L,LOWPOLY,False,1,True
+s3-1_102_3-n.M.obj,Cloud Spires,s3,102,,,1,3,M,LIGHTSHADE,False,1,True
+s3-1_102_3-n.MW.obj,Cloud Spires,s3,102,,,1,3,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_102_3-n.S.obj,Cloud Spires,s3,102,False,False,1,3,S,SKY,False,5,False
+s3-1_102_3-n.T.obj,Cloud Spires,s3,102,,,1,3,T,TEXTURES,False,1,True
+s3-1_102_3-n.TW.obj,Cloud Spires,s3,102,,,1,3,TW,TEXTURES_WATER,False,1,True
+s3-1_104_1-n.F.obj,Molten Crater,s3,104,,,1,1,F,COLORS,False,1,True
+s3-1_104_1-n.L.obj,Molten Crater,s3,104,,,1,1,L,LOWPOLY,False,1,True
+s3-1_104_1-n.M.obj,Molten Crater,s3,104,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_104_1-n.MW.obj,Molten Crater,s3,104,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_104_1-n.S.obj,Molten Crater,s3,104,False,False,1,1,S,SKY,False,11,False
+s3-1_104_1-n.T.obj,Molten Crater,s3,104,,,1,1,T,TEXTURES,False,1,True
+s3-1_104_1-n.TW.obj,Molten Crater,s3,104,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_104_2-n.F.obj,Molten Crater,s3,104,,,1,2,F,COLORS,False,1,True
+s3-1_104_2-n.L.obj,Molten Crater,s3,104,,,1,2,L,LOWPOLY,False,1,True
+s3-1_104_2-n.M.obj,Molten Crater,s3,104,,,1,2,M,LIGHTSHADE,False,1,True
+s3-1_104_2-n.MW.obj,Molten Crater,s3,104,,,1,2,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_104_2-n.S.obj,Molten Crater,s3,104,False,False,1,2,S,SKY,False,11,False
+s3-1_104_2-n.T.obj,Molten Crater,s3,104,,,1,2,T,TEXTURES,False,1,True
+s3-1_104_2-n.TW.obj,Molten Crater,s3,104,,,1,2,TW,TEXTURES_WATER,False,1,True
+s3-1_104_3-n.F.obj,Molten Crater,s3,104,,,1,3,F,COLORS,False,1,True
+s3-1_104_3-n.L.obj,Molten Crater,s3,104,,,1,3,L,LOWPOLY,False,1,True
+s3-1_104_3-n.M.obj,Molten Crater,s3,104,,,1,3,M,LIGHTSHADE,False,1,True
+s3-1_104_3-n.MW.obj,Molten Crater,s3,104,,,1,3,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_104_3-n.S.obj,Molten Crater,s3,104,False,False,1,3,S,SKY,False,11,False
+s3-1_104_3-n.T.obj,Molten Crater,s3,104,,,1,3,T,TEXTURES,False,1,True
+s3-1_104_3-n.TW.obj,Molten Crater,s3,104,,,1,3,TW,TEXTURES_WATER,False,1,True
+s3-1_106_1-n.F.obj,Seashell Shore,s3,106,,,1,1,F,COLORS,False,1,True
+s3-1_106_1-n.L.obj,Seashell Shore,s3,106,,,1,1,L,LOWPOLY,False,1,True
+s3-1_106_1-n.M.obj,Seashell Shore,s3,106,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_106_1-n.MW.obj,Seashell Shore,s3,106,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_106_1-n.S.obj,Seashell Shore,s3,106,False,False,1,1,S,SKY,False,6,True
+s3-1_106_1-n.T.obj,Seashell Shore,s3,106,,,1,1,T,TEXTURES,False,1,True
+s3-1_106_1-n.TW.obj,Seashell Shore,s3,106,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_106_2-n.F.obj,Seashell Shore,s3,106,,,1,2,F,COLORS,False,1,True
+s3-1_106_2-n.L.obj,Seashell Shore,s3,106,,,1,2,L,LOWPOLY,False,1,True
+s3-1_106_2-n.M.obj,Seashell Shore,s3,106,,,1,2,M,LIGHTSHADE,False,1,True
+s3-1_106_2-n.MW.obj,Seashell Shore,s3,106,,,1,2,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_106_2-n.S.obj,Seashell Shore,s3,106,False,False,1,2,S,SKY,False,6,False
+s3-1_106_2-n.T.obj,Seashell Shore,s3,106,,,1,2,T,TEXTURES,False,1,True
+s3-1_106_2-n.TW.obj,Seashell Shore,s3,106,,,1,2,TW,TEXTURES_WATER,False,1,True
+s3-1_106_3-n.F.obj,Seashell Shore,s3,106,,,1,3,F,COLORS,False,1,True
+s3-1_106_3-n.L.obj,Seashell Shore,s3,106,,,1,3,L,LOWPOLY,False,1,True
+s3-1_106_3-n.M.obj,Seashell Shore,s3,106,,,1,3,M,LIGHTSHADE,False,1,True
+s3-1_106_3-n.MW.obj,Seashell Shore,s3,106,,,1,3,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_106_3-n.S.obj,Seashell Shore,s3,106,False,False,1,3,S,SKY,False,6,False
+s3-1_106_3-n.T.obj,Seashell Shore,s3,106,,,1,3,T,TEXTURES,False,1,True
+s3-1_106_3-n.TW.obj,Seashell Shore,s3,106,,,1,3,TW,TEXTURES_WATER,False,1,True
+s3-1_106_4-n.F.obj,Seashell Shore,s3,106,,,1,4,F,COLORS,False,1,True
+s3-1_106_4-n.L.obj,Seashell Shore,s3,106,,,1,4,L,LOWPOLY,False,1,True
+s3-1_106_4-n.M.obj,Seashell Shore,s3,106,,,1,4,M,LIGHTSHADE,False,1,True
+s3-1_106_4-n.MW.obj,Seashell Shore,s3,106,,,1,4,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_106_4-n.S.obj,Seashell Shore,s3,106,False,False,1,4,S,SKY,False,6,False
+s3-1_106_4-n.T.obj,Seashell Shore,s3,106,,,1,4,T,TEXTURES,False,1,True
+s3-1_106_4-n.TW.obj,Seashell Shore,s3,106,,,1,4,TW,TEXTURES_WATER,False,1,True
+s3-1_108_1-n.F.obj,Mushroom Speedway,s3,108,,,1,1,F,COLORS,False,1,True
+s3-1_108_1-n.L.obj,Mushroom Speedway,s3,108,,,1,1,L,LOWPOLY,False,1,True
+s3-1_108_1-n.M.obj,Mushroom Speedway,s3,108,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_108_1-n.MW.obj,Mushroom Speedway,s3,108,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_108_1-n.S.obj,Mushroom Speedway,s3,108,False,False,1,1,S,SKY,False,2,True
+s3-1_108_1-n.T.obj,Mushroom Speedway,s3,108,,,1,1,T,TEXTURES,False,1,True
+s3-1_108_1-n.TW.obj,Mushroom Speedway,s3,108,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_110_1-n.F.obj,Sheila's Alp,s3,110,,,1,1,F,COLORS,False,1,True
+s3-1_110_1-n.L.obj,Sheila's Alp,s3,110,,,1,1,L,LOWPOLY,False,1,True
+s3-1_110_1-n.M.obj,Sheila's Alp,s3,110,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_110_1-n.MW.obj,Sheila's Alp,s3,110,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_110_1-n.S.obj,Sheila's Alp,s3,110,False,False,1,1,S,SKY,False,9,True
+s3-1_110_1-n.T.obj,Sheila's Alp,s3,110,,,1,1,T,TEXTURES,False,1,True
+s3-1_110_1-n.TW.obj,Sheila's Alp,s3,110,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_112_1-n.F.obj,Buzz's Dungeon,s3,112,,,1,1,F,COLORS,False,1,True
+s3-1_112_1-n.L.obj,Buzz's Dungeon,s3,112,,,1,1,L,LOWPOLY,False,1,True
+s3-1_112_1-n.M.obj,Buzz's Dungeon,s3,112,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_112_1-n.MW.obj,Buzz's Dungeon,s3,112,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_112_1-n.S.obj,Buzz's Dungeon,s3,112,False,False,1,1,S,SKY,False,1,True
+s3-1_112_1-n.T.obj,Buzz's Dungeon,s3,112,,,1,1,T,TEXTURES,False,1,True
+s3-1_112_1-n.TW.obj,Buzz's Dungeon,s3,112,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_114_1-n.F.obj,Crawdad Farm,s3,114,,,1,1,F,COLORS,False,1,True
+s3-1_114_1-n.L.obj,Crawdad Farm,s3,114,,,1,1,L,LOWPOLY,False,1,True
+s3-1_114_1-n.M.obj,Crawdad Farm,s3,114,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_114_1-n.MW.obj,Crawdad Farm,s3,114,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_114_1-n.S.obj,Crawdad Farm,s3,114,False,False,1,1,S,SKY,False,2,False
+s3-1_114_1-n.T.obj,Crawdad Farm,s3,114,,,1,1,T,TEXTURES,False,1,True
+s3-1_114_1-n.TW.obj,Crawdad Farm,s3,114,,,1,1,TW,TEXTURES_WATER,False,1,True
 s3-1_116_1-n.F.obj,Midday Gardens,s3,116,,,1,1,F,COLORS,True,1,True
 s3-1_116_1-n.L.obj,Midday Gardens,s3,116,,,1,1,L,LOWPOLY,True,1,True
 s3-1_116_1-n.M.obj,Midday Gardens,s3,116,,,1,1,M,LIGHTSHADE,True,1,True
 s3-1_116_1-n.MW.obj,Midday Gardens,s3,116,,,1,1,MW,LIGHTSHADE_WATER,True,1,True
-s3-1_116_1-n.S.obj,Midday Gardens,s3,116,,,1,1,S,SKY,True,9,
+s3-1_116_1-n.S.obj,Midday Gardens,s3,116,False,False,1,1,S,SKY,True,9,False
 s3-1_116_1-n.T.obj,Midday Gardens,s3,116,,,1,1,T,TEXTURES,True,1,True
 s3-1_116_1-n.TW.obj,Midday Gardens,s3,116,,,1,1,TW,TEXTURES_WATER,True,1,True
-s3-1_118_1-n.F.obj,Icy Peak,s3,118,,,1,1,F,COLORS,,1,True
-s3-1_118_1-n.L.obj,Icy Peak,s3,118,,,1,1,L,LOWPOLY,,1,True
-s3-1_118_1-n.M.obj,Icy Peak,s3,118,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_118_1-n.MW.obj,Icy Peak,s3,118,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_118_1-n.S.obj,Icy Peak,s3,118,,,1,1,S,SKY,,5,True
-s3-1_118_1-n.T.obj,Icy Peak,s3,118,,,1,1,T,TEXTURES,,1,True
-s3-1_118_1-n.TW.obj,Icy Peak,s3,118,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_118_2-n.F.obj,Icy Peak,s3,118,,,1,2,F,COLORS,,1,True
-s3-1_118_2-n.L.obj,Icy Peak,s3,118,,,1,2,L,LOWPOLY,,1,True
-s3-1_118_2-n.M.obj,Icy Peak,s3,118,,,1,2,M,LIGHTSHADE,,1,True
-s3-1_118_2-n.MW.obj,Icy Peak,s3,118,,,1,2,MW,LIGHTSHADE_WATER,,1,True
-s3-1_118_2-n.S.obj,Icy Peak,s3,118,,,1,2,S,SKY,,5,
-s3-1_118_2-n.T.obj,Icy Peak,s3,118,,,1,2,T,TEXTURES,,1,True
-s3-1_118_2-n.TW.obj,Icy Peak,s3,118,,,1,2,TW,TEXTURES_WATER,,1,True
-s3-1_118_3-n.F.obj,Icy Peak,s3,118,,,1,3,F,COLORS,,1,True
-s3-1_118_3-n.L.obj,Icy Peak,s3,118,,,1,3,L,LOWPOLY,,1,True
-s3-1_118_3-n.M.obj,Icy Peak,s3,118,,,1,3,M,LIGHTSHADE,,1,True
-s3-1_118_3-n.MW.obj,Icy Peak,s3,118,,,1,3,MW,LIGHTSHADE_WATER,,1,True
-s3-1_118_3-n.S.obj,Icy Peak,s3,118,,,1,3,S,SKY,,5,
-s3-1_118_3-n.T.obj,Icy Peak,s3,118,,,1,3,T,TEXTURES,,1,True
-s3-1_118_3-n.TW.obj,Icy Peak,s3,118,,,1,3,TW,TEXTURES_WATER,,1,True
-s3-1_120_1-n.F.obj,Enchanted Towers,s3,120,,,1,1,F,COLORS,,1,True
-s3-1_120_1-n.L.obj,Enchanted Towers,s3,120,,,1,1,L,LOWPOLY,,1,True
-s3-1_120_1-n.M.obj,Enchanted Towers,s3,120,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_120_1-n.MW.obj,Enchanted Towers,s3,120,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_120_1-n.S.obj,Enchanted Towers,s3,120,,,1,1,S,SKY,,4,True
-s3-1_120_1-n.T.obj,Enchanted Towers,s3,120,,,1,1,T,TEXTURES,,1,True
-s3-1_120_1-n.TW.obj,Enchanted Towers,s3,120,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_120_2-n.F.obj,Enchanted Towers,s3,120,,,1,2,F,COLORS,,1,True
-s3-1_120_2-n.L.obj,Enchanted Towers,s3,120,,,1,2,L,LOWPOLY,,1,True
-s3-1_120_2-n.M.obj,Enchanted Towers,s3,120,,,1,2,M,LIGHTSHADE,,1,True
-s3-1_120_2-n.MW.obj,Enchanted Towers,s3,120,,,1,2,MW,LIGHTSHADE_WATER,,1,True
-s3-1_120_2-n.S.obj,Enchanted Towers,s3,120,,,1,2,S,SKY,,4,
-s3-1_120_2-n.T.obj,Enchanted Towers,s3,120,,,1,2,T,TEXTURES,,1,True
-s3-1_120_2-n.TW.obj,Enchanted Towers,s3,120,,,1,2,TW,TEXTURES_WATER,,1,True
-s3-1_120_3-n.F.obj,Enchanted Towers,s3,120,,,1,3,F,COLORS,,1,True
-s3-1_120_3-n.L.obj,Enchanted Towers,s3,120,,,1,3,L,LOWPOLY,,1,True
-s3-1_120_3-n.M.obj,Enchanted Towers,s3,120,,,1,3,M,LIGHTSHADE,,1,True
-s3-1_120_3-n.MW.obj,Enchanted Towers,s3,120,,,1,3,MW,LIGHTSHADE_WATER,,1,True
-s3-1_120_3-n.S.obj,Enchanted Towers,s3,120,,,1,3,S,SKY,,4,
-s3-1_120_3-n.T.obj,Enchanted Towers,s3,120,,,1,3,T,TEXTURES,,1,True
-s3-1_120_3-n.TW.obj,Enchanted Towers,s3,120,,,1,3,TW,TEXTURES_WATER,,1,True
-s3-1_122_1-n.F.obj,Spooky Swamp,s3,122,,,1,1,F,COLORS,,1,True
-s3-1_122_1-n.L.obj,Spooky Swamp,s3,122,,,1,1,L,LOWPOLY,,1,True
-s3-1_122_1-n.M.obj,Spooky Swamp,s3,122,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_122_1-n.MW.obj,Spooky Swamp,s3,122,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_122_1-n.S.obj,Spooky Swamp,s3,122,,,1,1,S,SKY,,4,True
-s3-1_122_1-n.T.obj,Spooky Swamp,s3,122,,,1,1,T,TEXTURES,,1,True
-s3-1_122_1-n.TW.obj,Spooky Swamp,s3,122,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_122_2-n.F.obj,Spooky Swamp,s3,122,,,1,2,F,COLORS,,1,True
-s3-1_122_2-n.L.obj,Spooky Swamp,s3,122,,,1,2,L,LOWPOLY,,1,True
-s3-1_122_2-n.M.obj,Spooky Swamp,s3,122,,,1,2,M,LIGHTSHADE,,1,True
-s3-1_122_2-n.MW.obj,Spooky Swamp,s3,122,,,1,2,MW,LIGHTSHADE_WATER,,1,True
-s3-1_122_2-n.S.obj,Spooky Swamp,s3,122,,,1,2,S,SKY,,4,
-s3-1_122_2-n.T.obj,Spooky Swamp,s3,122,,,1,2,T,TEXTURES,,1,True
-s3-1_122_2-n.TW.obj,Spooky Swamp,s3,122,,,1,2,TW,TEXTURES_WATER,,1,True
-s3-1_122_3-n.F.obj,Spooky Swamp,s3,122,,,1,3,F,COLORS,,1,True
-s3-1_122_3-n.L.obj,Spooky Swamp,s3,122,,,1,3,L,LOWPOLY,,1,True
-s3-1_122_3-n.M.obj,Spooky Swamp,s3,122,,,1,3,M,LIGHTSHADE,,1,True
-s3-1_122_3-n.MW.obj,Spooky Swamp,s3,122,,,1,3,MW,LIGHTSHADE_WATER,,1,True
-s3-1_122_3-n.S.obj,Spooky Swamp,s3,122,,,1,3,S,SKY,,4,
-s3-1_122_3-n.T.obj,Spooky Swamp,s3,122,,,1,3,T,TEXTURES,,1,True
-s3-1_122_3-n.TW.obj,Spooky Swamp,s3,122,,,1,3,TW,TEXTURES_WATER,,1,True
-s3-1_124_1-n.F.obj,Bamboo Terrace,s3,124,,,1,1,F,COLORS,,1,True
-s3-1_124_1-n.L.obj,Bamboo Terrace,s3,124,,,1,1,L,LOWPOLY,,1,True
-s3-1_124_1-n.M.obj,Bamboo Terrace,s3,124,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_124_1-n.MW.obj,Bamboo Terrace,s3,124,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_124_1-n.S.obj,Bamboo Terrace,s3,124,,,1,1,S,SKY,,5,True
-s3-1_124_1-n.T.obj,Bamboo Terrace,s3,124,,,1,1,T,TEXTURES,,1,True
-s3-1_124_1-n.TW.obj,Bamboo Terrace,s3,124,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_124_2-n.F.obj,Bamboo Terrace,s3,124,,,1,2,F,COLORS,,1,True
-s3-1_124_2-n.L.obj,Bamboo Terrace,s3,124,,,1,2,L,LOWPOLY,,1,True
-s3-1_124_2-n.M.obj,Bamboo Terrace,s3,124,,,1,2,M,LIGHTSHADE,,1,True
-s3-1_124_2-n.MW.obj,Bamboo Terrace,s3,124,,,1,2,MW,LIGHTSHADE_WATER,,1,True
-s3-1_124_2-n.S.obj,Bamboo Terrace,s3,124,,,1,2,S,SKY,,5,
-s3-1_124_2-n.T.obj,Bamboo Terrace,s3,124,,,1,2,T,TEXTURES,,1,True
-s3-1_124_2-n.TW.obj,Bamboo Terrace,s3,124,,,1,2,TW,TEXTURES_WATER,,1,True
-s3-1_124_3-n.F.obj,Bamboo Terrace,s3,124,,,1,3,F,COLORS,,1,True
-s3-1_124_3-n.L.obj,Bamboo Terrace,s3,124,,,1,3,L,LOWPOLY,,1,True
-s3-1_124_3-n.M.obj,Bamboo Terrace,s3,124,,,1,3,M,LIGHTSHADE,,1,True
-s3-1_124_3-n.MW.obj,Bamboo Terrace,s3,124,,,1,3,MW,LIGHTSHADE_WATER,,1,True
-s3-1_124_3-n.S.obj,Bamboo Terrace,s3,124,,,1,3,S,SKY,,5,
-s3-1_124_3-n.T.obj,Bamboo Terrace,s3,124,,,1,3,T,TEXTURES,,1,True
-s3-1_124_3-n.TW.obj,Bamboo Terrace,s3,124,,,1,3,TW,TEXTURES_WATER,,1,True
-s3-1_126_1-n.F.obj,Country Speedway,s3,126,,,1,1,F,COLORS,,1,True
-s3-1_126_1-n.L.obj,Country Speedway,s3,126,,,1,1,L,LOWPOLY,,1,True
-s3-1_126_1-n.M.obj,Country Speedway,s3,126,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_126_1-n.MW.obj,Country Speedway,s3,126,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_126_1-n.S.obj,Country Speedway,s3,126,,,1,1,S,SKY,,2,True
-s3-1_126_1-n.T.obj,Country Speedway,s3,126,,,1,1,T,TEXTURES,,1,True
-s3-1_126_1-n.TW.obj,Country Speedway,s3,126,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_128_1-n.F.obj,Sgt Byrd's Base,s3,128,,,1,1,F,COLORS,,1,True
-s3-1_128_1-n.L.obj,Sgt Byrd's Base,s3,128,,,1,1,L,LOWPOLY,,1,True
-s3-1_128_1-n.M.obj,Sgt Byrd's Base,s3,128,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_128_1-n.MW.obj,Sgt Byrd's Base,s3,128,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_128_1-n.S.obj,Sgt Byrd's Base,s3,128,,,1,1,S,SKY,,2,True
-s3-1_128_1-n.T.obj,Sgt Byrd's Base,s3,128,,,1,1,T,TEXTURES,,1,True
-s3-1_128_1-n.TW.obj,Sgt Byrd's Base,s3,128,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_130_1-n.F.obj,Spike's Arena,s3,130,,,1,1,F,COLORS,,1,True
-s3-1_130_1-n.L.obj,Spike's Arena,s3,130,,,1,1,L,LOWPOLY,,1,True
-s3-1_130_1-n.M.obj,Spike's Arena,s3,130,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_130_1-n.MW.obj,Spike's Arena,s3,130,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_130_1-n.S.obj,Spike's Arena,s3,130,,,1,1,S,SKY,,1,True
-s3-1_130_1-n.T.obj,Spike's Arena,s3,130,,,1,1,T,TEXTURES,,1,True
-s3-1_130_1-n.TW.obj,Spike's Arena,s3,130,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_132_1-n.F.obj,Spider Town,s3,132,,,1,1,F,COLORS,,1,True
-s3-1_132_1-n.L.obj,Spider Town,s3,132,,,1,1,L,LOWPOLY,,1,True
-s3-1_132_1-n.M.obj,Spider Town,s3,132,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_132_1-n.MW.obj,Spider Town,s3,132,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_132_1-n.S.obj,Spider Town,s3,132,,,1,1,S,SKY,,2,
-s3-1_132_1-n.T.obj,Spider Town,s3,132,,,1,1,T,TEXTURES,,1,True
-s3-1_132_1-n.TW.obj,Spider Town,s3,132,,,1,1,TW,TEXTURES_WATER,,1,True
+s3-1_118_1-n.F.obj,Icy Peak,s3,118,,,1,1,F,COLORS,False,1,True
+s3-1_118_1-n.L.obj,Icy Peak,s3,118,,,1,1,L,LOWPOLY,False,1,True
+s3-1_118_1-n.M.obj,Icy Peak,s3,118,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_118_1-n.MW.obj,Icy Peak,s3,118,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_118_1-n.S.obj,Icy Peak,s3,118,False,False,1,1,S,SKY,False,5,True
+s3-1_118_1-n.T.obj,Icy Peak,s3,118,,,1,1,T,TEXTURES,False,1,True
+s3-1_118_1-n.TW.obj,Icy Peak,s3,118,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_118_2-n.F.obj,Icy Peak,s3,118,,,1,2,F,COLORS,False,1,True
+s3-1_118_2-n.L.obj,Icy Peak,s3,118,,,1,2,L,LOWPOLY,False,1,True
+s3-1_118_2-n.M.obj,Icy Peak,s3,118,,,1,2,M,LIGHTSHADE,False,1,True
+s3-1_118_2-n.MW.obj,Icy Peak,s3,118,,,1,2,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_118_2-n.S.obj,Icy Peak,s3,118,False,False,1,2,S,SKY,False,5,False
+s3-1_118_2-n.T.obj,Icy Peak,s3,118,,,1,2,T,TEXTURES,False,1,True
+s3-1_118_2-n.TW.obj,Icy Peak,s3,118,,,1,2,TW,TEXTURES_WATER,False,1,True
+s3-1_118_3-n.F.obj,Icy Peak,s3,118,,,1,3,F,COLORS,False,1,True
+s3-1_118_3-n.L.obj,Icy Peak,s3,118,,,1,3,L,LOWPOLY,False,1,True
+s3-1_118_3-n.M.obj,Icy Peak,s3,118,,,1,3,M,LIGHTSHADE,False,1,True
+s3-1_118_3-n.MW.obj,Icy Peak,s3,118,,,1,3,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_118_3-n.S.obj,Icy Peak,s3,118,False,False,1,3,S,SKY,False,5,False
+s3-1_118_3-n.T.obj,Icy Peak,s3,118,,,1,3,T,TEXTURES,False,1,True
+s3-1_118_3-n.TW.obj,Icy Peak,s3,118,,,1,3,TW,TEXTURES_WATER,False,1,True
+s3-1_120_1-n.F.obj,Enchanted Towers,s3,120,,,1,1,F,COLORS,False,1,True
+s3-1_120_1-n.L.obj,Enchanted Towers,s3,120,,,1,1,L,LOWPOLY,False,1,True
+s3-1_120_1-n.M.obj,Enchanted Towers,s3,120,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_120_1-n.MW.obj,Enchanted Towers,s3,120,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_120_1-n.S.obj,Enchanted Towers,s3,120,False,False,1,1,S,SKY,False,4,True
+s3-1_120_1-n.T.obj,Enchanted Towers,s3,120,,,1,1,T,TEXTURES,False,1,True
+s3-1_120_1-n.TW.obj,Enchanted Towers,s3,120,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_120_2-n.F.obj,Enchanted Towers,s3,120,,,1,2,F,COLORS,False,1,True
+s3-1_120_2-n.L.obj,Enchanted Towers,s3,120,,,1,2,L,LOWPOLY,False,1,True
+s3-1_120_2-n.M.obj,Enchanted Towers,s3,120,,,1,2,M,LIGHTSHADE,False,1,True
+s3-1_120_2-n.MW.obj,Enchanted Towers,s3,120,,,1,2,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_120_2-n.S.obj,Enchanted Towers,s3,120,False,False,1,2,S,SKY,False,4,False
+s3-1_120_2-n.T.obj,Enchanted Towers,s3,120,,,1,2,T,TEXTURES,False,1,True
+s3-1_120_2-n.TW.obj,Enchanted Towers,s3,120,,,1,2,TW,TEXTURES_WATER,False,1,True
+s3-1_120_3-n.F.obj,Enchanted Towers,s3,120,,,1,3,F,COLORS,False,1,True
+s3-1_120_3-n.L.obj,Enchanted Towers,s3,120,,,1,3,L,LOWPOLY,False,1,True
+s3-1_120_3-n.M.obj,Enchanted Towers,s3,120,,,1,3,M,LIGHTSHADE,False,1,True
+s3-1_120_3-n.MW.obj,Enchanted Towers,s3,120,,,1,3,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_120_3-n.S.obj,Enchanted Towers,s3,120,False,False,1,3,S,SKY,False,4,False
+s3-1_120_3-n.T.obj,Enchanted Towers,s3,120,,,1,3,T,TEXTURES,False,1,True
+s3-1_120_3-n.TW.obj,Enchanted Towers,s3,120,,,1,3,TW,TEXTURES_WATER,False,1,True
+s3-1_122_1-n.F.obj,Spooky Swamp,s3,122,,,1,1,F,COLORS,False,1,True
+s3-1_122_1-n.L.obj,Spooky Swamp,s3,122,,,1,1,L,LOWPOLY,False,1,True
+s3-1_122_1-n.M.obj,Spooky Swamp,s3,122,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_122_1-n.MW.obj,Spooky Swamp,s3,122,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_122_1-n.S.obj,Spooky Swamp,s3,122,False,False,1,1,S,SKY,False,4,True
+s3-1_122_1-n.T.obj,Spooky Swamp,s3,122,,,1,1,T,TEXTURES,False,1,True
+s3-1_122_1-n.TW.obj,Spooky Swamp,s3,122,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_122_2-n.F.obj,Spooky Swamp,s3,122,,,1,2,F,COLORS,False,1,True
+s3-1_122_2-n.L.obj,Spooky Swamp,s3,122,,,1,2,L,LOWPOLY,False,1,True
+s3-1_122_2-n.M.obj,Spooky Swamp,s3,122,,,1,2,M,LIGHTSHADE,False,1,True
+s3-1_122_2-n.MW.obj,Spooky Swamp,s3,122,,,1,2,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_122_2-n.S.obj,Spooky Swamp,s3,122,False,False,1,2,S,SKY,False,4,False
+s3-1_122_2-n.T.obj,Spooky Swamp,s3,122,,,1,2,T,TEXTURES,False,1,True
+s3-1_122_2-n.TW.obj,Spooky Swamp,s3,122,,,1,2,TW,TEXTURES_WATER,False,1,True
+s3-1_122_3-n.F.obj,Spooky Swamp,s3,122,,,1,3,F,COLORS,False,1,True
+s3-1_122_3-n.L.obj,Spooky Swamp,s3,122,,,1,3,L,LOWPOLY,False,1,True
+s3-1_122_3-n.M.obj,Spooky Swamp,s3,122,,,1,3,M,LIGHTSHADE,False,1,True
+s3-1_122_3-n.MW.obj,Spooky Swamp,s3,122,,,1,3,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_122_3-n.S.obj,Spooky Swamp,s3,122,False,False,1,3,S,SKY,False,4,False
+s3-1_122_3-n.T.obj,Spooky Swamp,s3,122,,,1,3,T,TEXTURES,False,1,True
+s3-1_122_3-n.TW.obj,Spooky Swamp,s3,122,,,1,3,TW,TEXTURES_WATER,False,1,True
+s3-1_124_1-n.F.obj,Bamboo Terrace,s3,124,,,1,1,F,COLORS,False,1,True
+s3-1_124_1-n.L.obj,Bamboo Terrace,s3,124,,,1,1,L,LOWPOLY,False,1,True
+s3-1_124_1-n.M.obj,Bamboo Terrace,s3,124,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_124_1-n.MW.obj,Bamboo Terrace,s3,124,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_124_1-n.S.obj,Bamboo Terrace,s3,124,False,False,1,1,S,SKY,False,5,True
+s3-1_124_1-n.T.obj,Bamboo Terrace,s3,124,,,1,1,T,TEXTURES,False,1,True
+s3-1_124_1-n.TW.obj,Bamboo Terrace,s3,124,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_124_2-n.F.obj,Bamboo Terrace,s3,124,,,1,2,F,COLORS,False,1,True
+s3-1_124_2-n.L.obj,Bamboo Terrace,s3,124,,,1,2,L,LOWPOLY,False,1,True
+s3-1_124_2-n.M.obj,Bamboo Terrace,s3,124,,,1,2,M,LIGHTSHADE,False,1,True
+s3-1_124_2-n.MW.obj,Bamboo Terrace,s3,124,,,1,2,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_124_2-n.S.obj,Bamboo Terrace,s3,124,False,False,1,2,S,SKY,False,5,False
+s3-1_124_2-n.T.obj,Bamboo Terrace,s3,124,,,1,2,T,TEXTURES,False,1,True
+s3-1_124_2-n.TW.obj,Bamboo Terrace,s3,124,,,1,2,TW,TEXTURES_WATER,False,1,True
+s3-1_124_3-n.F.obj,Bamboo Terrace,s3,124,,,1,3,F,COLORS,False,1,True
+s3-1_124_3-n.L.obj,Bamboo Terrace,s3,124,,,1,3,L,LOWPOLY,False,1,True
+s3-1_124_3-n.M.obj,Bamboo Terrace,s3,124,,,1,3,M,LIGHTSHADE,False,1,True
+s3-1_124_3-n.MW.obj,Bamboo Terrace,s3,124,,,1,3,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_124_3-n.S.obj,Bamboo Terrace,s3,124,False,False,1,3,S,SKY,False,5,False
+s3-1_124_3-n.T.obj,Bamboo Terrace,s3,124,,,1,3,T,TEXTURES,False,1,True
+s3-1_124_3-n.TW.obj,Bamboo Terrace,s3,124,,,1,3,TW,TEXTURES_WATER,False,1,True
+s3-1_126_1-n.F.obj,Country Speedway,s3,126,,,1,1,F,COLORS,False,1,True
+s3-1_126_1-n.L.obj,Country Speedway,s3,126,,,1,1,L,LOWPOLY,False,1,True
+s3-1_126_1-n.M.obj,Country Speedway,s3,126,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_126_1-n.MW.obj,Country Speedway,s3,126,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_126_1-n.S.obj,Country Speedway,s3,126,False,False,1,1,S,SKY,False,2,True
+s3-1_126_1-n.T.obj,Country Speedway,s3,126,,,1,1,T,TEXTURES,False,1,True
+s3-1_126_1-n.TW.obj,Country Speedway,s3,126,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_128_1-n.F.obj,Sgt Byrd's Base,s3,128,,,1,1,F,COLORS,False,1,True
+s3-1_128_1-n.L.obj,Sgt Byrd's Base,s3,128,,,1,1,L,LOWPOLY,False,1,True
+s3-1_128_1-n.M.obj,Sgt Byrd's Base,s3,128,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_128_1-n.MW.obj,Sgt Byrd's Base,s3,128,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_128_1-n.S.obj,Sgt Byrd's Base,s3,128,False,False,1,1,S,SKY,False,2,True
+s3-1_128_1-n.T.obj,Sgt Byrd's Base,s3,128,,,1,1,T,TEXTURES,False,1,True
+s3-1_128_1-n.TW.obj,Sgt Byrd's Base,s3,128,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_130_1-n.F.obj,Spike's Arena,s3,130,,,1,1,F,COLORS,False,1,True
+s3-1_130_1-n.L.obj,Spike's Arena,s3,130,,,1,1,L,LOWPOLY,False,1,True
+s3-1_130_1-n.M.obj,Spike's Arena,s3,130,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_130_1-n.MW.obj,Spike's Arena,s3,130,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_130_1-n.S.obj,Spike's Arena,s3,130,False,False,1,1,S,SKY,False,1,True
+s3-1_130_1-n.T.obj,Spike's Arena,s3,130,,,1,1,T,TEXTURES,False,1,True
+s3-1_130_1-n.TW.obj,Spike's Arena,s3,130,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_132_1-n.F.obj,Spider Town,s3,132,,,1,1,F,COLORS,False,1,True
+s3-1_132_1-n.L.obj,Spider Town,s3,132,,,1,1,L,LOWPOLY,False,1,True
+s3-1_132_1-n.M.obj,Spider Town,s3,132,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_132_1-n.MW.obj,Spider Town,s3,132,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_132_1-n.S.obj,Spider Town,s3,132,False,False,1,1,S,SKY,False,2,False
+s3-1_132_1-n.T.obj,Spider Town,s3,132,,,1,1,T,TEXTURES,False,1,True
+s3-1_132_1-n.TW.obj,Spider Town,s3,132,,,1,1,TW,TEXTURES_WATER,False,1,True
 s3-1_134_1-n.F.obj,Evening Lake,s3,134,,,1,1,F,COLORS,True,1,True
 s3-1_134_1-n.L.obj,Evening Lake,s3,134,,,1,1,L,LOWPOLY,True,1,True
 s3-1_134_1-n.M.obj,Evening Lake,s3,134,,,1,1,M,LIGHTSHADE,True,1,True
 s3-1_134_1-n.MW.obj,Evening Lake,s3,134,,,1,1,MW,LIGHTSHADE_WATER,True,1,True
-s3-1_134_1-n.S.obj,Evening Lake,s3,134,,,1,1,S,SKY,True,3,True
+s3-1_134_1-n.S.obj,Evening Lake,s3,134,False,False,1,1,S,SKY,True,3,True
 s3-1_134_1-n.T.obj,Evening Lake,s3,134,,,1,1,T,TEXTURES,True,1,True
 s3-1_134_1-n.TW.obj,Evening Lake,s3,134,,,1,1,TW,TEXTURES_WATER,True,1,True
-s3-1_136_1-n.F.obj,Frozen Altars,s3,136,,,1,1,F,COLORS,,1,True
-s3-1_136_1-n.L.obj,Frozen Altars,s3,136,,,1,1,L,LOWPOLY,,1,True
-s3-1_136_1-n.M.obj,Frozen Altars,s3,136,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_136_1-n.MW.obj,Frozen Altars,s3,136,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_136_1-n.S.obj,Frozen Altars,s3,136,,,1,1,S,SKY,,4,True
-s3-1_136_1-n.T.obj,Frozen Altars,s3,136,,,1,1,T,TEXTURES,,1,True
-s3-1_136_1-n.TW.obj,Frozen Altars,s3,136,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_136_2-n.F.obj,Frozen Altars,s3,136,,,1,2,F,COLORS,,1,True
-s3-1_136_2-n.L.obj,Frozen Altars,s3,136,,,1,2,L,LOWPOLY,,1,True
-s3-1_136_2-n.M.obj,Frozen Altars,s3,136,,,1,2,M,LIGHTSHADE,,1,True
-s3-1_136_2-n.MW.obj,Frozen Altars,s3,136,,,1,2,MW,LIGHTSHADE_WATER,,1,True
-s3-1_136_2-n.S.obj,Frozen Altars,s3,136,,,1,2,S,SKY,,4,
-s3-1_136_2-n.T.obj,Frozen Altars,s3,136,,,1,2,T,TEXTURES,,1,True
-s3-1_136_2-n.TW.obj,Frozen Altars,s3,136,,,1,2,TW,TEXTURES_WATER,,1,True
-s3-1_136_3-n.F.obj,Frozen Altars,s3,136,,,1,3,F,COLORS,,1,True
-s3-1_136_3-n.L.obj,Frozen Altars,s3,136,,,1,3,L,LOWPOLY,,1,True
-s3-1_136_3-n.M.obj,Frozen Altars,s3,136,,,1,3,M,LIGHTSHADE,,1,True
-s3-1_136_3-n.MW.obj,Frozen Altars,s3,136,,,1,3,MW,LIGHTSHADE_WATER,,1,True
-s3-1_136_3-n.S.obj,Frozen Altars,s3,136,,,1,3,S,SKY,,4,
-s3-1_136_3-n.T.obj,Frozen Altars,s3,136,,,1,3,T,TEXTURES,,1,True
-s3-1_136_3-n.TW.obj,Frozen Altars,s3,136,,,1,3,TW,TEXTURES_WATER,,1,True
-s3-1_138_1-n.F.obj,Lost Fleet,s3,138,,,1,1,F,COLORS,,1,True
-s3-1_138_1-n.L.obj,Lost Fleet,s3,138,,,1,1,L,LOWPOLY,,1,True
-s3-1_138_1-n.M.obj,Lost Fleet,s3,138,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_138_1-n.MW.obj,Lost Fleet,s3,138,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_138_1-n.S.obj,Lost Fleet,s3,138,,,1,1,S,SKY,,7,
-s3-1_138_1-n.T.obj,Lost Fleet,s3,138,,,1,1,T,TEXTURES,,1,True
-s3-1_138_1-n.TW.obj,Lost Fleet,s3,138,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_138_2-n.F.obj,Lost Fleet,s3,138,,,1,2,F,COLORS,,2,True
-s3-1_138_2-n.L.obj,Lost Fleet,s3,138,,,1,2,L,LOWPOLY,,2,True
-s3-1_138_2-n.M.obj,Lost Fleet,s3,138,,,1,2,M,LIGHTSHADE,,2,True
-s3-1_138_2-n.MW.obj,Lost Fleet,s3,138,,,1,2,MW,LIGHTSHADE_WATER,,2,True
-s3-1_138_2-n.S.obj,Lost Fleet,s3,138,,,1,2,S,SKY,,7,
-s3-1_138_2-n.T.obj,Lost Fleet,s3,138,,,1,2,T,TEXTURES,,1,True
-s3-1_138_2-n.TW.obj,Lost Fleet,s3,138,,,1,2,TW,TEXTURES_WATER,,1,True
-s3-1_138_3-n.F.obj,Lost Fleet,s3,138,,,1,3,F,COLORS,,1,True
-s3-1_138_3-n.L.obj,Lost Fleet,s3,138,,,1,3,L,LOWPOLY,,1,True
-s3-1_138_3-n.M.obj,Lost Fleet,s3,138,,,1,3,M,LIGHTSHADE,,1,True
-s3-1_138_3-n.MW.obj,Lost Fleet,s3,138,,,1,3,MW,LIGHTSHADE_WATER,,1,True
-s3-1_138_3-n.S.obj,Lost Fleet,s3,138,,,1,3,S,SKY,,7,
-s3-1_138_3-n.T.obj,Lost Fleet,s3,138,,,1,3,T,TEXTURES,,1,True
-s3-1_138_3-n.TW.obj,Lost Fleet,s3,138,,,1,3,TW,TEXTURES_WATER,,1,True
-s3-1_140_1-n.F.obj,Fireworks Factory,s3,140,,,1,1,F,COLORS,,1,True
-s3-1_140_1-n.L.obj,Fireworks Factory,s3,140,,,1,1,L,LOWPOLY,,1,True
-s3-1_140_1-n.M.obj,Fireworks Factory,s3,140,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_140_1-n.MW.obj,Fireworks Factory,s3,140,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_140_1-n.S.obj,Fireworks Factory,s3,140,,,1,1,S,SKY,,9,True
-s3-1_140_1-n.T.obj,Fireworks Factory,s3,140,,,1,1,T,TEXTURES,,1,True
-s3-1_140_1-n.TW.obj,Fireworks Factory,s3,140,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_140_2-n.F.obj,Fireworks Factory,s3,140,,,1,2,F,COLORS,,2,True
-s3-1_140_2-n.L.obj,Fireworks Factory,s3,140,,,1,2,L,LOWPOLY,,1,True
-s3-1_140_2-n.M.obj,Fireworks Factory,s3,140,,,1,2,M,LIGHTSHADE,,2,True
-s3-1_140_2-n.MW.obj,Fireworks Factory,s3,140,,,1,2,MW,LIGHTSHADE_WATER,,2,True
-s3-1_140_2-n.S.obj,Fireworks Factory,s3,140,,,1,2,S,SKY,,9,
-s3-1_140_2-n.T.obj,Fireworks Factory,s3,140,,,1,2,T,TEXTURES,,1,True
-s3-1_140_2-n.TW.obj,Fireworks Factory,s3,140,,,1,2,TW,TEXTURES_WATER,,2,True
-s3-1_140_3-n.F.obj,Fireworks Factory,s3,140,,,1,3,F,COLORS,,1,True
-s3-1_140_3-n.L.obj,Fireworks Factory,s3,140,,,1,3,L,LOWPOLY,,1,True
-s3-1_140_3-n.M.obj,Fireworks Factory,s3,140,,,1,3,M,LIGHTSHADE,,1,True
-s3-1_140_3-n.MW.obj,Fireworks Factory,s3,140,,,1,3,MW,LIGHTSHADE_WATER,,1,True
-s3-1_140_3-n.S.obj,Fireworks Factory,s3,140,,,1,3,S,SKY,,9,
-s3-1_140_3-n.T.obj,Fireworks Factory,s3,140,,,1,3,T,TEXTURES,,1,True
-s3-1_140_3-n.TW.obj,Fireworks Factory,s3,140,,,1,3,TW,TEXTURES_WATER,,1,True
-s3-1_140_4-n.F.obj,Fireworks Factory,s3,140,,,1,4,F,COLORS,,1,True
-s3-1_140_4-n.L.obj,Fireworks Factory,s3,140,,,1,4,L,LOWPOLY,,1,True
-s3-1_140_4-n.M.obj,Fireworks Factory,s3,140,,,1,4,M,LIGHTSHADE,,1,True
-s3-1_140_4-n.MW.obj,Fireworks Factory,s3,140,,,1,4,MW,LIGHTSHADE_WATER,,1,True
-s3-1_140_4-n.S.obj,Fireworks Factory,s3,140,,,1,4,S,SKY,,9,
-s3-1_140_4-n.T.obj,Fireworks Factory,s3,140,,,1,4,T,TEXTURES,,1,True
-s3-1_140_4-n.TW.obj,Fireworks Factory,s3,140,,,1,4,TW,TEXTURES_WATER,,1,True
-s3-1_142_1-n.F.obj,Charmed Ridge,s3,142,,,1,1,F,COLORS,,1,True
-s3-1_142_1-n.L.obj,Charmed Ridge,s3,142,,,1,1,L,LOWPOLY,,1,True
-s3-1_142_1-n.M.obj,Charmed Ridge,s3,142,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_142_1-n.MW.obj,Charmed Ridge,s3,142,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_142_1-n.S.obj,Charmed Ridge,s3,142,,,1,1,S,SKY,,5,True
-s3-1_142_1-n.T.obj,Charmed Ridge,s3,142,,,1,1,T,TEXTURES,,1,True
-s3-1_142_1-n.TW.obj,Charmed Ridge,s3,142,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_142_2-n.F.obj,Charmed Ridge,s3,142,,,1,2,F,COLORS,,1,True
-s3-1_142_2-n.L.obj,Charmed Ridge,s3,142,,,1,2,L,LOWPOLY,,1,True
-s3-1_142_2-n.M.obj,Charmed Ridge,s3,142,,,1,2,M,LIGHTSHADE,,1,True
-s3-1_142_2-n.MW.obj,Charmed Ridge,s3,142,,,1,2,MW,LIGHTSHADE_WATER,,1,True
-s3-1_142_2-n.S.obj,Charmed Ridge,s3,142,,,1,2,S,SKY,,5,
-s3-1_142_2-n.T.obj,Charmed Ridge,s3,142,,,1,2,T,TEXTURES,,1,True
-s3-1_142_2-n.TW.obj,Charmed Ridge,s3,142,,,1,2,TW,TEXTURES_WATER,,1,True
-s3-1_142_3-n.F.obj,Charmed Ridge,s3,142,,,1,3,F,COLORS,,2,True
-s3-1_142_3-n.L.obj,Charmed Ridge,s3,142,,,1,3,L,LOWPOLY,,2,True
-s3-1_142_3-n.M.obj,Charmed Ridge,s3,142,,,1,3,M,LIGHTSHADE,,2,True
-s3-1_142_3-n.MW.obj,Charmed Ridge,s3,142,,,1,3,MW,LIGHTSHADE_WATER,,2,True
-s3-1_142_3-n.S.obj,Charmed Ridge,s3,142,,,1,3,S,SKY,,5,
-s3-1_142_3-n.T.obj,Charmed Ridge,s3,142,,,1,3,T,TEXTURES,,1,True
-s3-1_142_3-n.TW.obj,Charmed Ridge,s3,142,,,1,3,TW,TEXTURES_WATER,,2,True
-s3-1_144_1-n.F.obj,Honey Speedway,s3,144,,,1,1,F,COLORS,,1,True
-s3-1_144_1-n.L.obj,Honey Speedway,s3,144,,,1,1,L,LOWPOLY,,1,True
-s3-1_144_1-n.M.obj,Honey Speedway,s3,144,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_144_1-n.MW.obj,Honey Speedway,s3,144,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_144_1-n.S.obj,Honey Speedway,s3,144,,,1,1,S,SKY,,2,True
-s3-1_144_1-n.T.obj,Honey Speedway,s3,144,,,1,1,T,TEXTURES,,1,True
-s3-1_144_1-n.TW.obj,Honey Speedway,s3,144,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_146_1-n.F.obj,Bentley's Outpost,s3,146,,,1,1,F,COLORS,,1,True
-s3-1_146_1-n.L.obj,Bentley's Outpost,s3,146,,,1,1,L,LOWPOLY,,1,True
-s3-1_146_1-n.M.obj,Bentley's Outpost,s3,146,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_146_1-n.MW.obj,Bentley's Outpost,s3,146,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_146_1-n.S.obj,Bentley's Outpost,s3,146,,,1,1,S,SKY,,9,
-s3-1_146_1-n.T.obj,Bentley's Outpost,s3,146,,,1,1,T,TEXTURES,,1,True
-s3-1_146_1-n.TW.obj,Bentley's Outpost,s3,146,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_148_1-n.F.obj,Scorch's Pit,s3,148,,,1,1,F,COLORS,,1,True
-s3-1_148_1-n.L.obj,Scorch's Pit,s3,148,,,1,1,L,LOWPOLY,,1,True
-s3-1_148_1-n.M.obj,Scorch's Pit,s3,148,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_148_1-n.MW.obj,Scorch's Pit,s3,148,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_148_1-n.S.obj,Scorch's Pit,s3,148,,,1,1,S,SKY,,1,True
-s3-1_148_1-n.T.obj,Scorch's Pit,s3,148,,,1,1,T,TEXTURES,,1,True
-s3-1_148_1-n.TW.obj,Scorch's Pit,s3,148,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_150_1-n.F.obj,Starfish Reef,s3,150,,,1,1,F,COLORS,,1,True
-s3-1_150_1-n.L.obj,Starfish Reef,s3,150,,,1,1,L,LOWPOLY,,1,True
-s3-1_150_1-n.M.obj,Starfish Reef,s3,150,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_150_1-n.MW.obj,Starfish Reef,s3,150,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_150_1-n.S.obj,Starfish Reef,s3,150,,,1,1,S,SKY,,1,True
-s3-1_150_1-n.T.obj,Starfish Reef,s3,150,,,1,1,T,TEXTURES,,1,True
-s3-1_150_1-n.TW.obj,Starfish Reef,s3,150,,,1,1,TW,TEXTURES_WATER,,1,True
+s3-1_136_1-n.F.obj,Frozen Altars,s3,136,,,1,1,F,COLORS,False,1,True
+s3-1_136_1-n.L.obj,Frozen Altars,s3,136,,,1,1,L,LOWPOLY,False,1,True
+s3-1_136_1-n.M.obj,Frozen Altars,s3,136,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_136_1-n.MW.obj,Frozen Altars,s3,136,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_136_1-n.S.obj,Frozen Altars,s3,136,False,False,1,1,S,SKY,False,4,True
+s3-1_136_1-n.T.obj,Frozen Altars,s3,136,,,1,1,T,TEXTURES,False,1,True
+s3-1_136_1-n.TW.obj,Frozen Altars,s3,136,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_136_2-n.F.obj,Frozen Altars,s3,136,,,1,2,F,COLORS,False,1,True
+s3-1_136_2-n.L.obj,Frozen Altars,s3,136,,,1,2,L,LOWPOLY,False,1,True
+s3-1_136_2-n.M.obj,Frozen Altars,s3,136,,,1,2,M,LIGHTSHADE,False,1,True
+s3-1_136_2-n.MW.obj,Frozen Altars,s3,136,,,1,2,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_136_2-n.S.obj,Frozen Altars,s3,136,False,False,1,2,S,SKY,False,4,False
+s3-1_136_2-n.T.obj,Frozen Altars,s3,136,,,1,2,T,TEXTURES,False,1,True
+s3-1_136_2-n.TW.obj,Frozen Altars,s3,136,,,1,2,TW,TEXTURES_WATER,False,1,True
+s3-1_136_3-n.F.obj,Frozen Altars,s3,136,,,1,3,F,COLORS,False,1,True
+s3-1_136_3-n.L.obj,Frozen Altars,s3,136,,,1,3,L,LOWPOLY,False,1,True
+s3-1_136_3-n.M.obj,Frozen Altars,s3,136,,,1,3,M,LIGHTSHADE,False,1,True
+s3-1_136_3-n.MW.obj,Frozen Altars,s3,136,,,1,3,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_136_3-n.S.obj,Frozen Altars,s3,136,False,False,1,3,S,SKY,False,4,False
+s3-1_136_3-n.T.obj,Frozen Altars,s3,136,,,1,3,T,TEXTURES,False,1,True
+s3-1_136_3-n.TW.obj,Frozen Altars,s3,136,,,1,3,TW,TEXTURES_WATER,False,1,True
+s3-1_138_1-n.F.obj,Lost Fleet,s3,138,,,1,1,F,COLORS,False,1,True
+s3-1_138_1-n.L.obj,Lost Fleet,s3,138,,,1,1,L,LOWPOLY,False,1,True
+s3-1_138_1-n.M.obj,Lost Fleet,s3,138,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_138_1-n.MW.obj,Lost Fleet,s3,138,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_138_1-n.S.obj,Lost Fleet,s3,138,False,False,1,1,S,SKY,False,7,False
+s3-1_138_1-n.T.obj,Lost Fleet,s3,138,,,1,1,T,TEXTURES,False,1,True
+s3-1_138_1-n.TW.obj,Lost Fleet,s3,138,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_138_2-n.F.obj,Lost Fleet,s3,138,,,1,2,F,COLORS,False,2,True
+s3-1_138_2-n.L.obj,Lost Fleet,s3,138,,,1,2,L,LOWPOLY,False,2,True
+s3-1_138_2-n.M.obj,Lost Fleet,s3,138,,,1,2,M,LIGHTSHADE,False,2,True
+s3-1_138_2-n.MW.obj,Lost Fleet,s3,138,,,1,2,MW,LIGHTSHADE_WATER,False,2,True
+s3-1_138_2-n.S.obj,Lost Fleet,s3,138,False,False,1,2,S,SKY,False,7,False
+s3-1_138_2-n.T.obj,Lost Fleet,s3,138,,,1,2,T,TEXTURES,False,1,True
+s3-1_138_2-n.TW.obj,Lost Fleet,s3,138,,,1,2,TW,TEXTURES_WATER,False,1,True
+s3-1_138_3-n.F.obj,Lost Fleet,s3,138,,,1,3,F,COLORS,False,1,True
+s3-1_138_3-n.L.obj,Lost Fleet,s3,138,,,1,3,L,LOWPOLY,False,1,True
+s3-1_138_3-n.M.obj,Lost Fleet,s3,138,,,1,3,M,LIGHTSHADE,False,1,True
+s3-1_138_3-n.MW.obj,Lost Fleet,s3,138,,,1,3,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_138_3-n.S.obj,Lost Fleet,s3,138,False,False,1,3,S,SKY,False,7,False
+s3-1_138_3-n.T.obj,Lost Fleet,s3,138,,,1,3,T,TEXTURES,False,1,True
+s3-1_138_3-n.TW.obj,Lost Fleet,s3,138,,,1,3,TW,TEXTURES_WATER,False,1,True
+s3-1_140_1-n.F.obj,Fireworks Factory,s3,140,,,1,1,F,COLORS,False,1,True
+s3-1_140_1-n.L.obj,Fireworks Factory,s3,140,,,1,1,L,LOWPOLY,False,1,True
+s3-1_140_1-n.M.obj,Fireworks Factory,s3,140,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_140_1-n.MW.obj,Fireworks Factory,s3,140,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_140_1-n.S.obj,Fireworks Factory,s3,140,False,False,1,1,S,SKY,False,9,True
+s3-1_140_1-n.T.obj,Fireworks Factory,s3,140,,,1,1,T,TEXTURES,False,1,True
+s3-1_140_1-n.TW.obj,Fireworks Factory,s3,140,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_140_2-n.F.obj,Fireworks Factory,s3,140,,,1,2,F,COLORS,False,2,True
+s3-1_140_2-n.L.obj,Fireworks Factory,s3,140,,,1,2,L,LOWPOLY,False,1,True
+s3-1_140_2-n.M.obj,Fireworks Factory,s3,140,,,1,2,M,LIGHTSHADE,False,2,True
+s3-1_140_2-n.MW.obj,Fireworks Factory,s3,140,,,1,2,MW,LIGHTSHADE_WATER,False,2,True
+s3-1_140_2-n.S.obj,Fireworks Factory,s3,140,False,False,1,2,S,SKY,False,9,False
+s3-1_140_2-n.T.obj,Fireworks Factory,s3,140,,,1,2,T,TEXTURES,False,1,True
+s3-1_140_2-n.TW.obj,Fireworks Factory,s3,140,,,1,2,TW,TEXTURES_WATER,False,2,True
+s3-1_140_3-n.F.obj,Fireworks Factory,s3,140,,,1,3,F,COLORS,False,1,True
+s3-1_140_3-n.L.obj,Fireworks Factory,s3,140,,,1,3,L,LOWPOLY,False,1,True
+s3-1_140_3-n.M.obj,Fireworks Factory,s3,140,,,1,3,M,LIGHTSHADE,False,1,True
+s3-1_140_3-n.MW.obj,Fireworks Factory,s3,140,,,1,3,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_140_3-n.S.obj,Fireworks Factory,s3,140,False,False,1,3,S,SKY,False,9,False
+s3-1_140_3-n.T.obj,Fireworks Factory,s3,140,,,1,3,T,TEXTURES,False,1,True
+s3-1_140_3-n.TW.obj,Fireworks Factory,s3,140,,,1,3,TW,TEXTURES_WATER,False,1,True
+s3-1_140_4-n.F.obj,Fireworks Factory,s3,140,,,1,4,F,COLORS,False,1,True
+s3-1_140_4-n.L.obj,Fireworks Factory,s3,140,,,1,4,L,LOWPOLY,False,1,True
+s3-1_140_4-n.M.obj,Fireworks Factory,s3,140,,,1,4,M,LIGHTSHADE,False,1,True
+s3-1_140_4-n.MW.obj,Fireworks Factory,s3,140,,,1,4,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_140_4-n.S.obj,Fireworks Factory,s3,140,False,False,1,4,S,SKY,False,9,False
+s3-1_140_4-n.T.obj,Fireworks Factory,s3,140,,,1,4,T,TEXTURES,False,1,True
+s3-1_140_4-n.TW.obj,Fireworks Factory,s3,140,,,1,4,TW,TEXTURES_WATER,False,1,True
+s3-1_142_1-n.F.obj,Charmed Ridge,s3,142,,,1,1,F,COLORS,False,1,True
+s3-1_142_1-n.L.obj,Charmed Ridge,s3,142,,,1,1,L,LOWPOLY,False,1,True
+s3-1_142_1-n.M.obj,Charmed Ridge,s3,142,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_142_1-n.MW.obj,Charmed Ridge,s3,142,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_142_1-n.S.obj,Charmed Ridge,s3,142,False,False,1,1,S,SKY,False,5,True
+s3-1_142_1-n.T.obj,Charmed Ridge,s3,142,,,1,1,T,TEXTURES,False,1,True
+s3-1_142_1-n.TW.obj,Charmed Ridge,s3,142,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_142_2-n.F.obj,Charmed Ridge,s3,142,,,1,2,F,COLORS,False,1,True
+s3-1_142_2-n.L.obj,Charmed Ridge,s3,142,,,1,2,L,LOWPOLY,False,1,True
+s3-1_142_2-n.M.obj,Charmed Ridge,s3,142,,,1,2,M,LIGHTSHADE,False,1,True
+s3-1_142_2-n.MW.obj,Charmed Ridge,s3,142,,,1,2,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_142_2-n.S.obj,Charmed Ridge,s3,142,False,False,1,2,S,SKY,False,5,False
+s3-1_142_2-n.T.obj,Charmed Ridge,s3,142,,,1,2,T,TEXTURES,False,1,True
+s3-1_142_2-n.TW.obj,Charmed Ridge,s3,142,,,1,2,TW,TEXTURES_WATER,False,1,True
+s3-1_142_3-n.F.obj,Charmed Ridge,s3,142,,,1,3,F,COLORS,False,2,True
+s3-1_142_3-n.L.obj,Charmed Ridge,s3,142,,,1,3,L,LOWPOLY,False,2,True
+s3-1_142_3-n.M.obj,Charmed Ridge,s3,142,,,1,3,M,LIGHTSHADE,False,2,True
+s3-1_142_3-n.MW.obj,Charmed Ridge,s3,142,,,1,3,MW,LIGHTSHADE_WATER,False,2,True
+s3-1_142_3-n.S.obj,Charmed Ridge,s3,142,False,False,1,3,S,SKY,False,5,False
+s3-1_142_3-n.T.obj,Charmed Ridge,s3,142,,,1,3,T,TEXTURES,False,1,True
+s3-1_142_3-n.TW.obj,Charmed Ridge,s3,142,,,1,3,TW,TEXTURES_WATER,False,2,True
+s3-1_144_1-n.F.obj,Honey Speedway,s3,144,,,1,1,F,COLORS,False,1,True
+s3-1_144_1-n.L.obj,Honey Speedway,s3,144,,,1,1,L,LOWPOLY,False,1,True
+s3-1_144_1-n.M.obj,Honey Speedway,s3,144,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_144_1-n.MW.obj,Honey Speedway,s3,144,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_144_1-n.S.obj,Honey Speedway,s3,144,False,False,1,1,S,SKY,False,2,True
+s3-1_144_1-n.T.obj,Honey Speedway,s3,144,,,1,1,T,TEXTURES,False,1,True
+s3-1_144_1-n.TW.obj,Honey Speedway,s3,144,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_146_1-n.F.obj,Bentley's Outpost,s3,146,,,1,1,F,COLORS,False,1,True
+s3-1_146_1-n.L.obj,Bentley's Outpost,s3,146,,,1,1,L,LOWPOLY,False,1,True
+s3-1_146_1-n.M.obj,Bentley's Outpost,s3,146,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_146_1-n.MW.obj,Bentley's Outpost,s3,146,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_146_1-n.S.obj,Bentley's Outpost,s3,146,False,False,1,1,S,SKY,False,9,False
+s3-1_146_1-n.T.obj,Bentley's Outpost,s3,146,,,1,1,T,TEXTURES,False,1,True
+s3-1_146_1-n.TW.obj,Bentley's Outpost,s3,146,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_148_1-n.F.obj,Scorch's Pit,s3,148,,,1,1,F,COLORS,False,1,True
+s3-1_148_1-n.L.obj,Scorch's Pit,s3,148,,,1,1,L,LOWPOLY,False,1,True
+s3-1_148_1-n.M.obj,Scorch's Pit,s3,148,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_148_1-n.MW.obj,Scorch's Pit,s3,148,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_148_1-n.S.obj,Scorch's Pit,s3,148,False,False,1,1,S,SKY,False,1,True
+s3-1_148_1-n.T.obj,Scorch's Pit,s3,148,,,1,1,T,TEXTURES,False,1,True
+s3-1_148_1-n.TW.obj,Scorch's Pit,s3,148,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_150_1-n.F.obj,Starfish Reef,s3,150,,,1,1,F,COLORS,False,1,True
+s3-1_150_1-n.L.obj,Starfish Reef,s3,150,,,1,1,L,LOWPOLY,False,1,True
+s3-1_150_1-n.M.obj,Starfish Reef,s3,150,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_150_1-n.MW.obj,Starfish Reef,s3,150,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_150_1-n.S.obj,Starfish Reef,s3,150,False,False,1,1,S,SKY,False,1,True
+s3-1_150_1-n.T.obj,Starfish Reef,s3,150,,,1,1,T,TEXTURES,False,1,True
+s3-1_150_1-n.TW.obj,Starfish Reef,s3,150,,,1,1,TW,TEXTURES_WATER,False,1,True
 s3-1_152_1-n.F.obj,Midnight Mountain,s3,152,,,1,1,F,COLORS,True,1,True
 s3-1_152_1-n.L.obj,Midnight Mountain,s3,152,,,1,1,L,LOWPOLY,True,1,True
 s3-1_152_1-n.M.obj,Midnight Mountain,s3,152,,,1,1,M,LIGHTSHADE,True,1,True
 s3-1_152_1-n.MW.obj,Midnight Mountain,s3,152,,,1,1,MW,LIGHTSHADE_WATER,True,1,True
-s3-1_152_1-n.S.obj,Midnight Mountain,s3,152,,,1,1,S,SKY,True,3,True
+s3-1_152_1-n.S.obj,Midnight Mountain,s3,152,False,False,1,1,S,SKY,True,3,True
 s3-1_152_1-n.T.obj,Midnight Mountain,s3,152,,,1,1,T,TEXTURES,True,1,True
 s3-1_152_1-n.TW.obj,Midnight Mountain,s3,152,,,1,1,TW,TEXTURES_WATER,True,1,True
-s3-1_154_1-n.F.obj,Crystal Islands,s3,154,,,1,1,F,COLORS,,1,True
-s3-1_154_1-n.L.obj,Crystal Islands,s3,154,,,1,1,L,LOWPOLY,,1,True
-s3-1_154_1-n.M.obj,Crystal Islands,s3,154,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_154_1-n.MW.obj,Crystal Islands,s3,154,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_154_1-n.S.obj,Crystal Islands,s3,154,,,1,1,S,SKY,,4,True
-s3-1_154_1-n.T.obj,Crystal Islands,s3,154,,,1,1,T,TEXTURES,,1,True
-s3-1_154_1-n.TW.obj,Crystal Islands,s3,154,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_154_2-n.F.obj,Crystal Islands,s3,154,,,1,2,F,COLORS,,1,True
-s3-1_154_2-n.L.obj,Crystal Islands,s3,154,,,1,2,L,LOWPOLY,,1,True
-s3-1_154_2-n.M.obj,Crystal Islands,s3,154,,,1,2,M,LIGHTSHADE,,1,True
-s3-1_154_2-n.MW.obj,Crystal Islands,s3,154,,,1,2,MW,LIGHTSHADE_WATER,,1,True
-s3-1_154_2-n.S.obj,Crystal Islands,s3,154,,,1,2,S,SKY,,4,
-s3-1_154_2-n.T.obj,Crystal Islands,s3,154,,,1,2,T,TEXTURES,,1,True
-s3-1_154_2-n.TW.obj,Crystal Islands,s3,154,,,1,2,TW,TEXTURES_WATER,,1,True
-s3-1_154_3-n.F.obj,Crystal Islands,s3,154,,,1,3,F,COLORS,,1,True
-s3-1_154_3-n.L.obj,Crystal Islands,s3,154,,,1,3,L,LOWPOLY,,1,True
-s3-1_154_3-n.M.obj,Crystal Islands,s3,154,,,1,3,M,LIGHTSHADE,,1,True
-s3-1_154_3-n.MW.obj,Crystal Islands,s3,154,,,1,3,MW,LIGHTSHADE_WATER,,1,True
-s3-1_154_3-n.S.obj,Crystal Islands,s3,154,,,1,3,S,SKY,,4,
-s3-1_154_3-n.T.obj,Crystal Islands,s3,154,,,1,3,T,TEXTURES,,1,True
-s3-1_154_3-n.TW.obj,Crystal Islands,s3,154,,,1,3,TW,TEXTURES_WATER,,1,True
-s3-1_156_1-n.F.obj,Desert Ruins,s3,156,,,1,1,F,COLORS,,1,True
-s3-1_156_1-n.L.obj,Desert Ruins,s3,156,,,1,1,L,LOWPOLY,,1,True
-s3-1_156_1-n.M.obj,Desert Ruins,s3,156,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_156_1-n.MW.obj,Desert Ruins,s3,156,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_156_1-n.S.obj,Desert Ruins,s3,156,,,1,1,S,SKY,,5,True
-s3-1_156_1-n.T.obj,Desert Ruins,s3,156,,,1,1,T,TEXTURES,,1,True
-s3-1_156_1-n.TW.obj,Desert Ruins,s3,156,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_156_2-n.F.obj,Desert Ruins,s3,156,,,1,2,F,COLORS,,1,True
-s3-1_156_2-n.L.obj,Desert Ruins,s3,156,,,1,2,L,LOWPOLY,,1,True
-s3-1_156_2-n.M.obj,Desert Ruins,s3,156,,,1,2,M,LIGHTSHADE,,1,True
-s3-1_156_2-n.MW.obj,Desert Ruins,s3,156,,,1,2,MW,LIGHTSHADE_WATER,,1,True
-s3-1_156_2-n.S.obj,Desert Ruins,s3,156,,,1,2,S,SKY,,5,
-s3-1_156_2-n.T.obj,Desert Ruins,s3,156,,,1,2,T,TEXTURES,,1,True
-s3-1_156_2-n.TW.obj,Desert Ruins,s3,156,,,1,2,TW,TEXTURES_WATER,,1,True
-s3-1_156_3-n.F.obj,Desert Ruins,s3,156,,,1,3,F,COLORS,,1,True
-s3-1_156_3-n.L.obj,Desert Ruins,s3,156,,,1,3,L,LOWPOLY,,1,True
-s3-1_156_3-n.M.obj,Desert Ruins,s3,156,,,1,3,M,LIGHTSHADE,,1,True
-s3-1_156_3-n.MW.obj,Desert Ruins,s3,156,,,1,3,MW,LIGHTSHADE_WATER,,1,True
-s3-1_156_3-n.S.obj,Desert Ruins,s3,156,,,1,3,S,SKY,,5,
-s3-1_156_3-n.T.obj,Desert Ruins,s3,156,,,1,3,T,TEXTURES,,1,True
-s3-1_156_3-n.TW.obj,Desert Ruins,s3,156,,,1,3,TW,TEXTURES_WATER,,1,True
-s3-1_158_1-n.F.obj,Haunted Tomb,s3,158,,,1,1,F,COLORS,,1,True
-s3-1_158_1-n.L.obj,Haunted Tomb,s3,158,,,1,1,L,LOWPOLY,,1,True
-s3-1_158_1-n.M.obj,Haunted Tomb,s3,158,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_158_1-n.MW.obj,Haunted Tomb,s3,158,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_158_1-n.S.obj,Haunted Tomb,s3,158,,,1,1,S,SKY,,4,True
-s3-1_158_1-n.T.obj,Haunted Tomb,s3,158,,,1,1,T,TEXTURES,,1,True
-s3-1_158_1-n.TW.obj,Haunted Tomb,s3,158,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_158_2-n.F.obj,Haunted Tomb,s3,158,,,1,2,F,COLORS,,1,True
-s3-1_158_2-n.L.obj,Haunted Tomb,s3,158,,,1,2,L,LOWPOLY,,1,True
-s3-1_158_2-n.M.obj,Haunted Tomb,s3,158,,,1,2,M,LIGHTSHADE,,1,True
-s3-1_158_2-n.MW.obj,Haunted Tomb,s3,158,,,1,2,MW,LIGHTSHADE_WATER,,1,True
-s3-1_158_2-n.S.obj,Haunted Tomb,s3,158,,,1,2,S,SKY,,4,
-s3-1_158_2-n.T.obj,Haunted Tomb,s3,158,,,1,2,T,TEXTURES,,1,True
-s3-1_158_2-n.TW.obj,Haunted Tomb,s3,158,,,1,2,TW,TEXTURES_WATER,,1,True
-s3-1_158_3-n.F.obj,Haunted Tomb,s3,158,,,1,3,F,COLORS,,1,True
-s3-1_158_3-n.L.obj,Haunted Tomb,s3,158,,,1,3,L,LOWPOLY,,1,True
-s3-1_158_3-n.M.obj,Haunted Tomb,s3,158,,,1,3,M,LIGHTSHADE,,1,True
-s3-1_158_3-n.MW.obj,Haunted Tomb,s3,158,,,1,3,MW,LIGHTSHADE_WATER,,1,True
-s3-1_158_3-n.S.obj,Haunted Tomb,s3,158,,,1,3,S,SKY,,4,
-s3-1_158_3-n.T.obj,Haunted Tomb,s3,158,,,1,3,T,TEXTURES,,1,True
-s3-1_158_3-n.TW.obj,Haunted Tomb,s3,158,,,1,3,TW,TEXTURES_WATER,,1,True
-s3-1_160_1-n.F.obj,Dino Mines,s3,160,,,1,1,F,COLORS,,1,True
-s3-1_160_1-n.L.obj,Dino Mines,s3,160,,,1,1,L,LOWPOLY,,1,True
-s3-1_160_1-n.M.obj,Dino Mines,s3,160,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_160_1-n.MW.obj,Dino Mines,s3,160,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_160_1-n.S.obj,Dino Mines,s3,160,,,1,1,S,SKY,,11,
-s3-1_160_1-n.T.obj,Dino Mines,s3,160,,,1,1,T,TEXTURES,,1,True
-s3-1_160_1-n.TW.obj,Dino Mines,s3,160,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_160_2-n.F.obj,Dino Mines,s3,160,,,1,2,F,COLORS,,1,True
-s3-1_160_2-n.L.obj,Dino Mines,s3,160,,,1,2,L,LOWPOLY,,1,True
-s3-1_160_2-n.M.obj,Dino Mines,s3,160,,,1,2,M,LIGHTSHADE,,1,True
-s3-1_160_2-n.MW.obj,Dino Mines,s3,160,,,1,2,MW,LIGHTSHADE_WATER,,1,True
-s3-1_160_2-n.S.obj,Dino Mines,s3,160,,,1,2,S,SKY,,11,
-s3-1_160_2-n.T.obj,Dino Mines,s3,160,,,1,2,T,TEXTURES,,1,True
-s3-1_160_2-n.TW.obj,Dino Mines,s3,160,,,1,2,TW,TEXTURES_WATER,,1,True
-s3-1_160_3-n.F.obj,Dino Mines,s3,160,,,1,3,F,COLORS,,1,True
-s3-1_160_3-n.L.obj,Dino Mines,s3,160,,,1,3,L,LOWPOLY,,1,True
-s3-1_160_3-n.M.obj,Dino Mines,s3,160,,,1,3,M,LIGHTSHADE,,1,True
-s3-1_160_3-n.MW.obj,Dino Mines,s3,160,,,1,3,MW,LIGHTSHADE_WATER,,1,True
-s3-1_160_3-n.S.obj,Dino Mines,s3,160,,,1,3,S,SKY,,11,
-s3-1_160_3-n.T.obj,Dino Mines,s3,160,,,1,3,T,TEXTURES,,1,True
-s3-1_160_3-n.TW.obj,Dino Mines,s3,160,,,1,3,TW,TEXTURES_WATER,,1,True
-s3-1_160_4-n.F.obj,Dino Mines,s3,160,,,1,4,F,COLORS,,1,True
-s3-1_160_4-n.L.obj,Dino Mines,s3,160,,,1,4,L,LOWPOLY,,1,True
-s3-1_160_4-n.M.obj,Dino Mines,s3,160,,,1,4,M,LIGHTSHADE,,1,True
-s3-1_160_4-n.MW.obj,Dino Mines,s3,160,,,1,4,MW,LIGHTSHADE_WATER,,1,True
-s3-1_160_4-n.S.obj,Dino Mines,s3,160,,,1,4,S,SKY,,11,
-s3-1_160_4-n.T.obj,Dino Mines,s3,160,,,1,4,T,TEXTURES,,1,True
-s3-1_160_4-n.TW.obj,Dino Mines,s3,160,,,1,4,TW,TEXTURES_WATER,,1,True
-s3-1_162_1-n.F.obj,Harbor Speedway,s3,162,,,1,1,F,COLORS,,1,True
-s3-1_162_1-n.L.obj,Harbor Speedway,s3,162,,,1,1,L,LOWPOLY,,1,True
-s3-1_162_1-n.M.obj,Harbor Speedway,s3,162,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_162_1-n.MW.obj,Harbor Speedway,s3,162,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_162_1-n.S.obj,Harbor Speedway,s3,162,,,1,1,S,SKY,,2,True
-s3-1_162_1-n.T.obj,Harbor Speedway,s3,162,,,1,1,T,TEXTURES,,1,True
-s3-1_162_1-n.TW.obj,Harbor Speedway,s3,162,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_164_1-n.F.obj,Agent 9's Lab,s3,164,,,1,1,F,COLORS,,1,True
-s3-1_164_1-n.L.obj,Agent 9's Lab,s3,164,,,1,1,L,LOWPOLY,,1,True
-s3-1_164_1-n.M.obj,Agent 9's Lab,s3,164,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_164_1-n.MW.obj,Agent 9's Lab,s3,164,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_164_1-n.S.obj,Agent 9's Lab,s3,164,,,1,1,S,SKY,,3,True
-s3-1_164_1-n.T.obj,Agent 9's Lab,s3,164,,,1,1,T,TEXTURES,,1,True
-s3-1_164_1-n.TW.obj,Agent 9's Lab,s3,164,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_166_1-n.F.obj,Sorceress' Lair,s3,166,,,1,1,F,COLORS,,1,True
-s3-1_166_1-n.L.obj,Sorceress' Lair,s3,166,,,1,1,L,LOWPOLY,,1,True
-s3-1_166_1-n.M.obj,Sorceress' Lair,s3,166,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_166_1-n.MW.obj,Sorceress' Lair,s3,166,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_166_1-n.S.obj,Sorceress' Lair,s3,166,,,1,1,S,SKY,,1,True
-s3-1_166_1-n.T.obj,Sorceress' Lair,s3,166,,,1,1,T,TEXTURES,,1,True
-s3-1_166_1-n.TW.obj,Sorceress' Lair,s3,166,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_168_1-n.F.obj,Bugbot Factory,s3,168,,,1,1,F,COLORS,,1,True
-s3-1_168_1-n.L.obj,Bugbot Factory,s3,168,,,1,1,L,LOWPOLY,,1,True
-s3-1_168_1-n.M.obj,Bugbot Factory,s3,168,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_168_1-n.MW.obj,Bugbot Factory,s3,168,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_168_1-n.S.obj,Bugbot Factory,s3,168,,,1,1,S,SKY,,2,True
-s3-1_168_1-n.T.obj,Bugbot Factory,s3,168,,,1,1,T,TEXTURES,,1,True
-s3-1_168_1-n.TW.obj,Bugbot Factory,s3,168,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_170_1-n.F.obj,Super Bonus Round,s3,170,,,1,1,F,COLORS,,1,True
-s3-1_170_1-n.L.obj,Super Bonus Round,s3,170,,,1,1,L,LOWPOLY,,1,True
-s3-1_170_1-n.M.obj,Super Bonus Round,s3,170,,,1,1,M,LIGHTSHADE,,1,True
-s3-1_170_1-n.MW.obj,Super Bonus Round,s3,170,,,1,1,MW,LIGHTSHADE_WATER,,1,True
-s3-1_170_1-n.S.obj,Super Bonus Round,s3,170,,,1,1,S,SKY,,4,True
-s3-1_170_1-n.T.obj,Super Bonus Round,s3,170,,,1,1,T,TEXTURES,,1,True
-s3-1_170_1-n.TW.obj,Super Bonus Round,s3,170,,,1,1,TW,TEXTURES_WATER,,1,True
-s3-1_170_2-n.F.obj,Super Bonus Round,s3,170,,,1,2,F,COLORS,,1,True
-s3-1_170_2-n.L.obj,Super Bonus Round,s3,170,,,1,2,L,LOWPOLY,,1,True
-s3-1_170_2-n.M.obj,Super Bonus Round,s3,170,,,1,2,M,LIGHTSHADE,,1,True
-s3-1_170_2-n.MW.obj,Super Bonus Round,s3,170,,,1,2,MW,LIGHTSHADE_WATER,,1,True
-s3-1_170_2-n.S.obj,Super Bonus Round,s3,170,,,1,2,S,SKY,,4,
-s3-1_170_2-n.T.obj,Super Bonus Round,s3,170,,,1,2,T,TEXTURES,,1,True
-s3-1_170_2-n.TW.obj,Super Bonus Round,s3,170,,,1,2,TW,TEXTURES_WATER,,1,True
-s3-1_170_3-n.F.obj,Super Bonus Round,s3,170,,,1,3,F,COLORS,,1,True
-s3-1_170_3-n.L.obj,Super Bonus Round,s3,170,,,1,3,L,LOWPOLY,,1,True
-s3-1_170_3-n.M.obj,Super Bonus Round,s3,170,,,1,3,M,LIGHTSHADE,,1,True
-s3-1_170_3-n.MW.obj,Super Bonus Round,s3,170,,,1,3,MW,LIGHTSHADE_WATER,,1,True
-s3-1_170_3-n.S.obj,Super Bonus Round,s3,170,,,1,3,S,SKY,,4,
-s3-1_170_3-n.T.obj,Super Bonus Round,s3,170,,,1,3,T,TEXTURES,,1,True
-s3-1_170_3-n.TW.obj,Super Bonus Round,s3,170,,,1,3,TW,TEXTURES_WATER,,1,True
-s3-1_170_4-n.F.obj,Super Bonus Round,s3,170,,,1,4,F,COLORS,,1,True
-s3-1_170_4-n.L.obj,Super Bonus Round,s3,170,,,1,4,L,LOWPOLY,,1,True
-s3-1_170_4-n.M.obj,Super Bonus Round,s3,170,,,1,4,M,LIGHTSHADE,,1,True
-s3-1_170_4-n.MW.obj,Super Bonus Round,s3,170,,,1,4,MW,LIGHTSHADE_WATER,,1,True
-s3-1_170_4-n.S.obj,Super Bonus Round,s3,170,,,1,4,S,SKY,,4,
-s3-1_170_4-n.T.obj,Super Bonus Round,s3,170,,,1,4,T,TEXTURES,,1,True
-s3-1_170_4-n.TW.obj,Super Bonus Round,s3,170,,,1,4,TW,TEXTURES_WATER,,1,True
+s3-1_154_1-n.F.obj,Crystal Islands,s3,154,,,1,1,F,COLORS,False,1,True
+s3-1_154_1-n.L.obj,Crystal Islands,s3,154,,,1,1,L,LOWPOLY,False,1,True
+s3-1_154_1-n.M.obj,Crystal Islands,s3,154,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_154_1-n.MW.obj,Crystal Islands,s3,154,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_154_1-n.S.obj,Crystal Islands,s3,154,False,False,1,1,S,SKY,False,4,True
+s3-1_154_1-n.T.obj,Crystal Islands,s3,154,,,1,1,T,TEXTURES,False,1,True
+s3-1_154_1-n.TW.obj,Crystal Islands,s3,154,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_154_2-n.F.obj,Crystal Islands,s3,154,,,1,2,F,COLORS,False,1,True
+s3-1_154_2-n.L.obj,Crystal Islands,s3,154,,,1,2,L,LOWPOLY,False,1,True
+s3-1_154_2-n.M.obj,Crystal Islands,s3,154,,,1,2,M,LIGHTSHADE,False,1,True
+s3-1_154_2-n.MW.obj,Crystal Islands,s3,154,,,1,2,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_154_2-n.S.obj,Crystal Islands,s3,154,False,False,1,2,S,SKY,False,4,False
+s3-1_154_2-n.T.obj,Crystal Islands,s3,154,,,1,2,T,TEXTURES,False,1,True
+s3-1_154_2-n.TW.obj,Crystal Islands,s3,154,,,1,2,TW,TEXTURES_WATER,False,1,True
+s3-1_154_3-n.F.obj,Crystal Islands,s3,154,,,1,3,F,COLORS,False,1,True
+s3-1_154_3-n.L.obj,Crystal Islands,s3,154,,,1,3,L,LOWPOLY,False,1,True
+s3-1_154_3-n.M.obj,Crystal Islands,s3,154,,,1,3,M,LIGHTSHADE,False,1,True
+s3-1_154_3-n.MW.obj,Crystal Islands,s3,154,,,1,3,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_154_3-n.S.obj,Crystal Islands,s3,154,False,False,1,3,S,SKY,False,4,False
+s3-1_154_3-n.T.obj,Crystal Islands,s3,154,,,1,3,T,TEXTURES,False,1,True
+s3-1_154_3-n.TW.obj,Crystal Islands,s3,154,,,1,3,TW,TEXTURES_WATER,False,1,True
+s3-1_156_1-n.F.obj,Desert Ruins,s3,156,,,1,1,F,COLORS,False,1,True
+s3-1_156_1-n.L.obj,Desert Ruins,s3,156,,,1,1,L,LOWPOLY,False,1,True
+s3-1_156_1-n.M.obj,Desert Ruins,s3,156,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_156_1-n.MW.obj,Desert Ruins,s3,156,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_156_1-n.S.obj,Desert Ruins,s3,156,False,False,1,1,S,SKY,False,5,True
+s3-1_156_1-n.T.obj,Desert Ruins,s3,156,,,1,1,T,TEXTURES,False,1,True
+s3-1_156_1-n.TW.obj,Desert Ruins,s3,156,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_156_2-n.F.obj,Desert Ruins,s3,156,,,1,2,F,COLORS,False,1,True
+s3-1_156_2-n.L.obj,Desert Ruins,s3,156,,,1,2,L,LOWPOLY,False,1,True
+s3-1_156_2-n.M.obj,Desert Ruins,s3,156,,,1,2,M,LIGHTSHADE,False,1,True
+s3-1_156_2-n.MW.obj,Desert Ruins,s3,156,,,1,2,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_156_2-n.S.obj,Desert Ruins,s3,156,False,False,1,2,S,SKY,False,5,False
+s3-1_156_2-n.T.obj,Desert Ruins,s3,156,,,1,2,T,TEXTURES,False,1,True
+s3-1_156_2-n.TW.obj,Desert Ruins,s3,156,,,1,2,TW,TEXTURES_WATER,False,1,True
+s3-1_156_3-n.F.obj,Desert Ruins,s3,156,,,1,3,F,COLORS,False,1,True
+s3-1_156_3-n.L.obj,Desert Ruins,s3,156,,,1,3,L,LOWPOLY,False,1,True
+s3-1_156_3-n.M.obj,Desert Ruins,s3,156,,,1,3,M,LIGHTSHADE,False,1,True
+s3-1_156_3-n.MW.obj,Desert Ruins,s3,156,,,1,3,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_156_3-n.S.obj,Desert Ruins,s3,156,False,False,1,3,S,SKY,False,5,False
+s3-1_156_3-n.T.obj,Desert Ruins,s3,156,,,1,3,T,TEXTURES,False,1,True
+s3-1_156_3-n.TW.obj,Desert Ruins,s3,156,,,1,3,TW,TEXTURES_WATER,False,1,True
+s3-1_158_1-n.F.obj,Haunted Tomb,s3,158,,,1,1,F,COLORS,False,1,True
+s3-1_158_1-n.L.obj,Haunted Tomb,s3,158,,,1,1,L,LOWPOLY,False,1,True
+s3-1_158_1-n.M.obj,Haunted Tomb,s3,158,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_158_1-n.MW.obj,Haunted Tomb,s3,158,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_158_1-n.S.obj,Haunted Tomb,s3,158,False,False,1,1,S,SKY,False,4,True
+s3-1_158_1-n.T.obj,Haunted Tomb,s3,158,,,1,1,T,TEXTURES,False,1,True
+s3-1_158_1-n.TW.obj,Haunted Tomb,s3,158,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_158_2-n.F.obj,Haunted Tomb,s3,158,,,1,2,F,COLORS,False,1,True
+s3-1_158_2-n.L.obj,Haunted Tomb,s3,158,,,1,2,L,LOWPOLY,False,1,True
+s3-1_158_2-n.M.obj,Haunted Tomb,s3,158,,,1,2,M,LIGHTSHADE,False,1,True
+s3-1_158_2-n.MW.obj,Haunted Tomb,s3,158,,,1,2,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_158_2-n.S.obj,Haunted Tomb,s3,158,False,False,1,2,S,SKY,False,4,False
+s3-1_158_2-n.T.obj,Haunted Tomb,s3,158,,,1,2,T,TEXTURES,False,1,True
+s3-1_158_2-n.TW.obj,Haunted Tomb,s3,158,,,1,2,TW,TEXTURES_WATER,False,1,True
+s3-1_158_3-n.F.obj,Haunted Tomb,s3,158,,,1,3,F,COLORS,False,1,True
+s3-1_158_3-n.L.obj,Haunted Tomb,s3,158,,,1,3,L,LOWPOLY,False,1,True
+s3-1_158_3-n.M.obj,Haunted Tomb,s3,158,,,1,3,M,LIGHTSHADE,False,1,True
+s3-1_158_3-n.MW.obj,Haunted Tomb,s3,158,,,1,3,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_158_3-n.S.obj,Haunted Tomb,s3,158,False,False,1,3,S,SKY,False,4,False
+s3-1_158_3-n.T.obj,Haunted Tomb,s3,158,,,1,3,T,TEXTURES,False,1,True
+s3-1_158_3-n.TW.obj,Haunted Tomb,s3,158,,,1,3,TW,TEXTURES_WATER,False,1,True
+s3-1_160_1-n.F.obj,Dino Mines,s3,160,,,1,1,F,COLORS,False,1,True
+s3-1_160_1-n.L.obj,Dino Mines,s3,160,,,1,1,L,LOWPOLY,False,1,True
+s3-1_160_1-n.M.obj,Dino Mines,s3,160,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_160_1-n.MW.obj,Dino Mines,s3,160,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_160_1-n.S.obj,Dino Mines,s3,160,False,False,1,1,S,SKY,False,11,False
+s3-1_160_1-n.T.obj,Dino Mines,s3,160,,,1,1,T,TEXTURES,False,1,True
+s3-1_160_1-n.TW.obj,Dino Mines,s3,160,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_160_2-n.F.obj,Dino Mines,s3,160,,,1,2,F,COLORS,False,1,True
+s3-1_160_2-n.L.obj,Dino Mines,s3,160,,,1,2,L,LOWPOLY,False,1,True
+s3-1_160_2-n.M.obj,Dino Mines,s3,160,,,1,2,M,LIGHTSHADE,False,1,True
+s3-1_160_2-n.MW.obj,Dino Mines,s3,160,,,1,2,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_160_2-n.S.obj,Dino Mines,s3,160,False,False,1,2,S,SKY,False,11,False
+s3-1_160_2-n.T.obj,Dino Mines,s3,160,,,1,2,T,TEXTURES,False,1,True
+s3-1_160_2-n.TW.obj,Dino Mines,s3,160,,,1,2,TW,TEXTURES_WATER,False,1,True
+s3-1_160_3-n.F.obj,Dino Mines,s3,160,,,1,3,F,COLORS,False,1,True
+s3-1_160_3-n.L.obj,Dino Mines,s3,160,,,1,3,L,LOWPOLY,False,1,True
+s3-1_160_3-n.M.obj,Dino Mines,s3,160,,,1,3,M,LIGHTSHADE,False,1,True
+s3-1_160_3-n.MW.obj,Dino Mines,s3,160,,,1,3,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_160_3-n.S.obj,Dino Mines,s3,160,False,False,1,3,S,SKY,False,11,False
+s3-1_160_3-n.T.obj,Dino Mines,s3,160,,,1,3,T,TEXTURES,False,1,True
+s3-1_160_3-n.TW.obj,Dino Mines,s3,160,,,1,3,TW,TEXTURES_WATER,False,1,True
+s3-1_160_4-n.F.obj,Dino Mines,s3,160,,,1,4,F,COLORS,False,1,True
+s3-1_160_4-n.L.obj,Dino Mines,s3,160,,,1,4,L,LOWPOLY,False,1,True
+s3-1_160_4-n.M.obj,Dino Mines,s3,160,,,1,4,M,LIGHTSHADE,False,1,True
+s3-1_160_4-n.MW.obj,Dino Mines,s3,160,,,1,4,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_160_4-n.S.obj,Dino Mines,s3,160,False,False,1,4,S,SKY,False,11,False
+s3-1_160_4-n.T.obj,Dino Mines,s3,160,,,1,4,T,TEXTURES,False,1,True
+s3-1_160_4-n.TW.obj,Dino Mines,s3,160,,,1,4,TW,TEXTURES_WATER,False,1,True
+s3-1_162_1-n.F.obj,Harbor Speedway,s3,162,,,1,1,F,COLORS,False,1,True
+s3-1_162_1-n.L.obj,Harbor Speedway,s3,162,,,1,1,L,LOWPOLY,False,1,True
+s3-1_162_1-n.M.obj,Harbor Speedway,s3,162,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_162_1-n.MW.obj,Harbor Speedway,s3,162,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_162_1-n.S.obj,Harbor Speedway,s3,162,False,False,1,1,S,SKY,False,2,True
+s3-1_162_1-n.T.obj,Harbor Speedway,s3,162,,,1,1,T,TEXTURES,False,1,True
+s3-1_162_1-n.TW.obj,Harbor Speedway,s3,162,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_164_1-n.F.obj,Agent 9's Lab,s3,164,,,1,1,F,COLORS,False,1,True
+s3-1_164_1-n.L.obj,Agent 9's Lab,s3,164,,,1,1,L,LOWPOLY,False,1,True
+s3-1_164_1-n.M.obj,Agent 9's Lab,s3,164,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_164_1-n.MW.obj,Agent 9's Lab,s3,164,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_164_1-n.S.obj,Agent 9's Lab,s3,164,False,False,1,1,S,SKY,False,3,True
+s3-1_164_1-n.T.obj,Agent 9's Lab,s3,164,,,1,1,T,TEXTURES,False,1,True
+s3-1_164_1-n.TW.obj,Agent 9's Lab,s3,164,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_166_1-n.F.obj,Sorceress' Lair,s3,166,,,1,1,F,COLORS,False,1,True
+s3-1_166_1-n.L.obj,Sorceress' Lair,s3,166,,,1,1,L,LOWPOLY,False,1,True
+s3-1_166_1-n.M.obj,Sorceress' Lair,s3,166,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_166_1-n.MW.obj,Sorceress' Lair,s3,166,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_166_1-n.S.obj,Sorceress' Lair,s3,166,False,False,1,1,S,SKY,False,1,True
+s3-1_166_1-n.T.obj,Sorceress' Lair,s3,166,,,1,1,T,TEXTURES,False,1,True
+s3-1_166_1-n.TW.obj,Sorceress' Lair,s3,166,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_168_1-n.F.obj,Bugbot Factory,s3,168,,,1,1,F,COLORS,False,1,True
+s3-1_168_1-n.L.obj,Bugbot Factory,s3,168,,,1,1,L,LOWPOLY,False,1,True
+s3-1_168_1-n.M.obj,Bugbot Factory,s3,168,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_168_1-n.MW.obj,Bugbot Factory,s3,168,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_168_1-n.S.obj,Bugbot Factory,s3,168,False,False,1,1,S,SKY,False,2,True
+s3-1_168_1-n.T.obj,Bugbot Factory,s3,168,,,1,1,T,TEXTURES,False,1,True
+s3-1_168_1-n.TW.obj,Bugbot Factory,s3,168,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_170_1-n.F.obj,Super Bonus Round,s3,170,,,1,1,F,COLORS,False,1,True
+s3-1_170_1-n.L.obj,Super Bonus Round,s3,170,,,1,1,L,LOWPOLY,False,1,True
+s3-1_170_1-n.M.obj,Super Bonus Round,s3,170,,,1,1,M,LIGHTSHADE,False,1,True
+s3-1_170_1-n.MW.obj,Super Bonus Round,s3,170,,,1,1,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_170_1-n.S.obj,Super Bonus Round,s3,170,False,False,1,1,S,SKY,False,4,True
+s3-1_170_1-n.T.obj,Super Bonus Round,s3,170,,,1,1,T,TEXTURES,False,1,True
+s3-1_170_1-n.TW.obj,Super Bonus Round,s3,170,,,1,1,TW,TEXTURES_WATER,False,1,True
+s3-1_170_2-n.F.obj,Super Bonus Round,s3,170,,,1,2,F,COLORS,False,1,True
+s3-1_170_2-n.L.obj,Super Bonus Round,s3,170,,,1,2,L,LOWPOLY,False,1,True
+s3-1_170_2-n.M.obj,Super Bonus Round,s3,170,,,1,2,M,LIGHTSHADE,False,1,True
+s3-1_170_2-n.MW.obj,Super Bonus Round,s3,170,,,1,2,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_170_2-n.S.obj,Super Bonus Round,s3,170,False,False,1,2,S,SKY,False,4,False
+s3-1_170_2-n.T.obj,Super Bonus Round,s3,170,,,1,2,T,TEXTURES,False,1,True
+s3-1_170_2-n.TW.obj,Super Bonus Round,s3,170,,,1,2,TW,TEXTURES_WATER,False,1,True
+s3-1_170_3-n.F.obj,Super Bonus Round,s3,170,,,1,3,F,COLORS,False,1,True
+s3-1_170_3-n.L.obj,Super Bonus Round,s3,170,,,1,3,L,LOWPOLY,False,1,True
+s3-1_170_3-n.M.obj,Super Bonus Round,s3,170,,,1,3,M,LIGHTSHADE,False,1,True
+s3-1_170_3-n.MW.obj,Super Bonus Round,s3,170,,,1,3,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_170_3-n.S.obj,Super Bonus Round,s3,170,False,False,1,3,S,SKY,False,4,False
+s3-1_170_3-n.T.obj,Super Bonus Round,s3,170,,,1,3,T,TEXTURES,False,1,True
+s3-1_170_3-n.TW.obj,Super Bonus Round,s3,170,,,1,3,TW,TEXTURES_WATER,False,1,True
+s3-1_170_4-n.F.obj,Super Bonus Round,s3,170,,,1,4,F,COLORS,False,1,True
+s3-1_170_4-n.L.obj,Super Bonus Round,s3,170,,,1,4,L,LOWPOLY,False,1,True
+s3-1_170_4-n.M.obj,Super Bonus Round,s3,170,,,1,4,M,LIGHTSHADE,False,1,True
+s3-1_170_4-n.MW.obj,Super Bonus Round,s3,170,,,1,4,MW,LIGHTSHADE_WATER,False,1,True
+s3-1_170_4-n.S.obj,Super Bonus Round,s3,170,False,False,1,4,S,SKY,False,4,False
+s3-1_170_4-n.T.obj,Super Bonus Round,s3,170,,,1,4,T,TEXTURES,False,1,True
+s3-1_170_4-n.TW.obj,Super Bonus Round,s3,170,,,1,4,TW,TEXTURES_WATER,False,1,True
 s3-2_007_1-n.F.obj,,s3,007,,,2,1,F,COLORS,,1,True
 s3-2_007_1-n.L.obj,,s3,007,,,2,1,L,LOWPOLY,,1,True
 s3-2_007_1-n.M.obj,,s3,007,,,2,1,M,LIGHTSHADE,,1,True
 s3-2_007_1-n.MW.obj,,s3,007,,,2,1,MW,LIGHTSHADE_WATER,,1,True
-s3-2_007_1-n.S.obj,,s3,007,,,2,1,S,SKY,,9,
+s3-2_007_1-n.S.obj,,s3,007,,,2,1,S,SKY,,9,False
 s3-2_007_1-n.T.obj,,s3,007,,,2,1,T,TEXTURES,,1,True
 s3-2_007_1-n.TW.obj,,s3,007,,,2,1,TW,TEXTURES_WATER,,1,True
 s3-2_010_1-n.F.obj,,s3,010,,,2,1,F,COLORS,,2,True
 s3-2_010_1-n.L.obj,,s3,010,,,2,1,L,LOWPOLY,,2,True
 s3-2_010_1-n.M.obj,,s3,010,,,2,1,M,LIGHTSHADE,,2,True
 s3-2_010_1-n.MW.obj,,s3,010,,,2,1,MW,LIGHTSHADE_WATER,,2,True
-s3-2_010_1-n.S.obj,,s3,010,,,2,1,S,SKY,,5,
+s3-2_010_1-n.S.obj,,s3,010,,,2,1,S,SKY,,5,False
 s3-2_010_1-n.T.obj,,s3,010,,,2,1,T,TEXTURES,,2,True
 s3-2_010_1-n.TW.obj,,s3,010,,,2,1,TW,TEXTURES_WATER,,2,True
 s3-2_013_1-n.F.obj,,s3,013,,,2,1,F,COLORS,,1,True
 s3-2_013_1-n.L.obj,,s3,013,,,2,1,L,LOWPOLY,,1,True
 s3-2_013_1-n.M.obj,,s3,013,,,2,1,M,LIGHTSHADE,,1,True
 s3-2_013_1-n.MW.obj,,s3,013,,,2,1,MW,LIGHTSHADE_WATER,,1,True
-s3-2_013_1-n.S.obj,,s3,013,,,2,1,S,SKY,,4,
+s3-2_013_1-n.S.obj,,s3,013,,,2,1,S,SKY,,4,False
 s3-2_013_1-n.T.obj,,s3,013,,,2,1,T,TEXTURES,,1,True
 s3-2_013_1-n.TW.obj,,s3,013,,,2,1,TW,TEXTURES_WATER,,1,True
 s3-2_016_1-n.F.obj,,s3,016,,,2,1,F,COLORS,,2,True
@@ -1237,91 +1237,91 @@ s3-2_019_1-n.F.obj,,s3,019,,,2,1,F,COLORS,,1,True
 s3-2_019_1-n.L.obj,,s3,019,,,2,1,L,LOWPOLY,,1,True
 s3-2_019_1-n.M.obj,,s3,019,,,2,1,M,LIGHTSHADE,,1,True
 s3-2_019_1-n.MW.obj,,s3,019,,,2,1,MW,LIGHTSHADE_WATER,,1,True
-s3-2_019_1-n.S.obj,,s3,019,,,2,1,S,SKY,,9,
+s3-2_019_1-n.S.obj,,s3,019,,,2,1,S,SKY,,9,False
 s3-2_019_1-n.T.obj,,s3,019,,,2,1,T,TEXTURES,,1,True
 s3-2_019_1-n.TW.obj,,s3,019,,,2,1,TW,TEXTURES_WATER,,1,True
-s3-2_022_1-n.F.obj,,s3,022,,,2,1,F,COLORS,,2,
-s3-2_022_1-n.L.obj,,s3,022,,,2,1,L,LOWPOLY,,2,
-s3-2_022_1-n.M.obj,,s3,022,,,2,1,M,LIGHTSHADE,,2,
-s3-2_022_1-n.MW.obj,,s3,022,,,2,1,MW,LIGHTSHADE_WATER,,2,
-s3-2_022_1-n.S.obj,,s3,022,,,2,1,S,SKY,,5,
-s3-2_022_1-n.T.obj,,s3,022,,,2,1,T,TEXTURES,,2,
-s3-2_022_1-n.TW.obj,,s3,022,,,2,1,TW,TEXTURES_WATER,,2,
+s3-2_022_1-n.F.obj,,s3,022,,,2,1,F,COLORS,,2,False
+s3-2_022_1-n.L.obj,,s3,022,,,2,1,L,LOWPOLY,,2,False
+s3-2_022_1-n.M.obj,,s3,022,,,2,1,M,LIGHTSHADE,,2,False
+s3-2_022_1-n.MW.obj,,s3,022,,,2,1,MW,LIGHTSHADE_WATER,,2,False
+s3-2_022_1-n.S.obj,,s3,022,,,2,1,S,SKY,,5,False
+s3-2_022_1-n.T.obj,,s3,022,,,2,1,T,TEXTURES,,2,False
+s3-2_022_1-n.TW.obj,,s3,022,,,2,1,TW,TEXTURES_WATER,,2,False
 s3-2_025_1-n.F.obj,,s3,025,,,2,1,F,COLORS,,1,True
 s3-2_025_1-n.L.obj,,s3,025,,,2,1,L,LOWPOLY,,1,True
 s3-2_025_1-n.M.obj,,s3,025,,,2,1,M,LIGHTSHADE,,1,True
 s3-2_025_1-n.MW.obj,,s3,025,,,2,1,MW,LIGHTSHADE_WATER,,1,True
-s3-2_025_1-n.S.obj,,s3,025,,,2,1,S,SKY,,5,
+s3-2_025_1-n.S.obj,,s3,025,,,2,1,S,SKY,,5,False
 s3-2_025_1-n.T.obj,,s3,025,,,2,1,T,TEXTURES,,1,True
 s3-2_025_1-n.TW.obj,,s3,025,,,2,1,TW,TEXTURES_WATER,,1,True
 s3-2_028_1-n.F.obj,,s3,028,,,2,1,F,COLORS,,1,True
 s3-2_028_1-n.L.obj,,s3,028,,,2,1,L,LOWPOLY,,1,True
 s3-2_028_1-n.M.obj,,s3,028,,,2,1,M,LIGHTSHADE,,1,True
 s3-2_028_1-n.MW.obj,,s3,028,,,2,1,MW,LIGHTSHADE_WATER,,1,True
-s3-2_028_1-n.S.obj,,s3,028,,,2,1,S,SKY,,5,
+s3-2_028_1-n.S.obj,,s3,028,,,2,1,S,SKY,,5,False
 s3-2_028_1-n.T.obj,,s3,028,,,2,1,T,TEXTURES,,1,True
 s3-2_028_1-n.TW.obj,,s3,028,,,2,1,TW,TEXTURES_WATER,,1,True
 s3-2_031_1-n.F.obj,,s3,031,,,2,1,F,COLORS,,1,True
 s3-2_031_1-n.L.obj,,s3,031,,,2,1,L,LOWPOLY,,1,True
 s3-2_031_1-n.M.obj,,s3,031,,,2,1,M,LIGHTSHADE,,1,True
 s3-2_031_1-n.MW.obj,,s3,031,,,2,1,MW,LIGHTSHADE_WATER,,1,True
-s3-2_031_1-n.S.obj,,s3,031,,,2,1,S,SKY,,5,
+s3-2_031_1-n.S.obj,,s3,031,,,2,1,S,SKY,,5,False
 s3-2_031_1-n.T.obj,,s3,031,,,2,1,T,TEXTURES,,1,True
 s3-2_031_1-n.TW.obj,,s3,031,,,2,1,TW,TEXTURES_WATER,,1,True
 s3-2_034_1-n.F.obj,,s3,034,,,2,1,F,COLORS,,1,True
 s3-2_034_1-n.L.obj,,s3,034,,,2,1,L,LOWPOLY,,1,True
 s3-2_034_1-n.M.obj,,s3,034,,,2,1,M,LIGHTSHADE,,1,True
 s3-2_034_1-n.MW.obj,,s3,034,,,2,1,MW,LIGHTSHADE_WATER,,1,True
-s3-2_034_1-n.S.obj,,s3,034,,,2,1,S,SKY,,9,
+s3-2_034_1-n.S.obj,,s3,034,,,2,1,S,SKY,,9,False
 s3-2_034_1-n.T.obj,,s3,034,,,2,1,T,TEXTURES,,1,True
 s3-2_034_1-n.TW.obj,,s3,034,,,2,1,TW,TEXTURES_WATER,,1,True
 s3-2_037_1-n.F.obj,,s3,037,,,2,1,F,COLORS,,1,True
 s3-2_037_1-n.L.obj,,s3,037,,,2,1,L,LOWPOLY,,1,True
 s3-2_037_1-n.M.obj,,s3,037,,,2,1,M,LIGHTSHADE,,1,True
 s3-2_037_1-n.MW.obj,,s3,037,,,2,1,MW,LIGHTSHADE_WATER,,1,True
-s3-2_037_1-n.S.obj,,s3,037,,,2,1,S,SKY,,3,
+s3-2_037_1-n.S.obj,,s3,037,,,2,1,S,SKY,,3,False
 s3-2_037_1-n.T.obj,,s3,037,,,2,1,T,TEXTURES,,1,True
 s3-2_037_1-n.TW.obj,,s3,037,,,2,1,TW,TEXTURES_WATER,,1,True
 s3-2_040_1-n.F.obj,,s3,040,,,2,1,F,COLORS,,1,True
 s3-2_040_1-n.L.obj,,s3,040,,,2,1,L,LOWPOLY,,1,True
 s3-2_040_1-n.M.obj,,s3,040,,,2,1,M,LIGHTSHADE,,1,True
 s3-2_040_1-n.MW.obj,,s3,040,,,2,1,MW,LIGHTSHADE_WATER,,1,True
-s3-2_040_1-n.S.obj,,s3,040,,,2,1,S,SKY,,9,
+s3-2_040_1-n.S.obj,,s3,040,,,2,1,S,SKY,,9,False
 s3-2_040_1-n.T.obj,,s3,040,,,2,1,T,TEXTURES,,1,True
 s3-2_040_1-n.TW.obj,,s3,040,,,2,1,TW,TEXTURES_WATER,,1,True
 s3-2_046_1-n.F.obj,,s3,046,,,2,1,F,COLORS,,1,True
 s3-2_046_1-n.L.obj,,s3,046,,,2,1,L,LOWPOLY,,1,True
 s3-2_046_1-n.M.obj,,s3,046,,,2,1,M,LIGHTSHADE,,1,True
 s3-2_046_1-n.MW.obj,,s3,046,,,2,1,MW,LIGHTSHADE_WATER,,1,True
-s3-2_046_1-n.S.obj,,s3,046,,,2,1,S,SKY,,9,
+s3-2_046_1-n.S.obj,,s3,046,,,2,1,S,SKY,,9,False
 s3-2_046_1-n.T.obj,,s3,046,,,2,1,T,TEXTURES,,1,True
 s3-2_046_1-n.TW.obj,,s3,046,,,2,1,TW,TEXTURES_WATER,,1,True
 s3-2_049_1-n.F.obj,,s3,049,,,2,1,F,COLORS,,1,True
 s3-2_049_1-n.L.obj,,s3,049,,,2,1,L,LOWPOLY,,1,True
 s3-2_049_1-n.M.obj,,s3,049,,,2,1,M,LIGHTSHADE,,1,True
 s3-2_049_1-n.MW.obj,,s3,049,,,2,1,MW,LIGHTSHADE_WATER,,1,True
-s3-2_049_1-n.S.obj,,s3,049,,,2,1,S,SKY,,5,
+s3-2_049_1-n.S.obj,,s3,049,,,2,1,S,SKY,,5,False
 s3-2_049_1-n.T.obj,,s3,049,,,2,1,T,TEXTURES,,1,True
 s3-2_049_1-n.TW.obj,,s3,049,,,2,1,TW,TEXTURES_WATER,,1,True
 s3-2_052_1-n.F.obj,,s3,052,,,2,1,F,COLORS,,1,True
 s3-2_052_1-n.L.obj,,s3,052,,,2,1,L,LOWPOLY,,1,True
 s3-2_052_1-n.M.obj,,s3,052,,,2,1,M,LIGHTSHADE,,1,True
 s3-2_052_1-n.MW.obj,,s3,052,,,2,1,MW,LIGHTSHADE_WATER,,1,True
-s3-2_052_1-n.S.obj,,s3,052,,,2,1,S,SKY,,5,
+s3-2_052_1-n.S.obj,,s3,052,,,2,1,S,SKY,,5,False
 s3-2_052_1-n.T.obj,,s3,052,,,2,1,T,TEXTURES,,1,True
 s3-2_052_1-n.TW.obj,,s3,052,,,2,1,TW,TEXTURES_WATER,,1,True
-s3-2_055_1-n.F.obj,,s3,055,,,2,1,F,COLORS,,2,
-s3-2_055_1-n.L.obj,,s3,055,,,2,1,L,LOWPOLY,,2,
-s3-2_055_1-n.M.obj,,s3,055,,,2,1,M,LIGHTSHADE,,2,
-s3-2_055_1-n.MW.obj,,s3,055,,,2,1,MW,LIGHTSHADE_WATER,,2,
-s3-2_055_1-n.S.obj,,s3,055,,,2,1,S,SKY,,5,
-s3-2_055_1-n.T.obj,,s3,055,,,2,1,T,TEXTURES,,2,
-s3-2_055_1-n.TW.obj,,s3,055,,,2,1,TW,TEXTURES_WATER,,2,
+s3-2_055_1-n.F.obj,,s3,055,,,2,1,F,COLORS,,2,False
+s3-2_055_1-n.L.obj,,s3,055,,,2,1,L,LOWPOLY,,2,False
+s3-2_055_1-n.M.obj,,s3,055,,,2,1,M,LIGHTSHADE,,2,False
+s3-2_055_1-n.MW.obj,,s3,055,,,2,1,MW,LIGHTSHADE_WATER,,2,False
+s3-2_055_1-n.S.obj,,s3,055,,,2,1,S,SKY,,5,False
+s3-2_055_1-n.T.obj,,s3,055,,,2,1,T,TEXTURES,,2,False
+s3-2_055_1-n.TW.obj,,s3,055,,,2,1,TW,TEXTURES_WATER,,2,False
 s3-2_058_1-n.F.obj,,s3,058,,,2,1,F,COLORS,,1,True
 s3-2_058_1-n.L.obj,,s3,058,,,2,1,L,LOWPOLY,,1,True
 s3-2_058_1-n.M.obj,,s3,058,,,2,1,M,LIGHTSHADE,,1,True
 s3-2_058_1-n.MW.obj,,s3,058,,,2,1,MW,LIGHTSHADE_WATER,,1,True
-s3-2_058_1-n.S.obj,,s3,058,,,2,1,S,SKY,,4,
+s3-2_058_1-n.S.obj,,s3,058,,,2,1,S,SKY,,4,False
 s3-2_058_1-n.T.obj,,s3,058,,,2,1,T,TEXTURES,,1,True
 s3-2_058_1-n.TW.obj,,s3,058,,,2,1,TW,TEXTURES_WATER,,1,True
 s3-2_061_1-n.F.obj,,s3,061,,,2,1,F,COLORS,,1,True
@@ -1335,35 +1335,35 @@ s3-2_064_1-n.F.obj,,s3,064,,,2,1,F,COLORS,,1,True
 s3-2_064_1-n.L.obj,,s3,064,,,2,1,L,LOWPOLY,,1,True
 s3-2_064_1-n.M.obj,,s3,064,,,2,1,M,LIGHTSHADE,,1,True
 s3-2_064_1-n.MW.obj,,s3,064,,,2,1,MW,LIGHTSHADE_WATER,,1,True
-s3-2_064_1-n.S.obj,,s3,064,,,2,1,S,SKY,,3,
+s3-2_064_1-n.S.obj,,s3,064,,,2,1,S,SKY,,3,False
 s3-2_064_1-n.T.obj,,s3,064,,,2,1,T,TEXTURES,,1,True
 s3-2_064_1-n.TW.obj,,s3,064,,,2,1,TW,TEXTURES_WATER,,1,True
 s3-2_067_1-n.F.obj,,s3,067,,,2,1,F,COLORS,,1,True
 s3-2_067_1-n.L.obj,,s3,067,,,2,1,L,LOWPOLY,,1,True
 s3-2_067_1-n.M.obj,,s3,067,,,2,1,M,LIGHTSHADE,,1,True
 s3-2_067_1-n.MW.obj,,s3,067,,,2,1,MW,LIGHTSHADE_WATER,,1,True
-s3-2_067_1-n.S.obj,,s3,067,,,2,1,S,SKY,,3,
+s3-2_067_1-n.S.obj,,s3,067,,,2,1,S,SKY,,3,False
 s3-2_067_1-n.T.obj,,s3,067,,,2,1,T,TEXTURES,,1,True
 s3-2_067_1-n.TW.obj,,s3,067,,,2,1,TW,TEXTURES_WATER,,1,True
 s3-3_184_1-n.F.obj,,s3,184,,,3,1,F,COLORS,,1,True
 s3-3_184_1-n.L.obj,,s3,184,,,3,1,L,LOWPOLY,,1,True
 s3-3_184_1-n.M.obj,,s3,184,,,3,1,M,LIGHTSHADE,,1,True
 s3-3_184_1-n.MW.obj,,s3,184,,,3,1,MW,LIGHTSHADE_WATER,,1,True
-s3-3_184_1-n.S.obj,,s3,184,,,3,1,S,SKY,,9,
+s3-3_184_1-n.S.obj,,s3,184,,,3,1,S,SKY,,9,False
 s3-3_184_1-n.T.obj,,s3,184,,,3,1,T,TEXTURES,,1,True
 s3-3_184_1-n.TW.obj,,s3,184,,,3,1,TW,TEXTURES_WATER,,1,True
 s3-3_185_1-n.F.obj,,s3,185,,,3,1,F,COLORS,,1,True
 s3-3_185_1-n.L.obj,,s3,185,,,3,1,L,LOWPOLY,,1,True
 s3-3_185_1-n.M.obj,,s3,185,,,3,1,M,LIGHTSHADE,,1,True
 s3-3_185_1-n.MW.obj,,s3,185,,,3,1,MW,LIGHTSHADE_WATER,,1,True
-s3-3_185_1-n.S.obj,,s3,185,,,3,1,S,SKY,,6,
+s3-3_185_1-n.S.obj,,s3,185,,,3,1,S,SKY,,6,False
 s3-3_185_1-n.T.obj,,s3,185,,,3,1,T,TEXTURES,,1,True
 s3-3_185_1-n.TW.obj,,s3,185,,,3,1,TW,TEXTURES_WATER,,1,True
 s3-3_186_1-n.F.obj,,s3,186,,,3,1,F,COLORS,,1,True
 s3-3_186_1-n.L.obj,,s3,186,,,3,1,L,LOWPOLY,,1,True
 s3-3_186_1-n.M.obj,,s3,186,,,3,1,M,LIGHTSHADE,,1,True
 s3-3_186_1-n.MW.obj,,s3,186,,,3,1,MW,LIGHTSHADE_WATER,,1,True
-s3-3_186_1-n.S.obj,,s3,186,,,3,1,S,SKY,,5,
+s3-3_186_1-n.S.obj,,s3,186,,,3,1,S,SKY,,5,False
 s3-3_186_1-n.T.obj,,s3,186,,,3,1,T,TEXTURES,,1,True
 s3-3_186_1-n.TW.obj,,s3,186,,,3,1,TW,TEXTURES_WATER,,1,True
 s3-3_187_1-n.F.obj,,s3,187,,,3,1,F,COLORS,,1,True
@@ -1373,87 +1373,87 @@ s3-3_187_1-n.MW.obj,,s3,187,,,3,1,MW,LIGHTSHADE_WATER,,1,True
 s3-3_187_1-n.S.obj,,s3,187,,,3,1,S,SKY,,1,True
 s3-3_187_1-n.T.obj,,s3,187,,,3,1,T,TEXTURES,,1,True
 s3-3_187_1-n.TW.obj,,s3,187,,,3,1,TW,TEXTURES_WATER,,1,True
-s3-3_188_1-n.F.obj,,s3,188,,,3,1,F,COLORS,,2,
-s3-3_188_1-n.L.obj,,s3,188,,,3,1,L,LOWPOLY,,2,
-s3-3_188_1-n.M.obj,,s3,188,,,3,1,M,LIGHTSHADE,,2,
-s3-3_188_1-n.MW.obj,,s3,188,,,3,1,MW,LIGHTSHADE_WATER,,2,
-s3-3_188_1-n.S.obj,,s3,188,,,3,1,S,SKY,,7,
+s3-3_188_1-n.F.obj,,s3,188,,,3,1,F,COLORS,,2,False
+s3-3_188_1-n.L.obj,,s3,188,,,3,1,L,LOWPOLY,,2,False
+s3-3_188_1-n.M.obj,,s3,188,,,3,1,M,LIGHTSHADE,,2,False
+s3-3_188_1-n.MW.obj,,s3,188,,,3,1,MW,LIGHTSHADE_WATER,,2,False
+s3-3_188_1-n.S.obj,,s3,188,,,3,1,S,SKY,,7,False
 s3-3_188_1-n.T.obj,,s3,188,,,3,1,T,TEXTURES,,1,True
 s3-3_188_1-n.TW.obj,,s3,188,,,3,1,TW,TEXTURES_WATER,,1,True
-s3-3_189_1-n.F.obj,,s3,189,,,3,1,F,COLORS,,2,
+s3-3_189_1-n.F.obj,,s3,189,,,3,1,F,COLORS,,2,False
 s3-3_189_1-n.L.obj,,s3,189,,,3,1,L,LOWPOLY,,1,True
-s3-3_189_1-n.M.obj,,s3,189,,,3,1,M,LIGHTSHADE,,2,
-s3-3_189_1-n.MW.obj,,s3,189,,,3,1,MW,LIGHTSHADE_WATER,,2,
-s3-3_189_1-n.S.obj,,s3,189,,,3,1,S,SKY,,9,
+s3-3_189_1-n.M.obj,,s3,189,,,3,1,M,LIGHTSHADE,,2,False
+s3-3_189_1-n.MW.obj,,s3,189,,,3,1,MW,LIGHTSHADE_WATER,,2,False
+s3-3_189_1-n.S.obj,,s3,189,,,3,1,S,SKY,,9,False
 s3-3_189_1-n.T.obj,,s3,189,,,3,1,T,TEXTURES,,1,True
-s3-3_189_1-n.TW.obj,,s3,189,,,3,1,TW,TEXTURES_WATER,,2,
+s3-3_189_1-n.TW.obj,,s3,189,,,3,1,TW,TEXTURES_WATER,,2,False
 s3-3_190_1-n.F.obj,,s3,190,,,3,1,F,COLORS,,1,True
 s3-3_190_1-n.L.obj,,s3,190,,,3,1,L,LOWPOLY,,1,True
 s3-3_190_1-n.M.obj,,s3,190,,,3,1,M,LIGHTSHADE,,1,True
 s3-3_190_1-n.MW.obj,,s3,190,,,3,1,MW,LIGHTSHADE_WATER,,1,True
-s3-3_190_1-n.S.obj,,s3,190,,,3,1,S,SKY,,5,
+s3-3_190_1-n.S.obj,,s3,190,,,3,1,S,SKY,,5,False
 s3-3_190_1-n.T.obj,,s3,190,,,3,1,T,TEXTURES,,1,True
 s3-3_190_1-n.TW.obj,,s3,190,,,3,1,TW,TEXTURES_WATER,,1,True
 s3-3_191_1-n.F.obj,,s3,191,,,3,1,F,COLORS,,1,True
 s3-3_191_1-n.L.obj,,s3,191,,,3,1,L,LOWPOLY,,1,True
 s3-3_191_1-n.M.obj,,s3,191,,,3,1,M,LIGHTSHADE,,1,True
 s3-3_191_1-n.MW.obj,,s3,191,,,3,1,MW,LIGHTSHADE_WATER,,1,True
-s3-3_191_1-n.S.obj,,s3,191,,,3,1,S,SKY,,11,
+s3-3_191_1-n.S.obj,,s3,191,,,3,1,S,SKY,,11,False
 s3-3_191_1-n.T.obj,,s3,191,,,3,1,T,TEXTURES,,1,True
 s3-3_191_1-n.TW.obj,,s3,191,,,3,1,TW,TEXTURES_WATER,,1,True
-s3-3_192_1-n.F.obj,,s3,192,,,3,1,F,COLORS,,2,
-s3-3_192_1-n.L.obj,,s3,192,,,3,1,L,LOWPOLY,,2,
-s3-3_192_1-n.M.obj,,s3,192,,,3,1,M,LIGHTSHADE,,2,
-s3-3_192_1-n.MW.obj,,s3,192,,,3,1,MW,LIGHTSHADE_WATER,,2,
-s3-3_192_1-n.S.obj,,s3,192,,,3,1,S,SKY,,5,
+s3-3_192_1-n.F.obj,,s3,192,,,3,1,F,COLORS,,2,False
+s3-3_192_1-n.L.obj,,s3,192,,,3,1,L,LOWPOLY,,2,False
+s3-3_192_1-n.M.obj,,s3,192,,,3,1,M,LIGHTSHADE,,2,False
+s3-3_192_1-n.MW.obj,,s3,192,,,3,1,MW,LIGHTSHADE_WATER,,2,False
+s3-3_192_1-n.S.obj,,s3,192,,,3,1,S,SKY,,5,False
 s3-3_192_1-n.T.obj,,s3,192,,,3,1,T,TEXTURES,,1,True
-s3-3_192_1-n.TW.obj,,s3,192,,,3,1,TW,TEXTURES_WATER,,2,
+s3-3_192_1-n.TW.obj,,s3,192,,,3,1,TW,TEXTURES_WATER,,2,False
 s3-3_193_1-n.F.obj,,s3,193,,,3,1,F,COLORS,,1,True
 s3-3_193_1-n.L.obj,,s3,193,,,3,1,L,LOWPOLY,,1,True
 s3-3_193_1-n.M.obj,,s3,193,,,3,1,M,LIGHTSHADE,,1,True
 s3-3_193_1-n.MW.obj,,s3,193,,,3,1,MW,LIGHTSHADE_WATER,,1,True
-s3-3_193_1-n.S.obj,,s3,193,,,3,1,S,SKY,,2,
+s3-3_193_1-n.S.obj,,s3,193,,,3,1,S,SKY,,2,False
 s3-3_193_1-n.T.obj,,s3,193,,,3,1,T,TEXTURES,,1,True
 s3-3_193_1-n.TW.obj,,s3,193,,,3,1,TW,TEXTURES_WATER,,1,True
 s3-3_194_1-n.F.obj,,s3,194,,,3,1,F,COLORS,,1,True
 s3-3_194_1-n.L.obj,,s3,194,,,3,1,L,LOWPOLY,,1,True
 s3-3_194_1-n.M.obj,,s3,194,,,3,1,M,LIGHTSHADE,,1,True
 s3-3_194_1-n.MW.obj,,s3,194,,,3,1,MW,LIGHTSHADE_WATER,,1,True
-s3-3_194_1-n.S.obj,,s3,194,,,3,1,S,SKY,,5,
+s3-3_194_1-n.S.obj,,s3,194,,,3,1,S,SKY,,5,False
 s3-3_194_1-n.T.obj,,s3,194,,,3,1,T,TEXTURES,,1,True
 s3-3_194_1-n.TW.obj,,s3,194,,,3,1,TW,TEXTURES_WATER,,1,True
 s3-3_195_1-n.F.obj,,s3,195,,,3,1,F,COLORS,,1,True
 s3-3_195_1-n.L.obj,,s3,195,,,3,1,L,LOWPOLY,,1,True
 s3-3_195_1-n.M.obj,,s3,195,,,3,1,M,LIGHTSHADE,,1,True
 s3-3_195_1-n.MW.obj,,s3,195,,,3,1,MW,LIGHTSHADE_WATER,,1,True
-s3-3_195_1-n.S.obj,,s3,195,,,3,1,S,SKY,,5,
+s3-3_195_1-n.S.obj,,s3,195,,,3,1,S,SKY,,5,False
 s3-3_195_1-n.T.obj,,s3,195,,,3,1,T,TEXTURES,,1,True
 s3-3_195_1-n.TW.obj,,s3,195,,,3,1,TW,TEXTURES_WATER,,1,True
-s3_sky_01-g.S.obj,,s3,,,,,,S,SKY,,4,
-s3_sky_02-g.S.obj,,s3,,,,,,S,SKY,,4,
-s3_sky_03-g.S.obj,,s3,,,,,,S,SKY,,5,
-s3_sky_04-g.S.obj,,s3,,,,,,S,SKY,,11,
-s3_sky_05-g.S.obj,,s3,,,,,,S,SKY,,6,
-s3_sky_06-g.S.obj,,s3,,,,,,S,SKY,,2,
-s3_sky_07-g.S.obj,,s3,,,,,,S,SKY,,9,
-s3_sky_08-g.S.obj,,s3,,,,,,S,SKY,,9,
-s3_sky_09-g.S.obj,,s3,,,,,,S,SKY,,5,
-s3_sky_10-g.S.obj,,s3,,,,,,S,SKY,,4,
-s3_sky_11-g.S.obj,,s3,,,,,,S,SKY,,4,
-s3_sky_12-g.S.obj,,s3,,,,,,S,SKY,,5,
-s3_sky_13-g.S.obj,,s3,,,,,,S,SKY,,2,
-s3_sky_14-g.S.obj,,s3,,,,,,S,SKY,,2,
-s3_sky_15-g.S.obj,,s3,,,,,,S,SKY,,3,
-s3_sky_16-g.S.obj,,s3,,,,,,S,SKY,,4,
-s3_sky_17-g.S.obj,,s3,,,,,,S,SKY,,7,
-s3_sky_18-g.S.obj,,s3,,,,,,S,SKY,,9,
-s3_sky_19-g.S.obj,,s3,,,,,,S,SKY,,5,
-s3_sky_20-g.S.obj,,s3,,,,,,S,SKY,,2,
-s3_sky_21-g.S.obj,,s3,,,,,,S,SKY,,9,
-s3_sky_22-g.S.obj,,s3,,,,,,S,SKY,,3,
-s3_sky_23-g.S.obj,,s3,,,,,,S,SKY,,4,
-s3_sky_24-g.S.obj,,s3,,,,,,S,SKY,,5,
-s3_sky_25-g.S.obj,,s3,,,,,,S,SKY,,4,
-s3_sky_26-g.S.obj,,s3,,,,,,S,SKY,,11,
-s3_sky_27-g.S.obj,,s3,,,,,,S,SKY,,2,
-s3_sky_28-g.S.obj,,s3,,,,,,S,SKY,,3,
+s3_sky_01-g.S.obj,,s3,,,,,,S,SKY,,4,False
+s3_sky_02-g.S.obj,,s3,,,,,,S,SKY,,4,False
+s3_sky_03-g.S.obj,,s3,,,,,,S,SKY,,5,False
+s3_sky_04-g.S.obj,,s3,,,,,,S,SKY,,11,False
+s3_sky_05-g.S.obj,,s3,,,,,,S,SKY,,6,False
+s3_sky_06-g.S.obj,,s3,,,,,,S,SKY,,2,False
+s3_sky_07-g.S.obj,,s3,,,,,,S,SKY,,9,False
+s3_sky_08-g.S.obj,,s3,,,,,,S,SKY,,9,False
+s3_sky_09-g.S.obj,,s3,,,,,,S,SKY,,5,False
+s3_sky_10-g.S.obj,,s3,,,,,,S,SKY,,4,False
+s3_sky_11-g.S.obj,,s3,,,,,,S,SKY,,4,False
+s3_sky_12-g.S.obj,,s3,,,,,,S,SKY,,5,False
+s3_sky_13-g.S.obj,,s3,,,,,,S,SKY,,2,False
+s3_sky_14-g.S.obj,,s3,,,,,,S,SKY,,2,False
+s3_sky_15-g.S.obj,,s3,,,,,,S,SKY,,3,False
+s3_sky_16-g.S.obj,,s3,,,,,,S,SKY,,4,False
+s3_sky_17-g.S.obj,,s3,,,,,,S,SKY,,7,False
+s3_sky_18-g.S.obj,,s3,,,,,,S,SKY,,9,False
+s3_sky_19-g.S.obj,,s3,,,,,,S,SKY,,5,False
+s3_sky_20-g.S.obj,,s3,,,,,,S,SKY,,2,False
+s3_sky_21-g.S.obj,,s3,,,,,,S,SKY,,9,False
+s3_sky_22-g.S.obj,,s3,,,,,,S,SKY,,3,False
+s3_sky_23-g.S.obj,,s3,,,,,,S,SKY,,4,False
+s3_sky_24-g.S.obj,,s3,,,,,,S,SKY,,5,False
+s3_sky_25-g.S.obj,,s3,,,,,,S,SKY,,4,False
+s3_sky_26-g.S.obj,,s3,,,,,,S,SKY,,11,False
+s3_sky_27-g.S.obj,,s3,,,,,,S,SKY,,2,False
+s3_sky_28-g.S.obj,,s3,,,,,,S,SKY,,3,False
