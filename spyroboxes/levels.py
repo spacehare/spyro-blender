@@ -34,6 +34,7 @@ class Level:
     '''is the level's sky a sphere? (as opposed to a dome)'''
     manual: bool = False
     '''did i have to manually fix broken vertexes, etc?'''
+    is_hub: bool = False
 
 
 levels: list[Level] = []
@@ -45,6 +46,7 @@ with open(CSV_FILE_PATH) as file:
             uid=int(row['ID']),
             is_sphere=row['IS_SPHERE'] == 'TRUE',
             manual=row['MANUAL'] == 'TRUE',
+            is_hub=row['IS_HUB'] == 'TRUE',
         ))
 
 
@@ -61,7 +63,7 @@ def info_from_stem(stem: str) -> LevelStemInfo:
     lod = stem[3]  # at least, i think this is the LOD? it should be 1
     game = stem[:2]
     uid = stem[5:8]
-    tag = stem[-1]
+    tag = stem.split('.')[1]
     portal = ''
 
     if stem[9] != 'n':
@@ -74,6 +76,12 @@ def info_from_stem(stem: str) -> LevelStemInfo:
         tag=tag,
         portal=portal,
     )
+
+
+def level_from_info(info: LevelStemInfo) -> Level | None:
+    for level in levels:
+        if level.game == int(info.game[1]) and level.uid == int(info.uid):
+            return level
 
 
 def level_from_stem(stem: str) -> Level | None:
