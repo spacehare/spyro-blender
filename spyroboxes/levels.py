@@ -8,7 +8,7 @@ CSV_FILE_PATH = Path(Path(__file__).parent / 'assets/levels.csv')
 @dataclass(kw_only=True)
 class LevelStemInfo:
     game: str
-    id: str
+    uid: str
     '''level id'''
     portal: str
     """
@@ -27,7 +27,8 @@ class Level:
     name: str
     # info: LevelInfo
     game: int
-    id: int
+    uid: int
+    '''level id'''
     # subarea: str = ''
     is_sphere: bool = False
     '''is the level's sky a sphere? (as opposed to a dome)'''
@@ -41,7 +42,7 @@ with open(CSV_FILE_PATH) as file:
         levels.append(Level(
             name=row['NAME'],
             game=int(row['GAME']),
-            id=int(row['ID']),
+            uid=int(row['ID']),
             is_sphere=row['IS_SPHERE'] == 'TRUE',
             manual=row['MANUAL'] == 'TRUE',
         ))
@@ -59,7 +60,7 @@ def info_from_stem(stem: str) -> LevelStemInfo:
 
     lod = stem[3]  # at least, i think this is the LOD? it should be 1
     game = stem[:2]
-    id = stem[5:8]
+    uid = stem[5:8]
     tag = stem[-1]
     portal = ''
 
@@ -68,7 +69,7 @@ def info_from_stem(stem: str) -> LevelStemInfo:
 
     return LevelStemInfo(
         game=game,
-        id=id,
+        uid=uid,
         lod=lod,
         tag=tag,
         portal=portal,
@@ -84,5 +85,5 @@ def level_from_stem(stem: str) -> Level | None:
         info = info_from_stem(stem)
 
         for level in levels:
-            if level.game == int(info.game[1]) and level.id == int(info.id):
+            if level.game == int(info.game[1]) and level.uid == int(info.uid):
                 return level
