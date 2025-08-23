@@ -1,4 +1,4 @@
-from .levels import info_from_stem, level_from_info
+from spyroboxes.levels import info_from_stem, level_from_info
 from pathlib import Path
 import csv
 
