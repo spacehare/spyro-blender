@@ -76,7 +76,7 @@ class Level:
     is_sphere: bool = False
     '''is the level's sky a sphere? (as opposed to a dome)'''
     manual: bool = False
-    '''did i have to manually fix non-manifold issues like broken vertexes, etc?'''
+    '''do i have to manually fix non-manifold issues like broken vertexes, etc?'''
 
     @staticmethod
     def from_dict(d: dict) -> 'Level':
