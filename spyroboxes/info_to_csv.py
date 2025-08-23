@@ -31,7 +31,7 @@ with open(PATH_FILENAMES, 'r', encoding='utf-8') as file:
     output = ''
     output += ','.join(
         [
-            'STRIPPED',
+            'FILENAME',
             'NAME',
             'GAME',
             'UID',
@@ -43,7 +43,7 @@ with open(PATH_FILENAMES, 'r', encoding='utf-8') as file:
             'TAG_HUMAN',
             'IS_HUB',
             'COUNT',  # this is how many times the OBJ's text data repeats inside of the files
-            'FIRST_OCCURRENCE',  # first occurence of OBJ text data
+            'IS_FIRST_OCCURRENCE',  # first occurence of OBJ text data
         ]
     ) + '\n'
 
