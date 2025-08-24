@@ -59,6 +59,9 @@ class LevelStemInfo:
 class Level:
     filename: Path
     name: str
+    'manually guessed name'
+    name_override: str
+    '''if the OBJ data is the same, prioritize the name of an earlier level'''
     game: int
     tag_human: str
     is_hub: bool = False
@@ -96,22 +99,37 @@ class Level:
             manual=d['MANUAL'] == 'TRUE',
             is_first_occurrence=d['IS_FIRST_OCCURRENCE'] == 'TRUE',
             count=int(d['COUNT']),
-            data_md5=str(d['DATA_MD5'])
+            data_md5=str(d['DATA_MD5']),
+            name_override=str(d['NAME_OVERRIDE']),
         )
 
 
 levels: dict[str, Level] = {}
+hashes: dict[str, Level] = {}
 
 with open(CSV_FILE_PATH) as file:
     for row in csv.DictReader(file):
         lvl = Level.from_dict(row)
+        hashes[row['DATA_MD5']] = lvl
         levels[row['FILENAME']] = lvl
 
 
-def level_from_stem(stem: str) -> Level | None:
-    print('HUNTING FOR STEM %s' % stem)
-    return levels[stem + '.obj']
+def md5_from_pathname(name: str):
+    return levels[name].data_md5
 
+
+# def level_from_stem(stem: str) -> Level | None:
+#     print('HUNTING FOR STEM %s' % stem)
+#     return levels[stem + '.obj']
+
+
+# def level_name_from_stem(stem: str):
+#     if stem.endswith('.obj'):
+#         stem = stem[:-4]
+#     level = level_from_stem(stem)
+#     if not level:
+#         raise ValueError('NO LEVEL NAME FOUND')
+#     name = level.name or level.filename.stem
 
 # def level_from_info(info: LevelStemInfo) -> Level | None:
 #     for level in levels:

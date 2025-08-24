@@ -10,7 +10,6 @@ from pathlib import Path
 from typing import NamedTuple
 from enum import StrEnum
 from dataclasses import dataclass
-from . import levels
 
 SCALE = 1/32
 NAME_SKIES = 'Skies'
@@ -144,7 +143,7 @@ def import_spyro_obj(file_path: Path):
     return obj
 
 
-def organize_meshes(obj: Object):
+def organize_meshes(obj: Object, new_name: str):
     '''
     - edit the object name
     - remove doubles
@@ -158,11 +157,7 @@ def organize_meshes(obj: Object):
     print('organizing object: %s' % obj.name)
 
     # change object's name
-    level = levels.level_from_stem(obj.name)
-    if not level:
-        raise ValueError('NO LEVEL NAME FOUND AT %s' % obj.name)
-    name = level.name or level.filename.stem
-    obj.name = name
+    obj.name = new_name
 
     # separate sky dome/sphere from extras (like planets and stars)
     bpy.ops.object.mode_set(mode='EDIT')
@@ -181,8 +176,8 @@ def organize_meshes(obj: Object):
     big_triangle = parts[dims.index(dims_sorted[-1])]
     main_sky = parts[dims.index(dims_sorted[-2])]
 
-    big_triangle.name = name + ' - Tetrahedron'
-    main_sky.name = name + ' - Sky'
+    big_triangle.name = new_name + ' - Tetrahedron'
+    main_sky.name = new_name + ' - Sky'
 
     little_pieces: list[Object] = []
     for part in parts:
@@ -199,6 +194,6 @@ def organize_meshes(obj: Object):
     if little_pieces:
         bpy.context.view_layer.objects.active = little_pieces[0]
         bpy.ops.object.join()
-        bpy.context.object.name = f"{level.name} - {NAME_EXTRAS}"
+        bpy.context.object.name = f"{new_name} - {NAME_EXTRAS}"
 
     bpy.ops.object.select_all(action='DESELECT')
