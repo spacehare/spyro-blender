@@ -1,0 +1,494 @@
+{
+	"b49f2d247ebdd09024033bece1446211": [
+		{ "FILENAME": "s1-1_011-n.S.obj", "NAME": "Artisans" },
+		{ "FILENAME": "s1-3_083-n.S.obj", "NAME": "" }
+	],
+	"b0e059db50e5bcc94d3d54d9fc37481a": [
+		{ "FILENAME": "s1-1_011_2-n.S.obj", "NAME": "Artisans" },
+		{ "FILENAME": "s1-1_019-n.S.obj", "NAME": "Toasty" },
+		{ "FILENAME": "s1-3_092-n.S.obj", "NAME": "" }
+	],
+	"6908d9536571c39b65cc031e311196b5": [
+		{ "FILENAME": "s1-1_011_3-n.S.obj", "NAME": "Artisans" },
+		{ "FILENAME": "s1-1_015-n.S.obj", "NAME": "Dark Hollow" }
+	],
+	"cab7f45748369b609136efe39d3ab773": [
+		{ "FILENAME": "s1-1_011_4-n.S.obj", "NAME": "Artisans" },
+		{ "FILENAME": "s1-1_013-n.S.obj", "NAME": "Stone Hill" },
+		{ "FILENAME": "s1-3_084-n.S.obj", "NAME": "" }
+	],
+	"1909bba3146c2a9deabd776ee6c21bd0": [
+		{ "FILENAME": "s1-1_011_5-n.S.obj", "NAME": "Artisans" },
+		{ "FILENAME": "s1-1_017-n.S.obj", "NAME": "Town Square" },
+		{ "FILENAME": "s1-3_085-n.S.obj", "NAME": "" }
+	],
+	"55f4e03bbf1bf6ae5ac8951dfeb9fbc4": [
+		{ "FILENAME": "s1-1_011_6-n.S.obj", "NAME": "Artisans" },
+		{ "FILENAME": "s1-1_021-n.S.obj", "NAME": "Sunny Flight" }
+	],
+	"677821af99c040a6d2b51e2b732fd314": [
+		{ "FILENAME": "s1-1_023-n.S.obj", "NAME": "Peace Keepers" },
+		{ "FILENAME": "s1-3_086-n.S.obj", "NAME": "" }
+	],
+	"430caad023b3106d47bf62eb473f6e2b": [
+		{ "FILENAME": "s1-1_023_2-n.S.obj", "NAME": "Peace Keepers" },
+		{ "FILENAME": "s1-1_025-n.S.obj", "NAME": "Dry Canyon" }
+	],
+	"bdb86ee302966b41dd02b1a8e24eddfd": [
+		{ "FILENAME": "s1-1_023_3-n.S.obj", "NAME": "Peace Keepers" },
+		{ "FILENAME": "s1-1_027-n.S.obj", "NAME": "Cliff Town" },
+		{ "FILENAME": "s1-3_087-n.S.obj", "NAME": "" }
+	],
+	"47235e5bff27de95acf1717fde4aa4b7": [
+		{ "FILENAME": "s1-1_023_4-n.S.obj", "NAME": "Peace Keepers" },
+		{ "FILENAME": "s1-1_029-n.S.obj", "NAME": "Ice Cavern" }
+	],
+	"ab0f2cd34a0f6cc74a7d2f444c9bf58a": [
+		{ "FILENAME": "s1-1_023_5-n.S.obj", "NAME": "Peace Keepers" },
+		{ "FILENAME": "s1-1_031-n.S.obj", "NAME": "Doctor Shemp" },
+		{ "FILENAME": "s1-3_088-n.S.obj", "NAME": "" }
+	],
+	"1e99a9187bf6a845b09f2fb2c14fd25a": [
+		{ "FILENAME": "s1-1_023_6-n.S.obj", "NAME": "Peace Keepers" },
+		{ "FILENAME": "s1-1_033-n.S.obj", "NAME": "Night Flight" }
+	],
+	"fa45734e28aca9cc7fb541c552c11771": [
+		{ "FILENAME": "s1-1_035-n.S.obj", "NAME": "Magic Crafters" },
+		{ "FILENAME": "s1-3_089-n.S.obj", "NAME": "" }
+	],
+	"289af3f73760640999476ef7403ba7ae": [
+		{ "FILENAME": "s1-1_035_2-n.S.obj", "NAME": "Magic Crafters" },
+		{ "FILENAME": "s1-1_043-n.S.obj", "NAME": "Blowhard" }
+	],
+	"1590ee1312e1c09d0e530b761ed4f09d": [
+		{ "FILENAME": "s1-1_035_3-n.S.obj", "NAME": "Magic Crafters" },
+		{ "FILENAME": "s1-1_045-n.S.obj", "NAME": "Crystal Flight" }
+	],
+	"4881a82b8750562cae3486774bab8483": [
+		{ "FILENAME": "s1-1_035_4-n.S.obj", "NAME": "Magic Crafters" },
+		{ "FILENAME": "s1-1_037-n.S.obj", "NAME": "Alpine Ridge" }
+	],
+	"242ff835c5382d6400848bfa44fc0860": [
+		{ "FILENAME": "s1-1_035_5-n.S.obj", "NAME": "Magic Crafters" },
+		{ "FILENAME": "s1-1_041-n.S.obj", "NAME": "Wizard Peak" },
+		{ "FILENAME": "s1-3_091-n.S.obj", "NAME": "" }
+	],
+	"d29438d339da067f2faaa34ce1f67718": [
+		{ "FILENAME": "s1-1_035_6-n.S.obj", "NAME": "Magic Crafters" },
+		{ "FILENAME": "s1-1_039-n.S.obj", "NAME": "High Caves" },
+		{ "FILENAME": "s1-3_090-n.S.obj", "NAME": "" }
+	],
+	"3b2da75c8950bb8e33361e73c5158eb2": [
+		{ "FILENAME": "s1-1_047-n.S.obj", "NAME": "Beast Makers" }
+	],
+	"ec064253105ce8fdd6b12cf9e29f7c38": [
+		{ "FILENAME": "s1-1_047_2-n.S.obj", "NAME": "Beast Makers" },
+		{ "FILENAME": "s1-1_055-n.S.obj", "NAME": "Metalhead" },
+		{ "FILENAME": "s1-3_094-n.S.obj", "NAME": "" }
+	],
+	"a48e4a2596658e17ede55723c2da6b3f": [
+		{ "FILENAME": "s1-1_047_3-n.S.obj", "NAME": "Beast Makers" },
+		{ "FILENAME": "s1-1_051-n.S.obj", "NAME": "Misty Bog" }
+	],
+	"ced4cebdd79fc8fa64fa1501c9651461": [
+		{ "FILENAME": "s1-1_047_4-n.S.obj", "NAME": "Beast Makers" },
+		{ "FILENAME": "s1-1_053-n.S.obj", "NAME": "Tree Tops" }
+	],
+	"f2e5199c8fd96317839a49d1b845d5b4": [
+		{ "FILENAME": "s1-1_047_5-n.S.obj", "NAME": "Beast Makers" },
+		{ "FILENAME": "s1-1_049-n.S.obj", "NAME": "Terrace Village" },
+		{ "FILENAME": "s1-3_093-n.S.obj", "NAME": "" }
+	],
+	"52ba6bcf060a569e47e737913a0eaea8": [
+		{ "FILENAME": "s1-1_047_6-n.S.obj", "NAME": "Beast Makers" },
+		{ "FILENAME": "s1-1_057-n.S.obj", "NAME": "Wild Flight" },
+		{ "FILENAME": "s1-3_097-n.S.obj", "NAME": "" }
+	],
+	"a0a4d6eab50291297abb1f1e3aabe388": [
+		{ "FILENAME": "s1-1_059-n.S.obj", "NAME": "Dream Weavers" }
+	],
+	"668790319cf175e0739d020b4aade541": [
+		{ "FILENAME": "s1-1_059_2-n.S.obj", "NAME": "Dream Weavers" },
+		{ "FILENAME": "s1-1_061-n.S.obj", "NAME": "Dark Passage" },
+		{ "FILENAME": "s1-3_095-n.S.obj", "NAME": "" }
+	],
+	"800b0bf2b300da3edf5630a656eba971": [
+		{ "FILENAME": "s1-1_059_3-n.S.obj", "NAME": "Dream Weavers" },
+		{ "FILENAME": "s1-1_067-n.S.obj", "NAME": "Jacques" },
+		{ "FILENAME": "s1-3_102-n.S.obj", "NAME": "" }
+	],
+	"b36c642d50a7c937b99dce4aa3e76d41": [
+		{ "FILENAME": "s1-1_059_4-n.S.obj", "NAME": "Dream Weavers" },
+		{ "FILENAME": "s1-1_063-n.S.obj", "NAME": "Lofty Castle" }
+	],
+	"268fab921595e7a236aa8553ac4d097c": [
+		{ "FILENAME": "s1-1_059_5-n.S.obj", "NAME": "Dream Weavers" },
+		{ "FILENAME": "s1-1_069-n.S.obj", "NAME": "Icy Flight" }
+	],
+	"00dc38f6b49809f749a1d520a78d8967": [
+		{ "FILENAME": "s1-1_059_6-n.S.obj", "NAME": "Dream Weavers" },
+		{ "FILENAME": "s1-1_065-n.S.obj", "NAME": "Haunted Towers" },
+		{ "FILENAME": "s1-3_096-n.S.obj", "NAME": "" }
+	],
+	"301cc9f22c8bb69e4588f8dd11444196": [
+		{ "FILENAME": "s1-1_071-n.S.obj", "NAME": "Gnasty's World" }
+	],
+	"58596373973a1efbb1ba5fe6f077e570": [
+		{ "FILENAME": "s1-1_071_2-n.S.obj", "NAME": "Gnasty's World" },
+		{ "FILENAME": "s1-1_075-n.S.obj", "NAME": "Twilight Harbor" },
+		{ "FILENAME": "s1-3_101-n.S.obj", "NAME": "" }
+	],
+	"c77589c2acff4cfeb78aefec7d519aa3": [
+		{ "FILENAME": "s1-1_071_3-n.S.obj", "NAME": "Gnasty's World" },
+		{ "FILENAME": "s1-1_077-n.S.obj", "NAME": "Gnasty Gnorc" },
+		{ "FILENAME": "s1-3_100-n.S.obj", "NAME": "" }
+	],
+	"43da0489f8b92e97b0fa0216d6df89ad": [
+		{ "FILENAME": "s1-1_071_4-n.S.obj", "NAME": "Gnasty's World" },
+		{ "FILENAME": "s1-1_079-n.S.obj", "NAME": "Gnasty's Loot" }
+	],
+	"f1d63f51c3787f2e880f6d1e564aadd5": [
+		{ "FILENAME": "s1-1_071_5-n.S.obj", "NAME": "Gnasty's World" },
+		{ "FILENAME": "s1-1_073-n.S.obj", "NAME": "Gnorc Cove" },
+		{ "FILENAME": "s1-3_098-n.S.obj", "NAME": "" }
+	],
+	"b5c1728ff597b7fdece6abd24f38596a": [
+		{ "FILENAME": "s1-2_004-n.S.obj", "NAME": "Main Menu" }
+	],
+	"1b289cd21b1ee5301975faa831586023": [
+		{ "FILENAME": "s1-2_005-n.S.obj", "NAME": "" }
+	],
+	"7be3fa7be4021173254aeac0b5502b11": [
+		{ "FILENAME": "s1-2_006-n.S.obj", "NAME": "" }
+	],
+	"c2d1fd32e1bc269714dfc22460ed888e": [
+		{ "FILENAME": "s1-2_007-n.S.obj", "NAME": "" }
+	],
+	"1f17047933568992700318151725eaa7": [
+		{ "FILENAME": "s1-3_099-n.S.obj", "NAME": "" }
+	],
+	"b28799027968700e23efd200d6587120": [
+		{ "FILENAME": "s2-1_016-n.S.obj", "NAME": "Summer Forest" },
+		{ "FILENAME": "s2-2_078-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s2-2_082-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s2-3_188-n.S.obj", "NAME": "" }
+	],
+	"49047ecd62f5351e04f60526b9cf4345": [
+		{ "FILENAME": "s2-1_018-n.S.obj", "NAME": "Glimmer" },
+		{ "FILENAME": "s2-2_076-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s2-3_189-n.S.obj", "NAME": "" }
+	],
+	"0642ce0543368942d91eee8d02a791a4": [
+		{ "FILENAME": "s2-1_020-n.S.obj", "NAME": "Idol Springs" }
+	],
+	"f9bd201e293de6e56fd53bf86818f542": [
+		{ "FILENAME": "s2-1_022-n.S.obj", "NAME": "Colossus" }
+	],
+	"a80dfe5a600c8909b2b28dfe99a0d749": [
+		{ "FILENAME": "s2-1_024-n.S.obj", "NAME": "Hurricos" },
+		{ "FILENAME": "s3-1_132_1-n.S.obj", "NAME": "Spider Town" }
+	],
+	"490517ec1f693255d37cbda0b9ab2d72": [
+		{ "FILENAME": "s2-1_026-n.S.obj", "NAME": "Aquaria Towers" },
+		{ "FILENAME": "s2-3_192-n.S.obj", "NAME": "" }
+	],
+	"57adc1a2c88f5fb0ee04cdf3890e3894": [
+		{ "FILENAME": "s2-1_028-n.S.obj", "NAME": "Sunny Beach" }
+	],
+	"52ab085fe4dd5262b61a2dce7dd2254b": [
+		{ "FILENAME": "s2-1_030-n.S.obj", "NAME": "Ocean Speedway" },
+		{ "FILENAME": "s3-2_010_1-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s3-2_049_1-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s3-2_052_1-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s3-2_055_1-n.S.obj", "NAME": "" }
+	],
+	"edb60d0b8dfe90eb71dfaa22bd23e7de": [
+		{ "FILENAME": "s2-1_032-n.S.obj", "NAME": "Crush's Dungeon" }
+	],
+	"4baa3ce5a1a9b7e1605adc64c268afca": [
+		{ "FILENAME": "s2-1_034-n.S.obj", "NAME": "Autumn Plains" },
+		{ "FILENAME": "s3-1_114_1-n.S.obj", "NAME": "Crawdad Farm" }
+	],
+	"113a9f255b2abdcdaea7023d0babdc4a": [
+		{ "FILENAME": "s2-1_036-n.S.obj", "NAME": "Skelos Badlands" }
+	],
+	"68bbf4faba8c9b399945de50db9bf872": [
+		{ "FILENAME": "s2-1_038-n.S.obj", "NAME": "Crystal Glacier" }
+	],
+	"a3cfd05dfb00d91a44456e214489d1a2": [
+		{ "FILENAME": "s2-1_040-n.S.obj", "NAME": "Breeze Harbor" }
+	],
+	"9db190ac9613c80f023076a785fa08bb": [
+		{ "FILENAME": "s2-1_042-n.S.obj", "NAME": "Zephyr" },
+		{ "FILENAME": "s2-1_066-n.S.obj", "NAME": "Robotica Farms" }
+	],
+	"ccc807ffc6f0cbfa9f6922bc716d22cd": [
+		{ "FILENAME": "s2-1_044-n.S.obj", "NAME": "Metro Speedway" }
+	],
+	"c293e26e4fe74caa17f17713aa7880de": [
+		{ "FILENAME": "s2-1_046-n.S.obj", "NAME": "Scorch" }
+	],
+	"94d7ef3916db15d78da14ba24047cb0c": [
+		{ "FILENAME": "s2-1_048-n.S.obj", "NAME": "Shady Oasis" }
+	],
+	"8d15f2144244a69741eec05d5e269b33": [
+		{ "FILENAME": "s2-1_050-n.S.obj", "NAME": "Magma Cone" },
+		{ "FILENAME": "s3-1_104_1-n.S.obj", "NAME": "Molten Crater" },
+		{ "FILENAME": "s3-1_104_2-n.S.obj", "NAME": "Molten Crater" },
+		{ "FILENAME": "s3-1_104_3-n.S.obj", "NAME": "Molten Crater" },
+		{ "FILENAME": "s3-1_160_1-n.S.obj", "NAME": "Dino Mines" },
+		{ "FILENAME": "s3-1_160_2-n.S.obj", "NAME": "Dino Mines" },
+		{ "FILENAME": "s3-1_160_3-n.S.obj", "NAME": "Dino Mines" },
+		{ "FILENAME": "s3-1_160_4-n.S.obj", "NAME": "Dino Mines" },
+		{ "FILENAME": "s3-3_191_1-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s3_sky_04-g.S.obj", "NAME": "" },
+		{ "FILENAME": "s3_sky_26-g.S.obj", "NAME": "" }
+	],
+	"8533f75971f038ca56ac9f3c69e2d67d": [
+		{ "FILENAME": "s2-1_052-n.S.obj", "NAME": "Fracture Hills" }
+	],
+	"bf6bc3ec2e164dbed8e6f73f4ee4d98e": [
+		{ "FILENAME": "s2-1_054-n.S.obj", "NAME": "Icy Speedway" }
+	],
+	"2cbb9263ed7a3130414e937569fa337b": [
+		{ "FILENAME": "s2-1_056-n.S.obj", "NAME": "Gulp's Overlook" },
+		{ "FILENAME": "s2-2_086-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s2-2_088-n.S.obj", "NAME": "" }
+	],
+	"43a3e27308a984faafc4709497371162": [
+		{ "FILENAME": "s2-1_058-n.S.obj", "NAME": "Winter Tundra" },
+		{ "FILENAME": "s2-1_072-n.S.obj", "NAME": "Ripto's Arena" },
+		{ "FILENAME": "s3-1_138_1-n.S.obj", "NAME": "Lost Fleet" },
+		{ "FILENAME": "s3-1_138_2-n.S.obj", "NAME": "Lost Fleet" },
+		{ "FILENAME": "s3-1_138_3-n.S.obj", "NAME": "Lost Fleet" },
+		{ "FILENAME": "s3-3_188_1-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s3_sky_17-g.S.obj", "NAME": "" }
+	],
+	"6d87abd2a7b2db09f6544964015530ca": [
+		{ "FILENAME": "s2-1_060-n.S.obj", "NAME": "Mystic Marsh" }
+	],
+	"6af0b266df62844bcdf240132d0588a6": [
+		{ "FILENAME": "s2-1_062-n.S.obj", "NAME": "Cloud Temples" },
+		{ "FILENAME": "s2-3_197-n.S.obj", "NAME": "" }
+	],
+	"04d0cc1351d7746adb2e051412ad9d2c": [
+		{ "FILENAME": "s2-1_064-n.S.obj", "NAME": "Canyon Speedway" }
+	],
+	"650584a10bdaf4aa1662efb975ad9bb2": [
+		{ "FILENAME": "s2-1_068-n.S.obj", "NAME": "Metropolis" }
+	],
+	"0e3c8c03a0188a6ace96ece1f2dc45d3": [
+		{ "FILENAME": "s2-1_070-n.S.obj", "NAME": "Dragon Shores" }
+	],
+	"54e8216682d999449f265e387099b8eb": [
+		{ "FILENAME": "s2-2_074-n.S.obj", "NAME": "" }
+	],
+	"64874371baf4d7725bb71a59ed454784": [
+		{ "FILENAME": "s2-2_080-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s2-2_090-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s2-2_092-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s2-2_094-n.S.obj", "NAME": "" }
+	],
+	"3200702158058a7617f5101f9b70d687": [
+		{ "FILENAME": "s2-2_084-n.S.obj", "NAME": "" }
+	],
+	"98f0e9eea27029c4651d84eb293a227c": [
+		{ "FILENAME": "s2-2_096-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s2-3_194-n.S.obj", "NAME": "" }
+	],
+	"58ae74a920f6da601b5018269379c951": [
+		{ "FILENAME": "s2-3_190-n.S.obj", "NAME": "" }
+	],
+	"d709fb27ccc4671cb909d6d0f68af010": [
+		{ "FILENAME": "s2-3_191-n.S.obj", "NAME": "" }
+	],
+	"bd414199ec2fc5f430eb629c5c4e7a49": [
+		{ "FILENAME": "s2-3_193-n.S.obj", "NAME": "" }
+	],
+	"8fcf9fbacb441f39a2748a63b44c6207": [
+		{ "FILENAME": "s2-3_195-n.S.obj", "NAME": "" }
+	],
+	"099aeae1270e3243d19b25652f20c9df": [
+		{ "FILENAME": "s2-3_196-n.S.obj", "NAME": "" }
+	],
+	"4a52029f2669ae8c1e160ed41f269a32": [
+		{ "FILENAME": "s3-1_098_1-n.S.obj", "NAME": "Sunrise Spring" },
+		{ "FILENAME": "s3-2_013_1-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s3-2_058_1-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s3_sky_01-g.S.obj", "NAME": "" }
+	],
+	"cbc8651a6821126a55fe611220e5ddcf": [
+		{ "FILENAME": "s3-1_100_1-n.S.obj", "NAME": "Sunny Villa" },
+		{ "FILENAME": "s3-1_100_2-n.S.obj", "NAME": "Sunny Villa" },
+		{ "FILENAME": "s3-1_100_3-n.S.obj", "NAME": "Sunny Villa" },
+		{ "FILENAME": "s3_sky_02-g.S.obj", "NAME": "" }
+	],
+	"5fbe62b3939ce3fd0a0945681a8ac5a9": [
+		{ "FILENAME": "s3-1_102_1-n.S.obj", "NAME": "Cloud Spires" },
+		{ "FILENAME": "s3-1_102_2-n.S.obj", "NAME": "Cloud Spires" },
+		{ "FILENAME": "s3-1_102_3-n.S.obj", "NAME": "Cloud Spires" },
+		{ "FILENAME": "s3-3_194_1-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s3_sky_03-g.S.obj", "NAME": "" }
+	],
+	"312d69c0800d57526af16aa4d4d1e5a3": [
+		{ "FILENAME": "s3-1_106_1-n.S.obj", "NAME": "Seashell Shore" },
+		{ "FILENAME": "s3-1_106_2-n.S.obj", "NAME": "Seashell Shore" },
+		{ "FILENAME": "s3-1_106_3-n.S.obj", "NAME": "Seashell Shore" },
+		{ "FILENAME": "s3-1_106_4-n.S.obj", "NAME": "Seashell Shore" },
+		{ "FILENAME": "s3-3_185_1-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s3_sky_05-g.S.obj", "NAME": "" }
+	],
+	"0ac00308f5e33756fd288d631d54b8f4": [
+		{ "FILENAME": "s3-1_108_1-n.S.obj", "NAME": "Mushroom Speedway" },
+		{ "FILENAME": "s3_sky_06-g.S.obj", "NAME": "" }
+	],
+	"fc40f1c3696ac139cd5139bd1b0ff0a4": [
+		{ "FILENAME": "s3-1_110_1-n.S.obj", "NAME": "Sheila's Alp" },
+		{ "FILENAME": "s3-1_116_1-n.S.obj", "NAME": "Midday Gardens" },
+		{ "FILENAME": "s3-1_146_1-n.S.obj", "NAME": "Bentley's Outpost" },
+		{ "FILENAME": "s3-2_019_1-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s3-2_040_1-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s3-3_184_1-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s3_sky_07-g.S.obj", "NAME": "" },
+		{ "FILENAME": "s3_sky_08-g.S.obj", "NAME": "" },
+		{ "FILENAME": "s3_sky_21-g.S.obj", "NAME": "" }
+	],
+	"d754e8c6c83aa1eaee4c2101e5bdf680": [
+		{ "FILENAME": "s3-1_112_1-n.S.obj", "NAME": "Buzz's Dungeon" }
+	],
+	"83f9ecf4c8d610160c5a4d9d8f8ee219": [
+		{ "FILENAME": "s3-1_118_1-n.S.obj", "NAME": "Icy Peak" },
+		{ "FILENAME": "s3-1_118_2-n.S.obj", "NAME": "Icy Peak" },
+		{ "FILENAME": "s3-1_118_3-n.S.obj", "NAME": "Icy Peak" },
+		{ "FILENAME": "s3-3_186_1-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s3_sky_09-g.S.obj", "NAME": "" }
+	],
+	"c27c83e75e244ba69e83ed6a7e69f639": [
+		{ "FILENAME": "s3-1_120_1-n.S.obj", "NAME": "Enchanted Towers" },
+		{ "FILENAME": "s3-1_120_2-n.S.obj", "NAME": "Enchanted Towers" },
+		{ "FILENAME": "s3-1_120_3-n.S.obj", "NAME": "Enchanted Towers" },
+		{ "FILENAME": "s3_sky_10-g.S.obj", "NAME": "" }
+	],
+	"e5765d3bffba5f3c7cc73c7b5c6e1c72": [
+		{ "FILENAME": "s3-1_122_1-n.S.obj", "NAME": "Spooky Swamp" },
+		{ "FILENAME": "s3-1_122_2-n.S.obj", "NAME": "Spooky Swamp" },
+		{ "FILENAME": "s3-1_122_3-n.S.obj", "NAME": "Spooky Swamp" },
+		{ "FILENAME": "s3_sky_11-g.S.obj", "NAME": "" }
+	],
+	"72117f8a49ea56e21883eb2e0631f96c": [
+		{ "FILENAME": "s3-1_124_1-n.S.obj", "NAME": "Bamboo Terrace" },
+		{ "FILENAME": "s3-1_124_2-n.S.obj", "NAME": "Bamboo Terrace" },
+		{ "FILENAME": "s3-1_124_3-n.S.obj", "NAME": "Bamboo Terrace" },
+		{ "FILENAME": "s3-3_195_1-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s3_sky_12-g.S.obj", "NAME": "" }
+	],
+	"17a327fbcd02a1bddc71861b4cc8c872": [
+		{ "FILENAME": "s3-1_126_1-n.S.obj", "NAME": "Country Speedway" },
+		{ "FILENAME": "s3_sky_13-g.S.obj", "NAME": "" }
+	],
+	"acc991eab725543a6b34dc54eac79aae": [
+		{ "FILENAME": "s3-1_128_1-n.S.obj", "NAME": "Sgt Byrd's Base" },
+		{ "FILENAME": "s3_sky_14-g.S.obj", "NAME": "" }
+	],
+	"4e2f9b6a67e983ae1f6488162017c1b9": [
+		{ "FILENAME": "s3-1_130_1-n.S.obj", "NAME": "Spike's Arena" }
+	],
+	"3703fa8895b9af164fbc12b0662e75a5": [
+		{ "FILENAME": "s3-1_134_1-n.S.obj", "NAME": "Evening Lake" },
+		{ "FILENAME": "s3-2_064_1-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s3_sky_15-g.S.obj", "NAME": "" }
+	],
+	"efc739c52bf8174d134c01e5e4512c71": [
+		{ "FILENAME": "s3-1_136_1-n.S.obj", "NAME": "Frozen Altars" },
+		{ "FILENAME": "s3-1_136_2-n.S.obj", "NAME": "Frozen Altars" },
+		{ "FILENAME": "s3-1_136_3-n.S.obj", "NAME": "Frozen Altars" },
+		{ "FILENAME": "s3_sky_16-g.S.obj", "NAME": "" }
+	],
+	"ffafc2da81eb3af18a8948d312732e45": [
+		{ "FILENAME": "s3-1_140_1-n.S.obj", "NAME": "Fireworks Factory" },
+		{ "FILENAME": "s3-1_140_2-n.S.obj", "NAME": "Fireworks Factory" },
+		{ "FILENAME": "s3-1_140_3-n.S.obj", "NAME": "Fireworks Factory" },
+		{ "FILENAME": "s3-1_140_4-n.S.obj", "NAME": "Fireworks Factory" },
+		{ "FILENAME": "s3-2_007_1-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s3-2_034_1-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s3-2_046_1-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s3-3_189_1-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s3_sky_18-g.S.obj", "NAME": "" }
+	],
+	"7231947ddee02b8eded3a41b0bcf48c2": [
+		{ "FILENAME": "s3-1_142_1-n.S.obj", "NAME": "Charmed Ridge" },
+		{ "FILENAME": "s3-1_142_2-n.S.obj", "NAME": "Charmed Ridge" },
+		{ "FILENAME": "s3-1_142_3-n.S.obj", "NAME": "Charmed Ridge" },
+		{ "FILENAME": "s3-3_192_1-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s3_sky_19-g.S.obj", "NAME": "" }
+	],
+	"2dfc98baf7366a69f7c861883e7ccd1a": [
+		{ "FILENAME": "s3-1_144_1-n.S.obj", "NAME": "Honey Speedway" },
+		{ "FILENAME": "s3_sky_20-g.S.obj", "NAME": "" }
+	],
+	"943c0c2e7dcc466d64f1bfc4bad630e0": [
+		{ "FILENAME": "s3-1_148_1-n.S.obj", "NAME": "Scorch's Pit" }
+	],
+	"f7bc83622341db2ef2ef61faf41f0dcd": [
+		{ "FILENAME": "s3-1_150_1-n.S.obj", "NAME": "Starfish Reef" }
+	],
+	"4d94254f20a6057683586503c91d15a2": [
+		{ "FILENAME": "s3-1_152_1-n.S.obj", "NAME": "Midnight Mountain" },
+		{ "FILENAME": "s3-2_067_1-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s3_sky_22-g.S.obj", "NAME": "" }
+	],
+	"627fb5915f3573cb0135e53aaf87aa5d": [
+		{ "FILENAME": "s3-1_154_1-n.S.obj", "NAME": "Crystal Islands" },
+		{ "FILENAME": "s3-1_154_2-n.S.obj", "NAME": "Crystal Islands" },
+		{ "FILENAME": "s3-1_154_3-n.S.obj", "NAME": "Crystal Islands" },
+		{ "FILENAME": "s3_sky_23-g.S.obj", "NAME": "" }
+	],
+	"d93b0ce65bbdb88571ba2224b0c32f73": [
+		{ "FILENAME": "s3-1_156_1-n.S.obj", "NAME": "Desert Ruins" },
+		{ "FILENAME": "s3-1_156_2-n.S.obj", "NAME": "Desert Ruins" },
+		{ "FILENAME": "s3-1_156_3-n.S.obj", "NAME": "Desert Ruins" },
+		{ "FILENAME": "s3-3_190_1-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s3_sky_24-g.S.obj", "NAME": "" }
+	],
+	"7485c05461b0d5c7292ad7d2a4f60d5e": [
+		{ "FILENAME": "s3-1_158_1-n.S.obj", "NAME": "Haunted Tomb" },
+		{ "FILENAME": "s3-1_158_2-n.S.obj", "NAME": "Haunted Tomb" },
+		{ "FILENAME": "s3-1_158_3-n.S.obj", "NAME": "Haunted Tomb" },
+		{ "FILENAME": "s3_sky_25-g.S.obj", "NAME": "" }
+	],
+	"d34cf45c30f5b9b67b86ac1cc3794fb8": [
+		{ "FILENAME": "s3-1_162_1-n.S.obj", "NAME": "Harbor Speedway" },
+		{ "FILENAME": "s3_sky_27-g.S.obj", "NAME": "" }
+	],
+	"5950e4894e0e8f6641b5643262b91ac2": [
+		{ "FILENAME": "s3-1_164_1-n.S.obj", "NAME": "Agent 9's Lab" },
+		{ "FILENAME": "s3-2_037_1-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s3_sky_28-g.S.obj", "NAME": "" }
+	],
+	"898d5784ff26b6fe4706011f8e25e203": [
+		{ "FILENAME": "s3-1_166_1-n.S.obj", "NAME": "Sorceress' Lair" }
+	],
+	"b7fc1a0ed6facb4923b2666f3e911512": [
+		{ "FILENAME": "s3-1_168_1-n.S.obj", "NAME": "Bugbot Factory" },
+		{ "FILENAME": "s3-3_193_1-n.S.obj", "NAME": "" }
+	],
+	"fd71ae2453d4da4d7f7fd4ebc6c1177a": [
+		{ "FILENAME": "s3-1_170_1-n.S.obj", "NAME": "Super Bonus Round" },
+		{ "FILENAME": "s3-1_170_2-n.S.obj", "NAME": "Super Bonus Round" },
+		{ "FILENAME": "s3-1_170_3-n.S.obj", "NAME": "Super Bonus Round" },
+		{ "FILENAME": "s3-1_170_4-n.S.obj", "NAME": "Super Bonus Round" }
+	],
+	"04f77b255dd92d6f330001e823992fb1": [
+		{ "FILENAME": "s3-2_016_1-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s3-2_022_1-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s3-2_025_1-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s3-2_028_1-n.S.obj", "NAME": "" },
+		{ "FILENAME": "s3-2_031_1-n.S.obj", "NAME": "" }
+	],
+	"4ee19e5582c476e42d5b7711d68bb6c3": [
+		{ "FILENAME": "s3-2_061_1-n.S.obj", "NAME": "" }
+	],
+	"179bf49fe1b11ecd3135c3cef097de83": [
+		{ "FILENAME": "s3-3_187_1-n.S.obj", "NAME": "" }
+	]
+}
