@@ -11,7 +11,10 @@ class SkySet:
     extras: str
 
 
-PATH_TEMP_FILE = Path(Path(__file__).parent / "temp/temp.json")
+PATH_TEMP_FOLDER: Path = Path(__file__).parent / "temp"
+if not PATH_TEMP_FOLDER.exists():
+    PATH_TEMP_FOLDER.mkdir()
+PATH_TEMP_FILE: Path = PATH_TEMP_FOLDER / "temp.json"
 sky_sets: list[SkySet] = []
 
 
