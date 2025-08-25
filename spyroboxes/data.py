@@ -22,6 +22,7 @@ def load_from_file():
     global sky_sets
     list_of_dicts = json.load(PATH_TEMP_FILE.open('r'))
     sky_sets = [SkySet(**a) for a in list_of_dicts]
+    return sky_sets
 
 
 def save_to_file():

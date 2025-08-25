@@ -11,21 +11,23 @@ def rotate(what, x, y, z):
     what.rotation_euler.y = math.radians(y)
 
 
-def render(output_path: Path, xy: int):
+def render(output_file_path: Path, xy: int):
     if bpy.context.scene:
         bpy.context.scene.render.resolution_x = xy
         bpy.context.scene.render.resolution_y = xy
-        bpy.context.scene.render.filepath = str(output_path)
+        bpy.context.scene.render.filepath = str(output_file_path)
         bpy.ops.render.render(write_still=True)
 
 
-def render_top_preview(*, output_path, res_xy: int = 128):
+def render_top_preview(*, output_file_path: Path, res_xy: int = 128):
     name = 'Camera Top-Down'
     cam = bpy.data.objects.get(name)
     if not cam:
+        bpy.ops.object.select_all(action='DESELECT')
         bpy.ops.object.camera_add()
         cam = bpy.context.object
         cam.name = name
+        bpy.context.scene.camera = cam
     if cam:
         cam.data.type = 'ORTHO'
         cam.data.ortho_scale = 65.0
@@ -38,7 +40,7 @@ def render_top_preview(*, output_path, res_xy: int = 128):
     else:
         print('add a camera!')
 
-    render(output_path, res_xy)
+    render(output_file_path, res_xy)
 
 
 def add_direction(path: Path, direction: str):
