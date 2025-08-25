@@ -3,7 +3,6 @@
 import bpy
 from pathlib import Path
 import math
-from .levels import quake_ok_name
 
 
 def rotate(what, x, y, z):
@@ -20,12 +19,34 @@ def render(output_path: Path, xy: int):
         bpy.ops.render.render(write_still=True)
 
 
+def render_top_preview(*, output_path, res_xy: int = 128):
+    name = 'Camera Top-Down'
+    cam = bpy.data.objects.get(name)
+    if not cam:
+        bpy.ops.object.camera_add()
+        cam = bpy.context.object
+        cam.name = name
+    if cam:
+        cam.data.type = 'ORTHO'
+        cam.data.ortho_scale = 65.0
+        cam.rotation_euler.x = 0.0
+        cam.rotation_euler.y = 0.0
+        cam.rotation_euler.z = 0.0
+        cam.location.x = 0.0
+        cam.location.y = 0.0
+        cam.location.z = 128.0
+    else:
+        print('add a camera!')
+
+    render(output_path, res_xy)
+
+
 def add_direction(path: Path, direction: str):
     return path.with_stem(f"{path.stem}_{direction}")
 
 
-def render_skybox(out_folder: Path, sky_name: str, cam, res: int, dn_as_1: bool):
-    out = out_folder / f"{quake_ok_name(sky_name)}_{res}"
+def render_skybox(out_folder: Path, file_name: str, cam, res: int, dn_as_1: bool):
+    out = out_folder / f"{file_name}"
     print(f'{res}x{res}', out)
 
     # +Y ft front
