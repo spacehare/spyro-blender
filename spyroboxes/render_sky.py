@@ -27,6 +27,7 @@ def render_top_preview(*, output_file_path: Path, res_xy: int = 128):
         bpy.ops.object.camera_add()
         cam = bpy.context.object
         cam.name = name
+        cam.hide_select = True
         bpy.context.scene.camera = cam
     if cam:
         cam.data.type = 'ORTHO'
