@@ -190,9 +190,13 @@ def organize_meshes(obj: Object, new_name: str):
         else:
             little_pieces.append(part)
 
+    extras: Object | None = None
     if little_pieces:
         bpy.context.view_layer.objects.active = little_pieces[0]
         bpy.ops.object.join()
         bpy.context.object.name = f"{new_name} - {NAME_EXTRAS}"
+        extras = bpy.context.object
 
     bpy.ops.object.select_all(action='DESELECT')
+
+    return main_sky, big_triangle, extras
