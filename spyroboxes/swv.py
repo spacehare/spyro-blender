@@ -84,7 +84,7 @@ def get_uvw_from_vert_idx(groups: list[OBJ], all_uvws: list[UVW], idx: int):
                     return all_uvws[point.vt_idx]
 
 
-def import_spyro_obj(file_path: Path):
+def import_spyro_obj(file_path: Path) -> Object:
     '''
     - import a raw OBJ file from a path.
       - merge all groups into one mesh.
@@ -128,8 +128,7 @@ def import_spyro_obj(file_path: Path):
     # generate mesh
     bpy.ops.wm.obj_import(filepath=str(file_path), up_axis='Z', forward_axis='NEGATIVE_X', global_scale=SCALE)
     obj: Object = bpy.context.selected_objects[0]
-    if not isinstance(obj.data, Mesh):
-        return
+    assert (isinstance(obj.data, Mesh))
 
     # apply vertex colors
     all_uvws = [uvw for group in groups for uvw in group.uvws]
