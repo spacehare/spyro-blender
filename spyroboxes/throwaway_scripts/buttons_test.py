@@ -4,7 +4,7 @@ its just a helper script for genering entities for TrenchBroom so i can test how
 this code is also very ugly, but it gets the job done............ sorta
 '''
 
-import levels
+from .. import levels
 import pyperclip
 import re
 
