@@ -1,14 +1,14 @@
 from . import render_sky
 from . import data
 from . import swv
-from .levels import levels, hashes
+from .levels import levels, hashes, groups
 from pathlib import Path
 import bpy
 from bpy.types import Object
 
 
 def _add_all_skies(parent_folder: Path):
-    '''import every unique sky'''
+    '''import every unique sky, based on the OBJ's md5 hash'''
     results = []
     for key in hashes:
         if hashes[key].tag == 'S':
@@ -24,12 +24,22 @@ def add_single_object(path_name: Path):
     level = levels[file_name]
     new_name = f"{level.data_md5}_{level.name_override or 'UNNAMED'}"
     obj = swv.import_spyro_obj(path_name)
-    result = swv.organize_meshes(obj, new_name)
-    return result
+    objects = swv.organize_meshes(obj, new_name)
+    return objects
 
 
-def batch_import_skies(parent_folder: Path):
-    everything: list[tuple] = _add_all_skies(parent_folder)
+def get_groups_whitelist() -> list[str]:
+    return [g.file_name for g in groups]
+
+
+def batch_import_skies(objs_parent: Path, whitelist: list = []):
+    everything: list[tuple] = []
+    if whitelist:
+        for key in levels:
+            if str(levels[key].filename) in whitelist:
+                everything.append(add_single_object(objs_parent / levels[key].filename))
+    else:
+        everything = _add_all_skies(objs_parent)
     data.sky_sets = []
     for thing in everything:
         new_sky_set = data.SkySet(
