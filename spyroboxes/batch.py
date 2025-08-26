@@ -58,7 +58,8 @@ def render_single(*, output_parent: Path, sky_set: data.SkySet, res_xy: int, ren
 
     toggle_vis_in_render(obj_sky, obj_tetra, obj_extras, False)
 
-    filename = output_parent / (sky_set.sky + '.png')
+    filename = (output_parent / sky_set.sky.split('_')[1]).with_suffix('.png')
+    print('rendering filename: %s' % filename)
     render_sky.render_top_preview(output_file_path=filename, res_xy=res_xy)
 
     toggle_vis_in_render(obj_sky, obj_tetra, obj_extras, True)
