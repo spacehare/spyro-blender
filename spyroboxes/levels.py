@@ -1,8 +1,10 @@
 from pathlib import Path
 from dataclasses import dataclass
-import csv
+import json
 
-CSV_FILE_PATH = Path(Path(__file__).parent / 'assets/data.csv')
+# you need to convert the Google Docs CSV files to JSON first!
+PATH_DATA = Path(Path(__file__).parent / 'assets/data.json')
+PATH_GROUPS = Path(Path(__file__).parent / 'assets/groups.json')
 
 tag_dict = {
     'S': 'SKY',
@@ -55,6 +57,12 @@ class LevelStemInfo:
         )
 
 
+@dataclass
+class RabbitGroup:
+    group_name: str
+    file_name: str
+
+
 @dataclass(kw_only=True)
 class Level:
     filename: Path
@@ -67,15 +75,13 @@ class Level:
     is_hub: bool = False
     is_first_occurrence: bool
     lod: int
-    '''level of detail'''
+    '''truly i don't know lol. i think it's related to cutscenes or something.'''
     tag: str
     '''a suffix denoting what type of mesh this is. (a sky, a level's textures, a level's lighting, etc)'''
     uid: int
     '''unique level id'''
     portal: int
     '''hub portal, or Spyro 3 level subarea'''
-    count: int
-    '''how many times the text data inside of this OBJ is found in every OBJ file'''
     is_sphere: bool = False
     '''is the level's sky a sphere? (as opposed to a dome)'''
     manual: bool = False
@@ -84,6 +90,8 @@ class Level:
     '''unique [hashlib md5 hexdigest] for the OBJ's text data'''
     top_down_img_avg: str
     '''average hash of this sky rendered from above, sans tetrahedron. hash size = 32'''
+    rabbit_similar: str
+    rabbit_group: str
 
     @staticmethod
     def from_dict(d: dict) -> 'Level':
@@ -100,54 +108,36 @@ class Level:
             is_sphere=d['IS_SPHERE'] == 'TRUE',
             manual=d['MANUAL'] == 'TRUE',
             is_first_occurrence=d['IS_FIRST_OCCURRENCE'] == 'TRUE',
-            count=int(d['COUNT']),
             data_md5=str(d['DATA_MD5']),
             name_override=str(d['NAME_OVERRIDE']),
-            top_down_img_avg=str(d['TOP_DOWN_IMG_AVG'])
+            top_down_img_avg=str(d['TOP_DOWN_IMG_AVG']),
+            rabbit_group=d['RABBIT_GROUP'],
+            rabbit_similar=d['RABBIT_SIMILAR']
         )
 
 
 levels: dict[str, Level] = {}
 hashes: dict[str, Level] = {}
+groups: list[RabbitGroup] = []
 
-with open(CSV_FILE_PATH) as file:
-    for row in csv.DictReader(file):
-        lvl = Level.from_dict(row)
-        hashes[row['DATA_MD5']] = lvl
-        levels[row['FILENAME']] = lvl
+_json_data: list[dict] = json.load(PATH_DATA.open())
+_json_groups: list[dict] = json.load(PATH_GROUPS.open())
 
 
-def md5_from_pathname(name: str):
-    return levels[name].data_md5
+for item in _json_data:
+    level = Level.from_dict(item)
+    levels[str(level.filename)] = level
+    hashes[level.data_md5] = level
+
+for group in _json_groups:
+    groups.append(RabbitGroup(**group))
+
+del _json_data
+del _json_groups
 
 
-# def level_from_stem(stem: str) -> Level | None:
-#     print('HUNTING FOR STEM %s' % stem)
-#     return levels[stem + '.obj']
-
-
-# def level_name_from_stem(stem: str):
-#     if stem.endswith('.obj'):
-#         stem = stem[:-4]
-#     level = level_from_stem(stem)
-#     if not level:
-#         raise ValueError('NO LEVEL NAME FOUND')
-#     name = level.name or level.filename.stem
-
-# def level_from_info(info: LevelStemInfo) -> Level | None:
-#     for level in levels:
-#         if level.game == int(info.game[1]) and level.uid == int(info.uid):
-#             return level
-
-
-# def level_from_stem(stem: str) -> Level | None:
-#     '''take a path stem like `s2-1_040-n.S` and get name information from it by referring to the CSV'''
-
-#     if 'sky' in stem:
-#         return None
-#     else:
-#         info: LevelStemInfo = LevelStemInfo.from_stem(stem)
-
-#         for level in levels:
-#             if level.game == int(info.game[1]) and level.uid == int(info.uid):
-#                 return level
+# with open(DATA_FILE_PATH) as file:
+#     for row in csv.DictReader(file):
+#         lvl = Level.from_dict(row)
+#         hashes[row['DATA_MD5']] = lvl
+#         levels[row['FILENAME']] = lvl

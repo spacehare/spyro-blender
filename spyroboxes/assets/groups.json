@@ -1,0 +1,402 @@
+[
+	{
+		"group_name": "group_?_blue_sky",
+		"file_name": "s2-3_196-n.S.obj"
+	},
+	{
+		"group_name": "group_?_light_blue_sky",
+		"file_name": "s1-2_005-n.S.obj"
+	},
+	{
+		"group_name": "group_agent_9s_lab",
+		"file_name": "s3-1_164_1-n.S.obj"
+	},
+	{
+		"group_name": "group_alpine_ridge",
+		"file_name": "s1-1_037-n.S.obj"
+	},
+	{
+		"group_name": "group_aquaria_towers",
+		"file_name": "s2-1_026-n.S.obj"
+	},
+	{
+		"group_name": "group_artisans",
+		"file_name": "s1-1_011-n.S.obj"
+	},
+	{
+		"group_name": "group_autumn_plains",
+		"file_name": "s2-1_034-n.S.obj"
+	},
+	{
+		"group_name": "group_bamboo_terrace",
+		"file_name": "s3-1_124_1-n.S.obj"
+	},
+	{
+		"group_name": "group_blowhard",
+		"file_name": "s1-1_043-n.S.obj"
+	},
+	{
+		"group_name": "group_breeze_harbor",
+		"file_name": "s2-1_040-n.S.obj"
+	},
+	{
+		"group_name": "group_bugbot_factory",
+		"file_name": "s3-1_168_1-n.S.obj"
+	},
+	{
+		"group_name": "group_buzzs_dungeon",
+		"file_name": "s3-1_112_1-n.S.obj"
+	},
+	{
+		"group_name": "group_canyon_speedway",
+		"file_name": "s2-1_064-n.S.obj"
+	},
+	{
+		"group_name": "group_canyon_speedway_alt",
+		"file_name": "s3-2_016_1-n.S.obj"
+	},
+	{
+		"group_name": "group_charmed_ridge",
+		"file_name": "s3-1_142_1-n.S.obj"
+	},
+	{
+		"group_name": "group_cloud_temples",
+		"file_name": "s2-1_062-n.S.obj"
+	},
+	{
+		"group_name": "group_colossus",
+		"file_name": "s2-1_022-n.S.obj"
+	},
+	{
+		"group_name": "group_colossus_alt",
+		"file_name": "s2-3_191-n.S.obj"
+	},
+	{
+		"group_name": "group_country_speedway",
+		"file_name": "s3-1_126_1-n.S.obj"
+	},
+	{
+		"group_name": "group_crushs_dungeon",
+		"file_name": "s2-1_032-n.S.obj"
+	},
+	{
+		"group_name": "group_crystal_flight",
+		"file_name": "s1-1_045-n.S.obj"
+	},
+	{
+		"group_name": "group_crystal_glacier",
+		"file_name": "s2-1_038-n.S.obj"
+	},
+	{
+		"group_name": "group_crystal_islands",
+		"file_name": "s3-1_154_1-n.S.obj"
+	},
+	{
+		"group_name": "group_dark_hollow",
+		"file_name": "s1-1_015-n.S.obj"
+	},
+	{
+		"group_name": "group_desert_ruins",
+		"file_name": "s3-1_156_1-n.S.obj"
+	},
+	{
+		"group_name": "group_doctor_shemp",
+		"file_name": "s1-1_031-n.S.obj"
+	},
+	{
+		"group_name": "group_dragon_shores",
+		"file_name": "s2-1_070-n.S.obj"
+	},
+	{
+		"group_name": "group_dream_weavers",
+		"file_name": "s1-1_059-n.S.obj"
+	},
+	{
+		"group_name": "group_dry_canyon",
+		"file_name": "s1-1_025-n.S.obj"
+	},
+	{
+		"group_name": "group_enchanted_towers",
+		"file_name": "s3-1_120_1-n.S.obj"
+	},
+	{
+		"group_name": "group_evening_lake",
+		"file_name": "s3-1_134_1-n.S.obj"
+	},
+	{
+		"group_name": "group_fireworks_factory",
+		"file_name": "s3-1_140_1-n.S.obj"
+	},
+	{
+		"group_name": "group_frozen_altars",
+		"file_name": "s3-1_136_1-n.S.obj"
+	},
+	{
+		"group_name": "group_glimmer",
+		"file_name": "s2-1_018-n.S.obj"
+	},
+	{
+		"group_name": "group_gnastys_world",
+		"file_name": "s1-1_071-n.S.obj"
+	},
+	{
+		"group_name": "group_gnorc_cove",
+		"file_name": "s1-1_073-n.S.obj"
+	},
+	{
+		"group_name": "group_gulps_overlook",
+		"file_name": "s2-1_056-n.S.obj"
+	},
+	{
+		"group_name": "group_haunted_tomb",
+		"file_name": "s3-1_158_1-n.S.obj"
+	},
+	{
+		"group_name": "group_haunted_towers",
+		"file_name": "s1-1_065-n.S.obj"
+	},
+	{
+		"group_name": "group_high_caves",
+		"file_name": "s1-1_039-n.S.obj"
+	},
+	{
+		"group_name": "group_honey_speedway",
+		"file_name": "s3-1_144_1-n.S.obj"
+	},
+	{
+		"group_name": "group_hurricos",
+		"file_name": "s2-1_024-n.S.obj"
+	},
+	{
+		"group_name": "group_hurricos_alt",
+		"file_name": "s2-2_074-n.S.obj"
+	},
+	{
+		"group_name": "group_ice_cavern",
+		"file_name": "s1-1_029-n.S.obj"
+	},
+	{
+		"group_name": "group_icy_flight",
+		"file_name": "s1-1_069-n.S.obj"
+	},
+	{
+		"group_name": "group_icy_flight_alt",
+		"file_name": "s1-3_099-n.S.obj"
+	},
+	{
+		"group_name": "group_icy_peak",
+		"file_name": "s3-1_118_1-n.S.obj"
+	},
+	{
+		"group_name": "group_icy_speedway",
+		"file_name": "s2-1_054-n.S.obj"
+	},
+	{
+		"group_name": "group_jacques",
+		"file_name": "s1-1_067-n.S.obj"
+	},
+	{
+		"group_name": "group_lofty_castle",
+		"file_name": "s1-1_063-n.S.obj"
+	},
+	{
+		"group_name": "group_magic_crafters",
+		"file_name": "s1-1_035-n.S.obj"
+	},
+	{
+		"group_name": "group_magma_cone",
+		"file_name": "s2-1_050-n.S.obj"
+	},
+	{
+		"group_name": "group_main_menu",
+		"file_name": "s1-2_004-n.S.obj"
+	},
+	{
+		"group_name": "group_metropolis",
+		"file_name": "s2-1_068-n.S.obj"
+	},
+	{
+		"group_name": "group_midnight_mountain",
+		"file_name": "s3-1_152_1-n.S.obj"
+	},
+	{
+		"group_name": "group_mushroom_speedway",
+		"file_name": "s3-1_108_1-n.S.obj"
+	},
+	{
+		"group_name": "group_night_flight",
+		"file_name": "s1-1_033-n.S.obj"
+	},
+	{
+		"group_name": "group_peace_keepers",
+		"file_name": "s1-1_023-n.S.obj"
+	},
+	{
+		"group_name": "group_scorch",
+		"file_name": "s2-1_046-n.S.obj"
+	},
+	{
+		"group_name": "group_scorch_alt",
+		"file_name": "s2-3_195-n.S.obj"
+	},
+	{
+		"group_name": "group_seashell_shore",
+		"file_name": "s3-1_106_1-n.S.obj"
+	},
+	{
+		"group_name": "group_sgt_byrds_base",
+		"file_name": "s3-1_128_1-n.S.obj"
+	},
+	{
+		"group_name": "group_sheilas_alp",
+		"file_name": "s3-1_110_1-n.S.obj"
+	},
+	{
+		"group_name": "group_sheilas_alp_alt",
+		"file_name": "s2-2_084-n.S.obj"
+	},
+	{
+		"group_name": "group_sorceress_lair",
+		"file_name": "s3-1_166_1-n.S.obj"
+	},
+	{
+		"group_name": "group_spikes_arena",
+		"file_name": "s3-1_130_1-n.S.obj"
+	},
+	{
+		"group_name": "group_spooky_swamp",
+		"file_name": "s3-1_122_1-n.S.obj"
+	},
+	{
+		"group_name": "group_stone_hill",
+		"file_name": "s1-1_013-n.S.obj"
+	},
+	{
+		"group_name": "group_summer_forest",
+		"file_name": "s2-1_016-n.S.obj"
+	},
+	{
+		"group_name": "group_sunny_beach",
+		"file_name": "s2-1_028-n.S.obj"
+	},
+	{
+		"group_name": "group_sunny_flight",
+		"file_name": "s1-1_021-n.S.obj"
+	},
+	{
+		"group_name": "group_sunny_villa",
+		"file_name": "s3-1_100_1-n.S.obj"
+	},
+	{
+		"group_name": "group_sunrise_spring",
+		"file_name": "s3-1_098_1-n.S.obj"
+	},
+	{
+		"group_name": "group_super_bonus_round",
+		"file_name": "s3-1_170_1-n.S.obj"
+	},
+	{
+		"group_name": "group_toasty",
+		"file_name": "s1-1_019-n.S.obj"
+	},
+	{
+		"group_name": "group_town_square",
+		"file_name": "s1-1_017-n.S.obj"
+	},
+	{
+		"group_name": "group_tree_tops",
+		"file_name": "s1-1_053-n.S.obj"
+	},
+	{
+		"group_name": "group_twilight_harbor",
+		"file_name": "s1-1_075-n.S.obj"
+	},
+	{
+		"group_name": "group_winter_tundra",
+		"file_name": "s2-1_058-n.S.obj"
+	},
+	{
+		"group_name": "group_winter_tundra_alt",
+		"file_name": "s2-2_080-n.S.obj"
+	},
+	{
+		"group_name": "group_zephyr",
+		"file_name": "s2-1_042-n.S.obj"
+	},
+	{
+		"group_name": "group_skelos_badlands",
+		"file_name": "s2-1_036-n.S.obj"
+	},
+	{
+		"group_name": "group_skelos_badlands_alt",
+		"file_name": "s2-2_096-n.S.obj"
+	},
+	{
+		"group_name": "group_harbor_speedway",
+		"file_name": "s3-1_162_1-n.S.obj"
+	},
+	{
+		"group_name": "group_cloud_spires",
+		"file_name": "s3-1_102_1-n.S.obj"
+	},
+	{
+		"group_name": "group_metro_speedway",
+		"file_name": "s2-1_044-n.S.obj"
+	},
+	{
+		"group_name": "group_dark_passage",
+		"file_name": "s1-1_061-n.S.obj"
+	},
+	{
+		"group_name": "group_gnasty_gnorc",
+		"file_name": "s1-1_077-n.S.obj"
+	},
+	{
+		"group_name": "group_cliff_town",
+		"file_name": "s1-1_027-n.S.obj"
+	},
+	{
+		"group_name": "group_gnastys_loot",
+		"file_name": "s1-1_079-n.S.obj"
+	},
+	{
+		"group_name": "group_metalhead",
+		"file_name": "s1-1_055-n.S.obj"
+	},
+	{
+		"group_name": "group_misty_bog",
+		"file_name": "s1-1_051-n.S.obj"
+	},
+	{
+		"group_name": "group_mystic_marsh",
+		"file_name": "s2-1_060-n.S.obj"
+	},
+	{
+		"group_name": "group_shady_oasis",
+		"file_name": "s2-1_048-n.S.obj"
+	},
+	{
+		"group_name": "group_beast_makers",
+		"file_name": "s1-1_047-n.S.obj"
+	},
+	{
+		"group_name": "group_wild_flight",
+		"file_name": "s1-1_057-n.S.obj"
+	},
+	{
+		"group_name": "group_terrace_village",
+		"file_name": "s1-1_049-n.S.obj"
+	},
+	{
+		"group_name": "group_fracture_hills",
+		"file_name": "s2-1_052-n.S.obj"
+	},
+	{
+		"group_name": "group_idol_springs",
+		"file_name": "s2-1_020-n.S.obj"
+	},
+	{
+		"group_name": "group_idol_springs_alt",
+		"file_name": "s2-3_190-n.S.obj"
+	}
+]
