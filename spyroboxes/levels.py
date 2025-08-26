@@ -82,6 +82,8 @@ class Level:
     '''do i have to manually fix non-manifold issues like broken vertexes, etc?'''
     data_md5: str
     '''unique [hashlib md5 hexdigest] for the OBJ's text data'''
+    top_down_img_avg: str
+    '''average hash of this sky rendered from above, sans tetrahedron.'''
 
     @staticmethod
     def from_dict(d: dict) -> 'Level':
@@ -101,6 +103,7 @@ class Level:
             count=int(d['COUNT']),
             data_md5=str(d['DATA_MD5']),
             name_override=str(d['NAME_OVERRIDE']),
+            top_down_img_avg=str(d['TOP_DOWN_IMG_AVG'])
         )
 
 
