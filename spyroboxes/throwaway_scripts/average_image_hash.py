@@ -49,4 +49,4 @@ with open('spyroboxes/temp/data.csv', 'r') as infile:
 
 
 # output.write_text('\n'.join(everything))
-# json.dump(everything, output.open('w'))
+json.dump(everything, output.open('w'))
