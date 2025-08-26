@@ -83,7 +83,7 @@ class Level:
     data_md5: str
     '''unique [hashlib md5 hexdigest] for the OBJ's text data'''
     top_down_img_avg: str
-    '''average hash of this sky rendered from above, sans tetrahedron.'''
+    '''average hash of this sky rendered from above, sans tetrahedron. hash size = 32'''
 
     @staticmethod
     def from_dict(d: dict) -> 'Level':

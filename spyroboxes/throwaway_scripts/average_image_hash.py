@@ -18,7 +18,7 @@ NEW_HEADER = 'TOP_DOWN_IMG_AVG'
 
 for i in renders_folder.glob('*.png'):
     img = Image.open(i)
-    avg = imagehash.average_hash(img)
+    avg = imagehash.average_hash(img, 32)
     everything[i.name.split('_')[0]] = str(avg)
 
 # for i in renders_folder.glob('*.png'):
@@ -38,7 +38,6 @@ with open('spyroboxes/temp/data.csv', 'r') as infile:
 
             writer.writeheader()
             for row in reader:
-                print('->', row['DATA_MD5'], row['DATA_MD5'] in everything)
                 if row['DATA_MD5'] in everything:
                     with_avg = {NEW_HEADER: everything[row['DATA_MD5']]}
                     new_row = row | with_avg
