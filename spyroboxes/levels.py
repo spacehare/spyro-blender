@@ -84,7 +84,7 @@ class Level:
     '''hub portal, or Spyro 3 level subarea'''
     is_sphere: bool = False
     '''is the level's sky a sphere? (as opposed to a dome)'''
-    manual: bool = False
+    non_manifold: bool = False
     '''do i have to manually fix non-manifold issues like broken vertexes, etc?'''
     data_md5: str
     '''unique [hashlib md5 hexdigest] for the OBJ's text data'''
@@ -106,7 +106,7 @@ class Level:
             tag_human=d['TAG_HUMAN'],
             is_hub=d['IS_HUB'] == 'TRUE',
             is_sphere=d['IS_SPHERE'] == 'TRUE',
-            manual=d['MANUAL'] == 'TRUE',
+            non_manifold=d['NON-MANIFOLD'] == 'TRUE',
             is_first_occurrence=d['IS_FIRST_OCCURRENCE'] == 'TRUE',
             data_md5=str(d['DATA_MD5']),
             name_override=str(d['NAME_OVERRIDE']),

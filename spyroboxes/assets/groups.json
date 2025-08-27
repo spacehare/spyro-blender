@@ -398,5 +398,13 @@
 	{
 		"group_name": "group_idol_springs_alt",
 		"file_name": "s2-3_190-n.S.obj"
+	},
+	{
+		"group_name": "group_ocean_speedway",
+		"file_name": "s2-1_030-n.S.obj"
+	},
+	{
+		"group_name": "group_wizard_peak",
+		"file_name": "s1-1_041-n.S.obj"
 	}
 ]
