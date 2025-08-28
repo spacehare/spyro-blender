@@ -114,7 +114,7 @@ class Level:
             top_down_img_avg=str(d['TOP_DOWN_IMG_AVG']),
             rabbit_group=d['RABBIT_GROUP'],
             rabbit_similar=d['RABBIT_SIMILAR'],
-            merge_exclusions=[int(i.removeprefix('sky_')) for i in d['MERGE_EXCLUSIONS'].split(' ')],
+            merge_exclusions=[int(i.removeprefix('sky_')) for i in d['MERGE_EXCLUSIONS'].split(' ') if i],
         )
 
 
