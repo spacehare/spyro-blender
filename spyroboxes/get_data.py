@@ -30,13 +30,12 @@ src_groups: Source = Source(
 for src in [src_data, src_groups]:
     text = ''
 
-    src.csv_path.touch()
-    src.json_path.touch()
-
     if src.csv_path.exists():
         print('CSV file already exists; using it instead of fetching via "requests".')
         text = src.csv_path.read_text()
     else:
+        src.csv_path.touch()
+        src.json_path.touch()
         result = requests.get(src.url)
         text = result.text
         print('status_code:', result.status_code)

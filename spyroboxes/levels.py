@@ -92,6 +92,7 @@ class Level:
     '''average hash of this sky rendered from above, sans tetrahedron. hash size = 32'''
     rabbit_similar: str
     rabbit_group: str
+    merge_exclusions: list[int]
 
     @staticmethod
     def from_dict(d: dict) -> 'Level':
@@ -112,7 +113,8 @@ class Level:
             name_override=str(d['NAME_OVERRIDE']),
             top_down_img_avg=str(d['TOP_DOWN_IMG_AVG']),
             rabbit_group=d['RABBIT_GROUP'],
-            rabbit_similar=d['RABBIT_SIMILAR']
+            rabbit_similar=d['RABBIT_SIMILAR'],
+            merge_exclusions=[int(i.removeprefix('sky_')) for i in d['MERGE_EXCLUSIONS'].split(' ')],
         )
 
 
