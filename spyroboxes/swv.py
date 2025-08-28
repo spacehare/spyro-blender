@@ -11,7 +11,7 @@ from typing import NamedTuple
 from enum import StrEnum
 from dataclasses import dataclass
 
-SCALE = 1/32
+SCALE = 1/10
 NAME_SKIES = 'Skies'
 NAME_EXTRAS = 'Extras'
 
@@ -84,7 +84,7 @@ def get_uvw_from_vert_idx(groups: list[OBJ], all_uvws: list[UVW], idx: int):
                     return all_uvws[point.vt_idx]
 
 
-def import_spyro_obj(file_path: Path) -> Object:
+def import_spyro_obj(file_path: Path, *, scale: float | int = SCALE) -> Object:
     '''
     - import a raw OBJ file from a path.
       - merge all groups into one mesh.
@@ -126,7 +126,14 @@ def import_spyro_obj(file_path: Path) -> Object:
                     face_pts.append(groups[-1].faces[-1])
 
     # generate mesh
-    bpy.ops.wm.obj_import(filepath=str(file_path), up_axis='Z', forward_axis='NEGATIVE_X', global_scale=SCALE)
+    bpy.ops.wm.obj_import(
+        filepath=str(file_path),
+        up_axis='Z',
+        forward_axis='NEGATIVE_X',
+        global_scale=scale,
+        import_vertex_groups=True,
+    )
+    bpy.ops.object.transform_apply()
     obj: Object = bpy.context.selected_objects[0]
     assert (isinstance(obj.data, Mesh))
 
@@ -142,7 +149,7 @@ def import_spyro_obj(file_path: Path) -> Object:
     return obj
 
 
-def organize_meshes(obj: Object, new_name: str):
+def organize_meshes(obj: Object, new_name: str, merge_exceptions: list[int] = []):
     '''
     - edit the object name
     - remove doubles
@@ -150,9 +157,7 @@ def organize_meshes(obj: Object, new_name: str):
     - move pieces to distinct view layers
     '''
 
-    if not isinstance(obj.data, Mesh):
-        raise ValueError(f"{obj.name} data must be Mesh")
-
+    assert (isinstance(obj.data, Mesh))
     print('organizing object: %s' % obj.name)
 
     # change object's name
@@ -161,8 +166,15 @@ def organize_meshes(obj: Object, new_name: str):
     # separate sky dome/sphere from extras (like planets and stars)
     bpy.ops.object.mode_set(mode='EDIT')
     bpy.ops.mesh.select_all(action='SELECT')
-    bpy.ops.mesh.remove_doubles(threshold=0.0005)
     bpy.ops.mesh.normals_make_consistent(inside=True)
+
+    # https://blender.stackexchange.com/questions/75223/finding-vertices-in-a-vertex-group-using-blenders-python-api
+    for idx in merge_exceptions:
+        obj.vertex_groups.active = obj.vertex_groups[idx]
+        bpy.ops.object.vertex_group_deselect()
+
+    bpy.ops.mesh.remove_doubles(threshold=0.0005)
+    bpy.ops.mesh.select_all(action='SELECT')
     bpy.ops.mesh.separate(type='LOOSE')
     bpy.ops.mesh.select_all(action='DESELECT')
     bpy.ops.object.mode_set(mode='OBJECT')
