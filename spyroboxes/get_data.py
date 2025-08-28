@@ -42,11 +42,9 @@ for src in [src_data, src_groups]:
         print('status_code:', result.status_code)
         src.csv_path.write_text(text)
 
-    with open(src.json_path, 'w') as file:
-        reader = csv.DictReader(text.splitlines())
-        list_of_dicts: list[dict] = []
-
-        for row in reader:
-            list_of_dicts.append(row)
-
-        json.dump(list_of_dicts, file, indent='\t')
+    reader = csv.DictReader(text.splitlines())
+    json.dump(
+        obj=[row for row in reader],
+        fp=src.json_path.open('w'),
+        indent='\t',
+    )
