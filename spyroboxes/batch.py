@@ -24,7 +24,7 @@ def add_single_object(path_name: Path):
     level = levels[file_name]
     new_name = f"{level.data_md5}_{level.name_override or 'UNNAMED'}"
     obj = swv.import_spyro_obj(path_name)
-    objects = swv.organize_meshes(obj, new_name)
+    objects = swv.organize_meshes(obj, new_name, level.merge_exclusions)
     return objects
 
 

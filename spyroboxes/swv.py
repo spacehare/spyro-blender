@@ -149,7 +149,7 @@ def import_spyro_obj(file_path: Path, *, scale: float | int = SCALE) -> Object:
     return obj
 
 
-def organize_meshes(obj: Object, new_name: str, merge_exceptions: list[int] = []):
+def organize_meshes(obj: Object, new_name: str, merge_exceptions: list[int]):
     '''
     - edit the object name
     - remove doubles
