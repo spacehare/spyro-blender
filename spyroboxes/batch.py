@@ -92,10 +92,19 @@ def toggle_vis_in_render(sky: Object, tetra: Object | None, extras: Object | Non
         extras.hide_render = state
 
 
-def render_all_skyboxes(output_parent: Path, res_xy: int):
+def render_all_skyboxes(output_parent: Path, res_xy: int, list_from: int = 0, list_to: int = 999):
+    print("==== render_all_skyboxes has started ====")
+
     camera = setup.setup_camera()
     sky_sets = data.load_from_file()
-    for sky_set in sky_sets:
+
+    all_objects = bpy.context.scene.objects
+    for obj in all_objects:
+        if obj is not bpy.context.scene.camera:
+            bpy.data.objects[obj.name].hide_render = True
+            bpy.data.objects[obj.name].hide_viewport = True
+
+    for sky_set in sky_sets[list_from:list_to]:
         obj_sky = bpy.data.objects[sky_set.sky]
         obj_tetra = bpy.data.objects[sky_set.tetrahedron]
         obj_extras = bpy.data.objects.get(sky_set.extras)
@@ -107,3 +116,5 @@ def render_all_skyboxes(output_parent: Path, res_xy: int):
         is_sphere: bool = hashes[data_hash].is_sphere
         render_sky.render_skybox(output_parent / new_name, camera, res_xy, is_sphere)
         toggle_vis_in_render(obj_sky, obj_tetra, obj_extras, True)
+
+    print("==== render_all_skyboxes has finished ====")

@@ -66,6 +66,7 @@ def setup_camera(camera: Object | None = None):
         # cam.data.ortho_scale = 6.0
         cam.data.lens = 18  # 90 FOV
         cam.data.clip_end = 10000
+        cam.hide_select = True
 
     return cam
 
