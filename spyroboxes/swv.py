@@ -5,7 +5,7 @@ https://en.wikipedia.org/wiki/Wavefront_.obj_file
 '''
 
 import bpy
-from bpy.types import Object, Mesh, Attribute, AttributeGroupMesh
+from bpy.types import Object, Mesh
 from pathlib import Path
 from typing import NamedTuple
 from enum import StrEnum
