@@ -95,12 +95,15 @@ def toggle_vis_in_render(sky: Object, tetra: Object | None, extras: Object | Non
 def render_all_skyboxes(output_parent: Path, res_xy: int):
     camera = setup.setup_camera()
     sky_sets = data.load_from_file()
-    for sky_set in sky_sets[:8]:
+    for sky_set in sky_sets:
         obj_sky = bpy.data.objects[sky_set.sky]
         obj_tetra = bpy.data.objects[sky_set.tetrahedron]
         obj_extras = bpy.data.objects.get(sky_set.extras)
 
         toggle_vis_in_render(obj_sky, obj_tetra, obj_extras, False)
-        new_name = quake.quake_ok_name(obj_sky.name.split('_')[1])
-        render_sky.render_skybox(output_parent / new_name, camera, res_xy, False)
+        split = obj_sky.name.split('_')
+        new_name: str = quake.quake_ok_name(split[1])
+        data_hash = split[0]
+        is_sphere: bool = hashes[data_hash].is_sphere
+        render_sky.render_skybox(output_parent / new_name, camera, res_xy, is_sphere)
         toggle_vis_in_render(obj_sky, obj_tetra, obj_extras, True)
