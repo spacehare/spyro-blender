@@ -1,6 +1,8 @@
 from . import render_sky
 from . import data
 from . import swv
+from . import setup
+from . import quake
 from .levels import levels, hashes, groups
 from pathlib import Path
 import bpy
@@ -51,7 +53,7 @@ def batch_import_skies(objs_parent: Path, whitelist: list = []):
     data.save_to_file()
 
 
-def render_single(*, output_parent: Path, sky_set: data.SkySet, res_xy: int, render_tetra: bool = True):
+def render_single_top(*, output_parent: Path, sky_set: data.SkySet, res_xy: int, render_tetra: bool = True):
     obj_sky = bpy.data.objects[sky_set.sky]
     obj_tetra = bpy.data.objects[sky_set.tetrahedron] if render_tetra else None
     obj_extras = bpy.data.objects.get(sky_set.extras)
@@ -65,7 +67,7 @@ def render_single(*, output_parent: Path, sky_set: data.SkySet, res_xy: int, ren
     toggle_vis_in_render(obj_sky, obj_tetra, obj_extras, True)
 
 
-def render_tests(output_parent: Path, res_xy: int, include_tetra: bool = True):
+def render_tops_tests(output_parent: Path, res_xy: int, include_tetra: bool = True):
     print("==== render_tests has started ====")
 
     assert (bpy.context.scene)
@@ -77,7 +79,7 @@ def render_tests(output_parent: Path, res_xy: int, include_tetra: bool = True):
 
     sky_sets = data.load_from_file()
     for sky_set in sky_sets:
-        render_single(output_parent=output_parent, sky_set=sky_set, res_xy=res_xy, render_tetra=include_tetra)
+        render_single_top(output_parent=output_parent, sky_set=sky_set, res_xy=res_xy, render_tetra=include_tetra)
 
     print("==== render_tests has finished! ====")
 
@@ -88,3 +90,17 @@ def toggle_vis_in_render(sky: Object, tetra: Object | None, extras: Object | Non
         tetra.hide_render = state
     if extras:
         extras.hide_render = state
+
+
+def render_all_skyboxes(output_parent: Path, res_xy: int):
+    camera = setup.setup_camera()
+    sky_sets = data.load_from_file()
+    for sky_set in sky_sets[:8]:
+        obj_sky = bpy.data.objects[sky_set.sky]
+        obj_tetra = bpy.data.objects[sky_set.tetrahedron]
+        obj_extras = bpy.data.objects.get(sky_set.extras)
+
+        toggle_vis_in_render(obj_sky, obj_tetra, obj_extras, False)
+        new_name = quake.quake_ok_name(obj_sky.name.split('_')[1])
+        render_sky.render_skybox(output_parent / new_name, camera, res_xy, False)
+        toggle_vis_in_render(obj_sky, obj_tetra, obj_extras, True)

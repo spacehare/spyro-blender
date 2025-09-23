@@ -48,8 +48,8 @@ def add_direction(path: Path, direction: str):
     return path.with_stem(f"{path.stem}_{direction}")
 
 
-def render_skybox(out_folder: Path, file_name: str, cam, res: int, dn_as_1: bool):
-    out = out_folder / f"{file_name}"
+def render_skybox(file_path: Path, cam, res: int, dn_as_1: bool):
+    out = file_path
     print(f'{res}x{res}', out)
 
     # +Y ft front
