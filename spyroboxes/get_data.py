@@ -34,18 +34,20 @@ src_verts: Source = Source(
     create_url(GID_VERTS),
 )
 
-for src in [src_data, src_groups, src_verts]:
-    if src.json_path.exists():
-        print('JSON file "%s" already exists; using it instead of fetching CSV via "requests".' % src.json_path)
-        continue
-    else:
-        src.json_path.touch()
-        result = requests.get(src.url)
-        print('status_code:', result.status_code)
 
-        reader = csv.DictReader(result.text.splitlines())
-        json.dump(
-            obj=[row for row in reader],
-            fp=src.json_path.open('w'),
-            indent='\t',
-        )
+if __name__ == '__main__':
+    for src in [src_data, src_groups, src_verts]:
+        if src.json_path.exists():
+            print('JSON file "%s" already exists; using it instead of fetching CSV via "requests".' % src.json_path)
+            continue
+        else:
+            src.json_path.touch()
+            result = requests.get(src.url)
+            print('status_code:', result.status_code)
+
+            reader = csv.DictReader(result.text.splitlines())
+            json.dump(
+                obj=[row for row in reader],
+                fp=src.json_path.open('w'),
+                indent='\t',
+            )
