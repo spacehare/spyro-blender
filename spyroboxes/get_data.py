@@ -5,45 +5,47 @@ from pathlib import Path
 from dataclasses import dataclass
 
 PATH_PARENT = Path(Path(__file__).parent)
-URL_SHEET_DATA: str = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSK8neFMNBVxDJWFwB53Zqi-req0PGdBJQ9Gcc9VvEmR_VjG8pHYx0blDPo6PdHyplhESesuqui7Qz7/pub?gid=1622789080&single=true&output=csv"
-URL_SHEET_GROUPS: str = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSK8neFMNBVxDJWFwB53Zqi-req0PGdBJQ9Gcc9VvEmR_VjG8pHYx0blDPo6PdHyplhESesuqui7Qz7/pub?gid=1423109304&single=true&output=csv"
+GID_DATA = 1622789080
+GID_GROUPS = 1423109304
+GID_VERTS = 2143495582
+
+
+def create_url(gid: int):
+    string = f"https://docs.google.com/spreadsheets/d/e/2PACX-1vSK8neFMNBVxDJWFwB53Zqi-req0PGdBJQ9Gcc9VvEmR_VjG8pHYx0blDPo6PdHyplhESesuqui7Qz7/pub?gid={gid}&single=true&output=csv"
+    return string
 
 
 @dataclass
 class Source:
     json_path: Path
-    csv_path: Path
     url: str
 
 
 src_data: Source = Source(
     PATH_PARENT / 'assets/data.json',
-    PATH_PARENT / 'temp/data.csv',
-    URL_SHEET_DATA,
+    create_url(GID_DATA),
 )
 src_groups: Source = Source(
     PATH_PARENT / 'assets/groups.json',
-    PATH_PARENT / 'temp/groups.csv',
-    URL_SHEET_GROUPS,
+    create_url(GID_GROUPS),
+)
+src_verts: Source = Source(
+    PATH_PARENT / 'assets/verts.json',
+    create_url(GID_VERTS),
 )
 
-for src in [src_data, src_groups]:
-    text = ''
-
-    if src.csv_path.exists():
-        print('CSV file already exists; using it instead of fetching via "requests".')
-        text = src.csv_path.read_text()
+for src in [src_data, src_groups, src_verts]:
+    if src.json_path.exists():
+        print('JSON file "%s" already exists; using it instead of fetching CSV via "requests".' % src.json_path)
+        continue
     else:
-        src.csv_path.touch()
         src.json_path.touch()
         result = requests.get(src.url)
-        text = result.text
         print('status_code:', result.status_code)
-        src.csv_path.write_text(text)
 
-    reader = csv.DictReader(text.splitlines())
-    json.dump(
-        obj=[row for row in reader],
-        fp=src.json_path.open('w'),
-        indent='\t',
-    )
+        reader = csv.DictReader(result.text.splitlines())
+        json.dump(
+            obj=[row for row in reader],
+            fp=src.json_path.open('w'),
+            indent='\t',
+        )
