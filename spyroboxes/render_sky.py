@@ -31,7 +31,7 @@ def render_top_preview(*, output_file_path: Path, res_xy: int = 128):
         bpy.context.scene.camera = cam
     if cam:
         cam.data.type = 'ORTHO'
-        cam.data.ortho_scale = 65.0
+        cam.data.ortho_scale = 65.0  # this is intended for 1/32 scale import
         cam.rotation_euler.x = 0.0
         cam.rotation_euler.y = 0.0
         cam.rotation_euler.z = 0.0
