@@ -1,4 +1,3 @@
-from bpy.types import Object
 from dataclasses import dataclass, asdict
 import json
 from pathlib import Path
@@ -11,19 +10,19 @@ class SkySet:
     extras: str
 
 
-PATH_TEMP_FOLDER: Path = Path(__file__).parent / "temp"
-if not PATH_TEMP_FOLDER.exists():
-    PATH_TEMP_FOLDER.mkdir()
-PATH_TEMP_FILE: Path = PATH_TEMP_FOLDER / "temp.json"
+PATH_ASSETS: Path = Path(__file__).parent / "assets"
+if not PATH_ASSETS.exists():
+    PATH_ASSETS.mkdir()
+PATH_SKY_SETS: Path = PATH_ASSETS / "sky_sets.json"
 sky_sets: list[SkySet] = []
 
 
 def load_from_file():
     global sky_sets
-    list_of_dicts = json.load(PATH_TEMP_FILE.open('r'))
+    list_of_dicts = json.load(PATH_SKY_SETS.open("r"))
     sky_sets = [SkySet(**a) for a in list_of_dicts]
     return sky_sets
 
 
 def save_to_file():
-    json.dump([asdict(sky) for sky in sky_sets], PATH_TEMP_FILE.open('w'))
+    json.dump([asdict(sky) for sky in sky_sets], PATH_SKY_SETS.open("w"))
