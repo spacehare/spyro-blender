@@ -92,7 +92,7 @@ def toggle_vis_in_render(sky: Object, tetra: Object | None, extras: Object | Non
         extras.hide_render = state
 
 
-def render_all_skyboxes(output_parent: Path, res_xy: int, list_from: int = 0, list_to: int = 999):
+def render_all_skyboxes(output_parent: Path, res_xy: int, *, list_from: int = 0, list_to: int = 999, full_size_down: bool = True):
     print("==== render_all_skyboxes has started ====")
 
     camera = setup.setup_camera()
@@ -114,7 +114,7 @@ def render_all_skyboxes(output_parent: Path, res_xy: int, list_from: int = 0, li
         new_name: str = quake.quake_ok_name(split[1])
         data_hash = split[0]
         is_sphere: bool = hashes[data_hash].is_sphere
-        render_sky.render_skybox(output_parent / new_name, camera, res_xy, is_sphere)
+        render_sky.render_skybox(output_parent / new_name, camera, res_xy, is_sphere if not full_size_down else True)
         toggle_vis_in_render(obj_sky, obj_tetra, obj_extras, True)
 
     print("==== render_all_skyboxes has finished ====")
