@@ -17,7 +17,7 @@ python scripts to
 - [r/Spyro post, by AlDeezy1, about getting levels into blender](https://www.reddit.com/r/Spyro/comments/122ubg2/i_compiled_all_of_spyro_1s_levels_into_a/) (2023)
   - [Youtube video, by Aldeezy1](https://www.youtube.com/watch?v=jkbUmt6-qwQ) (2023)
 
-# notes
+# yapping about dates
 
 - this project was initially attempted in 2023
   - and now, as of writing this, it is 2025-08
