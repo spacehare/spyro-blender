@@ -7,7 +7,7 @@ python scripts to
 - use the collections and view layers to help render the skies
 - render the skies as 6-sided cubemap skyboxes
 
-[here's a Google Sheet, with all the data](https://docs.google.com/spreadsheets/d/1PFkO84ZVMZN8N4_J3NIi3rDt8mV-M1LSc4kgQZ91haI)
+[here's a Google Sheet with all the data](https://docs.google.com/spreadsheets/d/1PFkO84ZVMZN8N4_J3NIi3rDt8mV-M1LSc4kgQZ91haI)
 
 # other related links
 
@@ -17,6 +17,41 @@ python scripts to
 - [r/Spyro post, by AlDeezy1, about getting levels into blender](https://www.reddit.com/r/Spyro/comments/122ubg2/i_compiled_all_of_spyro_1s_levels_into_a/) (2023)
   - [Youtube video, by Aldeezy1](https://www.youtube.com/watch?v=jkbUmt6-qwQ) (2023)
 
+# example in-blender scripts
+
+## setup
+
+_run this from a new and empty blender file_
+
+```py
+from spyroboxes.do_everything import do_everything
+
+path_obj_string = r"I:\Spyro\obj_files"
+
+do_everything(
+    should_setup=True, # initialize view layers, camera, compositor, renderer, etc
+    mesh_folder_path=path_obj_string # where the OBJ files are located
+)
+```
+
+## render
+
+_run this after all the skies have been imported_
+
+```py
+from spyroboxes import batch
+from spyroboxes import setup
+from pathlib import Path
+
+path_render = Path(r"I:\Spyro\skybox_renders")
+
+setup.set_render_file_format('TARGA')
+batch.render_all_skyboxes(path_render / 'tga', 1024)
+
+setup.set_render_file_format('PNG')
+batch.render_all_skyboxes(path_render / 'png', 1024)
+```
+
 # yapping about dates
 
 - this project was initially attempted in 2023
@@ -24,6 +59,6 @@ python scripts to
 - i have python scripts dated `2023-02-03` meant for playing around with BPY (Blender Python) and FBX stuff. and then i tried again in 2024.
 - my memory is a bit fuzzy... but i recall trying to use the FBX files by IAmKnotMax, but then wanting to just do all the importing myself instead.
 - in `2014-05-24`, i took a bunch of screenshots inside of Spyro World Viewer.
-- i found a ZIP file with WAD files that i extracted myself from the game discs (labelled: 1 eng, 2 plat, 3 gh) dated `2016-09-30`
+- i found a ZIP file with WAD files that i extracted myself from the game discs (labelled: "1 eng", "2 plat", "3 gh") dated `2016-09-30`
   - the files inside of the ZIP file are dated `2015-01-06`
 - the OBJ files that i am working with are also dated `2014-05-24`. SpyroWorldViewer extracted these from the WAD files.
