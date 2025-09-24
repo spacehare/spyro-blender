@@ -17,8 +17,12 @@ def from_imported_scale(value: float) -> float:
 def move_verts(blender_object_name: str, move: bool):
     print('adjusting "%s"' % blender_object_name)
     obj = bpy.data.objects.get(blender_object_name)
+    if not obj:
+        print("no object found")
+        return
     md5_string = blender_object_name.split('_')[0]
     matching_vertgroups = [vg for vg in nm_vertgroup_list if vg.md5 == md5_string]
+    match_found = False
 
     for vertgroup in matching_vertgroups:
         if vertgroup.ignore:
@@ -39,6 +43,8 @@ def move_verts(blender_object_name: str, move: bool):
             ])
 
             if check:
+                match_found = True
+
                 print('\t-> match:', vertgroup.co_from, converted)
                 if move:
                     new_vec = Vector((
@@ -49,8 +55,18 @@ def move_verts(blender_object_name: str, move: bool):
                     print('new_vec', new_vec)
                     vertex.co = new_vec
 
-    bpy.ops.object.mode_set(mode='EDIT')
-    bpy.ops.mesh.select_all(action='SELECT')
-    bpy.ops.mesh.remove_doubles(threshold=0.0005)
-    bpy.ops.mesh.select_all(action='DESELECT')
-    bpy.ops.object.mode_set(mode='OBJECT')
+    if match_found and move:
+        obj.hide_viewport = False
+        bpy.context.view_layer.objects.active = obj
+        bpy.ops.object.mode_set(mode='OBJECT')
+        bpy.ops.object.select_all(action='DESELECT')
+        obj.select_set(True)
+
+        bpy.ops.object.mode_set(mode='EDIT')
+        bpy.ops.mesh.select_all(action='SELECT')
+        bpy.ops.mesh.remove_doubles(threshold=0.0005)
+        bpy.ops.mesh.select_all(action='DESELECT')
+
+        bpy.ops.object.mode_set(mode='OBJECT')
+        bpy.ops.object.select_all(action='DESELECT')
+        obj.hide_viewport = True
