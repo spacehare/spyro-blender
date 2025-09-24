@@ -39,8 +39,6 @@ def setup_render_settings():
     bpy.context.scene.render.image_settings.color_mode = 'RGB'
     bpy.context.scene.view_settings.view_transform = 'Raw'
 
-    bpy.context.scene.clip
-
 
 def setup_camera(camera: Object | None = None):
     if not bpy.context.scene:
