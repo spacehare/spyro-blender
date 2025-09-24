@@ -2,7 +2,6 @@ from dataclasses import dataclass, asdict
 import json
 from pathlib import Path
 from .get_data import src_data, src_groups, src_verts
-from mathutils import Vector
 
 
 @dataclass(kw_only=True)
@@ -16,8 +15,8 @@ class SkySet:
 class VertStuff:
     md5: str
     blender_object_name: str
-    co_from: Vector
-    co_to: Vector
+    co_from: tuple[int, int, int]
+    co_to: tuple[int, int, int]
     note: str
     ignore: bool
 
@@ -26,16 +25,16 @@ class VertStuff:
         return VertStuff(
             md5=d['md5'],
             blender_object_name=d['blender_object_name'],
-            co_from=Vector((
+            co_from=(
                 int(d['from_x'] or 0),
                 int(d['from_y'] or 0),
                 int(d['from_z'] or 0),
-            )),
-            co_to=Vector((
+            ),
+            co_to=(
                 int(d['to_x'] or 0),
                 int(d['to_y'] or 0),
                 int(d['to_z'] or 0),
-            )),
+            ),
             note=d['note'],
             ignore=d['ignore'] == 'TRUE'
         )

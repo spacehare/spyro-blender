@@ -3,15 +3,15 @@ from . import swv
 from .data import nm_vertgroup_list
 from mathutils import Vector
 
-# the values in the data are integers
+# the values in the raw OBJ data are integers
 
 
 def to_imported_scale(value: float | int) -> float:
     return value * swv.SCALE
 
 
-def from_imported_scale(value: float) -> int:
-    return int(value / swv.SCALE)
+def from_imported_scale(value: float) -> float:
+    return value / swv.SCALE
 
 
 def adjust(blender_object_name: str, move: bool = False):
@@ -26,18 +26,25 @@ def adjust(blender_object_name: str, move: bool = False):
         print('\tmatching vertgroup found')
 
         for vertex in obj.data.vertices:
-            int_vec: Vector = Vector((
+            converted: Vector = Vector((
                 from_imported_scale(vertex.co.x),
                 from_imported_scale(vertex.co.y),
                 from_imported_scale(vertex.co.z)
             ))
 
-            print('try', vertgroup.co_from, vertex.co)
-            if vertgroup.co_from == int_vec:
-                print('\t\tmatch:', vertgroup.co_from, int_vec)
+            check = all([
+                vertgroup.co_from[0] == round(converted.x),
+                vertgroup.co_from[1] == round(converted.y),
+                vertgroup.co_from[2] == round(converted.z),
+            ])
+
+            if check:
+                print('\t-> match:', vertgroup.co_from, converted)
                 if move:
-                    vertex.co = Vector((
-                        to_imported_scale(vertgroup.co_from.x),
-                        to_imported_scale(vertgroup.co_from.y),
-                        to_imported_scale(vertgroup.co_from.z),
+                    new_vec = Vector((
+                        to_imported_scale(vertgroup.co_to[0]),
+                        to_imported_scale(vertgroup.co_to[1]),
+                        to_imported_scale(vertgroup.co_to[2]),
                     ))
+                    print('new_vec', new_vec)
+                    vertex.co = new_vec
