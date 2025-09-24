@@ -121,5 +121,4 @@ def render_all_skyboxes(output_parent: Path, res_xy: int, *, list_from: int = 0,
 
 def fix_all_verts():
     for sky_set in data.sky_sets:
-        print('fixing ->', sky_set.sky)
         fix_verts.move_verts(sky_set.sky, True)
