@@ -48,3 +48,9 @@ def move_verts(blender_object_name: str, move: bool):
                     ))
                     print('new_vec', new_vec)
                     vertex.co = new_vec
+
+    bpy.ops.object.mode_set(mode='EDIT')
+    bpy.ops.mesh.select_all(action='SELECT')
+    bpy.ops.mesh.remove_doubles(threshold=0.0005)
+    bpy.ops.mesh.select_all(action='DESELECT')
+    bpy.ops.object.mode_set(mode='OBJECT')

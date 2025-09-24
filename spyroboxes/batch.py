@@ -78,8 +78,7 @@ def render_tops_tests(output_parent: Path, res_xy: int, include_tetra: bool = Tr
             bpy.data.objects[obj.name].hide_render = True
             bpy.data.objects[obj.name].hide_viewport = True
 
-    sky_sets = data.load_from_file()
-    for sky_set in sky_sets:
+    for sky_set in data.sky_sets:
         render_single_top(output_parent=output_parent, sky_set=sky_set, res_xy=res_xy, render_tetra=include_tetra)
 
     print("==== render_tests has finished! ====")
@@ -97,7 +96,6 @@ def render_all_skyboxes(output_parent: Path, res_xy: int, *, list_from: int = 0,
     print("==== render_all_skyboxes has started ====")
 
     camera = setup.setup_camera()
-    sky_sets = data.load_from_file()
 
     all_objects = bpy.context.scene.objects
     for obj in all_objects:
@@ -105,7 +103,7 @@ def render_all_skyboxes(output_parent: Path, res_xy: int, *, list_from: int = 0,
             bpy.data.objects[obj.name].hide_render = True
             bpy.data.objects[obj.name].hide_viewport = True
 
-    for sky_set in sky_sets[list_from:list_to]:
+    for sky_set in data.sky_sets[list_from:list_to]:
         obj_sky = bpy.data.objects[sky_set.sky]
         obj_tetra = bpy.data.objects[sky_set.tetrahedron]
         obj_extras = bpy.data.objects.get(sky_set.extras)
@@ -123,4 +121,5 @@ def render_all_skyboxes(output_parent: Path, res_xy: int, *, list_from: int = 0,
 
 def fix_all_verts():
     for sky_set in data.sky_sets:
+        print('fixing ->', sky_set.sky)
         fix_verts.move_verts(sky_set.sky, True)
