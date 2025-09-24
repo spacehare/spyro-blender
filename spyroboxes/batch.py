@@ -59,13 +59,13 @@ def render_single_top(*, output_parent: Path, sky_set: data.SkySet, res_xy: int,
     obj_tetra = bpy.data.objects[sky_set.tetrahedron] if render_tetra else None
     obj_extras = bpy.data.objects.get(sky_set.extras)
 
-    toggle_vis_in_render(obj_sky, obj_tetra, obj_extras, False)
+    hide_vis_in_render(obj_sky, obj_tetra, obj_extras, False)
 
     filename = (output_parent / sky_set.sky.split('_')[1]).with_suffix('.png')
     print('rendering filename: %s' % filename)
     render_sky.render_top_preview(output_file_path=filename, res_xy=res_xy)
 
-    toggle_vis_in_render(obj_sky, obj_tetra, obj_extras, True)
+    hide_vis_in_render(obj_sky, obj_tetra, obj_extras, True)
 
 
 def render_tops_tests(output_parent: Path, res_xy: int, include_tetra: bool = True):
@@ -84,7 +84,7 @@ def render_tops_tests(output_parent: Path, res_xy: int, include_tetra: bool = Tr
     print("==== render_tests has finished! ====")
 
 
-def toggle_vis_in_render(sky: Object, tetra: Object | None, extras: Object | None, state: bool):
+def hide_vis_in_render(sky: Object, tetra: Object | None, extras: Object | None, state: bool):
     sky.hide_render = state
     if tetra:
         tetra.hide_render = state
@@ -108,13 +108,13 @@ def render_all_skyboxes(output_parent: Path, res_xy: int, *, list_from: int = 0,
         obj_tetra = bpy.data.objects[sky_set.tetrahedron]
         obj_extras = bpy.data.objects.get(sky_set.extras)
 
-        toggle_vis_in_render(obj_sky, obj_tetra, obj_extras, False)
+        hide_vis_in_render(obj_sky, obj_tetra, obj_extras, False)
         split = obj_sky.name.split('_')
         new_name: str = quake.quake_ok_name(split[1])
         data_hash = split[0]
         is_sphere: bool = hashes[data_hash].is_sphere
         render_sky.render_skybox(output_parent / new_name, camera, res_xy, False if full_size_down else is_sphere)
-        toggle_vis_in_render(obj_sky, obj_tetra, obj_extras, True)
+        hide_vis_in_render(obj_sky, obj_tetra, obj_extras, True)
 
     print("==== render_all_skyboxes has finished ====")
 
