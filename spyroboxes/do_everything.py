@@ -3,7 +3,7 @@ from . import batch
 from . import setup
 
 
-def do_everything(*, should_setup: bool = False, mesh_folder_path: str = '', render_path: str = '', render_xy: int = 0):
+def do_everything(*, should_setup: bool = False, mesh_folder_path: str = ''):
     if should_setup:
         setup.set_render_file_format()
         setup.setup_render_settings()
@@ -14,6 +14,3 @@ def do_everything(*, should_setup: bool = False, mesh_folder_path: str = '', ren
     if mesh_folder_path:
         batch.batch_import_skies(Path(mesh_folder_path), batch.get_groups_whitelist())
         batch.fix_all_verts()
-
-    if render_path and render_xy:
-        batch.render_all_skyboxes(Path(render_path), render_xy)
