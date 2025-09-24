@@ -1,6 +1,6 @@
 from pathlib import Path
 from dataclasses import dataclass
-import data
+from . import data
 
 tag_dict = {
     'S': 'SKY',
