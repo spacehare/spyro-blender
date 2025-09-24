@@ -14,7 +14,7 @@ def from_imported_scale(value: float) -> float:
     return value / swv.SCALE
 
 
-def adjust(blender_object_name: str, move: bool = False):
+def move_verts(blender_object_name: str, move: bool):
     print('adjusting "%s"' % blender_object_name)
     obj = bpy.data.objects.get(blender_object_name)
     md5_string = blender_object_name.split('_')[0]

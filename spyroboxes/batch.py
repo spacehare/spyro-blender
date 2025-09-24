@@ -3,6 +3,7 @@ from . import data
 from . import swv
 from . import setup
 from . import quake
+from . import fix_verts
 from .levels import levels, hashes, groups
 from pathlib import Path
 import bpy
@@ -118,3 +119,8 @@ def render_all_skyboxes(output_parent: Path, res_xy: int, *, list_from: int = 0,
         toggle_vis_in_render(obj_sky, obj_tetra, obj_extras, True)
 
     print("==== render_all_skyboxes has finished ====")
+
+
+def fix_all_verts():
+    for sky_set in data.sky_sets:
+        fix_verts.move_verts(sky_set.sky, True)
