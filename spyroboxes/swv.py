@@ -56,8 +56,7 @@ class FaceIndexes:
         return FaceIndexes(*[int(s) - 1 for s in split])  # indexes in the OBJ file start at 1
 
 
-@dataclass
-class Face:
+class Face(NamedTuple):
     a: FaceIndexes
     b: FaceIndexes
     c: FaceIndexes
@@ -74,14 +73,6 @@ class OBJ:
         self.uvws = uvws or []
         self.verts = verts or []
         self.faces = faces or []
-
-
-def get_uvw_from_vert_idx(groups: list[OBJ], all_uvws: list[UVW], idx: int):
-    for group in groups:
-        for face in group.faces:
-            for point in [face.a, face.b, face.c]:
-                if idx == point.v_idx:
-                    return all_uvws[point.vt_idx]
 
 
 def import_spyro_obj(file_path: Path, *, scale: float | int = SCALE) -> Object:
@@ -141,10 +132,11 @@ def import_spyro_obj(file_path: Path, *, scale: float | int = SCALE) -> Object:
     all_uvws = [uvw for group in groups for uvw in group.uvws]
     color = obj.data.color_attributes.new(name='Color', type='BYTE_COLOR', domain='POINT')
 
-    for vert in obj.data.vertices:
-        uvw = get_uvw_from_vert_idx(groups, all_uvws, vert.index)
-        if uvw:
-            color.data[vert.index].color = (uvw.u, uvw.v, uvw.w, 1.0)  # UVW -> RGB
+    for group in groups:
+        for face in group.faces:
+            for i in face:
+                uvw = all_uvws[i.vt_idx]
+                color.data[i.v_idx].color = (uvw.u, uvw.v, uvw.w, 1.0)  # UVW -> RGB
 
     return obj
 
