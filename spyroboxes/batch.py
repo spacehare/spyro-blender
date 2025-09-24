@@ -35,7 +35,7 @@ def get_groups_whitelist() -> list[str]:
     return [g.file_name for g in groups]
 
 
-def batch_import_skies(objs_parent: Path, whitelist: list = []):
+def batch_import_skies(objs_parent: Path, whitelist: list = get_groups_whitelist()):
     everything: list[tuple] = []
     if whitelist:
         for key in levels:
