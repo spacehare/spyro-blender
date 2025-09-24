@@ -1,10 +1,6 @@
 from pathlib import Path
 from dataclasses import dataclass
-import json
-
-# you need to convert the Google Docs CSV files to JSON first!
-PATH_DATA = Path(Path(__file__).parent / 'assets/data.json')
-PATH_GROUPS = Path(Path(__file__).parent / 'assets/groups.json')
+import data
 
 tag_dict = {
     'S': 'SKY',
@@ -122,24 +118,11 @@ levels: dict[str, Level] = {}
 hashes: dict[str, Level] = {}
 groups: list[RabbitGroup] = []
 
-_json_data: list[dict] = json.load(PATH_DATA.open())
-_json_groups: list[dict] = json.load(PATH_GROUPS.open())
 
-
-for item in _json_data:
+for item in data.sky_data:
     level = Level.from_dict(item)
     levels[str(level.filename)] = level
     hashes[level.data_md5] = level
 
-for group in _json_groups:
+for group in data.group_data:
     groups.append(RabbitGroup(**group))
-
-del _json_data
-del _json_groups
-
-
-# with open(DATA_FILE_PATH) as file:
-#     for row in csv.DictReader(file):
-#         lvl = Level.from_dict(row)
-#         hashes[row['DATA_MD5']] = lvl
-#         levels[row['FILENAME']] = lvl

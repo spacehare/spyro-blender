@@ -50,7 +50,7 @@ def batch_import_skies(objs_parent: Path, whitelist: list = []):
             extras=thing[2].name if thing[2] else '',
         )
         data.sky_sets.append(new_sky_set)
-    data.save_to_file()
+    data.save_sky_sets_to_file()
 
 
 def render_single_top(*, output_parent: Path, sky_set: data.SkySet, res_xy: int, render_tetra: bool = True):
